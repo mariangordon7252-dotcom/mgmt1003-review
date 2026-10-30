@@ -1,0 +1,514 @@
+{
+  "week": 1,
+  "points": [
+    {
+      "id": "w01-p01",
+      "title": "管理学的三个分析层次",
+      "titleEn": "Three levels of analysis",
+      "kp": "MGMT1003 从三个层次看管理问题：Individual（管理者本人：人格、自我认识、决策）、Interpersonal（人与人的互动：沟通、动机、团队、影响力、领导）、Organisational（整个组织：文化、集体问题）。",
+      "howTo": "看题干在说谁。只说一个人自己的性格、想法、决定，就是 Individual；说两个人或一群人之间怎么互动，就是 Interpersonal；说整个组织的文化或集体现象，就是 Organisational。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A newly promoted manager reflects on how her own personality and habits shape the way she makes decisions. Which level of analysis does this belong to?",
+          "options": ["Individual level", "Interpersonal level", "Organisational level", "Industry level"],
+          "answer": 0,
+          "how": ["题干的对象是「her own personality」和「the way she makes decisions」，从头到尾只涉及经理自己一个人。", "只看管理者本人的，就是 Individual level。", "Industry level 不是课程里的层次，是凑数的干扰项。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team leader wants to understand how to motivate team members and how to resolve a conflict between two colleagues. Which level of analysis is this?",
+          "options": ["Individual level", "Interpersonal level", "Organisational level", "National level"],
+          "answer": 1,
+          "how": ["题干说的是「motivate team members」和「conflict between two colleagues」，都是人和人之间发生的事。", "人与人之间的互动，就是 Interpersonal level。", "注意别被「team leader」带偏：问的不是领导本人的性格，而是她和别人的互动。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following topics is studied at the organisational level?",
+          "options": ["A manager's decision-making style", "Communication between a manager and a subordinate", "Organisational culture", "A manager's self-awareness"],
+          "answer": 2,
+          "how": ["逐个看对象：decision-making style 和 self-awareness 都是管理者本人，属于 Individual。", "manager 和 subordinate 之间的 communication 是两个人的互动，属于 Interpersonal。", "只有 organisational culture 说的是整个组织，所以选它。"]
+        },
+        {
+          "type": "tf",
+          "q": "The three levels of analysis used in MGMT1003 are the individual, the team and the industry.",
+          "a": false,
+          "how": ["正确的三个层次是 Individual、Interpersonal、Organisational。", "题目把后两个换成了 team 和 industry，名词换掉了，所以是 False。", "考试里判断题常用这招：保留结构，偷换其中一两个词。"]
+        },
+        {
+          "type": "tf",
+          "q": "Topics such as communication, motivation, teamwork and leadership are studied at the interpersonal level.",
+          "a": true,
+          "how": ["communication、motivation、teamwork、leadership 都是发生在人与人之间的事。", "人与人之间的互动就是 Interpersonal level，所以是 True。"]
+        }
+      ],
+      "recap": "记一句话：看题干在说谁。一个人 → Individual；人和人 → Interpersonal；整个组织 → Organisational。"
+    },
+    {
+      "id": "w01-p02",
+      "title": "没有单一特质：有效管理的四种能力",
+      "titleEn": "No single quality; four components of effective management",
+      "kp": "没有单一品质能定义优秀管理者。有效管理是四种能力的组合：Technical Competence（技术）、Judgement（判断力）、Integrity（诚信）、Ability to Work with People（与人共事）。",
+      "howTo": "问「什么造就有效管理者」时选「多种能力的组合」，不选任何单一品质。要求认出四种能力时，认准技术、判断力、诚信、与人共事；charisma、intelligence 这类多出来的都是干扰项。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "According to Lecture 1, what makes an effective manager?",
+          "options": ["Outstanding technical expertise in the team's field", "Natural charisma", "A combination of technical competence, judgement, integrity and the ability to work with people", "High intelligence"],
+          "answer": 2,
+          "how": ["题干问的是「what makes an effective manager」，这是在问有效管理者的定义。", "课程的答案是：没有单一品质，有效管理是四种能力的组合，所以选 C。", "技术专长、魅力、智力都是「单一品质」，正好是课程否定的说法。"]
+        },
+        {
+          "type": "tf",
+          "q": "Effective management is defined by one single quality: the ability to work with people.",
+          "a": false,
+          "how": ["正确的说法是：没有一种单独的品质能定义优秀管理者，有效管理是四种能力的组合。", "题目把「组合」改成了「one single quality」，所以是 False。", "与人共事能力确实最重要，但「最重要」不等于「唯一」，别被这个词骗过去。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of the four components of effective management discussed in Lecture 1?",
+          "options": ["Judgement", "Integrity", "Charisma", "Technical competence"],
+          "answer": 2,
+          "how": ["题干要找「NOT one of the four components」，先把四种能力默写出来：技术、判断力、诚信、与人共事。", "Judgement、Integrity、Technical competence 都在名单上，只有 Charisma 不在，所以选 C。", "Charisma 是课程里没有出现过的词，这类「听起来像管理学」的词往往就是干扰项。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company is deciding whom to promote into a management role. One director says 'pick the person with the deepest technical knowledge'; another says 'pick the most honest person'. Based on Lecture 1, what is the best response?",
+          "options": ["Pick the technical expert, because technical competence is the foundation of management", "Pick the honest person, because integrity builds trust", "Neither alone is enough; look for a combination of technical competence, judgement, integrity and people skills", "Pick whoever is most popular with the team"],
+          "answer": 2,
+          "how": ["题干里两位 director 各推一种单一品质：「deepest technical knowledge」和「most honest」。", "课程观点是没有单一品质能定义好经理，必须看四种能力的组合，所以选 C。", "A 和 B 各自说的能力都重要，但只选其中一种就犯了「找单一神属性」的错误。"]
+        }
+      ],
+      "recap": "没有管理者神属性。有效管理是技术、判断力、诚信、与人共事四者的组合，缺一不可。"
+    },
+    {
+      "id": "w01-p03",
+      "title": "技术能力：必要但不充分",
+      "titleEn": "Technical competence: necessary but not sufficient",
+      "kp": "Technical competence 是完成专业工作的知识和技能，管理者需要它才能看懂团队在做什么。但它 necessary, but not sufficient：专业强不代表会沟通、分配任务、解决冲突、激励员工、作困难决定。",
+      "howTo": "题干里「最好的工程师／程序员／会计」被提拔后管不好团队，答案一律是「技术能力必要但不充分」。看到「技术能力不重要」或「技术能力足够当好经理」这两种极端说法都判错。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Technical competence is necessary but not sufficient for effective management.",
+          "a": true,
+          "how": ["这句话就是课程原话：Technical competence is necessary, but not sufficient。", "必要是因为经理得看懂团队在做什么；不充分是因为专业强不代表会沟通、分工、解决冲突，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "The best programmer in a software team is promoted to team lead. Within months the team is missing deadlines, conflicts go unresolved and members feel unmotivated. Which statement best explains this?",
+          "options": ["She lacks technical competence", "Technical competence is necessary but not sufficient; managing also requires communication, delegation, conflict resolution and motivating others", "Programmers cannot become good managers", "The team members are simply lazy"],
+          "answer": 1,
+          "how": ["「best programmer」被提拔后，出的问题全是「conflicts」「unmotivated」「missing deadlines」这类人的问题。", "她技术没问题，缺的是沟通、分工、解决冲突、激励这些管理能力，正是「必要但不充分」，选 B。", "A 说她缺技术能力，与「best programmer」直接矛盾。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because management is largely about people skills, a manager does not need any technical competence in the team's area of work.",
+          "a": false,
+          "how": ["正确的说法是：技术能力是必要条件，经理需要一定技术能力才能理解团队到底在做什么。", "题目把「不充分」推到了「完全不需要」，走向了另一个极端，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Why does a manager still need some technical competence in the team's field?",
+          "options": ["So that she can do all the technical work herself", "So that she can understand what the team is actually doing", "Because technical competence alone guarantees effective management", "Because people skills cannot be learned"],
+          "answer": 1,
+          "how": ["题干问的是技术能力为什么「still」需要，考的是「必要」那一半。", "课程给的理由是：没有一定技术能力，经理无法理解团队究竟在做什么，所以选 B。", "A 是个人贡献者的思路，经理的工作是通过别人完成任务，不是自己把活全干了。"]
+        }
+      ],
+      "recap": "技术能力：必要（看懂团队在干什么），但不充分（不代表会带人）。两个极端都错。"
+    },
+    {
+      "id": "w01-p04",
+      "title": "判断力 Judgement",
+      "titleEn": "Judgement",
+      "kp": "Judgement 是在信息不完整、情况复杂时作出合理决定的能力。管理问题通常没有像数学题一样唯一正确的答案，经理必须综合信息，选择最合理的处理方式，并承担决定的结果。",
+      "howTo": "题干出现「信息不完整」「原因可能有好几个」「没有唯一答案」「仍须作决定」，考的就是 Judgement。强调诚实守诺的是 Integrity，强调沟通激励的是与人共事能力。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which component of effective management is defined as the ability to make reasonable decisions when information is incomplete and the situation is complex?",
+          "options": ["Technical competence", "Judgement", "Integrity", "Ability to work with people"],
+          "answer": 1,
+          "how": ["题干的定义词是「information is incomplete」和「situation is complex」。", "在信息不完整、情况复杂时作合理决定，这就是 Judgement 的定义，所以选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee's performance has recently dropped. The manager does not know whether the cause is unclear goals, falling motivation, excessive workload, a team conflict or a personal problem, but she still has to decide how to respond. Which ability is being tested most directly?",
+          "options": ["Technical competence", "Judgement", "Integrity", "Networking with peers"],
+          "answer": 1,
+          "how": ["题干列了五种可能原因，而且「does not know」哪个是真的，但「still has to decide」。", "信息不完整、原因不止一个、仍然要作决定并负责，这就是 Judgement，所以选 B。", "这个例子是课件原例：员工表现下降，原因可能是能力、目标、动机、工作量、冲突或私事。"]
+        },
+        {
+          "type": "tf",
+          "q": "Management problems usually have a single correct answer, like a mathematics problem, so judgement is rarely needed.",
+          "a": false,
+          "how": ["正确的说法是：管理问题通常没有像数学题一样唯一正确的答案，所以才需要判断力。", "题目把「没有唯一答案」反过来说成「有唯一答案」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which statement about judgement is consistent with Lecture 1?",
+          "options": ["Good judgement means waiting until all the information is available before deciding", "Judgement means weighing incomplete information, choosing the most reasonable option and accepting responsibility for the outcome", "Judgement is only needed for technical problems", "Judgement is the same thing as integrity"],
+          "answer": 1,
+          "how": ["逐项对照定义：判断力是在「信息不完整」时作合理决定并承担结果。", "B 完整说出了综合信息、选最合理方案、承担后果三点，所以选 B。", "A 最容易选错：等到信息齐全再决定，恰恰回避了判断力要解决的情境。"]
+        }
+      ],
+      "recap": "信息不全、没有标准答案、还得拍板并负责 → 这就是 Judgement。"
+    },
+    {
+      "id": "w01-p05",
+      "title": "诚信 Integrity",
+      "titleEn": "Integrity",
+      "kp": "Integrity 包括诚实、公平、遵守承诺、言行一致、承担责任、不滥用权力。经理即使短期能达标，如果对不同员工用不同标准、把错误推给下属、承诺后反悔、隐瞒信息，团队最终会失去对他的信任。",
+      "howTo": "题干出现「双重标准」「推卸责任」「承诺后反悔」「隐瞒信息」「滥用权力」，考的是 Integrity，后果选「失去信任」。常考陷阱：短期达标不能抵消失信。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Integrity includes honesty, fairness, keeping promises, consistency between words and actions, taking responsibility and not abusing power.",
+          "a": true,
+          "how": ["这六项就是课件对 Integrity 的完整列表：诚实、公平、守诺、言行一致、承担责任、不滥用权力。", "题目一项都没改，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager consistently hits his targets, but he applies different standards to different employees, blames subordinates for his own mistakes and goes back on his promises. According to Lecture 1, what is the most likely long-term consequence?",
+          "options": ["The team will respect him because results are what matter", "The team will eventually lose trust in him", "His judgement will improve over time", "Nothing, because he meets his targets"],
+          "answer": 1,
+          "how": ["线索是「different standards」「blames subordinates」「goes back on his promises」，全是失信行为。", "课程结论是：即使短期达标，这样的经理最终会让团队失去信任，所以选 B。", "A 和 D 都用「hits his targets」来开脱，这正是题目设置的陷阱：短期业绩抵消不了失信。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager promises her team a day off after a big project is delivered, then quietly cancels it without explanation. Which component of effective management is most directly undermined?",
+          "options": ["Technical competence", "Judgement", "Integrity", "Generative thinking"],
+          "answer": 2,
+          "how": ["题干的关键动作是「promises」之后「quietly cancels」，这是承诺后反悔、言行不一。", "守诺和言行一致属于 Integrity，所以选 C。", "Judgement 是关于在信息不全时作决定，这里经理不是判断失误，而是失信。"]
+        },
+        {
+          "type": "tf",
+          "q": "As long as a manager achieves short-term goals, occasional dishonesty and broken promises will not affect the team's trust.",
+          "a": false,
+          "how": ["正确的说法是：经理即使短期能完成目标，经常失信的话团队最终会失去对他的信任。", "题目用「as long as」把短期达标说成了免死金牌，所以是 False。"]
+        }
+      ],
+      "recap": "双标、甩锅、反悔、隐瞒 → 失去信任。短期达标救不了失信的经理。"
+    },
+    {
+      "id": "w01-p06",
+      "title": "与人共事的能力",
+      "titleEn": "Ability to work with people",
+      "kp": "Ability to Work with People 包括沟通、倾听、激励、处理冲突、灵活应对、清晰指示、理解他人、建立关系。人的人格、经历、文化、价值观各不相同，管理者不能用一套固定方式对待所有人。",
+      "howTo": "题干说的是沟通、倾听、激励、处理冲突、建立关系，就是 Ability to Work with People。看到「对所有人用同一套方法」的说法判错，正确做法是根据不同的人调整方式。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which of the following is part of the 'ability to work with people' described in Lecture 1?",
+          "options": ["Reading financial statements", "Managing a conflict between two team members", "Writing a computer program", "Analysing consumer data"],
+          "answer": 1,
+          "how": ["四个选项里只有「conflict between two team members」是发生在人和人之间的事。", "Conflict Management 是课件列出的与人共事能力之一，所以选 B。", "读财报、编程、分析数据都是 Technical Competence 的例子，课件原文就是用这些来举技术能力的。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because fairness matters, an effective manager should use exactly the same approach with every team member regardless of their personality or background.",
+          "a": false,
+          "how": ["正确的说法是：人与人在人格、经历、文化背景、价值观上不同，管理者不能用一套完全固定的方式对待所有人。", "题目把「公平」偷换成「一模一样的方法」，所以是 False。公平是标准一致，不是方法一样。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager notices that one team member responds well to direct, blunt feedback, while another becomes defensive and needs a more supportive approach. She adjusts her style for each of them. Which elements of working with people does this illustrate?",
+          "options": ["Flexibility and understanding others", "Technical competence", "Forced ranking", "Career progression trap"],
+          "answer": 0,
+          "how": ["题干的线索是「adjusts her style for each of them」，她根据不同的人换了方式。", "根据对象调整是 Flexibility，看出两个人不一样是 Understanding Others，所以选 A。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Why can't a manager rely on one fixed way of dealing with everyone in the team?",
+          "options": ["Because rules are always wrong", "Because people differ in personality, experience, cultural background, values, attitudes and ways of working", "Because managers should avoid making decisions", "Because technical competence is more important than people skills"],
+          "answer": 1,
+          "how": ["题干问的是「one fixed way」为什么行不通。", "课程的理由是人与人在人格、经历、文化、价值观、态度、工作方式上都不同，所以选 B。", "课件的比喻是：这不像背一套连招就能通关，更像要根据不同队友和局势调整策略。"]
+        }
+      ],
+      "recap": "沟通、倾听、激励、处理冲突、建关系 → 与人共事能力。人各不同，方法要跟着变。"
+    },
+    {
+      "id": "w01-p07",
+      "title": "倾听不等于同意所有人",
+      "titleEn": "Listening is not agreeing with everyone",
+      "kp": "倾听（Listening）是在判断之前收集和理解信息，不等于同意所有人（agreeing with everyone），也不等于逃避决策（avoiding decisions）。经理听取不同意见后，仍然必须作出最终决定并承担责任。",
+      "howTo": "题干里经理「听了所有人意见后照单全收」或「为了尊重大家一直不决定」，都是错误理解倾听。正确流程：听取意见，理解信息，判断哪些更合理，作出最终决定，承担责任。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "In Lecture 1, listening is described as gathering and understanding information before making a judgement.",
+          "a": true,
+          "how": ["这就是课程对倾听的定义：Listening is gathering information before judgement。", "题目原样复述，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team of ten people gives their manager fifteen different suggestions. Wanting to be a good listener, the manager tries to implement all of them. What is wrong with this approach?",
+          "options": ["Nothing; good managers act on all the feedback they receive", "Listening does not mean agreeing with everyone; the manager must judge which suggestions are more relevant and make a final decision", "The manager should not have asked for opinions in the first place", "The manager should only follow the suggestion of the most senior person"],
+          "answer": 1,
+          "how": ["题干的线索是「tries to implement all of them」，十个人十五种意见全都执行。", "倾听不等于同意所有人，经理要判断哪些意见更合理然后拍板，所以选 B。", "C 走向另一个极端：不听意见就没有信息可判断，同样错。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager keeps holding meetings to 'hear everyone out' but never makes a decision, because some people still disagree. This manager is confusing listening with:",
+          "options": ["Technical competence", "Integrity", "Avoiding decisions", "Building on strengths"],
+          "answer": 2,
+          "how": ["题干的线索是「never makes a decision」，开会听意见成了不拍板的借口。", "课程明确说 Listening 不等于 Avoiding decisions，所以选 C。"]
+        },
+        {
+          "type": "tf",
+          "q": "After listening to the team's views, the manager should still be the one who makes the final decision and takes responsibility for it.",
+          "a": true,
+          "how": ["教授明确指出：经理需要听取团队观点，但仍然必须是作出最终决定的人，并承担责任。", "题目和课程说法一致，所以是 True。"]
+        }
+      ],
+      "recap": "倾听是决定前收集信息。听完要判断、要拍板、要负责；照单全收和不敢决定都不是倾听。"
+    },
+    {
+      "id": "w01-p08",
+      "title": "管理从认识自己开始：六项原则",
+      "titleEn": "Effective management starts with you",
+      "kp": "Effective management starts with you：管别人之前先认识自己。六项原则：Know yourself、听取反馈、发挥优势、言出必行、建立支持网络、保持积极。",
+      "howTo": "反思自己习惯是 Know yourself；请人指出盲点是 Listen to feedback；用优势控弱点是 Build on strengths；兑现承诺是言出必行。缺自我认识会错把自己的问题当员工的。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "According to Lecture 1, where does effective management start?",
+          "options": ["With the organisation's strategy", "With the manager's own self-awareness", "With tight control over the team", "With technical training"],
+          "answer": 1,
+          "how": ["题干问「where does effective management start」，对应核心句 starts with you。", "「you」指的是管理者本人的自我认识，所以选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager sees himself as 'direct and efficient', but his staff experience him as 'harsh and unwilling to take questions'. Which principle would most directly help him discover this gap?",
+          "options": ["Be positive", "Listen to feedback", "Build a network of support", "Technical competence"],
+          "answer": 1,
+          "how": ["题干的线索是自己眼中的「direct and efficient」和员工感受到的「harsh」不一致。", "自己看到的自己和别人感受到的自己不同，要靠别人的反馈才能发现盲点，所以选 B。", "这是课件原例，用来说明为什么要 Listen to feedback。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager is excellent at analysis but poor at presenting. Instead of trying to become a brilliant speaker overnight, she prepares a clear structure before every meeting so that her weakness does not cause problems. Which principle is she following?",
+          "options": ["Build on your strengths", "Do what you say you will do", "Be positive", "Network with peers"],
+          "answer": 0,
+          "how": ["题干的线索是「excellent at analysis but poor at presenting」，再用提前准备结构来控制弱点。", "发挥核心优势、同时控制弱点带来的风险，就是 Build on your strengths，所以选 A。", "课件原例就是：擅长分析但不擅长表达的人，可以提前准备沟通结构。"]
+        },
+        {
+          "type": "tf",
+          "q": "Listening to feedback means accepting every criticism you receive.",
+          "a": false,
+          "how": ["正确的说法是：听取反馈不意味着接受所有批评，而是认真判断其中是否包含有价值的信息。", "题目把「判断」换成了「全盘接受」，所以是 False。和「倾听不等于同意所有人」是同一个逻辑。"]
+        },
+        {
+          "type": "tf",
+          "q": "A manager who lacks self-awareness can easily mistake his own problems for his employees' problems.",
+          "a": true,
+          "how": ["这是课件原话：如果缺乏 self-awareness，经理很容易把自己的问题误认为是员工的问题。", "题目和课程说法一致，所以是 True。"]
+        }
+      ],
+      "recap": "管理从认识自己开始：知己、听反馈、用优势、守承诺、建支持网、保持积极。"
+    },
+    {
+      "id": "w01-p09",
+      "title": "职业晋升陷阱：个人贡献者与经理的区别",
+      "titleEn": "Career progression trap; individual contributor vs manager",
+      "kp": "Career Progression Trap：因专业出色被提拔管人，但技术岗的成功能力不一定能转移到管理岗。关键转变：从自己完成工作，到通过别人完成工作，对团队整体结果负责，靠沟通、授权和影响力。",
+      "howTo": "题干里「被提拔后仍然自己把活全干了」「只问自己能不能做好」，是没完成从 Individual Contributor 到 Manager 的转变。自己完成、对个人产出负责是个人贡献者；通过别人完成、对团队结果负责是经理。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "What is the most important change in the nature of work when someone moves from an individual contributor role into a manager role?",
+          "options": ["From doing the work yourself to achieving work through other people", "From working with people to working alone", "From making decisions to avoiding decisions", "From people skills to technical skills"],
+          "answer": 0,
+          "how": ["题干问「most important change」，课件专门标出的最关键变化只有一个。", "从自己完成工作，变成通过其他人共同完成工作，所以选 A。", "D 方向反了：进入管理岗后上升的是人际能力的重要性，不是技术能力。"]
+        },
+        {
+          "type": "mcq",
+          "q": "After being promoted, a former star analyst keeps taking difficult tasks back from her team and finishing them herself because 'it is faster'. Which concept best describes the risk she is falling into?",
+          "options": ["The career progression trap: the skills that made her successful as an individual contributor are not the same skills management requires", "An integrity problem", "A lack of technical competence", "Forced ranking"],
+          "answer": 0,
+          "how": ["题干的线索是「star analyst」被提拔后「finishing them herself」，她还在用个人贡献者的方式工作。", "靠自己把活干好的能力不能自动变成带团队的能力，这就是 Career Progression Trap，所以选 A。", "C 正好相反：她技术很强，问题恰恰是只靠技术。"]
+        },
+        {
+          "type": "tf",
+          "q": "An individual contributor is responsible for personal output, while a manager is responsible for the team's overall results.",
+          "a": true,
+          "how": ["这是课件对比表里的一行：个人贡献者对个人产出负责，经理对团队整体结果负责。", "题目和课程一致，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which question reflects a manager's mindset rather than an individual contributor's?",
+          "options": ["Can I do this task well?", "Can my team do this well together?", "Am I the best technical expert here?", "How do I keep control of every task myself?"],
+          "answer": 1,
+          "how": ["看每个问句的主语：A、C、D 问的都是「I」自己能不能、是不是最强、怎么全握在手里。", "只有 B 问的是「my team」能不能一起做好，这是课件写的经理视角，所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "Being excellent at a technical job guarantees that a person will also be an effective manager.",
+          "a": false,
+          "how": ["正确的说法是：让一个人在原岗位成功的能力，不一定能完整转移到管理岗位。", "题目用「guarantees」把「不一定」说成了「一定」，所以是 False。"]
+        }
+      ],
+      "recap": "个人贡献者：自己干、对自己负责。经理：通过别人干、对团队负责。技术好不等于会管人。"
+    },
+    {
+      "id": "w01-p10",
+      "title": "新经理的四个优先事项",
+      "titleEn": "Four priorities for a new manager",
+      "kp": "研究认为八项里奇数项 1、3、5、7 更重要：关注培养团队成员、与同级建立关系（network with peers）、与下属沟通倾听、弄清上级期待。新经理位于组织中间，要向上、横向、向下同时管理。",
+      "howTo": "问「新经理应优先做什么」选这四项之一；「立刻展示权力」「马上改制度」都排除。跨部门资源协调选 Network with peers；弄清目标、权限、考核标准选 Clarify expectations。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which of the following is one of the four top priorities for a new manager identified in Lecture 1?",
+          "options": ["Immediately change existing procedures to show who is in charge", "Clarify the boss's expectations", "Avoid talking to peers in other departments until the team is performing well", "Focus only on the technical quality of the work"],
+          "answer": 1,
+          "how": ["先默写四个优先事项：培养团队、与同级建立关系、与下属沟通倾听、弄清上级期待。", "只有 B 在名单上，所以选 B。", "A 是课程明确反对的「急着展示权力」，C 和与同级建立关系正好相反。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A newly appointed manager realises that her department depends on information and resources from several other departments, so she starts building relationships with the managers of those departments. Which priority is she acting on?",
+          "options": ["Care for and develop people", "Network with peers", "Clarify the boss's expectations", "Talk with and listen to subordinates"],
+          "answer": 1,
+          "how": ["题干的线索是「other departments」和「managers of those departments」，对象是横向的同级。", "建立横向关系以获得跨部门信息和资源，就是 Network with peers，所以选 B。", "A 和 D 的对象都是自己团队里的下属，不是别的部门。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In his first week, a new manager asks each team member: 'What is the biggest difficulty in your work right now? Which processes run well? Which problems have never been solved?' He plans to decide later whether anything needs to change. Which priority is this?",
+          "options": ["Clarify the boss's expectations", "Network with peers", "Talk with and listen to subordinates", "Show authority early"],
+          "answer": 2,
+          "how": ["题干的对象是「each team member」，动作是问困难、问哪些流程运行良好、问长期问题。", "先向下属收集信息，再判断是否需要改变，就是 Talk with and listen to subordinates，所以选 C。", "这些问题是课件 Priority 5 列出的原题。"]
+        },
+        {
+          "type": "tf",
+          "q": "The research referred to in Lecture 1 found that the even-numbered items (2, 4, 6 and 8) on the new-manager list were the most important.",
+          "a": false,
+          "how": ["正确的说法是：研究认为奇数项 1、3、5、7 更重要。", "题目把奇数换成了偶数，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A new manager is unsure what her department is expected to deliver, which goals matter most, how her performance will be measured and how much authority she has to make decisions. Which priority should she act on?",
+          "options": ["Clarify the boss's expectations", "Care for and develop people", "Network with peers", "Build on your strengths"],
+          "answer": 0,
+          "how": ["「expected to deliver」「performance measured」「authority」这些都要向上级确认。", "这正是 Clarify the boss's expectations 下面的五个问题，所以选 A。"]
+        }
+      ],
+      "recap": "新经理优先做奇数项：培养人、连同级、听下属、问上级期待。向上、横向、向下三个方向都要顾。"
+    },
+    {
+      "id": "w01-p11",
+      "title": "正确顺序：先理解，最后才改变",
+      "titleEn": "Understand, coordinate, decide, change",
+      "kp": "新经理容易想「我必须立刻证明现在由我负责」，但过早展示权力、马上改所有制度会导致团队抵触、有效流程被破坏、成员不说真话、在不了解情况时作错判断。正确顺序是 Understand、Coordinate、Decide、Change。",
+      "howTo": "题干里新经理「上任第一天就推翻原有流程」「急着立威」判为错误做法。排序题认准四步：先理解人员与情境，再协调关系与目标，再作判断，最后才实施改变。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "According to Lecture 1, what is the correct order of actions for a new manager?",
+          "options": ["Change, Decide, Coordinate, Understand", "Understand, Coordinate, Decide, Change", "Decide, Change, Understand, Coordinate", "Coordinate, Change, Understand, Decide"],
+          "answer": 1,
+          "how": ["题干问「correct order」，直接套课件四步：理解、协调、决定、改变。", "只有 B 是这个顺序，所以选 B。", "记忆要点：Change 永远在最后，Understand 永远在最前。"]
+        },
+        {
+          "type": "mcq",
+          "q": "On her first day, a new manager announces that all existing team procedures will be replaced with her own system, to make it clear that she is now in charge. According to Lecture 1, what is the likely result?",
+          "options": ["The team will quickly respect her authority", "Resistance from the team, destruction of processes that worked, members withholding honest information, and poor decisions made without understanding the situation", "Faster improvement because old habits are broken", "Higher motivation because of clear leadership"],
+          "answer": 1,
+          "how": ["题干的线索是「first day」「replaced with her own system」「now in charge」，这是典型的过早展示权力。", "课件列出的后果正是抵触、破坏有效流程、得不到真实信息、判断失误，所以选 B。", "A 最容易选错：新经理以为立威能换来尊重，课程说换来的是抵触。"]
+        },
+        {
+          "type": "tf",
+          "q": "A new manager should first demonstrate authority, because showing who is in charge is the foundation for later cooperation.",
+          "a": false,
+          "how": ["正确的顺序是先理解人员与情境，改变放在最后；课程明确反对先展示权力。", "题目把「先理解」换成「先立威」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "The professor emphasised that choosing the odd-numbered priorities reflects:",
+          "options": ["That you already have all the skills needed to be a manager", "A sensible new-manager mindset that focuses on roles, relationships and people rather than on power", "A preference for technical work over management", "That a manager should avoid making any decisions"],
+          "answer": 1,
+          "how": ["题干问奇数项「reflects」什么，考的是教授对这个练习的解读。", "教授说它反映的不是你已有能力当经理，而是你有没有关注角色、关系和人员而非权力的思维方式，所以选 B。", "A 正是教授否定的那种解读。"]
+        }
+      ],
+      "recap": "Understand → Coordinate → Decide → Change。先理解再改变，急着立威只会换来抵触。"
+    },
+    {
+      "id": "w01-p12",
+      "title": "最难培养的管理能力",
+      "titleEn": "Skills with high use and high training need",
+      "kp": "图表比较使用频率和自认还需训练的程度。既常用又最需训练的是：人际技能、Generative Thinking、战略与系统思维、决策过程管理、战略与创新管理；另一个高训练需求项是 Managing Human Capital。",
+      "howTo": "问「哪些技能既常用又最需要继续训练」时，选人际、生成性思考、战略与系统思维、决策过程管理、战略与创新管理；选项里的会计、编程等技术知识不属于这一区域。核心信息：技术知识容易学，人际、战略判断和复杂决策要长期练习。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "In the chart discussed in Lecture 1, which skill falls into the area of high frequency of use and high need for further training?",
+          "options": ["Interpersonal skills", "Accounting knowledge", "Programming", "Product design"],
+          "answer": 0,
+          "how": ["题干问的是「high frequency of use and high need for further training」那个区域。", "这个区域里的是人际技能、生成性思考、战略与系统思维等，Interpersonal skills 在其中，所以选 A。", "会计、编程、产品设计都是技术知识，图表的结论恰恰是技术知识相对容易学到。"]
+        },
+        {
+          "type": "tf",
+          "q": "The chart compares how often a skill is used at work with how much more training managers believe they still need in it.",
+          "a": true,
+          "how": ["课件图表的两个维度就是：使用频率，和管理者认为自己还需要多少训练。", "题目准确描述了这两个维度，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In Lecture 1, 'generative thinking' refers to:",
+          "options": ["Following established procedures precisely", "Producing new ideas and solutions", "Measuring employee output accurately", "Enforcing rules consistently"],
+          "answer": 1,
+          "how": ["题干要的是 Generative Thinking 的定义。", "课件解释为「产生新的想法和解决方案」，所以选 B。", "A 和 D 强调按规矩来，和「生成新东西」方向相反。"]
+        },
+        {
+          "type": "mcq",
+          "q": "What is the core message of the chart on the hardest-to-develop management skills?",
+          "options": ["Technical knowledge is the hardest thing for managers to acquire", "So-called soft skills are easy and need little practice", "Technical knowledge is relatively easy to learn, while interpersonal, strategic and complex decision-making skills still need practice even after years of work", "Experienced managers no longer need any training"],
+          "answer": 2,
+          "how": ["题干问「core message」，要找图表的总结论。", "课件的结论是技术知识较容易通过学习获得，而人际、战略判断和复杂决策即使工作多年仍需练习，所以选 C。", "课件的说法是：所谓 soft skills 其实一点也不 soft。B 正好说反了。"]
+        },
+        {
+          "type": "mcq",
+          "q": "'Managing human capital' means:",
+          "options": ["Managing the company's financial capital", "Arranging, developing and using people according to their knowledge, skills, experience and potential", "Reducing the number of employees to cut costs", "Automating as many tasks as possible"],
+          "answer": 1,
+          "how": ["题干问 Managing Human Capital 的含义，「human capital」指的是人。", "课件定义是根据员工的知识、技能、经验、潜力合理安排、培养和使用人员，所以选 B。", "A 把 human capital 看成了钱，是字面误读。"]
+        }
+      ],
+      "recap": "最难练的不是技术，是人际、生成性思考、战略系统思维、决策过程、战略创新，外加人力资本管理。"
+    },
+    {
+      "id": "w01-p13",
+      "title": "结论：管理主要关乎人际能力",
+      "titleEn": "Management is largely about people skills",
+      "kp": "结论：Management is largely about people skills。不是说技术不重要：技术帮你理解工作，判断力帮你作决定，诚信帮你获得信任，人际帮你带领团队。进入管理岗后人际能力的重要性显著上升。",
+      "howTo": "问「管理主要关乎什么」选 people skills。问「某种能力的作用」按对应答：理解工作对应技术，作决定对应判断力，获得信任对应诚信，带领团队对应人际能力。看到「技术完全不重要」的极端说法判错。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "The final conclusion of Lecture 1 is that management is largely about people skills.",
+          "a": true,
+          "how": ["这是课件的最后一句结论：Management is largely about people skills。", "题目原样复述，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which pairing of an ability and its function is correct according to Lecture 1?",
+          "options": ["Technical competence helps you gain trust", "Integrity helps you understand the work", "Judgement helps you make decisions", "People skills help you read financial statements"],
+          "answer": 2,
+          "how": ["把四组对应关系默写出来：技术帮你理解工作，判断力帮你作决定，诚信帮你获得信任，人际帮你带团队。", "只有 C「Judgement 帮你作决定」对得上，所以选 C。", "A 和 B 把技术和诚信的作用互换了，这是这类题最常见的出法。"]
+        },
+        {
+          "type": "tf",
+          "q": "Saying that management is largely about people skills means technical competence does not matter at all for a manager.",
+          "a": false,
+          "how": ["正确的说法是：这不是说技术能力不重要，四种能力需要结合，只是进入管理岗后人际能力的重要性显著上升。", "题目把「主要是」推成了「其他完全不重要」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "What happens to the relative importance of people skills when a person moves into a management position?",
+          "options": ["It falls, because managers delegate people issues", "It rises significantly", "It stays exactly the same", "It is replaced by technical competence"],
+          "answer": 1,
+          "how": ["题干的线索是「moves into a management position」，问的是进入管理岗之后的变化。", "课件说当一个人进入管理岗位后，people skills 的重要性会显著上升，所以选 B。"]
+        }
+      ],
+      "recap": "技术帮你懂工作，判断力帮你决策，诚信帮你赢信任，人际帮你带团队。管理主要靠 people skills。"
+    }
+  ]
+}

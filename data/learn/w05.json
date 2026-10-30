@@ -1,0 +1,590 @@
+{
+  "week": 5,
+  "points": [
+    {
+      "id": "w05-p01",
+      "title": "三个基础定义与 start-up 判断",
+      "titleEn": "Entrepreneurship, entrepreneur, start-up",
+      "kp": "Entrepreneurship 是发起事业、组织资源并承担风险与回报的过程；Entrepreneur 是识别机会并投入自己资源与声誉的人；Start-up 是为寻找 repeatable 且 scalable 商业模式而建立的新事业。",
+      "howTo": "判断 start-up 别看新不新，问：需求翻倍，能否不把人员也翻倍？能，是 start-up（booking app、biotech）；不能，是 small business（单店咖啡馆、按天收费咨询）。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which of the following matches the lecture's definition of an entrepreneur?",
+          "options": ["The process of initiating a venture and organising the necessary resources", "A person who recognises an opportunity and commits their own resources and reputation to pursuing it", "A new venture established to search for a repeatable and scalable business model", "A manager who drives innovation inside an existing organisation"],
+          "answer": 1,
+          "how": ["题干问的是 entrepreneur 这个人，不是过程，也不是企业。", "课堂定义：识别机会，并把自己的资源与声誉投入追求机会的人。", "第一项是 entrepreneurship，第三项是 start-up，第四项是 intrapreneur。"]
+        },
+        {
+          "type": "tf",
+          "q": "Every new business is a start-up.",
+          "a": false,
+          "how": ["正确说法是：每个 start-up 都是新企业，但新企业不都是 start-up。", "普通 small business 追求稳定收入，start-up 的核心是寻找 repeatable 且 scalable 的模式，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is most likely to be classified as a start-up in the lecture's sense?",
+          "options": ["A single café in Braddon", "A two-person HR consultancy that bills by the day", "An ANU biotech spin-out with a patent but no product or revenue yet", "A newly opened hair salon"],
+          "answer": 2,
+          "how": ["逐个套可扩张测试：咖啡馆受桌位厨房限制，按天收费的咨询收入和工时绑死，发廊和咖啡馆一样。", "Biotech spin-out 正在寻找可重复、可扩张的模型，未盈利不排除它的 start-up 身份。", "别被「no product or revenue」吓住：start-up 看的是在找什么模式，不是现在赚不赚钱。"]
+        },
+        {
+          "type": "mcq",
+          "q": "The founder of a subscription software product says that if sign-ups doubled next month she would not need to hire anyone. Which property of the business is she describing?",
+          "options": ["Repeatable", "Scalable", "Bootstrapped", "Social"],
+          "answer": 1,
+          "how": ["线索是「doubled」和「would not need to hire anyone」，顾客翻倍而人员不翻倍。", "顾客或收入增加时人员、场地和成本不必同比例增加，就是 scalable。", "Repeatable 说的是同一种交付方式能反复发生，题干强调的是增长时的成本。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which statement best describes a 'repeatable' business model?",
+          "options": ["The same way of creating and delivering value can happen again and again rather than being customised from scratch each time", "Revenue can grow without costs growing in proportion", "The venture is funded from savings and revenue", "The business holds a patent"],
+          "answer": 0,
+          "how": ["题干问 repeatable 的含义。", "Repeatable 是同一种价值创造与交付方式能反复发生，而不是每次从零定制。", "第二项是 scalable，第三项是 bootstrapping，专利和 repeatable 无关。"]
+        }
+      ],
+      "recap": "Start-up 找 repeatable 且 scalable 的模式；问一句：需求翻倍，人要不要翻倍？"
+    },
+    {
+      "id": "w05-p02",
+      "title": "企业家的两套分类",
+      "titleEn": "Two typologies of entrepreneurs",
+      "kp": "增长意图五类：Survival、Lifestyle、Growth、Serial、Social。最重视回报五类：Idealists、Optimisers、Hard workers、Jugglers、Sustainers。两套不能对应。",
+      "howTo": "题干说某人创业的目的（收入、自由、做大、再创、社会问题），用第一套；题干说「最看重的回报」或给出百分比，用第二套。两套不能一一对应；传统 growth capital 主要适合 Growth 与 Serial 类型。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An independent consultant starts her own practice mainly so that she can control her own time. Using the growth-intent typology, she is a:",
+          "options": ["Survival entrepreneur", "Lifestyle entrepreneur", "Growth entrepreneur", "Serial entrepreneur"],
+          "answer": 1,
+          "how": ["线索是「control her own time」，优化目标是自主和时间。", "追求自主和掌控时间的是 Lifestyle 类型，课堂例子正是独立顾问。", "Survival 的动机是没有替代收入，题干没有这层意思。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the survey of what business owners find most rewarding, which was the largest group, valuing doing something novel and creative?",
+          "options": ["Idealists (24%)", "Optimisers (21%)", "Hard workers (20%)", "Sustainers (15%)"],
+          "answer": 0,
+          "how": ["线索是「most rewarding」和「novel and creative」，用的是按回报分的第二套。", "依次是 Idealists 24%、Optimisers 21%、Hard workers 20%、Jugglers 20%、Sustainers 15%。", "Idealists 最重视做新颖、有创造性的事情，也是占比最大的一组。"]
+        },
+        {
+          "type": "tf",
+          "q": "The lecture uses Canva and Atlassian as examples of growth entrepreneurs.",
+          "a": true,
+          "how": ["Growth 类型的目标是建立规模远大于创始人的企业。", "课堂给出的例子正是 Canva 和 Atlassian，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A founder enjoys building companies: she sells one venture and immediately starts another. Which type is she?",
+          "options": ["Lifestyle", "Social", "Serial", "Juggler"],
+          "answer": 2,
+          "how": ["线索是「sells one venture and immediately starts another」，退出后再创业。", "享受建立企业、退出后再次创业的是 Serial。", "Juggler 来自另一套按回报分的分类，指享受掌握企业各种细节的人。"]
+        },
+        {
+          "type": "tf",
+          "q": "The 'Idealists' category in the rewards survey corresponds exactly to 'growth entrepreneurs' in the growth-intent typology.",
+          "a": false,
+          "how": ["一张表按 venture 的增长意图分，另一张表按 owner 觉得什么有回报分。", "讲义明确说两者不能一一对应，所以是 False。"]
+        }
+      ],
+      "recap": "问目的用增长意图五类；问回报用 Idealists 24% 到 Sustainers 15%，两套别对号。"
+    },
+    {
+      "id": "w05-p03",
+      "title": "三个创业迷思",
+      "titleEn": "Three entrepreneurship myths",
+      "kp": "三个迷思：创始人都年轻（其实行业经验更重要）；企业家是赌徒（其实是 calculated risk：分阶段、小测试、用他人资本）；成功靠天才点子（其实点子便宜，execution、distribution、timing 才拉开差距）。",
+      "howTo": "题干把创业成功归功于年轻、胆大或天才点子，都是迷思。看到「分阶段投入」「先小规模测试」选 calculated risk；看到「两家公司点子一样结果不同」选执行、分销与时机。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "According to the lecture, industry experience often predicts entrepreneurial success better than youth.",
+          "a": true,
+          "how": ["「Founders are young」是课堂纠正的第一个迷思。", "高增长企业创始人的平均年龄并不都年轻，行业经验往往更能预测成功，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A founder invests in stages, runs a small pilot before committing further, and uses investors' money rather than betting her own savings. How does the lecture describe this behaviour?",
+          "options": ["Gambling", "Taking calculated risk", "Social entrepreneurship", "Mission drift"],
+          "answer": 1,
+          "how": ["线索是「in stages」「small pilot」「investors' money」。", "分阶段投入、小规模测试、使用他人资本，正是 calculated risk 的三个特征，而不是鲁莽下注。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Two start-ups launch almost identical ideas in the same year; one succeeds and the other fails. According to the lecture, what most likely explains the difference?",
+          "options": ["One of them had the more brilliant idea", "Execution, distribution and timing", "The younger founder won", "The one with more patents"],
+          "answer": 1,
+          "how": ["线索是「almost identical ideas」，点子相同所以点子解释不了差异。", "讲义说点子便宜且常见，execution、distribution 和 timing 才真正拉开结果。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of the three myths the lecture corrects?",
+          "options": ["Founders are young", "Entrepreneurs are gamblers", "Success needs a brilliant idea", "Entrepreneurial requirements are role demands that can be learned"],
+          "answer": 3,
+          "how": ["三个迷思是年轻、赌徒、天才点子。", "第四项不是迷思，而是讲义自己的观点：创造力、在不确定下工作、行动与坚持是角色要求，可以学习和通过互补团队获得。"]
+        }
+      ],
+      "recap": "不靠年轻、不靠赌、不靠天才点子；靠经验、算过的风险和执行。"
+    },
+    {
+      "id": "w05-p04",
+      "title": "进入更容易，生存仍然难",
+      "titleEn": "Why now: easier entry, hard survival",
+      "kp": "进入更容易的三组变化：技术与基础设施可按小时租用、新的更大市场、更多人愿意创业。但 GEM 数据说明维持企业仍难。小企业赢在 speed and focus 而非资源，优势是 structural, not permanent。",
+      "howTo": "题干问「为什么现在创业门槛低」，答可租用技术、新市场、更多愿意创业的人；问「小企业凭什么赢大企业」，答速度、聚焦、灵活，而不是资源。看到 18.5% 和 5.5%，别算成同一批企业的存活率。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A two-person start-up rents servers by the hour and payment and logistics services by the month instead of buying them. Which change in the entrepreneurial context does this illustrate?",
+          "options": ["Technology and infrastructure turning fixed costs into variable costs", "New and larger markets", "More people willing to start", "Social entrepreneurship"],
+          "answer": 0,
+          "how": ["线索是「rents servers by the hour」和「by the month」。", "计算、支付、物流可以按月按小时租用，前置固定成本变成可变成本，这是三组变化里的技术与基础设施。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Why can a small firm beat a large incumbent in a newly opened niche?",
+          "options": ["It has more resources", "It has speed, focus and flexibility, and no legacy product to protect", "It can borrow more cheaply", "It always has venture capital"],
+          "answer": 1,
+          "how": ["题干问小企业凭什么赢。", "讲义说小企业的优势不是资源更多，而是决策快、能服务大企业看不上的 niche、没有 legacy product 要保护。"]
+        },
+        {
+          "type": "tf",
+          "q": "The small-firm advantage of speed and focus is permanent: once a firm has it, it keeps it as it grows.",
+          "a": false,
+          "how": ["正确说法是这种优势 structural, not permanent。", "企业长大后流程、层级和既有产品增加，会逐渐失去速度，这正是后面需要 intrapreneurship 的原因，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "GEM reports that 18.5% of US adults are in early-stage entrepreneurial activity while established business ownership is 5.5%. How does the lecture say these figures should be read?",
+          "options": ["Exactly 5.5 out of every 18.5 start-ups survive", "As shares of different populations that support the heuristic that starting is easier than surviving, not a precise cohort survival rate", "As proof that 18.5% of businesses fail each year", "As evidence that established firms are more innovative"],
+          "answer": 1,
+          "how": ["线索是两个百分比来自「early-stage」和「established」两种不同状态的人口。", "讲义说它们是横截面比例，不是追踪同一批企业的 cohort survival rate；「roughly 1 in 20」只是启发式概括。"]
+        },
+        {
+          "type": "tf",
+          "q": "The lecture's overall judgement is that starting a business has become easier than before, but surviving has not become easier.",
+          "a": true,
+          "how": ["进入者很多，但建立并长期维持企业仍然困难。", "讲义原话是 Starting is easier; surviving remains hard，所以是 True。"]
+        }
+      ],
+      "recap": "进入容易（租技术、新市场、多人创业），生存仍难；小企业靠速度聚焦，优势会随长大消失。"
+    },
+    {
+      "id": "w05-p05",
+      "title": "Trend 不等于 Opportunity",
+      "titleEn": "Trend vs opportunity",
+      "kp": "Opportunity 必须对 specific customer 有吸引力、在市场中 timely、并连接到为买方创造价值的产品。宏观趋势只是 theme；要加上具体需要、感受最强烈的人、创造价值的产品和叫得出名字的第一位顾客。",
+      "howTo": "题干里有人说「X 是大趋势，所以有机会」，就问：能不能说出第一位顾客？不能就只是 theme。点名顾客之后还要检验租金、许可、运营等现实约束，才算通过。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "In the lecture's words, if you cannot name the first customer, you have a theme rather than an opportunity.",
+          "a": true,
+          "how": ["这是教师的关键句：说不出第一位顾客，手里的只是主题，不是机会。", "Opportunity 要有具体顾客、及时需要和创造价值的产品，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A student says: 'Canberra's new suburbs are growing fast, so there must be a business opportunity here.' According to the lecture, what is still missing?",
+          "options": ["Start-up capital", "A specific unmet need, a value-creating product and a named first customer", "A patent", "A full business plan"],
+          "answer": 1,
+          "how": ["线索是「growing fast, so there must be」，只有趋势就直接推出了机会。", "趋势要加上具体需要（新住宅区配套不足）、产品（childcare、trades scheduling）和第一位顾客才成为 opportunity。", "资金和商业计划是后面步骤的事，先要有机会本身。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to the lecture, which of the following is a good source of business ideas?",
+          "options": ["Problems you repeatedly meet in your own work", "Brainstorming random product names", "Copying whatever the largest company does", "Following any trend in the news"],
+          "answer": 0,
+          "how": ["题干问好点子从哪里来。", "讲义列出：自己工作中反复遇到的问题、自己生活中的未满足需要、已存在但服务差或定价错误的产品。", "跟任何趋势走正是 trend 不等于 opportunity 的误区。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A student proposes a storage and resale service for second-hand goods at ANU and names students leaving campus as the first customers. According to the lecture, what should happen next?",
+          "options": ["Launch immediately, since the first customer is named", "Test the idea against real constraints such as storage, licences, rent and operating costs", "Seek venture capital", "Choose a legal structure first"],
+          "answer": 1,
+          "how": ["线索是「names students leaving campus as the first customers」，第一步已经做到了。", "课堂没有停在点名顾客，而是继续追问仓储、许可、租金和经营资格，机会还要接受现实约束检验。"]
+        }
+      ],
+      "recap": "趋势只是 theme；机会要有具体顾客、及时需要和能创造价值的产品。"
+    },
+    {
+      "id": "w05-p06",
+      "title": "AI 时代：什么变便宜，什么仍稀缺",
+      "titleEn": "AI: what gets cheap, what stays scarce",
+      "kp": "AI 让建产品和试错都变便宜（the cost of being wrong 下降），进入者更多、模仿更快。仍稀缺的四类优势：distribution、proprietary data、trust、judgment。",
+      "howTo": "题干问 AI 改变了什么，答试错成本下降，应做更多小规模测试。问 AI 时代什么仍然难，答被找到并被信任、专有数据、有人为结果负责、决定做什么。「写代码快」不是稀缺优势，人人都快。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Because a wrong version can now be killed in days for the price of a subscription, what does the lecture say a founder should do differently?",
+          "options": ["Make one bigger unvalidated bet with the money saved", "Run more small, cheap tests before committing", "Skip customer interviews, since building is cheap", "Hire a larger engineering team"],
+          "answer": 1,
+          "how": ["线索是「killed in days for the price of a subscription」，说的是 cost of being wrong 下降。", "讲义结论：错误试验更便宜，就应该增加小规模测试，而不是把省下的钱变成更大的未验证押注。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Two apps with nearly identical features launch in the same month. According to the lecture, what most likely decides which one survives?",
+          "options": ["Which one has more lines of code", "Distribution, trust and judgment about what is worth producing", "Which founder is younger", "Which one has the lower server bill"],
+          "answer": 1,
+          "how": ["线索是「nearly identical features」，生产已经不稀缺。", "当制作 output 变便宜，分销、信任和决定 what is worth producing 的判断成为瓶颈。"]
+        },
+        {
+          "type": "tf",
+          "q": "Lower barriers to entry cut both ways: they let you in, and they let everyone else in behind you.",
+          "a": true,
+          "how": ["这是讲义原话：门槛降低让你进来，也让所有人跟着进来。", "所以进入变容易的同时，与同月出现的相似产品区分开变难，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A start-up's main asset is detailed knowledge of its customers' habits gathered over three years of service. Which scarce advantage is this?",
+          "options": ["Distribution", "Proprietary data and relationships", "Taste and judgment", "Cheap production"],
+          "answer": 1,
+          "how": ["线索是「knowledge of its customers' habits gathered over three years」。", "企业从自身顾客学到的资料和关系不能从通用模型里 prompt 出来，这是 proprietary data and relationships。", "Cheap production 恰恰是不再稀缺的东西。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A client keeps buying from a small agency instead of using a free AI tool because, in her words, 'if something goes wrong, someone answers for it'. Which scarce advantage is she paying for?",
+          "options": ["Distribution", "Proprietary data", "Trust and accountability", "Scalability"],
+          "answer": 2,
+          "how": ["线索是「someone answers for it」，顾客买的是有人对结果负责。", "输出错误时必须有人负责、解释和补救，这就是 trust and accountability。"]
+        }
+      ],
+      "recap": "AI 让试错便宜、生产不稀缺；稀缺的是分销、专有数据、信任问责、判断。"
+    },
+    {
+      "id": "w05-p07",
+      "title": "管理 AI-era venture 的五条规则",
+      "titleEn": "Five rules for AI-era ventures",
+      "kp": "AI-era 五条规则：先把规范说出来；定好谁核验触达顾客的 AI 输出（decide who verifies）；第一位顾客之前写好数据规则；更常重新规划；守住人的部分：顾客对话、判断、招聘不交给工具。",
+      "howTo": "看出事在哪：AI 输出带错发给顾客没人查，是 who verifies；客户资料能不能进模型没人定，是 data rules；年度计划跟不上周更，是 re-plan；顾客沟通和招聘全交给工具，是 human part。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An AI-drafted quote containing a wrong price went straight to a client; nobody had been assigned to check it. Which AI-era rule was broken?",
+          "options": ["Re-plan more often", "Decide who verifies", "State the norms early", "Protect the human part of the job"],
+          "answer": 1,
+          "how": ["线索是「went straight to a client」和「nobody had been assigned to check it」。", "触达顾客的 AI 输出必须有明确的核验人并为结果负责，这就是 decide who verifies。", "讲义的提醒：Speed without a check is how small errors become public ones。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A founder still runs a fixed twelve-month roadmap even though her team can now ship a new version every week. Which rule does the lecture say she is ignoring?",
+          "options": ["Re-plan more often", "Write data rules before the first customer", "Decide who verifies", "Fund small bets"],
+          "answer": 0,
+          "how": ["线索是「fixed twelve-month roadmap」对比「every week」。", "当 build 只需一周，固定年度计划会成为负担，应缩短反馈和规划周期，这是 re-plan more often。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A remote five-person team never discussed how they work together; each member has quietly adopted different standards for quality and tool use. Which rule is most relevant?",
+          "options": ["Protect the human part of the job", "State the norms early", "Re-plan more often", "Decide who verifies"],
+          "answer": 1,
+          "how": ["线索是「never discussed how they work」和「quietly adopted different standards」。", "小团队和远程工具缺少自然传递规范的非正式接触，规则不能留给猜测，所以要 state the norms early。"]
+        },
+        {
+          "type": "tf",
+          "q": "The lecture recommends delegating customer conversations and hiring decisions entirely to AI tools so the founder can focus on strategy.",
+          "a": false,
+          "how": ["第五条规则是 protect the human part of the job。", "顾客对话、judgment calls 和 hiring 不能整体委托给工具，题目说的正好相反，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A start-up is about to sign its first customer, but nobody has decided what information may be entered into AI tools, what must never be entered, or who can approve exceptions. Which rule is being neglected?",
+          "options": ["Decide who verifies", "Write data rules before the first customer", "Re-plan more often", "State the norms early"],
+          "answer": 1,
+          "how": ["线索是「about to sign its first customer」和「what information may be entered」。", "规定什么能进入模型、什么绝不能进入、谁能批准例外，就是 write data rules before the first customer。", "小企业通常没有独立 IT 部门，最常报告的高影响风险正是数据安全与隐私，所以创始人得自己负责。"]
+        }
+      ],
+      "recap": "说清规范、定谁核验、先写数据规则、更常重规划、守住人的部分。"
+    },
+    {
+      "id": "w05-p08",
+      "title": "社会创业：Mission 与 Margin",
+      "titleEn": "Social entrepreneurship",
+      "kp": "社会创业用创业方法解决社会或环境问题，以 impact 衡量部分成功，靠 trade 而非捐赠。三重张力：mission needs margin；margin can eat mission；所以 impact 要可衡量。",
+      "howTo": "利润投向社会问题但靠卖产品赚钱，是社会企业。「为增长转向更赚钱的顾客」是 margin eats mission，即 mission drift；「亏损所以项目停了」是 mission needs margin。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Who Gives A Crap sells toilet paper and commits a fixed share of its profit to sanitation projects in developing countries. Why does the lecture classify this as social entrepreneurship rather than charity?",
+          "options": ["Because it relies entirely on donors", "Because it earns revenue through trade and measures part of its success by impact", "Because it is a non-profit organisation", "Because it does not have to compete on price"],
+          "answer": 1,
+          "how": ["线索是「sells toilet paper」和「share of its profit」，收入来自交易而不是捐赠。", "社会企业通过 trade 产生收入，并以 impact 衡量部分成功，这正是定义。", "它仍要在货架、价格、包装和分销上竞争，使命不是执行不佳的借口。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A social venture loses money every year and eventually has to close its literacy programme. Which tension does this illustrate?",
+          "options": ["Mission needs margin", "Margin can eat mission", "Bootstrapping", "Dilution"],
+          "answer": 0,
+          "how": ["线索是「loses money every year」然后「has to close its … programme」。", "不盈利的企业无法持续产生影响，这就是 mission needs margin。", "Margin eats mission 是反过来：赚钱压力把企业带离原本的使命。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Why does the lecture say a social enterprise's impact must be measured, citing B Corp certification as an example?",
+          "options": ["To attract venture capital", "Because commitments, published results and external standards make mission drift visible", "To reduce tax", "Because customers demand discounts"],
+          "answer": 1,
+          "how": ["线索是「impact must be measured」和「B Corp」。", "承诺、公开结果和外部标准能暴露 mission drift，这是三重张力的第三环。"]
+        },
+        {
+          "type": "tf",
+          "q": "The lecture presents Grameen Bank's microcredit mainly as an act of kindness rather than as a redesign of how lending risk is managed.",
+          "a": false,
+          "how": ["讲义强调 Grameen 不只是 kindness，而是对 risk 的重新理解与管理。", "被传统银行标为 unlendable 的顾客，在小额贷款和生计设计下成为可靠借款人，所以是 False。"]
+        },
+        {
+          "type": "tf",
+          "q": "A strong social mission excuses a social enterprise from competing on price, packaging and distribution.",
+          "a": false,
+          "how": ["Who Gives A Crap 和 Thankyou 仍须在货架、价格、包装和分销上与普通企业竞争。", "社会使命可以成为差异化，但不能成为商业执行不佳的借口，所以是 False。"]
+        }
+      ],
+      "recap": "靠交易不靠捐赠；使命需要利润，利润可能吃掉使命，所以影响要可衡量。"
+    },
+    {
+      "id": "w05-p09",
+      "title": "启动五步与 Validate before you build",
+      "titleEn": "Launching: validate before you build",
+      "kp": "启动五步：idea、validate、plan、legal structure、financing，最容易在 validation 迷失。验证手段：MVP（产出是 learning）、顾客访谈、pre-sell、pivot、输得起的测试。",
+      "howTo": "题干里创始人花几个月闭门造完美产品，答先验证再建设。问证据强弱：押金、签 LOI、付费预订、众筹 pledge 强于口头说「我喜欢」。访谈问现在怎么解决、花多少、何时会换，别问「你喜欢我的点子吗」。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "According to the lecture, at which of the five launch steps do new ventures most often lose their way?",
+          "options": ["Writing the business plan", "Validating the idea against real customers", "Choosing a legal structure", "Arranging financing"],
+          "answer": 1,
+          "how": ["题干问五步中最容易失去方向的一步。", "讲义说步骤 3 到 5 较程序化、可以学习，venture 最容易在 Step 2 validation 失去方向。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A founder shows a mock-up to twenty friends, and all of them say they love it. She treats this as proof of demand. What does the lecture say?",
+          "options": ["Twenty positive responses are sufficient evidence", "Stated interest is weak evidence; a deposit, paid pre-order or signed letter of intent is much stronger", "She needs at least fifty friends", "She should seek venture capital first"],
+          "answer": 1,
+          "how": ["线索是「say they love it」，这是礼貌意见，不是购买证据。", "证据强度：押金、签 LOI、付费预订、众筹 pledge 强于口头表示兴趣，真实行为承诺才可靠。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Slack grew out of a failed game studio and Instagram out of a check-in app. Which concept do these examples illustrate?",
+          "options": ["Random idea switching", "A pivot: a deliberate change of product, customer or model based on what was learned", "Bootstrapping", "Mission drift"],
+          "answer": 1,
+          "how": ["线索是「grew out of」，新方向来自前一次尝试学到的东西。", "Pivot 是根据已有证据有意识地改变产品、顾客或模式，而不是毫无方向地换点子。"]
+        },
+        {
+          "type": "mcq",
+          "q": "What does the lecture say is the main output of a minimum viable product (MVP)?",
+          "options": ["A polished first version ready for mass market", "Learning from real customers using the smallest workable version", "Revenue sufficient to repay debt", "A patent application"],
+          "answer": 1,
+          "how": ["题干问 MVP 的主要产出。", "MVP 是真实顾客能够使用的最小版本，主要产出是 learning，不是把第一版做成完美商品。"]
+        },
+        {
+          "type": "tf",
+          "q": "The key difference between a prototype and an MVP is that an MVP must be used by real customers and generate learning.",
+          "a": true,
+          "how": ["Prototype 可以展示概念；MVP 必须让真实顾客使用并产生学习。", "题目说的正是这个区别，所以是 True。"]
+        }
+      ],
+      "recap": "先测试再建设：MVP、访谈、预售、输得起的测试；行为承诺强于口头喜欢。"
+    },
+    {
+      "id": "w05-p10",
+      "title": "选择法律结构",
+      "titleEn": "Choosing a legal structure",
+      "kp": "Sole trader：个人与业务同一法律主体，容易便宜、控制完整，但 owner 担责、融资难。Partnership：两人以上按协议共同经营，共担责任也可能分歧。Company：独立法人，通常公司担责、可发行股份，但成本与合规更高。",
+      "howTo": "问谁承担业务债务：sole trader 和 partnership 是 owner 自己，company 通常由公司承担。题干说要引入 VC、发行股份，选 company，因为投资者要买 shares。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A freelance photographer registers an ABN and trades under her own name; legally she and the business are the same entity. Which structure is this?",
+          "options": ["Sole trader", "Partnership", "Company (Pty Ltd)", "Social enterprise"],
+          "answer": 0,
+          "how": ["线索是「she and the business are the same entity」。", "个人与业务是同一法律主体，就是 sole trader：容易便宜、控制完整，但 owner 自己承担业务责任。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Two friends run a tutoring business under a written agreement, sharing profits and decisions, and each is personally liable for the business's debts. Which structure is this?",
+          "options": ["Sole trader", "Partnership", "Company (Pty Ltd)", "Crowdfunded venture"],
+          "answer": 1,
+          "how": ["线索是「Two friends」「under a written agreement」「each is personally liable」。", "两人以上按 agreement 共同经营、partners 承担责任，就是 partnership。", "Company 的责任通常由公司承担，不会是每个人个人担责。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A start-up plans to raise venture capital next year. Which legal structure will investors typically require, and why?",
+          "options": ["Sole trader, because it is cheapest", "Partnership, because it shares resources", "Company, because investors need to buy shares in a separate legal entity", "Any structure, as long as it has an ABN"],
+          "answer": 2,
+          "how": ["线索是「raise venture capital」，VC 用资金换的是股份。", "只有 company 能发行 shares，所以 VC 通常要求 venture 采用 company 结构。"]
+        },
+        {
+          "type": "tf",
+          "q": "Choosing a company structure guarantees that directors and founders can never be personally liable under any circumstances.",
+          "a": false,
+          "how": ["讲义说 company 的有限责任是课堂简化。", "现实中存在董事责任和个人担保等例外，有限责任不自动保护董事或个人担保人，所以是 False。"]
+        }
+      ],
+      "recap": "谁担责看结构：个体和合伙是自己担，公司通常公司担；要卖股份就得是 company。"
+    },
+    {
+      "id": "w05-p11",
+      "title": "Debt 与 Equity",
+      "titleEn": "Debt vs equity financing",
+      "kp": "Debt 是借钱、连本带息偿还：保留所有权与控制，但无论成败通常都要还。Equity 是投资人用资金换 shares：没有固定还款，但稀释所有权，投资人可能拿到董事会席位。成功时 debt 便宜，失败时危险，equity 相反。",
+      "howTo": "「还本付息」「保留全部股份」是 debt；「出让股份」「董事会席位」「稀释」是 equity。pre-revenue 高增长企业选 equity，因为没收入撑不起固定偿还；debt 适合收入可预测的企业。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A café owner borrows from a bank and will repay the loan with interest over five years while keeping full ownership of the business. Which type of financing is this?",
+          "options": ["Equity financing", "Debt financing", "Crowdfunding", "A government grant"],
+          "answer": 1,
+          "how": ["线索是「repay the loan with interest」和「keeping full ownership」。", "现在借钱、以后连本带息偿还、创始人保留所有权，就是 debt financing。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An investor puts money into a start-up in exchange for 15% of its shares and a seat on the board. Which type of financing is this?",
+          "options": ["Debt financing", "Equity financing", "A bank loan", "Non-dilutive funding"],
+          "answer": 1,
+          "how": ["线索是「15% of its shares」和「a seat on the board」。", "投资人用资金换 shares，并可能获得董事会席位和影响力，就是 equity financing。", "Non-dilutive 指不稀释股权的资金，比如政府补助，这里明显稀释了。"]
+        },
+        {
+          "type": "tf",
+          "q": "Debt is cheaper if the venture succeeds and dangerous if it does not; equity is the reverse.",
+          "a": true,
+          "how": ["成功时 debt 只付有限利息，失败时现金流压力和个人担保很危险。", "Equity 成功时让出的股份变得很贵，失败时损失由投资人承担，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A venture has stable, predictable revenue and the founder wants to keep full control. Which financing option fits best according to the lecture?",
+          "options": ["Venture capital equity", "Debt, such as a bank loan", "Equity crowdfunding", "Giving shares to friends"],
+          "answer": 1,
+          "how": ["线索是「stable, predictable revenue」和「keep full control」。", "Debt 适合收入可预测、能安排还本付息的企业，而且不直接让出控制权。", "三个股权选项都会稀释所有权，和「保留控制」矛盾。"]
+        },
+        {
+          "type": "mcq",
+          "q": "If a venture becomes extremely valuable, which form of financing turns out to have been the more expensive one?",
+          "options": ["Debt, because interest grows with company value", "Equity, because the shares given away are now worth a great deal", "Both cost the same", "Government grants"],
+          "answer": 1,
+          "how": ["线索是「becomes extremely valuable」，问的是成功时的成本。", "企业价值大增时，当初让出的股份可能非常昂贵；debt 的利息相对有限。"]
+        }
+      ],
+      "recap": "Debt 保所有权但必须还，成功便宜失败危险；Equity 不用还但稀释与分权，正好相反。"
+    },
+    {
+      "id": "w05-p12",
+      "title": "融资来源、阶段与稀释",
+      "titleEn": "Funding sources, stages and dilution",
+      "kp": "Grants 不是 debt，是 non-dilutive；Angels 比 VC 更早，带来判断与人脉；VC 昂贵且带董事会；Crowdfunding 既融资又检验顾客承诺。每轮按已移除的风险定价；四轮各让 20%，剩 40.96%。",
+      "howTo": "grants 不是 debt。「有经验的个人很早投钱并给建议」是 angel；「网上向许多人募小额」是 crowdfunding。算稀释用乘法：每轮剩 80%，四轮是 0.8 的四次方。两轮之间要移除一个看得见的风险。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Government grants and incentives such as the R&D Tax Incentive are strictly a form of debt financing.",
+          "a": false,
+          "how": ["讲义说 government grants 严格说不是 debt，而是 non-dilutive funding。", "它既不用还本付息，也不稀释股权，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An experienced former founder invests in a start-up before any venture capital firm is involved, and spends time advising the team and opening her network. Which source of financing is this?",
+          "options": ["Angel financing", "Venture capital", "Bank loan", "Reward-based crowdfunding"],
+          "answer": 0,
+          "how": ["线索是「before any venture capital firm」「advising」「opening her network」。", "天使投资人是有商业经验和联系的个人，比 VC 更早进入，带来的不只是钱，还有 judgment 和 network。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Under the lecture's simplified assumption, a founder sells 20% of the company in each of four funding rounds. Roughly what share of the original holding does she keep?",
+          "options": ["20%", "36%", "40.96%", "60%"],
+          "answer": 2,
+          "how": ["线索是「20% in each of four rounds」，每轮之后剩下 80%。", "连乘四次：0.8 的四次方是 0.4096，也就是 40.96%。", "选 20% 的人是把四轮当成一共只让出 80%，稀释是按比例连乘，不是相减。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to the lecture, what should a founding team aim to achieve between two funding rounds?",
+          "options": ["Generally 'do better' across the board", "Remove one specific risk that investors can clearly see", "Hire a large sales team", "Change the legal structure"],
+          "answer": 1,
+          "how": ["线索是「between two funding rounds」。", "每一轮按上一轮以来已移除的风险定价，所以任务是移除一个投资者看得见的风险，而不是笼统地做得更好。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A hardware start-up raises money through reward-based crowdfunding before manufacturing. Besides capital, what does the lecture say this provides?",
+          "options": ["Guaranteed profit", "Evidence that customers will make a real commitment, or a cheap 'no' from the market before mass production", "A board seat for the founder", "Relief from debt"],
+          "answer": 1,
+          "how": ["线索是「before manufacturing」，钱和市场反应同时出现。", "Crowdfunding 既提供资本，也检验顾客是否愿意采取真实承诺，并在大规模生产前低成本收到市场说不的证据。"]
+        }
+      ],
+      "recap": "补助不是债；天使早、VC 贵带董事会、众筹兼测试；每轮按已移除的风险定价。"
+    },
+    {
+      "id": "w05-p13",
+      "title": "为什么新事业失败",
+      "titleEn": "Why new ventures fail",
+      "kp": "失败原因占比：ran out of capital 70%、poor product-market fit 43%、bad timing 29%、unit economics 19%，可多报不能相加。没钱是结尾，PMF 差是深因。",
+      "howTo": "问「最常报告」选 ran out of capital 70%；问「深层原因」选 poor product-market fit。70% 和 43% 不能相加。融资只延后死亡，不修复没人需要的产品。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Among the 431 venture-backed companies that closed after 2023, which reason was reported most often?",
+          "options": ["Ran out of capital (70%)", "Poor product-market fit (43%)", "Bad timing (29%)", "Unsustainable unit economics (19%)"],
+          "answer": 0,
+          "how": ["题干问的是「reported most often」，看报告占比。", "这组数据来自 431 家 2023 年后关闭的 venture-backed 公司。", "占比最高的是 ran out of capital 70%，PMF 差 43% 排第二。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A board member says: 'Just raise another round and the problem is solved.' Based on the lecture, what is the flaw in this reasoning?",
+          "options": ["Funding rounds are impossible after the second year", "Funding delays death but does not fix a product nobody needs, unless the team pivots on evidence", "Debt would always be better than another round", "Unit economics never matter"],
+          "answer": 1,
+          "how": ["线索是「raise another round and the problem is solved」，把资金当成根治办法。", "讲义说资金干涸往往是 PMF 差导致顾客和投资者停止供血的结果，融资只能延后死亡。", "除非企业根据证据 pivot，否则再多钱也救不了没人真正需要的产品。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because 70% of closed companies ran out of capital and 43% reported poor product-market fit, the two reasons together account for 113% of closures.",
+          "a": false,
+          "how": ["一家企业可以同时报告多个原因，所以百分比是重叠的。", "把它们相加没有意义，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which causal chain does the lecture describe for venture failure?",
+          "options": ["Running out of capital causes poor product-market fit", "Poor product-market fit, bad economics or timing make customers and investors stop supplying money, so capital runs out and the business closes", "Bad timing causes dilution, which causes closure", "Hiring professional managers causes capital shortage"],
+          "answer": 1,
+          "how": ["题干问因果层次。", "讲义的链条是 PMF 差或经济模型不可持续在前，顾客和投资者停止供钱在中间，资金耗尽和关闭在最后。", "第一项把因果倒过来了：没钱是故事结束的位置，不是起点。"]
+        }
+      ],
+      "recap": "没钱是结尾（70%），没人要是开头（PMF 43%）；原因可多报，不能相加。"
+    },
+    {
+      "id": "w05-p14",
+      "title": "成长五阶段与创始人角色转变",
+      "titleEn": "Five stages of growth; founder to manager",
+      "kp": "Churchill 与 Lewis 五阶段：Existence、Survival、Success、Take-off、Resource maturity，每阶段问题不同。创始人从 do 到 direct 再到 build managers。",
+      "howTo": "按问题配阶段：活不活得下来是 Existence，现金流是 Survival，放慢还是推进是 Success，融资和职业经理人是 Take-off，灵活创新是 maturity。创始人成瓶颈前要授权。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A firm has just begun offering its service, and the only question anyone asks is whether it will survive at all. Which Churchill and Lewis stage is this?",
+          "options": ["Existence", "Survival", "Success", "Take-off"],
+          "answer": 0,
+          "how": ["线索是「just begun」和「whether it will survive at all」。", "Existence 阶段刚开始提供产品或服务，房间里的问题是 Will we survive?", "Survival 阶段已经是可运作的实体，问的是现金流够不够。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A firm has reached a key expansion point; its leaders are asking how to finance growth and whether to hand day-to-day control to professional managers. Which stage is this?",
+          "options": ["Survival", "Success", "Take-off", "Resource maturity"],
+          "answer": 2,
+          "how": ["线索是「finance growth」和「professional managers」。", "Take-off 是关键扩张点，问题正是如何融资增长、是否交给职业经理人。", "Resource maturity 的问题是怎样保持灵活与创新，不是融资。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A founder insists on approving every decision herself; the company cannot grow because everything waits on her. What does the lecture identify as the bottleneck?",
+          "options": ["A lack of capital", "Delegation: the founder must move from doing the work to building people who direct the work", "Too much diversity in the team", "Poor product-market fit"],
+          "answer": 1,
+          "how": ["线索是「approving every decision herself」和「everything waits on her」。", "所有决定集中到创始人身上正是企业无法 scale 的原因，delegation 是瓶颈。", "管理工作要从 do the work 到 direct the work，再到 build the people who direct the work。"]
+        },
+        {
+          "type": "tf",
+          "q": "Bringing in professional managers at the take-off stage signals that the founder has failed.",
+          "a": false,
+          "how": ["讲义说引入 professional managers 不是创始人失败，而是组织问题已经超出原角色。", "好的结果是 founder 在 board 被迫处理之前就主动认识到这一点，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "The lecture says that growth costs flexibility. What does it say buys some of that flexibility back?",
+          "options": ["More layers of hierarchy", "Intrapreneurship: unallocated time, small bets, a route to implementation and survivable failure", "A public listing", "Switching to debt financing"],
+          "answer": 1,
+          "how": ["线索是「growth costs flexibility」，这是成熟企业的问题：流程取代判断，人人保护既有产品。", "讲义原话：Growth costs flexibility; intrapreneurship buys some of it back。", "做法包括 Google 20% 时间、Atlassian ShipIt days、小额押注、实施路径和可承受的失败。"]
+        }
+      ],
+      "recap": "每阶段换问题：活、现金、推进、融资交棒、灵活；创始人从做事到带人，成熟期靠内部创业。"
+    }
+  ]
+}

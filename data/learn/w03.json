@@ -1,0 +1,589 @@
+{
+  "week": 3,
+  "points": [
+    {
+      "id": "w03-p01",
+      "title": "个体差异：用证据，不用刻板印象",
+      "titleEn": "Individual differences: evidence, not stereotypes",
+      "kp": "差异相对稳定、可测量，只有与岗位结果有关的才值得测量。判断靠 job analysis and evidence，不靠 stereotype。Southwest 案例：实际行为比自我宣传更有信息量，是否预测绩效仍需实证。",
+      "howTo": "「这种性格的人肯定做不好」是 stereotype，应先分析岗位要求再用证据评估。「测与岗位无关的属性」判错：浪费资源还有法律风险。Southwest 重点是看行为并实证检验，不是态度永远比技能重要。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A hiring manager rejects a very talkative applicant for a librarian position, saying 'talkative people cannot be good librarians'. According to Lecture 3, what is wrong with this decision?",
+          "options": ["Nothing; personality always determines job fit", "It relies on a stereotype instead of first analysing whether talkativeness actually affects the outcomes the job values", "Talkative people should only work in sales", "Librarians do not need any personality assessment"],
+          "answer": 1,
+          "how": ["题干的线索是「talkative people cannot be good librarians」，这是凭直觉下结论。", "课件要求先做 job analysis，确认这个属性是否真的影响岗位看重的结果，再用证据评估，所以选 B。", "健谈的图书管理员正是课件举的「看起来不匹配」的例子之一。"]
+        },
+        {
+          "type": "tf",
+          "q": "Only individual differences that are relevant to the specific job are worth measuring.",
+          "a": true,
+          "how": ["课件的假设之一：并非所有差异都影响绩效，只有与具体工作有关的属性才值得测量。", "题目和课件一致，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Southwest Airlines puts job applicants into a group setting and observes how they treat the other applicants, rather than relying only on their interview answers. What is the lesson Lecture 3 draws from this?",
+          "options": ["Attitude always matters more than technical skill", "Interview answers can be rehearsed, so observed behaviour is usually more informative; whether the approach predicts performance is still an empirical question", "Group interviews should replace all other selection methods", "Technical skills cannot be trained"],
+          "answer": 1,
+          "how": ["题干的线索是「observes how they treat the other applicants」而不是只听「interview answers」。", "课件的重点：面试回答可以排练，实际行为提供更多信息，而且是否预测绩效仍需实证回答，所以选 B。", "A 最容易选错：课件明确说案例重点不是「态度永远比技术重要」。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company starts using a cheap online test to measure attributes that have no relationship with the job. What risk does Lecture 3 point out?",
+          "options": ["None, because more data is always better", "Wasted resources and increased legal and discrimination risk", "Employees will become more motivated", "The test will improve person-organisation fit"],
+          "answer": 1,
+          "how": ["题干的线索是「no relationship with the job」，测的是与工作无关的属性。", "课件说这样不仅浪费资源，还可能增加法律与歧视风险，所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "The Southwest Airlines case proves that attitude is always more important than technical ability.",
+          "a": false,
+          "how": ["正确的说法是：案例的重点是行为比自我宣传更有信息量，以及招聘理念是否预测绩效需要实证检验。", "题目把它说成「态度永远更重要」，正是课件否定的理解，所以是 False。"]
+        }
+      ],
+      "recap": "只测与岗位有关的差异。先分析岗位，再看证据，不凭刻板印象。看行为，别只听人怎么说自己。"
+    },
+    {
+      "id": "w03-p02",
+      "title": "自我概念与自我方面",
+      "titleEn": "Self-concept and self-aspects",
+      "kp": "Self-concept 是一个人对自己所有个人属性的整体信念，由一条条 self-schema（如「I am shy」）组成；它是「我相信自己是什么样」，不一定客观。不同生活领域里的自我是不同的 self-aspects。",
+      "howTo": "问「对自身属性的整体信念」选 self-concept；问其中一条具体信念选 self-schema；问「工作中的我、家里的我」选 self-aspect。不同情境表现不同不等于虚伪。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which term refers to the sum total of an individual's beliefs about their own personal attributes?",
+          "options": ["Self-concept", "Self-awareness", "Personality", "Locus of control"],
+          "answer": 0,
+          "how": ["题干的定义词是「sum total of beliefs about their own attributes」。", "这是 Self-concept 的课件定义，所以选 A。", "Self-awareness 是「是否意识到」自己的内部特点，Personality 是稳定的行为模式，都不是「信念的总和」。"]
+        },
+        {
+          "type": "mcq",
+          "q": "The belief 'I am creative' is an example of a:",
+          "options": ["Self-schema", "Self-complexity", "Hygiene factor", "Strong situation"],
+          "answer": 0,
+          "how": ["题干给的是关于自己某一个特征的单条信念。", "每一条「I am…」的信念就是一个 self-schema，许多 self-schema 组成 self-concept，所以选 A。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A student is quiet in tutorials, loud and competitive when gaming with friends, and highly responsible at home. How does Lecture 3 describe this?",
+          "options": ["The student has multiple personalities", "The student is being fake in at least one setting", "Different situations bring out different self-aspects of the same person", "The student has a very low self-concept"],
+          "answer": 2,
+          "how": ["题干的线索是同一个人在「tutorials」「gaming」「home」三个领域表现不同。", "课件说这不是虚伪，而是不同情境突出了自我的不同部分，即不同的 self-aspects，所以选 C。", "这正是课件原例：Tutorial 里安静，打游戏疯狂报点，家里承担责任。"]
+        },
+        {
+          "type": "tf",
+          "q": "A person's self-concept is always an accurate and objective description of who they are.",
+          "a": false,
+          "how": ["正确的说法是：self-concept 是「我相信自己是什么样」，可能不完整、过时、受偏差影响，和别人看到的不一致。", "题目说「always accurate and objective」，所以是 False。"]
+        }
+      ],
+      "recap": "Self-concept 是我对自己属性的信念总和，由 self-schema 组成，不一定准。不同领域 → 不同 self-aspect。"
+    },
+    {
+      "id": "w03-p03",
+      "title": "自我复杂性",
+      "titleEn": "Self-complexity",
+      "kp": "Self-complexity 看有多少彼此不同的 self-aspects、重叠多少：多且不重叠就高，少且属性重复就低。Linville 认为高自我复杂性可能是压力下的 cognitive buffer，但不保证更高幸福感。",
+      "howTo": "题干里一个人用同一组词描述自己所有身份，判断为低 self-complexity。「作业失败就觉得整个人是失败者」是低复杂性的表现。看到「自我复杂性越高一定越幸福」判错，它还取决于各方面是积极还是消极、如何重叠。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A person describes herself as hardworking, organised and successful in her roles as a student, an employee, a gamer and a club member. What does this suggest about her self-complexity?",
+          "options": ["High, because she has four roles", "Low, because the same attributes repeat across all her self-aspects", "High, because the attributes are positive", "It cannot be assessed from this information"],
+          "answer": 1,
+          "how": ["题干的线索是同一组词「hardworking, organised and successful」用在四个身份上。", "属性在多个方面重复出现会降低 self-complexity，所以尽管有四个角色，复杂性仍然低，选 B。", "A 最容易选错：角色数量多不够，还要看各方面之间重叠多少。"]
+        },
+        {
+          "type": "mcq",
+          "q": "After failing one assignment, Student A thinks 'I am a failure as a person', while Student B thinks 'that one performance as a student failed, but it is only one part of me'. Which student better illustrates the buffering effect of higher self-complexity?",
+          "options": ["Student A", "Student B", "Both equally", "Neither; self-complexity is unrelated to how people react to failure"],
+          "answer": 1,
+          "how": ["对比两人的反应：A 把一次失败扩大到「整个人」，B 把它限制在「学生这一方面」。", "失败只影响一个方面而不蔓延到全部自我，就是 cognitive buffer，B 体现了高自我复杂性，所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "A two-week study of undergraduates found that, after highly stressful events, people with higher self-complexity showed less depression and fewer stress-related physical symptoms.",
+          "a": true,
+          "how": ["这是课件引用的研究：为期两周的本科生研究，高压力事件后自我复杂性高的人抑郁和压力相关身体症状较少。", "题目和课件一致，所以是 True。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because of this buffering effect, higher self-complexity always leads to greater wellbeing.",
+          "a": false,
+          "how": ["正确的说法是：不能直接得出「越高越幸福」，效果还取决于如何定义、各方面是积极还是消极、如何重叠。", "题目用了「always」，所以是 False。课件说它是可能的缓冲机制，不是永久被动技能。"]
+        }
+      ],
+      "recap": "自我方面多且不重叠 → 自我复杂性高 → 压力下可能有缓冲，但不保证更幸福。"
+    },
+    {
+      "id": "w03-p04",
+      "title": "两种感知偏差与应对原则",
+      "titleEn": "Better-than-average effect and fundamental attribution error",
+      "kp": "优于平均效应（better-than-average）：自评偏高，模糊特质和自己重视的特质上更强。基本归因错误（FAE）：解释他人行为时高估人格、低估情境。应对：多来源、先查情境、评行为不评人格。",
+      "howTo": "「多数人认为自己比平均更道德」是优于平均效应。看一次迟到就说「他不负责任」是 fundamental attribution error，先问是否常发生、别人是否也这样。评语写「错过三次截止日期」不写「不可靠」。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "In a survey, 80% of managers rate their own leadership ability as above average. Which bias does this illustrate?",
+          "options": ["Fundamental attribution error", "Better-than-average effect", "Undermining effect", "Situational strength"],
+          "answer": 1,
+          "how": ["题干的线索是「80%」的人认为自己「above average」，统计上不可能。", "给自己的评价高于实际，就是 better-than-average effect，所以选 B。", "领导能力还是经理自己重视的特质，课件说在这类特质上高估最严重。"]
+        },
+        {
+          "type": "mcq",
+          "q": "On which of the following traits is the better-than-average effect likely to be strongest?",
+          "options": ["Muscular", "Generous", "Height", "Typing speed"],
+          "answer": 1,
+          "how": ["题干问偏差在哪种特质上「strongest」，规则是模糊特质上更强。", "Generous 标准模糊，人可以用对自己有利的定义，所以选 B。", "Muscular 是课件举的反例：具体属性留下的解释空间少。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee is late three times in one week. Without checking whether the roster changed or the trains were disrupted, the manager concludes: 'He is simply an irresponsible person.' Which bias is this?",
+          "options": ["Better-than-average effect", "Fundamental attribution error", "Self-complexity", "Faking"],
+          "answer": 1,
+          "how": ["题干的线索是「without checking」情境因素就把迟到归到「irresponsible person」。", "解释他人行为时高估人格、低估情境，就是 fundamental attribution error，所以选 B。", "更负责的做法是先问：经常这样吗？别人在相同条件下也迟到吗？"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which performance comment follows the principle 'rate behaviour, not character'?",
+          "options": ["'Unreliable'", "'Missed three deadlines this month'", "'Lazy'", "'Not a team player'"],
+          "answer": 1,
+          "how": ["规则是写可观察、可验证的行为，不写人格标签。", "「Missed three deadlines」是可核实的行为描述，所以选 B。", "Unreliable、Lazy 都是推断出来的标签，容易造成标签化，正是课件反对的写法。"]
+        },
+        {
+          "type": "tf",
+          "q": "To reduce bias, a manager should treat an employee's self-rating as the single most reliable measure of that employee.",
+          "a": false,
+          "how": ["正确的说法是 Use multiple sources：自评有 better-than-average 偏差，应结合观察到的行为、多位同事反馈、实际成果。", "题目把自评当成唯一最可靠来源，所以是 False。"]
+        }
+      ],
+      "recap": "看自己：优于平均偏差。看别人：高估人格低估情境。对策：多来源、先查情境、评行为不评人格。"
+    },
+    {
+      "id": "w03-p05",
+      "title": "人格的定义：相对稳定",
+      "titleEn": "Personality: relatively stable",
+      "kp": "Personality 是形成相对稳定行为模式的一组特征，影响人如何回应想法、物体和他人。关键词 relatively stable：人格分数反映在许多情境中的平均行为倾向，不是某一次行为的必然，也不能精准预测下一次行为。",
+      "howTo": "「能准确预测下一次怎么做」「一次行为就反映人格」判错；「相对稳定但会发展」判对。Self-concept 是我信自己是谁，Self-awareness 是我是否觉察自己，Personality 是稳定回应模式。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which term is defined as 'the set of characteristics that underlies a relatively stable pattern of behaviour in response to ideas, objects, or people'?",
+          "options": ["Self-concept", "Personality", "Self-awareness", "Situational strength"],
+          "answer": 1,
+          "how": ["题干的定义词是「relatively stable pattern of behaviour」。", "这是课件对 Personality 的定义，所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "A personality score describes a person's average tendency across many situations, not what they will certainly do in one specific situation.",
+          "a": true,
+          "how": ["课件原话：人格分数反映的是一个人在许多情境中的平均行为倾向，而不是某一个具体情境中的必然表现。", "题目一致，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee who is usually calm snaps at a colleague once during a crisis. What can a manager reasonably conclude?",
+          "options": ["Her personality has changed", "She has low emotional stability", "One behaviour does not define personality; the situation may explain it, so more observations are needed", "Personality tests are useless"],
+          "answer": 2,
+          "how": ["题干的线索是「usually calm」加上「once during a crisis」。", "一次行为不能准确反映人格，而且有明显的情境压力，所以选 C。", "B 最容易选错：用单次事件推断稳定特质，正是课件警告的错误。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which pairing of concept and core question is correct?",
+          "options": ["Self-concept: how do I usually respond to the world?", "Personality: what do I believe I am like?", "Self-awareness: am I aware of my own internal characteristics and behaviour patterns?", "Personality: am I aware of my emotions?"],
+          "answer": 2,
+          "how": ["三个核心问题：Self-concept 是我相信自己是谁，Self-awareness 是我是否意识到自己的特点，Personality 是我的稳定回应模式。", "只有 C 对得上，所以选 C。A 和 B 把 self-concept 和 personality 的问题互换了。"]
+        },
+        {
+          "type": "tf",
+          "q": "Lecture 3 concludes that personality matters, but it is neither destiny nor a complete explanation of behaviour.",
+          "a": true,
+          "how": ["这是本讲核心句：人格很重要，但既不是命运（destiny），也不能完整解释行为。", "人格能预测部分结果但预测力有限，行为还受情境强弱影响，所以是 True。", "「相对稳定」不等于「永远一样」，人格也会发展，这就是「不是命运」的意思。"]
+        }
+      ],
+      "recap": "人格是相对稳定的回应模式，是多情境的平均倾向。一次行为推不出人格，也预测不了下一次。"
+    },
+    {
+      "id": "w03-p06",
+      "title": "大五人格：五个维度",
+      "titleEn": "Big Five dimensions",
+      "kp": "五个维度：尽责性 C（有计划、自律）、外向性 E（社交、健谈）、宜人性 A（合作、信任）、情绪稳定性 ES（平静、低焦虑）、开放性 O（好奇、爱新想法）。情绪稳定高就是 Neuroticism 低。",
+      "howTo": "有计划、守时选 Conscientiousness；健谈活跃选 Extraversion；体谅合作选 Agreeableness；冷静不焦虑选 Emotional Stability；好奇求新选 Openness。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An employee always meets deadlines, plans her week in advance and keeps detailed checklists. On which Big Five trait is she likely to score high?",
+          "options": ["Extraversion", "Conscientiousness", "Openness to experience", "Agreeableness"],
+          "answer": 1,
+          "how": ["题干的线索是「meets deadlines」「plans in advance」「checklists」。", "负责、自律、有计划、目标导向，这是 Conscientiousness，所以选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A designer is curious about everything, loves trying unfamiliar methods and is quick to adopt new ideas. Which trait does this describe?",
+          "options": ["Conscientiousness", "Agreeableness", "Openness to experience", "Emotional stability"],
+          "answer": 2,
+          "how": ["题干的线索是「curious」「unfamiliar methods」「new ideas」。", "好奇、想象力强、愿意接受新想法，这是 Openness to Experience，所以选 C。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A colleague is warm, trusting and quick to forgive others, although he is quiet and prefers to work alone. Which trait is he high on?",
+          "options": ["Extraversion", "Agreeableness", "Openness to experience", "Neuroticism"],
+          "answer": 1,
+          "how": ["题干的线索是「warm, trusting, quick to forgive」，这些是友善、信任、宽容。", "这是 Agreeableness，所以选 B。", "注意「quiet and prefers to work alone」说明他外向性不高，宜人性和外向性是两条不同的量尺。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A nurse stays calm during emergencies, rarely worries and recovers quickly from setbacks. How would she score?",
+          "options": ["High neuroticism", "High emotional stability", "Low agreeableness", "Low conscientiousness"],
+          "answer": 1,
+          "how": ["题干的线索是「stays calm」「rarely worries」「recovers quickly」。", "平静、自信、低焦虑是 Emotional Stability 高，所以选 B。", "A 正好相反：Emotional Stability 高就是 Neuroticism 低。"]
+        },
+        {
+          "type": "tf",
+          "q": "A person with high emotional stability will also score high on neuroticism.",
+          "a": false,
+          "how": ["正确的说法是：两者方向相反，情绪稳定性高就是神经质低，它们是同一条线的两端。", "题目说两者同时高，所以是 False。"]
+        }
+      ],
+      "recap": "C 有计划，E 爱社交，A 好合作，ES 不焦虑，O 爱新鲜。情绪稳定高就是神经质低。"
+    },
+    {
+      "id": "w03-p07",
+      "title": "特质是程度，不是类型",
+      "titleEn": "Traits are degrees, not types",
+      "kp": "Big Five 来自 lexical hypothesis（重要差异会在语言里留下词汇）。Traits are degrees, not types：每个人同时位于五条连续量尺上。高分不等于更好，特质的价值取决于岗位、结果、情境和团队。",
+      "howTo": "「他是内向型人」「把人分成几类」是 type 思维，Big Five 是连续程度。「外向性越高表现一定越好」判错，特质价值要看岗位。问 Big Five 怎么来的选 lexical hypothesis。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Where did the Big Five model come from?",
+          "options": ["It was deduced from a single theory of motivation", "From the lexical hypothesis: important differences between people leave words in the language, and researchers found five recurring dimensions among those words", "From clinical interviews with patients", "From the Myers-Briggs Type Indicator"],
+          "answer": 1,
+          "how": ["题干问 Big Five 的来源。", "课件说它来自 lexical hypothesis：足够重要的差异会在语言里发展出词汇，研究者从大量描述人格的词中找出五个反复出现的维度，所以选 B。", "A 正好相反：课件强调 Big Five 不是先由一套理论推导出来的。"]
+        },
+        {
+          "type": "tf",
+          "q": "A low extraversion score means the person has zero extraversion and never engages in social activity.",
+          "a": false,
+          "how": ["正确的说法是：低分只表示相比别人或自己的其他特质，他通常更少表现出外向行为，不是 0%，也不是永远不社交。", "题目把连续量尺上的低分说成绝对的零，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A recruiter says: 'We should always hire the most extraverted candidate, because a higher score is always better.' What is the problem with this reasoning?",
+          "options": ["Extraversion cannot be measured", "A high score is not automatically better; the value of a trait depends on the job's requirements, the outcome, the situation and the team", "Extraversion is the only trait that predicts performance", "Introverts should never be hired"],
+          "answer": 1,
+          "how": ["题干的线索是「always」和「a higher score is always better」。", "课件说高分不等于更好，某项特质的价值取决于岗位要求、具体结果、情境和团队组成，所以选 B。", "高外向性可能帮助销售和领导影响，但不能保证所有工作都表现更好。"]
+        },
+        {
+          "type": "mcq",
+          "q": "What does 'traits are degrees, not types' mean?",
+          "options": ["Everyone belongs to one of five personality types", "Each person sits somewhere on all five continuous dimensions at the same time, rather than being placed in a single box", "Only extreme scores are meaningful", "Personality can only be measured with ten items"],
+          "answer": 1,
+          "how": ["题干要解释「degrees, not types」。", "每个人同时位于五条连续量尺上，而不是被塞进某一个人格箱子，所以选 B。", "A 是 type 思维，正是这句话要反对的。"]
+        },
+        {
+          "type": "tf",
+          "q": "The ten-item personality inventory used in class is suitable for high-stakes hiring decisions.",
+          "a": false,
+          "how": ["正确的说法是：十题短量表适合课堂快速体验，课件明确指出它不适合用于高风险招聘决定。", "题目说它适合高风险决定，所以是 False。"]
+        }
+      ],
+      "recap": "Big Five 来自词汇假设，是五条连续量尺，不是五个箱子。高分不等于更好，要看岗位。"
+    },
+    {
+      "id": "w03-p08",
+      "title": "HEXACO 六因素模型",
+      "titleEn": "HEXACO",
+      "kp": "HEXACO 六维度：H（Honesty–Humility）、E（Emotionality）、X（外向）、A（宜人）、C（尽责）、O（开放）。不是「Big Five 加一」，而是重构：A 改为强调平和耐心，E 强调情感性与焦虑。",
+      "howTo": "关心「盗窃、欺诈、利用他人」时选 HEXACO 的 Honesty–Humility，Big Five 没有专门的诚信因素。「HEXACO 就是 Big Five 加一」判错。选工具优先连续分数，精度要匹配决定的重要性。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which dimension is part of the HEXACO model but has no dedicated counterpart in the Big Five?",
+          "options": ["Conscientiousness", "Honesty-Humility", "Openness to experience", "Extraversion"],
+          "answer": 1,
+          "how": ["题干问 HEXACO 有而 Big Five 没有的维度。", "多出来的是 Honesty–Humility（公平与谦逊，对比虚荣、欺骗和利用他人），所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "HEXACO is simply the Big Five plus an extra Honesty-Humility factor, with the other five dimensions unchanged.",
+          "a": false,
+          "how": ["正确的说法是：HEXACO 是重新构建的六因素模型，Agreeableness 和 Emotionality 都被重新定义了。", "题目说其他五个「unchanged」，所以是 False。课件特别强调这一点。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company is especially concerned about theft, fraud and employees exploiting colleagues. Which model offers a dedicated factor for this concern?",
+          "options": ["The Big Five, through Agreeableness", "HEXACO, through Honesty-Humility", "The Myers-Briggs Type Indicator", "The Job Characteristics Model"],
+          "answer": 1,
+          "how": ["题干的线索是「theft, fraud and exploiting colleagues」。", "课件说关注这类问题时，Big Five 没有专门的诚信因素，而 HEXACO 有 Honesty–Humility，所以选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In HEXACO, what does the redefined Agreeableness dimension mainly concern?",
+          "options": ["Sociability and energy", "Patience and even temper versus anger and hostility", "Curiosity and imagination", "Order and self-discipline"],
+          "answer": 1,
+          "how": ["题干问的是 HEXACO 里被「redefined」的 Agreeableness。", "课件说它主要关注平和与耐心，对比易怒与敌意，所以选 B。"]
+        }
+      ],
+      "recap": "HEXACO 是重构的六因素模型，含 Honesty–Humility，不是 Big Five 加一。担心欺诈用它。"
+    },
+    {
+      "id": "w03-p09",
+      "title": "人格与绩效：相关不是必然",
+      "titleEn": "Personality and job performance",
+      "kp": "Hurtz & Donovan 元分析（26 项研究、45 个相关）：尽责性与总体绩效 r 为 .22，情绪稳定性 .14，显著但较弱；宜人性、外向性、开放性不显著，但可预测特定结果。相关不是必然。",
+      "howTo": "「最能预测总体绩效的特质」选 Conscientiousness。相关 .22 是人群趋势，不是个人预言。「不显著所以没用」判错，可预测特定结果。Achievement 管努力，Dependability 管出勤守规。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "According to the Hurtz and Donovan meta-analysis, which Big Five trait is the strongest overall predictor of job performance?",
+          "options": ["Extraversion", "Conscientiousness", "Openness to experience", "Agreeableness"],
+          "answer": 1,
+          "how": ["题干问「strongest overall predictor」。", "Conscientiousness 的 r 为 .22，是最稳定的总体预测因素，所以选 B。", "Emotional Stability 排第二（.14），其余三项对总体绩效不显著。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A candidate scores high on conscientiousness. The recruiter says: 'So she will definitely be a top performer.' What is wrong with this conclusion?",
+          "options": ["Nothing; conscientiousness guarantees performance", "A correlation of .22 describes a tendency across many people, not a certainty about one individual", "Conscientiousness does not predict performance at all", "Only extraversion predicts performance"],
+          "answer": 1,
+          "how": ["题干的线索是「definitely」。", ".22 是大量人群中的总体倾向，不是看到一个人的分数就能预览她的未来绩效，所以选 B。", "课件的说法是 Correlation 不等于 Certainty。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Extraversion was not significantly related to overall job performance in the meta-analysis. What does Lecture 3 conclude from this?",
+          "options": ["Extraversion is irrelevant to work", "Extraversion may still predict specific outcomes such as sales performance and leadership influence", "Extraverts should not be hired", "The meta-analysis was wrong"],
+          "answer": 1,
+          "how": ["题干的线索是「not significantly related to overall performance」，问由此能推出什么。", "没有预测总体绩效不等于没有价值，外向性可能预测销售、领导影响力等特定结果，所以选 B。", "正确的问题不是「哪种人格最好」，而是「哪种特质能预测这个岗位真正重视的结果」。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager cares mostly about attendance, reliability and following established procedures. Which facet of conscientiousness is most relevant?",
+          "options": ["Achievement", "Dependability", "Openness", "Emotionality"],
+          "answer": 1,
+          "how": ["题干的线索是「attendance, reliability and following procedures」。", "Dependability 预测出勤、遵守规则、可靠性，所以选 B。", "Achievement 预测的是努力、坚持、完成目标，一个人可能 achievement 高而 dependability 低。"]
+        },
+        {
+          "type": "tf",
+          "q": "In the Hurtz and Donovan meta-analysis, emotional stability showed a significant positive correlation of about .14 with overall job performance.",
+          "a": true,
+          "how": ["课件的结果表：Emotional Stability 与总体绩效 r 为 .14，显著正相关。", "题目数字和方向都对，所以是 True。"]
+        }
+      ],
+      "recap": "尽责性 .22、情绪稳定 .14，弱但显著；其余三项预测特定结果。相关是趋势，不是对个人的预言。"
+    },
+    {
+      "id": "w03-p10",
+      "title": "人格测试的三大问题",
+      "titleEn": "Three problems with personality testing",
+      "kp": "三大问题：类型化工具（MBTI）分类不稳定、虚假二分、预测力弱；申请者可伪装，Conscientiousness 和 Emotional Stability 膨胀最大；法律伦理风险（MMPI 这类临床工具可能被视为医疗检查）。",
+      "howTo": "「重测类型变了」「差两分贴成相反标签」是 MBTI 问题。「求职者尽责性分数高于在职员工」是 faking。「用临床量表筛选员工」是法律伦理风险。人格分数只是 one weak signal。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Two applicants score 49 and 51 on a type-based personality test. One is labelled an introvert and the other an extravert. Which criticism of type-based instruments does this illustrate?",
+          "options": ["Unstable classification", "False dichotomies", "Weak prediction", "Faking"],
+          "answer": 1,
+          "how": ["题干的线索是「49 and 51」被贴成相反标签。", "人格分数是连续分布的，类型工具在中间切一刀，把几乎相同的两个人分成两类，这是 false dichotomies，所以选 B。", "Unstable classification 说的是同一个人几周后重测被分到不同类型，和这里不同。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Research on faking finds that job applicants score higher than current employees on self-report personality tests. On which two traits is the inflation largest?",
+          "options": ["Extraversion and openness", "Conscientiousness and emotional stability", "Agreeableness and extraversion", "Openness and agreeableness"],
+          "answer": 1,
+          "how": ["题干问伪装时「inflation largest」的两个特质。", "课件说膨胀最大的恰好是 Conscientiousness 和 Emotional Stability，所以选 B。", "这两项又恰好是预测总体绩效的两项，所以伪装特别影响选拔。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company decides to screen sales applicants with the MMPI, a clinical personality instrument. What is the main concern raised in Lecture 3?",
+          "options": ["The MMPI is too short to be reliable", "Clinical tools may be treated as a medical examination; organisations must show the assessment relates to the job's inherent requirements and consider anti-discrimination and privacy risks", "Sales staff do not have personalities worth measuring", "The MMPI measures the Big Five too accurately"],
+          "answer": 1,
+          "how": ["题干的线索是「MMPI, a clinical personality instrument」用于筛选员工。", "MMPI 原本用于识别心理病理，用于筛选可能被视为医疗检查，在澳大利亚要证明与岗位 inherent requirements 有关，所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "Warning applicants about faking, using forced-choice formats, reference checks and structured interviews can reduce faking but cannot eliminate it completely.",
+          "a": true,
+          "how": ["课件原文：警告造假、forced-choice、推荐人评价和结构化访谈可以减少失真，但不能彻底消除。", "题目一致，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "How should a manager use personality scores responsibly in selection?",
+          "options": ["As the single cut-off for hiring", "As one weak signal among several, combined with work samples, structured interviews and cognitive ability measures", "Only for rejecting candidates", "Only with clinical instruments"],
+          "answer": 1,
+          "how": ["题干问「responsibly」使用人格分数。", "课件结论：人格分数只是多项证据中的一个较弱信号，要结合工作样本、结构化访谈和认知能力测量，所以选 B。", "A 正是课件反对的「单一录用门槛」。"]
+        }
+      ],
+      "recap": "MBTI 不稳、虚假二分、预测弱；申请者会伪装；临床工具有法律风险。人格只是多个弱信号之一。"
+    },
+    {
+      "id": "w03-p11",
+      "title": "情境强度",
+      "titleEn": "Situational strength",
+      "kp": "Weak situation（规则少）人格更易表达；Strong situation（规则明确、后果清楚）人格表现趋同。四因素：Clarity、Consistency、Constraints、Consequences。",
+      "howTo": "「清单、标准作业程序、后果明确」是强情境，人格被压制但不消失；「没有职位说明、没人定优先级」是弱情境，人格更能预测行为。安全合规岗位应强化情境（培训、标准化），研发设计岗位应弱化情境。强情境岗位做人格选拔价值不大。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Two commercial airline pilots have very different personalities, yet they perform the landing procedure in almost exactly the same way. Why?",
+          "options": ["Pilots have no personality differences", "Checklists, standard operating procedures and audits create a strong situation that suppresses the expression of personality", "Their personalities have merged over time", "Flying is a weak situation"],
+          "answer": 1,
+          "how": ["题干的线索是「very different personalities」却「almost exactly the same way」。", "清单、标准作业程序和结果审计构成强情境，不同人格的人表现趋同，所以选 B。", "这是课件原例。注意是「压制表达」，不是人格消失。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which four factors determine situational strength?",
+          "options": ["Clarity, consistency, constraints and consequences", "Autonomy, competence, relatedness and feedback", "Specific, challenging, accepted and feedback", "Skill variety, task identity, task significance and autonomy"],
+          "answer": 0,
+          "how": ["题干问情境强度的四个因素。", "课件给的是 Clarity、Consistency、Constraints、Consequences，四个 C，所以选 A。", "其余三个选项分别是 SDT、目标设定和 JCM 的内容，都是第二讲的干扰项。"]
+        },
+        {
+          "type": "tf",
+          "q": "In a strong situation, personality disappears completely.",
+          "a": false,
+          "how": ["正确的说法是：强情境压制人格的表达，而不是让人格完全消失。", "题目说「disappears completely」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A hospital wants to reduce errors in medication administration. Based on situational strength theory, what should managers do?",
+          "options": ["Weaken the situation to give nurses more creative freedom", "Select nurses purely on personality", "Strengthen the situation: clear procedures, standards, monitoring and consequences", "Ignore the situation and focus on motivation"],
+          "answer": 2,
+          "how": ["题干的线索是「reduce errors in medication administration」，这是安全相关工作。", "安全、合规、临床工作应强化情境：明确流程、标准、监督与后果，所以选 C。", "B 最容易选错：课件说在强情境岗位中人格选拔增加不了多少信息，更该培训和标准化。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In which role is a personality assessment likely to add the most useful information?",
+          "options": ["A highly standardised compliance-checking role with detailed procedures", "An early-stage start-up founder with no job description, no established processes and no one setting priorities", "An assembly-line role with fixed steps", "A role governed entirely by checklists"],
+          "answer": 1,
+          "how": ["题干问人格评估在哪里「add the most information」，规则是弱情境里人格更能表达。", "没有职位说明、没有流程、没人设定优先级，是典型弱情境，所以选 B。", "其余三个都是规则明确的强情境，人格对行为的影响被压制。"]
+        }
+      ],
+      "recap": "强情境（四个 C 都高）压制人格表达；弱情境人格更能表达。安全岗强化情境，创意岗弱化情境。"
+    },
+    {
+      "id": "w03-p12",
+      "title": "人岗匹配与人组织匹配",
+      "titleEn": "Person-job fit and person-organisation fit",
+      "kp": "Fit 不是单一概念。Person–job fit：能否胜任岗位并从岗位得到所需，与满意度和绩效关系更强。Person–organisation fit：价值观是否与组织相容，与组织承诺和留任意愿关系更强。Fit 不等于「和我们很像」。",
+      "howTo": "技能匹配岗位、能从工作得到想要的，是 person–job fit；价值观与公司一致，是 person–organisation fit。预测离职意愿选 P–O fit，绩效选 P–J fit。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An engineer has exactly the skills her job requires and finds the work gives her the challenge she wants, but she feels her values clash with the company's culture. How would Lecture 3 describe her situation?",
+          "options": ["High person-job fit, low person-organisation fit", "Low person-job fit, high person-organisation fit", "Low on both kinds of fit", "High on both kinds of fit"],
+          "answer": 0,
+          "how": ["题干分两段看：「skills her job requires」和「challenge she wants」说明岗位匹配高。", "「values clash with the company's culture」说明价值观与组织不相容，组织匹配低，所以选 A。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which kind of fit is more strongly related to organisational commitment and the intention to stay?",
+          "options": ["Person-job fit", "Person-organisation fit", "Both equally", "Neither"],
+          "answer": 1,
+          "how": ["题干的线索是「commitment」和「intention to stay」。", "课件说 person–organisation fit 与组织承诺和留下意愿关系更强，所以选 B。", "Person–job fit 对应的是满意度和绩效。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Interviewers at a firm keep hiring people with similar backgrounds, hobbies and ways of speaking because 'they fit in'. What is the problem according to Lecture 3?",
+          "options": ["Nothing; similarity is what fit means", "Fit should be defined before interviewing in terms of values, work approach and expectations about cooperation, not as similarity to current staff", "The firm should hire only people who are completely different", "Fit cannot be assessed at all"],
+          "answer": 1,
+          "how": ["题干的线索是「similar backgrounds, hobbies and ways of speaking」被当成 fit。", "「这个人看起来和我们很像」不是 fit；应在面试前把 fit 写成价值观、工作方式和对合作的期待，所以选 B。", "课件的比喻是：五个人全选同一个职业，一进复杂副本就没有职能多样性。"]
+        },
+        {
+          "type": "tf",
+          "q": "Person-job fit is more strongly related to job satisfaction and performance than person-organisation fit is.",
+          "a": true,
+          "how": ["课件的对比：P–J fit 与满意度和绩效关系更强，P–O fit 与组织承诺和留任意愿关系更强。", "题目说的是前半句，所以是 True。"]
+        }
+      ],
+      "recap": "人岗匹配 → 满意度、绩效；人组织匹配 → 承诺、留任。Fit 是价值观和工作方式，不是「像我们」。"
+    },
+    {
+      "id": "w03-p13",
+      "title": "控制点与权威主义",
+      "titleEn": "Locus of control and authoritarianism",
+      "kp": "控制点：Internal 认为结果来自自己的努力和能力，External 认为来自运气、环境、他人；两者都不是永远更好。Authoritarianism：认为组织应有明显的权力与地位差异。",
+      "howTo": "「因为运气差」是 external，「取决于我」是 internal。Externals 要明确目标、频繁反馈；internals 给 autonomy。「自上而下、无条件服从」是高权威主义。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "After a failed project, Tom says 'the market turned against us and the client was impossible', while Ana says 'I should have planned the timeline better'. How would Lecture 3 describe them?",
+          "options": ["Tom has an internal locus of control; Ana has an external one", "Tom has an external locus of control; Ana has an internal one", "Both have an internal locus of control", "Both have an external locus of control"],
+          "answer": 1,
+          "how": ["看两人把失败归到哪里：Tom 归到「market」和「client」，都是外部力量；Ana 归到「I should have planned」，是自己的行动。", "Tom 是 external，Ana 是 internal，所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "An internal locus of control is always better than an external one in every job.",
+          "a": false,
+          "how": ["正确的说法是：两种 profile 都不是在所有情况下更好。Internal 主动但可能抗拒指导；external 在结构明确的岗位里更愿意守规则。", "题目用了「always」和「every job」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager wants to get the best from a team member with a high external locus of control. Which approach does Lecture 3 suggest?",
+          "options": ["Give him full autonomy and leave him alone", "Set clear goals, give frequent feedback and make consequences clear", "Avoid giving any instructions", "Criticise him for blaming circumstances"],
+          "answer": 1,
+          "how": ["题干的线索是「high external locus of control」。", "课件对 externals 的管理方式是明确目标、频繁反馈、清楚后果，所以选 B。", "A 是对 internals 的做法：给 autonomy、ownership 和责任。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager believes decisions should flow strictly top-down, controls information tightly and expects subordinates to obey without question. Which trait does this reflect?",
+          "options": ["High Machiavellianism", "High authoritarianism", "External locus of control", "High openness to experience"],
+          "answer": 1,
+          "how": ["题干的线索是「top-down」「controls information」「obey without question」。", "认为组织中应有明显的权力与地位差异，就是 Authoritarianism，所以选 B。", "Machiavellianism 是为私利操纵他人，这里强调的是权力差异和服从，不是操纵。"]
+        },
+        {
+          "type": "mcq",
+          "q": "What is a possible downside of a strong internal locus of control?",
+          "options": ["Low initiative", "Reluctance to accept guidance and a tendency to blame oneself for every failure", "Being too easily influenced by others", "Avoiding responsibility"],
+          "answer": 1,
+          "how": ["题干问的是 internal 的「downside」。", "课件说内部控制点高的人虽然主动，却可能不愿接受指导、过度认为所有失败都是自己的责任，所以选 B。", "A、C、D 说的都是 external 可能的缺点。"]
+        }
+      ],
+      "recap": "内部：结果靠我；外部：结果靠运气环境。各有利弊。权威主义是相信组织该有明显权力差异。"
+    },
+    {
+      "id": "w03-p14",
+      "title": "马基雅维利主义与黑暗三联征",
+      "titleEn": "Machiavellianism and the Dark Triad",
+      "kp": "马基雅维利主义：为权力和私利操纵他人。Dark Triad：Machiavellianism、Narcissism（自大）、Psychopathy（缺同理心），都与 CWB 正相关，Psychopathy 最强，与正常绩效关系接近零。",
+      "howTo": "「操纵同事、撒谎谋私利」是 Machiavellianism；「要赞美和地位」是 Narcissism；「缺乏悔意」是 Psychopathy。应对：透明规则、记录决策，改机制不改人，测行为不测人格。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An employee strategically flatters senior staff, withholds useful information from rivals and lies when it helps him win a promotion. Which trait does this best illustrate?",
+          "options": ["Authoritarianism", "Machiavellianism", "Internal locus of control", "Conscientiousness"],
+          "answer": 1,
+          "how": ["「flatters」「withholds information」「lies when it helps」都是为私利操纵他人。", "将行为导向获取权力并操纵他人获利，就是 Machiavellianism，所以选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which three traits make up the Dark Triad?",
+          "options": ["Machiavellianism, narcissism and psychopathy", "Machiavellianism, authoritarianism and neuroticism", "Narcissism, external locus of control and low agreeableness", "Psychopathy, authoritarianism and low honesty-humility"],
+          "answer": 0,
+          "how": ["题干问 Dark Triad 的三项。", "课件给的是 Machiavellianism、Narcissism、Psychopathy，所以选 A。", "Authoritarianism 是课件单独讨论的特质，不属于黑暗三联征。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to the meta-analysis cited in Lecture 3, which Dark Triad trait has the strongest link with counterproductive work behaviour?",
+          "options": ["Machiavellianism", "Narcissism", "Psychopathy", "All three are equal"],
+          "answer": 2,
+          "how": ["题干问与「counterproductive work behaviour」关系「strongest」的那一项。", "三者都与 CWB 正相关，其中 Psychopathy 的关系最强，所以选 C。"]
+        },
+        {
+          "type": "tf",
+          "q": "Dark Triad traits are strongly and negatively related to normal job performance.",
+          "a": false,
+          "how": ["正确的说法是：它们与正常 job performance 的关系很弱、接近于零；主要损害出现在如何对待同事，不一定立即表现为产出下降。", "题目说「strongly and negatively」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager suspects that a team member is manipulative and takes credit for others' work. According to Lecture 3, what is the best response?",
+          "options": ["Diagnose him and label him a dangerous personality", "Use transparent decision rules, document who decided what, allocate credit fairly, and manage the counterproductive behaviour directly", "Dismiss him immediately on the basis of a personality test", "Give him more unstructured autonomy so he can prove himself"],
+          "answer": 1,
+          "how": ["题干的线索是「suspects」和「takes credit for others' work」。", "课件原则是 Adjust the mechanism, not the person：透明规则、记录决策、公平分 credit、直接管理 CWB，所以选 B。", "A 和 C 都是给人格贴标签；课件说人格难证明，但抢功、隐瞒信息是可观察、可记录、可处理的行为。"]
+        }
+      ],
+      "recap": "黑暗三联征 → CWB 正相关（精神病态最强），与绩效近零。对策：改机制不改人，测行为不测人格。"
+    }
+  ]
+}

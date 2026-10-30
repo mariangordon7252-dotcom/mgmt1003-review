@@ -1,0 +1,557 @@
+{
+  "week": 10,
+  "points": [
+    {
+      "id": "w10-p01",
+      "title": "领导力是一种人际影响过程",
+      "titleEn": "Leadership as interpersonal influence",
+      "kp": "领导力是通过人与人之间的影响，激励他人投入努力去实现体现领导者或组织价值的目标。四个要素是 interpersonal process、influence、motivation、goals and values。",
+      "howTo": "题干问领导力是什么或缺了哪个要素时，对照四要素：是人与人之间的过程、靠影响而非命令、要激励投入、目标体现价值。只提职位、命令或短期结果的说法都不完整。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "In the course definition, leadership is an interpersonal process of influence that motivates others to put in effort toward goals reflecting the values of the leader or the organisation.",
+          "a": true,
+          "how": ["这句话把人际过程、影响、激励、目标与价值四个要素都说到了。", "和课程定义完全一致，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which statement best matches the course definition of leadership?",
+          "options": ["A formal position that grants the right to assign tasks and resources", "An interpersonal process of influence that motivates others toward goals reflecting the leader's or organisation's values", "A set of stable personality traits that make some people natural leaders", "A system of rewards and penalties that ensures compliance"],
+          "answer": 1,
+          "how": ["题干问「course definition of leadership」，要找同时含人际过程、影响、激励、目标与价值的选项。", "只有 B 把四个要素都说全了，所以选 B。", "A 说的是正式职位的权利，那是 formal authority，不是领导力本身。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of the four elements of leadership in the course definition?",
+          "options": ["Interpersonal process", "Influence", "Formal authority", "Goals and values"],
+          "answer": 2,
+          "how": ["题干要找「NOT one of the four elements」。", "四要素是人际过程、影响、激励、目标与价值，formal authority 不在其中，选 C。","职位权威可以带来服从，但领导力定义里靠的是影响和激励，不是头衔。"]
+        },
+        {
+          "type": "tf",
+          "q": "In a leadership process followers can only accept the leader's direction; if they question or resist it, leadership has not occurred.",
+          "a": false,
+          "how": ["讲义说跟随者可以接受、质疑或抵制方向，领导过程也要负责任地对待人。", "题目把「可以质疑或抵制」说成「领导没有发生」，所以是 False。"]
+        }
+      ],
+      "recap": "领导力就是用人际影响去激励别人实现体现价值的目标；四要素缺一不可，头衔不在其中。"
+    },
+    {
+      "id": "w10-p02",
+      "title": "正式职权与领导影响要分开看",
+      "titleEn": "Formal authority and leadership influence",
+      "kp": "正式职位（formal authority）授予分配任务和资源的权利；实际的领导影响让方向有意义、让人愿意投入，可以来自没有头衔的人。管理与领导可以重叠在同一个人身上。",
+      "howTo": "看题干里这个人靠什么起作用：靠职位派任务、批资源，是 formal authority；靠经验、解释和信任让大家跟着走，是 leadership influence。说没头衔就不能领导、或管理和领导互不相干的，都错。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Only people who hold a formal managerial position can provide leadership in a team.",
+          "a": false,
+          "how": ["没有头衔的人也能提供领导，比如资深同事靠经验帮大家理解新系统。", "题目用「Only」把领导限定在有职位的人身上，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "During a software migration, the project manager formally assigns the tasks, while a senior developer with no management title is the person colleagues turn to in order to understand and use the new system. Who is exercising leadership influence?",
+          "options": ["Only the project manager, because he holds the position", "The senior developer, whose influence comes from experience and trust rather than a title", "Neither, because leadership requires both a title and influence", "Only the project manager, because assigning tasks is leadership"],
+          "answer": 1,
+          "how": ["题干说同事们「turn to」资深开发者去理解新系统，这是实际的影响。", "实际领导影响可以来自没有头衔的人，所以选 B。", "项目经理「formally assigns the tasks」用的是职位权利，这是 formal authority，不等于领导影响。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A department head manages the budget and schedule, and also spends time explaining to staff why the new strategy matters so that they commit to it. Which statement is correct?",
+          "options": ["She is a manager, so she cannot also be a leader", "Managing and leading can overlap in the same person's work", "Explaining the strategy is management, not leadership", "Managing the budget is leadership influence"],
+          "answer": 1,
+          "how": ["题干里同一个人既「manages the budget」又「explaining… why the new strategy matters」。", "管理预算是职位工作，解释意义让人投入是领导影响，两者可以出现在同一人身上，选 B。", "A 把管理和领导划成互不相干的角色，正是讲义指出的误区。"]
+        },
+        {
+          "type": "tf",
+          "q": "Compliance with an instruction may come from position authority, but trust and commitment still depend on actual interaction.",
+          "a": true,
+          "how": ["服从指令可能只是因为职位权威；信任和投入要靠实际互动建立。", "题目正好区分了这两件事，所以是 True。"]
+        }
+      ],
+      "recap": "头衔给的是派任务、批资源的权利；让人愿意跟着走的才是领导影响，没头衔也能有。"
+    },
+    {
+      "id": "w10-p03",
+      "title": "领导涌现与领导有效性",
+      "titleEn": "Leader emergence and leader effectiveness",
+      "kp": "Leader emergence 问的是谁被认可或选为领导；leader effectiveness 问的是此人实际带得怎样，要看任务成果、成员发展、公平待遇和长期后果（信任、合作、伦理）。",
+      "howTo": "题干在问「谁被选上、谁被当成领导」就是 emergence；在问「带出了什么结果」就是 effectiveness。自信、可见度、魅力只帮助涌现；说它们保证有效，或只看一时绩效就下结论，都错。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Leader emergence concerns whether a person is recognised or selected as a leader, while leader effectiveness concerns how well that person actually leads.",
+          "a": true,
+          "how": ["涌现问的是谁被认可或选为领导，有效性问的是实际带领的效果。", "题目把两者区分得正确，是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In a student group, the member who speaks first and most confidently is quickly accepted as the group leader. What has the group observed so far?",
+          "options": ["Leader effectiveness", "Leader emergence", "Initiating structure", "Level 5 leadership"],
+          "answer": 1,
+          "how": ["题干只说他「quickly accepted as the group leader」，也就是被认可为领导。", "谁被认可或选为领导，是 leader emergence，选 B。", "能否公平分工、完成分析，还没有任何证据，所以谈不上 effectiveness。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which set of evidence is appropriate for judging leader effectiveness?",
+          "options": ["Who was most visible and took charge first", "Task results, member development, fair treatment and long-term consequences such as trust", "How confident and charismatic the leader appeared", "Whether team members like the leader this week"],
+          "answer": 1,
+          "how": ["题干问「leader effectiveness」需要什么证据。", "有效性要同时看成果、成员发展、公平和长期后果，选 B。", "可见度、自信和被喜欢程度要么属于涌现，要么只是一时感受，都不充分。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because confidence and visibility help a person emerge as a leader, they also guarantee that the person will lead effectively.",
+          "a": false,
+          "how": ["自信和可见度帮助涌现，但有效性要看另外的证据。", "题目用「guarantee」把涌现的助力说成有效的保证，所以是 False。"]
+        }
+      ],
+      "recap": "被选上 → emergence；带得好 → effectiveness。自信和可见度只帮前者。"
+    },
+    {
+      "id": "w10-p04",
+      "title": "特质取向与 Big Five",
+      "titleEn": "Trait approach and the Big Five",
+      "kp": "特质取向研究较稳定的个人特点与领导的关联。Judge 等（2002）的 Big Five 元分析：外向性正向关联最强，尽责性和开放性正向，宜人性较弱，神经质负向。特质较稳定，行为与技能可学。",
+      "howTo": "问哪个 Big Five 维度与领导关联最强，答外向性；问负向的，答神经质；问较弱的，答宜人性。问天生还是后天，答两者都有：特质稳定、行为可学，不选纯天生或纯后天。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "According to the Judge et al. (2002) meta-analysis presented in class, which Big Five trait showed the strongest positive relationship with leadership?",
+          "options": ["Agreeableness", "Conscientiousness", "Extraversion", "Neuroticism"],
+          "answer": 2,
+          "how": ["题干问「strongest positive relationship」。", "课件概括：外向性关联最强，所以选 Extraversion。", "尽责性也是正向但不是最强；神经质是负向关联。"]
+        },
+        {
+          "type": "tf",
+          "q": "In the Judge et al. (2002) findings presented in class, higher neuroticism scores were negatively related to leadership.",
+          "a": true,
+          "how": ["神经质越高，与领导的关联越是负向的。", "题目说的方向正确，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager says: 'Leaders are simply born. Our quiet new supervisor will never be able to lead.' Which response best reflects the lecture?",
+          "options": ["Agree: personality fixes leadership ability", "Traits are relatively stable, but behaviours and skills can be learned, and quiet leaders can still be effective", "Disagree: personality has no relationship with leadership at all", "Agree, because extraversion guarantees effectiveness"],
+          "answer": 1,
+          "how": ["题干的关键词是「simply born」和「never」，把领导说成纯天生。", "讲义的立场是特质较稳定、行为和技能可学，安静的领导者也可能有效，选 B。", "C 走到另一个极端，否认特质有任何关联，也不符合 Judge 等人的发现。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An extraverted candidate is more easily noticed in meetings. What does this tell the selection panel about her leadership?",
+          "options": ["She will certainly be an effective leader", "Extraversion is linked more to being noticed and emerging; effectiveness still needs evidence of behaviour and results", "Extraversion is negatively related to leadership", "Personality scores alone should decide the appointment"],
+          "answer": 1,
+          "how": ["题干说她「more easily noticed」，这是涌现层面的优势。", "外向性是平均倾向，不是个人保证，有效性还要看实际行为和结果，选 B。", "D 用人格分数单独决定任用，正是特质取向不该有的用法。"]
+        }
+      ],
+      "recap": "Big Five 与领导：外向最强，尽责和开放正向，宜人较弱，神经质负向；特质稳定，行为可学。"
+    },
+    {
+      "id": "w10-p05",
+      "title": "特质取向的局限",
+      "titleEn": "Limits of the trait approach",
+      "kp": "特质取向有四个局限：不直接解释行为、与涌现和有效性的关系不同、不能诊断情境、容易被误读为领导无法培养。而且研究给出的是相关，不是因果。",
+      "howTo": "题干只给领导者的人格描述就要你判断他会怎么做、团队问题出在哪，或说「特质相关所以特质决定」，就是在考这个局限：知道倾向不等于知道行为，相关不是因果，团队困难也可能来自资源或培训。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Knowing that a leader is highly conscientious is enough to predict how she will handle a specific team problem.",
+          "a": false,
+          "how": ["特质只是倾向，不直接解释具体行为，也不能诊断团队问题的原因。", "题目说「enough to predict」，把特质当成行为的充分预测，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team led by an extraverted, conscientious manager keeps missing deadlines. A consultant concludes that the manager's traits must be the problem. What has the consultant overlooked?",
+          "options": ["That extraversion is negatively related to leadership", "That team difficulties may stem from priorities, resources or training, which traits do not diagnose", "That the manager should switch to a high LPC orientation", "That conscientiousness cannot be measured"],
+          "answer": 1,
+          "how": ["题干里顾问只凭「traits」就断定问题来源。", "特质取向不能诊断情境，团队困难也可能来自优先级、资源或培训，选 B。", "C 把 Fiedler 的 LPC 扯进来，而且 LPC 是稳定取向，不是可以随意切换的。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of the limits of the trait approach discussed in the lecture?",
+          "options": ["It does not directly explain behaviour", "Its relationships with emergence and effectiveness differ", "It shows that leadership cannot be trained", "It does not fully diagnose the situation"],
+          "answer": 2,
+          "how": ["题干要找「NOT」一个局限。讲义列的是：不直接解释行为、涌现和有效性关系不同、不诊断情境、易被误读为无法培养。", "C 把「容易被误读为无法培养」说成「证明了无法培养」，这本身就是误读，所以选 C。"]
+        },
+        {
+          "type": "tf",
+          "q": "A correlation between a trait and leadership found in a meta-analysis proves that the trait causes people to become effective leaders.",
+          "a": false,
+          "how": ["元分析给出的是平均相关，相关不是因果，也不是对每个人的固定预测。", "题目用「proves」和「causes」，所以是 False。"]
+        }
+      ],
+      "recap": "特质只给倾向：不解释行为、不诊断情境、相关不是因果，更不能说领导无法培养。"
+    },
+    {
+      "id": "w10-p06",
+      "title": "行为取向：关怀与任务结构",
+      "titleEn": "Behavioural approach: consideration and initiating structure",
+      "kp": "行为取向关注可观察、可练习的行为。Consideration 是关系行为（倾听、尊重、认可），initiating structure 是任务行为（明确职责、标准、检查方式），两者是独立维度，可同时高或同时低。",
+      "howTo": "看领导在做什么：倾听、问困难、认可贡献是 consideration；分工、定标准、查进度是 initiating structure，两者独立，不是一条尺度的两端。研究关联：关怀对应满意度和动机，任务结构对应绩效稍强。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A supervisor sets out who is responsible for each part of a report, the quality standard expected and when progress will be checked. This behaviour is:",
+          "options": ["Consideration", "Initiating structure", "Contingent reward", "Participating (S3)"],
+          "answer": 1,
+          "how": ["「who is responsible」「quality standard」「when progress will be checked」都在把任务组织清楚。","明确职责、标准和检查方式，就是 initiating structure，选 B。", "Contingent reward 要把达标和回报挂钩，题干没提回报。"]
+        },
+        {
+          "type": "mcq",
+          "q": "When a team member submits late for the third time, the leader first asks what difficulties he is facing, agrees what support he needs, and then confirms his responsibility for the next deadline. The first two actions mainly show:",
+          "options": ["Initiating structure", "Consideration", "Passive management by exception", "Telling (S1)"],
+          "answer": 1,
+          "how": ["「asks what difficulties」「agrees what support」是倾听和重视成员的经历。", "通过倾听和支持建立信任，是 consideration，选 B。", "第三步「confirms his responsibility」说明关怀不等于取消标准，两类行为可以同时出现。"]
+        },
+        {
+          "type": "tf",
+          "q": "Consideration and initiating structure are opposite ends of one continuum, so a leader who increases task clarity must show less concern for people.",
+          "a": false,
+          "how": ["两者是独立的两个维度，可以同时高，也可以同时低。", "题目说是「opposite ends of one continuum」，把两个维度压成一条线，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to Judge, Piccolo and Ilies (2004), which outcome was more strongly related to consideration than to initiating structure?",
+          "options": ["Leader job performance", "Team and organisational performance", "Follower satisfaction and motivation", "Situational favourability"],
+          "answer": 2,
+          "how": ["题干问「more strongly related to consideration」。", "关怀与满意度、动机和感知有效性的联系更强，选 C。", "领导工作绩效和团队绩效与任务结构的联系稍强，是另一边。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because these behaviour–outcome links are averages across studies, a leader should still choose behaviours according to the team's needs and check the actual results.",
+          "a": true,
+          "how": ["研究给的是跨研究的平均相关，不是某行为必然带来某结果。", "所以要按团队需要选行为并复查效果，题目说法正确，是 True。"]
+        }
+      ],
+      "recap": "关怀 → 满意度和动机；任务结构 → 绩效稍强。两者独立，可以同时高。"
+    },
+    {
+      "id": "w10-p07",
+      "title": "准备度：针对具体任务看能力与意愿",
+      "titleEn": "Task-specific follower readiness",
+      "kp": "Hersey–Blanchard 的 readiness 针对具体任务：ability 是相关知识和技能，willingness 是动机和信心，同一人在不同任务上准备度可不同。模型处方只是待验证的假设。",
+      "howTo": "先问这个任务他会不会做（ability），再问愿不愿意、有没有信心（willingness），两项分开判断。别用资历、职称或另一项任务的表现代替；模型处方只是待验证的假设，不是唯一规定。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "In the Hersey–Blanchard model, follower readiness combines ability (relevant knowledge and skill) and willingness (motivation and confidence) for a specific task.",
+          "a": true,
+          "how": ["准备度就是针对具体任务的能力加意愿，能力含知识和技能，意愿含动机和信心。", "题目定义正确，是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee produces routine financial reports skilfully and confidently, but has never used the new presentation platform and feels unsure about it. How should her readiness be judged?",
+          "options": ["She is R4 for all tasks because she is experienced", "Her readiness for the new platform must be diagnosed separately, since readiness is task-specific", "She is R1 for all tasks because she feels unsure", "Her age and job title determine her readiness"],
+          "answer": 1,
+          "how": ["同一个人在「routine financial reports」上熟练自信，在「new presentation platform」上却不会也没把握。", "准备度针对具体任务，换任务要重新判断，选 B。", "A 用一项任务的表现推另一项，正是讲义点名的错误。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which pair correctly matches the two components of readiness?",
+          "options": ["Ability: motivation and confidence; Willingness: knowledge and skill", "Ability: knowledge and skill; Willingness: motivation and confidence", "Ability: age and seniority; Willingness: personality", "Ability: position power; Willingness: task structure"],
+          "answer": 1,
+          "how": ["题干问 readiness 的两个成分怎么对应。", "ability 是相关知识和技能，willingness 是动机和信心，选 B。", "D 里的 position power 和 task structure 是 Fiedler 的情境因素，不是准备度。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Thompson and Vecchio (2009) tested three versions of situational leadership theory. What did they find, and what does it imply?",
+          "options": ["Strong support; every readiness level must receive its prescribed style", "Limited support, with the revised version predicting less well than the original; prescriptions are hypotheses to check", "No support; the model should be abandoned", "Support only for the Delegating style"],
+          "answer": 1,
+          "how": ["题干问 Thompson 与 Vecchio 的发现。", "结果是有限支持，修订版预测不如原版，所以处方只能当待验证的假设，选 B。", "有限支持不等于没有支持，C 走过头了；A 把处方当成了唯一规定。"]
+        }
+      ],
+      "recap": "准备度针对具体任务：会不会（ability）和愿不愿（willingness）分开问；处方只是假设。"
+    },
+    {
+      "id": "w10-p08",
+      "title": "R1 到 R4 与四种风格的匹配",
+      "titleEn": "Matching readiness R1–R4 to styles S1–S4",
+      "kp": "四种匹配：R1 不会也不愿配 S1 Telling，R2 不会但愿意配 S2 Selling，R3 会做但犹豫配 S3 Participating，R4 会且愿意配 S4 Delegating。指导随能力提高而降低，支持在中间两档最高。",
+      "howTo": "先判能力：不会做就高指导（S1 或 S2），会做就低指导（S3 或 S4）；再判意愿：不会但愿意是 R2，会做但犹豫是 R3。Delegating 仍要约定成果、期限、决策权限和汇报节点，不是撒手不管。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A new employee has never used the reporting system and is unsure where to begin. Which style does the model recommend?",
+          "options": ["Telling (S1): clear instructions, demonstrate the first steps, check frequently", "Selling (S2): explain reasons and build understanding", "Participating (S3): discuss concerns and involve her in planning", "Delegating (S4): agree outcomes and let her choose the method"],
+          "answer": 0,
+          "how": ["「never used」说明不会做，「unsure where to begin」说明信心不足，这是 R1。", "R1 对应 S1 Telling：高指导、较低支持，选 A。", "较低支持不等于粗暴，仍要尊重并给提问机会。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An enthusiastic intern wants to do well on his first client report but does not know how to structure it. Which readiness level and style apply?",
+          "options": ["R1, Telling", "R2, Selling", "R3, Participating", "R4, Delegating"],
+          "answer": 1,
+          "how": ["「enthusiastic」「wants to do well」是意愿高，「does not know how」是能力低，这是 R2。", "R2 对应 S2 Selling：高指导加高支持，解释做法并认可进步，选 B。", "别因为他热情就选 Delegating，热情不能替代技能。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An experienced nurse knows the handover procedure thoroughly, but after an error was publicly criticised she has lost confidence and now avoids leading handovers. What should her manager mainly do?",
+          "options": ["Re-teach the basic steps with frequent checks", "Reduce detailed direction, discuss her concerns and involve her in planning", "Hand over the task and stop contact", "Give high direction and explain the reason for each step"],
+          "answer": 1,
+          "how": ["「knows… thoroughly」是能力高，「lost confidence」「avoids leading」是意愿或信心低，这是 R3。", "R3 对应 S3 Participating：降低细节指导、增加支持，讨论顾虑，选 B。", "A 重教基础步骤解决不了她真正的顾虑，那是给 R1 的做法。"]
+        },
+        {
+          "type": "tf",
+          "q": "An R3 follower is one who cannot yet do the task but is keen and confident.",
+          "a": false,
+          "how": ["不会做但愿意的是 R2；R3 正相反，是会做但不愿或没信心。", "题目把 R2 的描述贴到 R3 上，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager delegates a task to an analyst who has completed similar work successfully several times. Which action is part of proper Delegating (S4)?",
+          "options": ["Withdrawing entirely so the analyst can act without limits", "Agreeing the expected outcome, deadline and limits of decision authority, then letting him choose the method", "Demonstrating each step and checking daily", "Providing high relationship support and low direction"],
+          "answer": 1,
+          "how": ["题干说分析师「completed similar work successfully several times」，是 R4，适合 S4。", "授权要先约定成果、期限和决策权限，再让他选方法并约定汇报节点，选 B。", "A 的完全撤出不是授权；D 是 S3 Participating 的组合。"]
+        }
+      ],
+      "recap": "不会就高指导，会做就低指导；R2 不会但愿意，R3 会做但犹豫；授权仍要约定成果和权限。"
+    },
+    {
+      "id": "w10-p09",
+      "title": "Fiedler 的 LPC 量表",
+      "titleEn": "Fiedler's LPC scale",
+      "kp": "Fiedler 用 LPC（least preferred coworker）量表让领导评价自己最不愿共事的同事：评价较负面是低 LPC，任务导向；评价较正面是高 LPC，关系导向。LPC 测的是相对稳定的动机取向。",
+      "howTo": "题干说领导对「最难合作的同事」评价偏负面，判低 LPC、任务导向；评价偏正面，判高 LPC、关系导向。LPC 不反映他现在和团队关系好坏，也不是可以随时切换的风格。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "On Fiedler's LPC scale, a leader describes the coworker they worked with least well; relatively unfavourable ratings indicate a task-motivated orientation.",
+          "a": true,
+          "how": ["LPC 量表评价的是最不愿共事的同事，评价偏负面就是低 LPC。", "低 LPC 对应任务导向，题目说法正确，是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A leader rates the colleague she found hardest to work with in fairly positive terms. In Fiedler's model this suggests:",
+          "options": ["Low LPC, task-motivated orientation", "High LPC, relationship-motivated orientation", "Her current team has good relations with her", "She should adopt the Selling style"],
+          "answer": 1,
+          "how": ["「hardest to work with」说明是在做 LPC 评价，「fairly positive」说明评价偏正面。", "评价偏正面就是高 LPC，关系导向，选 B。", "C 错在把 LPC 当成当前团队关系的指标；它测的是领导本人的取向。"]
+        },
+        {
+          "type": "tf",
+          "q": "A low LPC score means the leader currently has good relationships with team members, so a task orientation is now appropriate.",
+          "a": false,
+          "how": ["LPC 测的是领导相对稳定的动机取向，不是当前的领导—成员关系。", "题目把 LPC 分数解释成团队关系的现状，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Why does Fiedler argue that organisations should not simply ask a low LPC leader to 'become more relationship-oriented' for a difficult project?",
+          "options": ["Because relationship orientation is always less effective", "Because LPC reflects a relatively stable motivational orientation that leaders cannot freely switch", "Because low LPC leaders already have good relations", "Because the LPC scale measures follower readiness"],
+          "answer": 1,
+          "how": ["题干的关键是「simply ask… to become more relationship-oriented」。", "Fiedler 认为 LPC 是相对稳定的取向，不能假定领导随时切换，所以要靠匹配情境，选 B。", "D 混淆了两个模型：准备度是 Hersey–Blanchard 的概念。"]
+        }
+      ],
+      "recap": "LPC 看领导怎么评价最难合作的同事：偏负面 → 任务导向，偏正面 → 关系导向，是稳定取向。"
+    },
+    {
+      "id": "w10-p10",
+      "title": "情境有利程度与八情境模式",
+      "titleEn": "Situational favourability and the I–VIII pattern",
+      "kp": "情境有利程度由领导—成员关系、任务结构和职位权力决定，组合成八种情境。I 和 II 很有利，III 到 VI 中间，VII 和 VIII 很不利。情境 I 职位权力强，II 弱。",
+      "howTo": "先按题干三因素定情境编号：关系好不好、任务结构化不结构化、权力强不强。再套模式：两端（I、II 很有利，VII、VIII 很不利）任务导向更好，中间（III 到 VI）关系导向更好。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which three factors determine situational favourability in Fiedler's model?",
+          "options": ["Ability, willingness and confidence", "Leader–member relations, task structure and position power", "Consideration, initiating structure and contingent reward", "Consensus, intensity and content"],
+          "answer": 1,
+          "how": ["题干问 Fiedler 的「situational favourability」由什么决定。", "三因素是领导—成员关系、任务结构和职位权力，选 B。", "A 是 Hersey–Blanchard 准备度的成分，不是情境有利程度。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team trusts its supervisor, the task has clear procedures and outcomes, but the supervisor must get approval before allocating any resources. Which Fiedler situation is this?",
+          "options": ["Situation I", "Situation II", "Situation IV", "Situation VI"],
+          "answer": 1,
+          "how": ["「trusts」是关系好，「clear procedures」是任务结构化，「must get approval」是职位权力弱。", "关系好、结构化、权力弱是情境 II，选 B。", "情境 I 只差在权力强；别以为关系好、结构清楚就一定权力强。"]
+        },
+        {
+          "type": "tf",
+          "q": "Fiedler's situations I and II both have good relations and a structured task; the difference is that position power is strong in I and weak in II.",
+          "a": true,
+          "how": ["I 和 II 都是关系好、任务结构化，唯一区别在职位权力。", "I 是强、II 是弱，题目说对了，是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A project has poor leader–member relations, an unstructured task and weak position power (situation VIII). According to the pattern presented in class, which orientation is predicted to perform relatively better?",
+          "options": ["Task-oriented (low LPC)", "Relationship-oriented (high LPC)", "Neither, because no leader can succeed there", "Delegating (S4)"],
+          "answer": 0,
+          "how": ["三项都不利，是情境 VIII，属于「很不利」一端。", "模式是两端偏任务导向，所以选 A。", "C 错在把「很不利」当成无法领导；模型只是说哪种取向相对更好。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In which range of situations does the class diagram show relationship-oriented leaders performing relatively better?",
+          "options": ["I–II", "III–VI", "VII–VIII", "All eight situations"],
+          "answer": 1,
+          "how": ["题干问关系导向在哪一段较好。", "中间有利程度 III 到 VI 关系导向较好，选 B。", "I、II 和 VII、VIII 是两端，任务导向较好。"]
+        }
+      ],
+      "recap": "关系、结构、权力定情境 I 到 VIII；两端任务导向好，中间关系导向好；I 权力强，II 弱。"
+    },
+    {
+      "id": "w10-p11",
+      "title": "Fiedler 的干预：改变情境而非改变领导",
+      "titleEn": "Changing the situation to improve fit",
+      "kp": "Fiedler 的干预思路是改变情境来改善匹配：澄清授权提高职位权力，兑现承诺、公平参与修复关系，或调整领导任用；不是要求领导临时改变稳定取向。授权不能替代信任修复。",
+      "howTo": "题干问「按 Fiedler 该怎么办」，选改变情境（授权、修复关系、调整任用）的选项，不选「让领导马上换风格」。对比两模型：Hersey–Blanchard 让领导按准备度调行为，Fiedler 让稳定取向与情境匹配。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Giving a leader more formal authority will automatically repair poor leader–member relations.",
+          "a": false,
+          "how": ["正式权力加强不会自动产生信任；修复关系要靠兑现承诺和公平参与。", "题目用「automatically」，把授权当成关系修复，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A branch manager's team lost trust in her after a predecessor broke promises, and she must get head-office approval for every roster change. The task itself is well defined. Consistent with Fiedler's logic, senior management should:",
+          "options": ["Require her to become a 'people person' overnight", "Clarify her legitimate authority over rosters and, separately, rebuild trust by following through on commitments and involving staff fairly", "Classify the staff as R2 and use Selling", "Make the task less structured"],
+          "answer": 1,
+          "how": ["题干有「lost trust」（关系差）和「head-office approval」（权力弱），任务本身结构化。", "Fiedler 的思路是改变情境：澄清授权，并另外修复关系，选 B。", "A 要求领导临时改变稳定取向，正是 Fiedler 不假定能做到的事。"]
+        },
+        {
+          "type": "mcq",
+          "q": "What is the key difference between the Hersey–Blanchard model and Fiedler's contingency model?",
+          "options": ["Hersey–Blanchard matches a stable orientation to the situation; Fiedler adjusts behaviour to readiness", "Hersey–Blanchard has the leader adjust direction and support to follower readiness; Fiedler matches a relatively stable orientation to situational favourability", "Both measure the leader with the LPC scale", "Fiedler focuses on follower willingness; Hersey–Blanchard on position power"],
+          "answer": 1,
+          "how": ["题干问两个模型的「key difference」。", "Hersey–Blanchard 让领导按准备度调整指导和支持，Fiedler 把稳定取向和情境匹配，选 B。", "A 把两者说反了，考试常用这种调换。"]
+        },
+        {
+          "type": "mcq",
+          "q": "If clarifying authority and repairing relations still cannot produce a good leader–situation fit, which option is consistent with Fiedler's approach?",
+          "options": ["Consider reassigning the leadership role to someone whose orientation fits", "Insist that the leader change personality", "Wait for the leader's LPC score to change over time", "Apply Participating (S3)"],
+          "answer": 0,
+          "how": ["题干说改变情境后仍「cannot produce a good fit」。", "Fiedler 允许的另一条路是调整领导任用，选 A。", "B 和 C 都假定 LPC 取向会改变，与 LPC 相对稳定的前提矛盾。"]
+        }
+      ],
+      "recap": "Fiedler 不让领导换取向，而是改情境：授权、修关系或换人；授权不能代替信任修复。"
+    },
+    {
+      "id": "w10-p12",
+      "title": "第五级、服务型与真实型领导",
+      "titleEn": "Level 5, servant and authentic leadership",
+      "kp": "Level 5（Collins 2001）是个人谦逊加专业意志；Servant 支持成员成长，但保留标准与问责；Authentic 四成分：自我意识、平衡处理、关系透明、内化道德视角。",
+      "howTo": "认错让功又坚定推动成果，选 Level 5；倾听辅导、移除障碍，选 Servant，但服务不等于批准每项请求；问「决定前考虑相反证据」是 balanced processing；真实不能为羞辱开脱。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A hospital director tells the board the staffing plan failed because of her own incomplete assumptions, gives credit to the nurses who flagged the gaps, and then sets demanding improvement targets that she tracks every week. This illustrates:",
+          "options": ["Servant leadership", "Level 5 leadership", "Passive management by exception", "Transactional leadership"],
+          "answer": 1,
+          "how": ["「her own incomplete assumptions」是认错，「gives credit」是让功，两者都是个人谦逊。", "「demanding targets… tracks every week」是专业意志；谦逊加意志就是 Level 5，选 B。","Servant leadership 的重心是支持成员成长，题干没有体现这一点。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Several staff ask for leave on the same busy shift. A servant leader would most likely:",
+          "options": ["Approve all requests to show care", "Listen to the reasons, explain that service must continue, and explore fair alternatives such as swaps or half days", "Refuse all requests to protect operations", "Let the staff decide among themselves without input"],
+          "answer": 1,
+          "how": ["题干问「servant leader」会怎么处理多人同时请假。", "服务型领导理解需要、找公平替代方案，同时维持运营和问责，选 B。", "A 把服务等同于批准每项请求，这是讲义点名的误解。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Before finalising a decision, a manager deliberately seeks out evidence that challenges her own view and weighs it seriously. Which component of authentic leadership is this?",
+          "options": ["Self-awareness", "Relational transparency", "Balanced processing", "Internalised moral perspective"],
+          "answer": 2,
+          "how": ["「seeks out evidence that challenges her own view」是决定前考虑相反证据。", "这是 balanced processing，选 C。", "Self-awareness 是认识自己的优势和局限，不是处理证据。"]
+        },
+        {
+          "type": "tf",
+          "q": "A manager who humiliates an employee in front of colleagues and then says 'I am just being authentic' is showing authentic leadership as defined in the course.",
+          "a": false,
+          "how": ["真实性要由长期可观察的行为判断，诚实表达问题要和尊重、反思并存。", "题目拿「authentic」为羞辱开脱，所以是 False。"]
+        },
+        {
+          "type": "tf",
+          "q": "Servant leadership means the leader gives up standards and authority so that followers' wishes always come first.",
+          "a": false,
+          "how": ["服务型领导支持成长、移除障碍，但仍保留判断、标准和必要的权威。", "题目说「gives up standards」「always come first」，所以是 False。"]
+        }
+      ],
+      "recap": "Level 5 → 谦逊加意志；Servant → 支持成长但保留标准；Authentic → 四成分，不为羞辱开脱。"
+    },
+    {
+      "id": "w10-p13",
+      "title": "变革型与交易型领导",
+      "titleEn": "Transformational and transactional leadership",
+      "kp": "变革型有四个 I：榜样影响、鼓舞性动机、智力激发、个别化关怀。交易型有 contingent reward（条件性奖励）和主动、被动 management by exception。两者可以互补。",
+      "howTo": "按行为归类：做榜样、讲共同方向、鼓励质疑假设、按个人需要辅导，依次是四个 I；约定目标换回报是 contingent reward；过程中监测纠偏是主动例外管理，出了问题才介入是被动。两者不互斥。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A team lead asks each member what skills they want to develop this year and arranges coaching suited to each person. Which transformational component is this?",
+          "options": ["Idealised influence", "Inspirational motivation", "Intellectual stimulation", "Individualised consideration"],
+          "answer": 3,
+          "how": ["「each member」「suited to each person」是关注成员各自的发展需要。", "这是 individualised consideration，选 D。", "Intellectual stimulation 是鼓励质疑假设和尝试新方法，题干没有。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager agrees delivery targets with the team in advance, explains how achievement will be recognised, and delivers the reward when the targets are met. This is:",
+          "options": ["Contingent reward", "Active management by exception", "Inspirational motivation", "Consideration"],
+          "answer": 0,
+          "how": ["「agrees targets in advance」「delivers the reward when… met」把达标和回报挂钩。", "这就是交易型领导中的 contingent reward，选 A。", "主动例外管理是监测偏差并纠正，题干说的是奖励，不是纠偏。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Two warehouse supervisors manage safety. One walks the floor daily and corrects unsafe practices as soon as she sees them; the other only steps in after an accident report arrives. These illustrate, respectively:",
+          "options": ["Active and passive management by exception", "Contingent reward and passive management by exception", "Transformational and transactional leadership", "Initiating structure and consideration"],
+          "answer": 0,
+          "how": ["「as soon as she sees them」是及时纠偏；「only… after an accident report」是出事才介入。","前者是主动例外管理，后者是被动例外管理，选 A。", "两者都是交易型成分，差别只在介入时机。"]
+        },
+        {
+          "type": "tf",
+          "q": "Transformational and transactional leadership are mutually exclusive: a leader who agrees milestones and rewards cannot also inspire a shared vision.",
+          "a": false,
+          "how": ["两者可以在同一任务中互补：愿景提供意义，约定的里程碑和回报让交付具体。", "题目说「mutually exclusive」「cannot also」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of the four I's of transformational leadership?",
+          "options": ["Idealised influence", "Individualised consideration", "Initiating structure", "Inspirational motivation"],
+          "answer": 2,
+          "how": ["题干要找「NOT」四个 I 之一。", "Initiating structure 是行为取向里的任务行为，不属于四个 I，选 C。", "另一个 I 是 intellectual stimulation，题目没列出来。"]
+        }
+      ],
+      "recap": "变革型看四个 I，交易型看回报与例外管理；两者可在同一任务中互补。"
+    },
+    {
+      "id": "w10-p14",
+      "title": "权力、地位与换位思考",
+      "titleEn": "Power, status and perspective-taking",
+      "kp": "Social power 是不对称地控制他人重视的资源与后果（预算、工作安排、奖惩）；social status 是他人给予的尊重与敬佩。两者可以分离。Galinsky 等（2006）发现权力条件下换位思考减少。",
+      "howTo": "看这个人靠什么影响别人：能批预算、派任务、奖惩，是 power；大家因知识或公平而尊重他、愿意听他，是 status。问 Galinsky 的研究，答权力让换位思考减少（额头写 E 任务），这是倾向不是必然。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "In a research lab, the administrator controls equipment bookings and travel funds, while a postdoc with no budget authority is the person everyone consults because they trust his judgement. The administrator has ___ and the postdoc has ___.",
+          "options": ["status; power", "power; status", "both; neither", "leader emergence; leader effectiveness"],
+          "answer": 1,
+          "how": ["「controls equipment bookings and travel funds」是控制他人重视的资源，这是 power。", "「everyone consults… trust his judgement」是他人给予的尊重，这是 status，选 B。", "两者可以分开：有权未必受尊重，受尊重未必有审批权。"]
+        },
+        {
+          "type": "tf",
+          "q": "Having control over valued resources automatically earns a manager trust and respect from the team.",
+          "a": false,
+          "how": ["有控制权不会自动带来信任、尊重或正当使用的认可。", "题目用「automatically」把权力和地位捆在一起，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Galinsky et al. (2006), cited in the lecture, found that people in experimental power conditions:",
+          "options": ["Became better at seeing others' perspectives", "Showed reduced perspective-taking, for example on the forehead letter-E task", "Gained higher social status automatically", "Always ignored others regardless of conditions"],
+          "answer": 1,
+          "how": ["题干问 Galinsky 等（2006）在权力条件下观察到什么。", "结果是换位思考减少，例如额头写 E 时更多按自己的视角画，选 B。", "D 用了「Always」，研究说的是特定条件下的倾向，不是必然。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager sets a Friday deadline that seems reasonable to her, but staff are juggling other tasks and lack key data. What does the lecture recommend a leader with power should do?",
+          "options": ["Rely on her authority, since the deadline is reasonable from her perspective", "Actively ask how staff experience the deadline, seek feedback and check her assumptions", "Give up her position power", "Delegate the deadline to the team's highest-status member"],
+          "answer": 1,
+          "how": ["经理只从自己的视角看期限（「seems reasonable to her」），没问员工的情况。", "权力可能降低换位思考，所以领导应主动寻求反馈并检查假设，选 B。", "考虑他人视角不等于取消决定或放弃权力，C 答非所问。"]
+        },
+        {
+          "type": "tf",
+          "q": "In the forehead-E exercise, drawing the E so that it reads correctly to an observer facing you reflects taking the other person's perspective.",
+          "a": true,
+          "how": ["按对面观察者的视角画 E，对面看到的是正常的 E，这就是换位思考。", "题目描述正确，是 True。"]
+        }
+      ],
+      "recap": "Power 是控制资源，Status 是他人给的尊重，两者可分离；有权时更要主动换位思考。"
+    }
+  ]
+}

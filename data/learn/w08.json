@@ -1,0 +1,567 @@
+{
+  "week": 8,
+  "points": [
+    {
+      "id": "w08-p01",
+      "title": "沟通的目的与共同理解",
+      "titleEn": "Communication purposes and shared meaning",
+      "kp": "管理者通过沟通来 coordinate、direct、influence、learn。有效沟通不只是传递信息，还要让接收者理解足够的预期含义（shared meaning）并采取适当行动。发送、收到、理解、同意是四件不同的事。",
+      "howTo": "题干只说「消息发出去了」「对方收到了」就宣布沟通有效，一律判错：要看对方有没有理解并按意思行动。共同理解不要求所有人想法完全一致，只要足够支持正确行动。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "If a message has been sent and received, effective communication has occurred.",
+          "a": false,
+          "how": ["正确说法是：有效沟通要求接收者理解足够的预期含义并能适当行动，收到只是中间一步。", "题目把「收到」当成「有效」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager says 'prioritise complaints today'. The employee receives the message but stops all sales work entirely, which the manager never intended. According to the lecture, what is missing?",
+          "options": ["The message was never transmitted", "Shared meaning: the employee did not understand enough of the intended meaning to act appropriately", "Horizontal communication", "Physical noise"],
+          "answer": 1,
+          "how": ["线索是「receives the message」但「stops all sales work entirely」：收到了，行动却偏离本意。", "缺的是 shared meaning，也就是对预期含义理解得不够，选 B。", "A 说没传到，但题干明确说收到了；问题出在理解环节，不是传输。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of the four purposes of managerial communication listed in the lecture?",
+          "options": ["Coordinate", "Direct", "Entertain", "Learn"],
+          "answer": 2,
+          "how": ["课件列的四个用途是 coordinate、direct、influence、learn。", "Entertain 不在其中；沟通有明确的工作目的，说得多或有趣不等于协调得好。"]
+        },
+        {
+          "type": "tf",
+          "q": "Shared meaning requires that everyone in the team ends up with exactly the same thoughts about the message.",
+          "a": false,
+          "how": ["正确说法是：共同理解只要求理解到足以采取适当行动，不要求所有人想法完全相同。", "题目把「足够理解」拔高成「完全相同」，所以是 False。"]
+        }
+      ],
+      "recap": "消息发出只是第一步；要问对方理解了没有、准备怎么做。发送、收到、理解、同意是四回事。"
+    },
+    {
+      "id": "w08-p02",
+      "title": "Shannon–Weaver 模型与编码解码",
+      "titleEn": "Shannon–Weaver model, encoding and decoding",
+      "kp": "Shannon & Weaver (1949) 的线性传输模型：信息源经发射器和渠道到达接收器与目的地，noise 干扰传输。Encoding 是发送者把想法变成话，decoding 是接收者按自己背景解释，两端可能不同。",
+      "howTo": "问模型顺序或 noise 在哪里起作用，用 Shannon–Weaver；问它的局限，答它是线性传输模型，解释不了互动反馈。看到「主管这样说，员工那样理解」，问题出在 encoding 和 decoding 不匹配。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "In the Shannon–Weaver model, which sequence is correct?",
+          "options": ["Source → transmitter → channel → receiver → destination", "Sender → decoder → encoder → feedback → receiver", "Transmitter → source → destination → channel → receiver", "Cue → interpret → act → update"],
+          "answer": 0,
+          "how": ["题干问的是 Shannon–Weaver 的「sequence」。", "模型顺序是 source、transmitter、channel、receiver、destination，noise 在中途干扰，选 A。", "D 是 Weick 的 sensemaking 循环，不是传输模型。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because it was designed to explain signal transmission, the Shannon–Weaver model treats communication as a one-way process and cannot by itself explain feedback and negotiation of meaning at work.",
+          "a": true,
+          "how": ["这个模型最初关注信号传输，是单向线性的，所以解释不了工作中的来回反馈和意义协商。", "题目准确说出了它的局限，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A supervisor tells a new analyst to make a report 'more strategic', meaning 'show the client our recommendations'. The analyst adds more industry background instead. Where did the breakdown most clearly occur?",
+          "options": ["Physical noise in the channel", "A mismatch between encoding and decoding", "Communication overload", "Horizontal communication failure"],
+          "answer": 1,
+          "how": ["线索是主管把意思编码成「more strategic」，分析师却把它解码成「add more industry background」。", "发送者的表达和接收者的解释对不上，就是 encoding 和 decoding 不匹配，选 B。", "A 的物理噪声指听不清或断线，这里消息清楚传到了，只是解释不同。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which statement correctly distinguishes encoding from decoding?",
+          "options": ["Encoding is what the receiver does; decoding is what the sender does", "Encoding is turning an idea into words, symbols or behaviour; decoding is the receiver interpreting the message from their own background", "Both are done by the channel", "Encoding only applies to written messages"],
+          "answer": 1,
+          "how": ["Encoding 看发送者怎样表达，decoding 看接收者怎样解释，选 B。", "A 把两端调换了；错误可能发生在任一环节，所以两者都要检查。"]
+        }
+      ],
+      "recap": "Shannon–Weaver 是一条单行线：源头到目的地，噪声在中间捣乱；编码是想法变话，解码是话变理解。"
+    },
+    {
+      "id": "w08-p03",
+      "title": "四种噪声",
+      "titleEn": "Four types of noise",
+      "kp": "Noise 是任何干扰消息传递或理解的因素，分四类：Physical（声音、打断、故障）、Semantic（词义模糊、术语）、Psychological（压力、情绪、预设）、Organisational（层级、惯例、部门隔阂）。",
+      "howTo": "先问干扰来自哪里：环境和设备选 Physical；同一个词不同理解选 Semantic；接收者的情绪和期待选 Psychological；制度、层级、部门墙选 Organisational。对策要对准来源。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "During a restructuring, an anxious employee reads a neutral announcement as a threat to her job. Which type of noise is this?",
+          "options": ["Semantic", "Physical", "Psychological", "Organisational"],
+          "answer": 2,
+          "how": ["线索是「anxious employee reads a neutral announcement as a threat」：公告中性，是情绪改变了解释。", "压力、情绪和预设造成的干扰，是 Psychological noise。", "Semantic 是词义本身含糊，而这里的公告并不含糊。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Engineers use the word 'done' to mean 'code written', while the client team hears 'done' as 'ready to use'. Which type of noise is this?",
+          "options": ["Physical", "Semantic", "Psychological", "Organisational"],
+          "answer": 1,
+          "how": ["线索是同一个词「done」在两组人那里指不同的东西。", "词义、术语和标准理解不同造成的干扰，是 Semantic noise，对策是说明词义和标准。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A frontline worker wants to ask a clarifying question, but company rules require all questions to go up three levels of hierarchy first, so the question never gets asked. Which type of noise is this?",
+          "options": ["Physical", "Semantic", "Psychological", "Organisational"],
+          "answer": 3,
+          "how": ["线索是「rules require all questions to go up three levels」：挡住澄清的是层级制度。", "层级、惯例和部门隔阂造成的干扰，是 Organisational noise，对策是调整渠道和制度。", "别选 Psychological：员工不是因为害怕或情绪而不问，是制度不允许。"]
+        },
+        {
+          "type": "tf",
+          "q": "In the lecture, noise refers only to background sounds and technical faults that interfere with a message.",
+          "a": false,
+          "how": ["正确说法是：噪声包括物理、语义、心理和组织四类，不只是声音和设备。", "题目把噪声缩小成物理一类，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager diagnoses that a message failed because of psychological noise. Which response best matches this diagnosis?",
+          "options": ["Repair the video link", "Replace jargon with plain words", "Add background and context, listen and check how the person interpreted the message", "Redesign the reporting hierarchy"],
+          "answer": 2,
+          "how": ["题干已经给出诊断是「psychological noise」，问对应的回应。", "心理噪声来自压力、情绪和预设，所以要补充背景、倾听并核对对方的解释，选 C。", "A、B、D 分别对应物理、语义和组织噪声，对策要对准来源。"]
+        }
+      ],
+      "recap": "噪声先问来源：环境是物理，词义是语义，情绪是心理，制度是组织；对策跟着来源走。"
+    },
+    {
+      "id": "w08-p04",
+      "title": "检查理解与意义建构",
+      "titleEn": "Checking understanding and sensemaking",
+      "kp": "检查理解不是问「懂了吗」，而是让对方说出做什么、交付什么、何时完成。Sensemaking (Weick, 1995)：人们根据线索形成解释并据此行动，再用新信息更新：cue、interpret、act、update。",
+      "howTo": "选项里有「让员工说出先做什么、交付什么、什么时候完成」，就选它；「Do you understand」永远不是最佳答案。题干说同一公告有人当机会有人当威胁、补充信息后大家更新理解，选 sensemaking。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A manager wants to check whether an employee has understood a task. Which approach is most effective according to the lecture?",
+          "options": ["Ask 'Do you understand?'", "Repeat the instructions louder", "Ask the employee what they will do first, what they will deliver and by when", "Send the same email twice"],
+          "answer": 2,
+          "how": ["题干问「most effective」的检查方式。", "有效反馈是让接收者用自己的话说出任务、标准和期限，这样误解才会暴露，选 C。", "一句「懂了」可能来自赶时间或怕尴尬，所以 A 不够。"]
+        },
+        {
+          "type": "mcq",
+          "q": "After a merger is announced, one employee starts volunteering for new projects while another begins updating his CV. Both read the same email. Which concept best explains the difference?",
+          "options": ["Sensemaking", "Semantic noise", "Channel Expansion Theory", "Wheel network"],
+          "answer": 0,
+          "how": ["线索是「Both read the same email」却做出相反的行动：一个当机会，一个当威胁。", "人们根据线索形成自己的合理解释并据此行动，这就是 sensemaking。", "Semantic noise 指词义含糊；这里的差别来自各自的经验和担忧，不是词没写清。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In Weick's sensemaking cycle, which order is correct?",
+          "options": ["Cue → interpret → act → update", "Act → cue → update → interpret", "Encode → channel → decode", "Recognise → map → test → decide"],
+          "answer": 0,
+          "how": ["题干问 sensemaking 的「order」。", "顺序是：看到线索，形成解释，据此行动，再用新信息更新，选 A。", "D 是 Week 7 的伦理决策步骤，C 是传输模型的环节。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to the lecture, employees passively copy the meaning that exists in the manager's head.",
+          "a": false,
+          "how": ["正确说法是：员工会用自己的经验、担忧和后续互动参与理解，不是被动复制。", "题目说「passively copy」，所以是 False。"]
+        }
+      ],
+      "recap": "别问「懂了吗」，让他说「先做什么、交什么、什么时候」；人是边看线索边猜边更新的。"
+    },
+    {
+      "id": "w08-p05",
+      "title": "7/38/55 不是通用比例",
+      "titleEn": "Limits of the 7-38-55 rule",
+      "kp": "课件展示的 words 7%、voice 38%、nonverbal 55% 来自 Mehrabian 1967 年的研究，涉及的是态度或情感线索和前后不一致的消息。不能推出「93% 的沟通都是非言语」；任务和情境会改变各线索的作用。",
+      "howTo": "只要选项或题干说「所有沟通 93% 是非言语」「文字只占 7%」，一律判错。正确说法是：非言语线索会影响解释，但该比例只适用于态度情感线索和不一致消息。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "According to the lecture, the 7%/38%/55% rule shows that 93% of all communication is nonverbal.",
+          "a": false,
+          "how": ["正确说法是：这组数字来自关于态度、情感线索和不一致消息的实验，不是所有沟通的通用比例。", "题目把它推广成「93% of all communication」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A trainer tells managers: 'Since 93% of communication is nonverbal, the wording of your emails hardly matters.' What is the lecture's view?",
+          "options": ["Correct; words carry only 7% of meaning", "Incorrect; the figures came from studies of attitude and feeling cues with inconsistent messages, and task information still needs accurate words", "Correct for all spoken communication", "Incorrect because nonverbal cues never matter"],
+          "answer": 1,
+          "how": ["线索是「93% of communication is nonverbal」被用来推出「wording hardly matters」。", "原实验只涉及态度情感线索和不一致消息，航班几点起飞仍要靠准确的文字，选 B。", "D 走到另一个极端，课程并没有否认非言语线索的作用。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In which situation did the original Mehrabian studies suggest tone and facial expression matter most?",
+          "options": ["Conveying precise task deadlines", "Judging a speaker's attitude or feeling when words and tone are inconsistent", "Writing a formal report", "Transmitting numerical data"],
+          "answer": 1,
+          "how": ["题干问原研究的适用情境。", "相关实验涉及态度或情感线索以及前后不一致的消息，比如笑着说「没问题」和皱眉说「没问题」，选 B。"]
+        }
+      ],
+      "recap": "笑着说和皱眉说「没问题」感觉不同，但航班几点起飞还得靠文字；7/38/55 不是万能比例。"
+    },
+    {
+      "id": "w08-p06",
+      "title": "沟通的三个方向与正式非正式",
+      "titleEn": "Directions of communication, formal and informal",
+      "kp": "Downward 传目标、指令和反馈，风险是过载和失真；Upward 传进度、问题和坏消息，风险是恐惧、过滤和沉默；Horizontal 在同级和部门间协调，风险是部门孤岛。正式沟通由组织设计，非正式沟通从关系中长出来。",
+      "howTo": "看信息跨什么层级：上级到下级选 downward，下级到上级选 upward，同级或跨部门选 horizontal。正式不等于只能向下，非正式不等于全是谣言；只看组织图不等于掌握了全部沟通。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Marketing plans a Monday promotion and first checks stock and delivery capacity with Operations, so the two departments set the launch time together. Which direction of communication is this?",
+          "options": ["Downward", "Upward", "Horizontal", "Informal grapevine"],
+          "answer": 2,
+          "how": ["线索是「Marketing」和「Operations」两个部门一起定时间：同级、跨职能的协调。", "同级人员、团队和职能之间的沟通是 Horizontal，包括跨部门协调，不只是同一部门内聊天。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee notices the new roster leaves one shift unstaffed and tells her supervisor, who listens and adjusts the roster. Which direction is this, and what is its typical risk?",
+          "options": ["Downward; information overload", "Upward; fear, filtering and silence", "Horizontal; departmental silos", "Formal; distortion through layers"],
+          "answer": 1,
+          "how": ["线索是员工把问题告诉「her supervisor」：信息从下级流向上级。", "向上沟通传递问题和坏消息，典型风险是员工害怕、过滤或沉默，选 B。", "A 的过载和逐层失真是向下沟通的风险。"]
+        },
+        {
+          "type": "tf",
+          "q": "Formal communication can carry upward and horizontal information, not only downward instructions.",
+          "a": true,
+          "how": ["正式沟通指由组织有意设计的渠道，设计出来的渠道可以向上也可以横向，比如正式的投诉流程。", "题目说对了，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A store manager sends twelve separate reminders this week through email, chat and meetings, and staff miss the one urgent deadline. Which risk of downward communication does this illustrate?",
+          "options": ["Filtering", "Overload with unclear priorities", "Departmental silos", "The MUM effect"],
+          "answer": 1,
+          "how": ["线索是「twelve separate reminders」和「miss the one urgent deadline」：信息太多而没有优先级。", "过载和优先级不清是向下沟通的典型风险；发出更多信息不等于沟通更有效。", "Filtering 和 MUM effect 都是向上传坏消息时的现象，方向反了。"]
+        },
+        {
+          "type": "tf",
+          "q": "Informal communication that happens over lunch is just rumour and does not affect how employees understand official messages.",
+          "a": false,
+          "how": ["正确说法是：非正式沟通从关系和日常互动中形成，午休讨论会影响大家怎样看待那封官方邮件。", "题目把非正式沟通等同于谣言、并说它没有影响，所以是 False。"]
+        }
+      ],
+      "recap": "方向看信息跨什么层级：向下怕过载失真，向上怕恐惧沉默，横向怕部门墙。"
+    },
+    {
+      "id": "w08-p07",
+      "title": "沟通网络与任务匹配",
+      "titleEn": "Communication networks and task fit",
+      "kp": "Chain 按顺序连接；Wheel 信息经过一位中心成员；All-channel 成员间有许多直接连接。Bavelas 和 Leavitt 的经典研究：集中式高效处理简单问题，分散式更适合复杂问题，结构要 fit the task。",
+      "howTo": "题干说「所有问题先交给协调员」，选 wheel；「依次接力」选 chain；「大家直接讨论」选 all-channel。任务简单常规选集中式；复杂、相互依赖、要整合知识选分散式。说某种网络永远最好的，判错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "In a project team, all questions must go to one coordinator who then informs the others. When the coordinator is overloaded, information stalls. Which network is this?",
+          "options": ["Chain", "All-channel", "Wheel", "Informal grapevine"],
+          "answer": 2,
+          "how": ["线索是「all questions must go to one coordinator」：信息都经过一个中心。", "围绕一位中心成员的网络是 Wheel；中心过载或离开时就成了弱点。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A warehouse needs to count stock using a standard procedure. According to the classic network studies, which arrangement handles this efficiently?",
+          "options": ["A centralised network with one coordinator collecting the figures", "An all-channel network where everyone discusses every count", "No network; each person works alone", "A network chosen by seniority"],
+          "answer": 0,
+          "how": ["线索是「standard procedure」：任务简单、常规。", "Bavelas 和 Leavitt 的研究表明集中式网络能高效处理简单问题，所以由协调员汇总即可，选 A。", "全通道适合复杂、相互依赖的任务，用在盘点上只会增加沟通负荷。"]
+        },
+        {
+          "type": "tf",
+          "q": "Classic network studies suggest that centralised networks are always the fastest and therefore best for every task.",
+          "a": false,
+          "how": ["正确说法是：集中式适合简单问题，分散式更适合复杂问题，结构要匹配任务。", "题目把研究结论改成「always」和「every task」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Information in a team passes from A to B, from B to C and from C to D, and nobody skips a step. Which network is this and what is its main limitation?",
+          "options": ["Wheel; the centre may be overloaded", "Chain; low flexibility when work is complex and interdependent", "All-channel; high communication load", "Formal; cannot carry upward information"],
+          "answer": 1,
+          "how": ["线索是「from A to B, from B to C」：按顺序依次连接。", "依次连接是 Chain，控制和责任清楚，但工作复杂且相互依赖时灵活性低，选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "The direction of communication and the communication network are the same concept.",
+          "a": false,
+          "how": ["正确说法是：方向看信息跨什么层级，网络看哪些人之间能直接连接，是两个不同的问题。", "题目把两者说成同一个概念，所以是 False。"]
+        }
+      ],
+      "recap": "简单任务找一个中心（wheel）最快，复杂任务让大家直接连（all-channel）；结构要配任务。"
+    },
+    {
+      "id": "w08-p08",
+      "title": "媒介丰富度与渠道选择",
+      "titleEn": "Media richness and channel choice",
+      "kp": "Media Richness Theory (Daft & Lengel)：渠道减少歧义的能力不同，看四项：快速反馈、多种线索、个人化、自然语言。消息越模糊、越敏感，越需要丰富互动。Richness 不是字数、附件大小或技术新旧。",
+      "howTo": "敏感、模糊的消息（绩效反馈、冲突、重组）选面对面或视频，再用书面总结留记录；常规、需留存的信息用邮件或共享文档；紧急安全问题用能立即到达并确认的渠道。面对面并非永远最好。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Two employees are in an ongoing conflict and the manager must help resolve it. Which channel choice best fits Media Richness Theory?",
+          "options": ["A group email copying both of them", "A facilitated private face-to-face or video discussion, followed by written confirmation of what was agreed", "A message in the team chat", "A formal report to HR only"],
+          "answer": 1,
+          "how": ["线索是「conflict」：包含敏感情绪和歧义，容易被不同理解。", "歧义越大越需要即时追问、语气和表情等丰富线索，之后再书面确认，选 B。", "A 和 C 都是较简的书面渠道，没法当场澄清，还可能让冲突公开化。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to Media Richness Theory, a channel is richer when it offers rapid feedback, multiple cues, personalisation and natural language.",
+          "a": true,
+          "how": ["这正是 Daft 和 Lengel 判断丰富度的四项标准。", "题目完整列出了四项，所以是 True。注意丰富度和字数、附件大小无关。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A warehouse supervisor must tell staff about an immediate safety hazard. Which channel choice best follows the lecture?",
+          "options": ["A detailed email, because it keeps a record", "A direct verbal or instant alert that reaches affected staff now, with confirmation of receipt, followed by a written record", "A formal report at the end of the month", "A post on the company social media page"],
+          "answer": 1,
+          "how": ["线索是「immediate safety hazard」：紧急，需要快速到达并确认收到。", "紧急性要求速度和反馈，先用直接口头或即时渠道并确认，再补书面记录，选 B。", "A 只因邮件能留存就假定它适用，但邮件不保证对方立即查看。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which statement about the channel-richness continuum (formal report → email → chat → phone → video → face-to-face) is most accurate?",
+          "options": ["Face-to-face is always better than written communication", "It is a heuristic ordering; a well-designed written message can outperform a poorly run meeting", "Richness depends on attachment size", "Email is the richest channel because it keeps records"],
+          "answer": 1,
+          "how": ["题干问连续线「most accurate」的理解。", "这条线只是参考顺序，没有议程的面对面会议可能比精心写的文字更糟，选 B。", "A 把参考顺序当成绝对排名，正是课程要纠正的。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager is choosing how to announce a major restructuring to 300 staff. Which combination best matches the lecture's four checks (message, medium, audience, context)?",
+          "options": ["One short chat message to everyone", "A formal written statement for reference, plus interactive sessions to explain sensitive points and answer questions", "Only an interactive meeting with no written record", "A social media post from the CEO's personal account"],
+          "answer": 1,
+          "how": ["线索是「major restructuring」和「300 staff」：既敏感模糊，又要广泛覆盖和留存。", "重大变动同时需要覆盖、留存和丰富反馈，所以书面说明加互动问答，选 B。", "C 缺少可反复核对的书面参照，A 既不丰富也不正式。"]
+        }
+      ],
+      "recap": "消息越模糊越敏感，越要能当场追问的渠道；留记录用书面，两者常常要组合。"
+    },
+    {
+      "id": "w08-p09",
+      "title": "渠道扩展理论",
+      "titleEn": "Channel Expansion Theory",
+      "kp": "Channel Expansion Theory (Carlson & Zmud, 1999)：人们感知到的媒介丰富度还取决于经验，包括对渠道、主题、组织情境和沟通伙伴这四类经验。同一个聊天工具，老成员觉得够用，新成员却觉得信息不足。",
+      "howTo": "题干说「同一渠道，熟人觉得够、新人觉得不够」，选 Channel Expansion。区分：Media Richness 看媒介本身减少歧义的能力，Channel Expansion 看使用者的经验。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Long-standing team members act on a one-word abbreviation in the project chat, while new members need explanations. Which theory explains this?",
+          "options": ["Media Richness Theory", "Shannon–Weaver model", "Channel Expansion Theory", "Social identity theory"],
+          "answer": 2,
+          "how": ["线索是同一个「project chat」，老成员看一个缩写就能行动，新成员却需要解释。", "感知到的丰富度随经验增加，这是 Channel Expansion Theory。", "Media Richness Theory 只看媒介本身，解释不了同一渠道在不同人眼里的差别。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to Carlson and Zmud (1999), which four kinds of experience make the same channel feel richer?",
+          "options": ["Channel, topic, organisational context and communication partner", "Feedback, cues, personalisation and language", "Visibility, persistence, editability and association", "Age, period, cohort and tenure"],
+          "answer": 0,
+          "how": ["题干问 Channel Expansion Theory 里的四类「experience」。", "四类经验是对渠道、主题、组织和沟通伙伴的经验，选 A。", "B 是 Media Richness 的四项标准，C 是社交媒体的四种可供性，别混。"]
+        },
+        {
+          "type": "tf",
+          "q": "Channel expansion means adding more software features or screens to a communication tool.",
+          "a": false,
+          "how": ["正确说法是：扩展指使用者的经验让同一媒介感觉更丰富，和增加功能无关。", "题目把「经验」偷换成「功能」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager and a supplier have worked together for five years and now settle complex changes by a short phone call. A new supplier finds the same calls confusing. Which experience types from Channel Expansion Theory best explain the difference?",
+          "options": ["Experience with the topic and with the communication partner", "Experience with physical noise", "Experience with the wheel network", "Experience with age effects"],
+          "answer": 0,
+          "how": ["线索是「worked together for five years」和「complex changes」：对彼此和对议题都很熟。", "对沟通伙伴和主题的经验让电话这种渠道对老搭档来说足够丰富，选 A。"]
+        }
+      ],
+      "recap": "同一个渠道，熟人觉得够用，新人觉得不够，差的是经验：对工具、话题、组织和对方的经验。"
+    },
+    {
+      "id": "w08-p10",
+      "title": "社交媒体可供性与数字风险",
+      "titleEn": "Social media affordances and digital risks",
+      "kp": "Treem & Leonardi (2013)：Visibility（被看见）、Persistence（仍可获取）、Editability（可修改）、Association（关联可见）。Affordance 是行动可能性，不是必然结果。",
+      "howTo": "「找专家、让更多人看见」选 visibility；「保存、以后检索」选 persistence；「修改完善」选 editability；「找到相关的人和资源」选 association。说装了平台就自动产生学习的，判错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A manager needs to find someone among 200 colleagues with specific technical expertise. Which affordances make an internal knowledge platform suitable?",
+          "options": ["Editability and privacy", "Visibility, persistence and association", "Richness and immediacy", "Context collapse and persistence"],
+          "answer": 1,
+          "how": ["线索是「find someone among 200 colleagues」：要让问题被很多人看见并找到对的人。", "可见性让专长被看见，关联性帮助找到相关的人，持久性让回答以后还能检索，选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A customer-service team records a recurring system fault and its fix in a shared knowledge base, so new colleagues can search for it later instead of asking the original solver. Which affordance mainly supports this organisational memory?",
+          "options": ["Visibility", "Persistence", "Editability", "Association"],
+          "answer": 1,
+          "how": ["线索是「search for it later」：内容随时间仍可获取。", "沟通随时间仍可检索、构建组织记忆，是 Persistence。", "Visibility 讲的是被更多人看见，重点在「现在谁能看到」，不是「以后还在」。"]
+        },
+        {
+          "type": "tf",
+          "q": "An affordance is an action possibility that the technology makes available; whether it produces learning depends on norms such as whether people feel safe asking questions in public.",
+          "a": true,
+          "how": ["可供性只是技术支持的行动可能性；员工害怕公开提问或频道被低价值消息淹没时，学习收益会下降。", "题目正确区分了可能性和实际结果，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee complains about a client in a small private group chat. A screenshot is later forwarded outside the company and damages its image. Which digital communication risk does this illustrate?",
+          "options": ["Semantic noise", "Context collapse: the message left its original audience and context", "Channel expansion", "Horizontal communication"],
+          "answer": 1,
+          "how": ["线索是「private group chat」里的话被「forwarded outside」：消息脱离了原来的受众和语境。", "数字消息可能脱离原受众并长期留存，这是语境坍缩和持久留存的风险，选 B。", "删除也不能保证消除已有副本，所以要先明确受众、保密和渠道规范。"]
+        }
+      ],
+      "recap": "可见、留存、可改、可关联是四种可能性；平台装好了不等于学习自动发生，发出去的话也收不回来。"
+    },
+    {
+      "id": "w08-p11",
+      "title": "文化与世代：框架不是标签",
+      "titleEn": "Culture and generations as frameworks, not labels",
+      "kp": "高语境沟通 (Hall, 1976) 更依赖关系和背景，低语境把意思直接说出来，这是框架不是国籍标签。Age、Period、Cohort 三种效应难以分离；Ravid 等 (2025) 元分析发现工作结果上系统且有意义的世代差异很少。",
+      "howTo": "凡是按国籍或出生年份断定某个人怎么沟通的选项，都错。三种效应：随年龄或职业阶段变化是 age；一件事同时影响各年龄层是 period；和出生历史背景相关是 cohort。正确做法是问这个人在这项任务里的偏好。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "After the pandemic, employees of all ages began using video meetings. A manager calls this a 'Gen Z trait'. What is the error?",
+          "options": ["It confuses a period effect with a cohort effect", "It confuses an age effect with tenure", "It is a correct cohort effect", "It confuses horizontal with downward communication"],
+          "answer": 0,
+          "how": ["线索是「employees of all ages」都开始用视频：一件事同时影响了所有年龄层。", "同一时间的事件影响许多年龄群体是 period effect；经理却说成某个出生群体的特征，也就是 cohort，选 A。"]
+        },
+        {
+          "type": "tf",
+          "q": "Hall's high-context and low-context framework is best used as a reminder to notice how directness and politeness may be read differently, rather than as a fixed label for people from a given country.",
+          "a": true,
+          "how": ["课程把高低语境当作留意差异的框架，Kittler 等人也指出常用的国家排名缺乏严格经验支持。", "题目说的正是「框架不是标签」，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager says: 'This report has room for improvement.' One employee treats it as a mild suggestion and does nothing. Which adjustment follows the lecture's advice for communicating across contexts?",
+          "options": ["Repeat the sentence more slowly", "State the expectation explicitly, e.g. 'please revise section two by 3 pm Friday', and check understanding", "Assume the employee is lazy", "Switch to a wheel network"],
+          "answer": 1,
+          "how": ["线索是「room for improvement」被当成可做可不做的建议：含义放在了背景里，对方没有接住。", "跨语境沟通的做法是明确重要期望、检查理解，把需要的行动直接说出来，选 B。", "C 直接归因到个人，恰好是课程提醒不要做的事。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Ravid, Costanza and Romero's (2025) meta-analysis found:",
+          "options": ["Large, consistent generational differences in work outcomes", "Few systematic and meaningful generational differences in work outcomes", "That Gen Z prefer chat and Boomers prefer email", "That communication preferences differ sharply by generation"],
+          "answer": 1,
+          "how": ["题干问这项元分析的结论。", "结论是工作结果上系统且有意义的世代差异很少，选 B。", "它研究的是工作态度和价值等，没有直接检验沟通偏好，所以 C 和 D 都超出了证据。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager decides who may use email and who may use chat based on employees' birth years. According to the lecture, what should she do instead?",
+          "options": ["Ask each person's task-related preferences and agree a common confirmation method for urgent messages", "Assign channels by seniority", "Ban informal channels", "Use only face-to-face communication"],
+          "answer": 0,
+          "how": ["线索是「based on employees' birth years」：按出生年份贴标签。", "课程建议了解个人在具体任务中的偏好，并提供清楚规范和合理的渠道选择，选 A。"]
+        }
+      ],
+      "recap": "文化和世代是提问方向，不是贴在个人身上的标签；先问这个人在这项任务里需要什么。"
+    },
+    {
+      "id": "w08-p12",
+      "title": "沟通为什么失败：从表达到行动",
+      "titleEn": "Failure points and barriers",
+      "kp": "沟通可能在编码表达、被注意、被解释或转化为行动的任一环节失败，所以不能只查消息有没有发出。常见障碍：知觉选择（按期待和情绪选择注意什么）、模糊词与术语（省略行动、标准和期限）、信息过载（Marlow 等 2018）。",
+      "howTo": "题干结果是「任务没完成」时，先沿流程找是哪一环出了问题。模糊指令的修法是补齐做什么、交付什么、什么标准、何时完成；过载的修法是减少重复、约定各渠道用途，不是发更多消息。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A manager emails 'send me a good report as soon as possible'. The employee delivers a twenty-page document a week later, which is not what the manager wanted. Which barrier is most directly involved, and what is the fix?",
+          "options": ["Communication overload; send fewer emails", "Ambiguity; specify what to deliver, to what standard and by when", "Filtering; reward bad news", "Physical noise; improve the connection"],
+          "answer": 1,
+          "how": ["线索是「good report as soon as possible」：没有说交付物、标准和期限。", "模糊表达留下理解空白，修法是补齐做什么、交什么、达到什么标准、何时完成，选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A teacher says 'come and see me after class'. A student who just failed a test expects criticism; a student who applied for a programme expects good news. Which concept explains the different reactions?",
+          "options": ["Perception and selective attention", "Communication overload", "Horizontal communication", "Editability"],
+          "answer": 0,
+          "how": ["线索是同一句话，两个学生因为各自的处境预期了不同内容。", "人们按期待、经验和情绪选择注意什么并形成不同解释，这是知觉与选择性注意。", "管理上的对策是说明谈话目的，而不是留下模糊线索。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A supervisor posts a dozen different reminders across email, group chat and meetings in one day, and staff miss the only urgent deadline. According to the lecture, what should improve?",
+          "options": ["Send the reminders again in all channels", "Reduce repetition, agree what each channel is for, and make the few key priorities explicit", "Switch everything to face-to-face", "Punish staff who missed it"],
+          "answer": 1,
+          "how": ["线索是「a dozen different reminders」和「miss the only urgent deadline」：过多低价值信息把优先级埋了。", "课程强调沟通质量比数量重要，对策是减少重复、约定渠道用途、明确少数关键优先事项，选 B。", "A 是加大数量，正好和 Marlow 等人的证据所支持的方向相反。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to the lecture, if a task was not completed, the communication failure must have happened at the encoding stage.",
+          "a": false,
+          "how": ["正确说法是：失败可能发生在表达、被注意、被解释或转化为行动的任一环节，要沿整个流程追查。", "题目把失败固定在编码一环，所以是 False。"]
+        },
+        {
+          "type": "tf",
+          "q": "Jargon that works efficiently between experts can become semantic noise when used with new members or other departments.",
+          "a": true,
+          "how": ["术语在共享知识的专家之间很高效，但对方缺乏共享知识时就成了语义噪声。", "题目准确说明了这个条件，所以是 True。"]
+        }
+      ],
+      "recap": "任务没完成，沿「表达、注意、解释、行动」逐环查；模糊靠补齐四要素，过载靠减量不是加量。"
+    },
+    {
+      "id": "w08-p13",
+      "title": "过滤、MUM 效应与员工沉默",
+      "titleEn": "Filtering, the MUM effect, voice and silence",
+      "kp": "Filtering 是向上传递时弱化或改变内容；MUM effect 是不愿传坏消息。Voice 是主动提出意见或担忧，silence 是保留有用信息；两者取决于说了安全吗、说了有用吗 (Morrison)。",
+      "howTo": "坏消息一层层变好听，选 filtering 和 MUM effect；员工知道问题却不说，选 silence，沉默不等于赞同。对策看 Morrison 两问：让说话安全（不罚报信者）、让说话有用（回应并反馈结果）。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An employee reports 'this deadline is impossible'; the middle manager says 'there may be a slight delay'; senior leaders hear 'broadly on track'. Which concepts best explain this?",
+          "options": ["Selective attention and jargon", "Filtering and the MUM effect", "Context collapse", "Channel expansion"],
+          "answer": 1,
+          "how": ["线索是「impossible」变成「slight delay」再变成「broadly on track」：坏消息逐层被弱化。", "向上传递时弱化内容是 filtering，Rosen 和 Tesser 说的不愿传坏消息是 MUM effect，选 B。", "这种失真不一定是撒谎，只奖励好消息的制度就会鼓励过滤。"]
+        },
+        {
+          "type": "tf",
+          "q": "If nobody raises objections in a meeting, a manager can safely conclude that the team agrees with the plan.",
+          "a": false,
+          "how": ["正确说法是：沉默可能是保留了有用信息，因为员工觉得说了不安全或没用，安静不代表赞同。", "题目把没人反对当成同意，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee knows a process makes customers pay twice but says nothing, because last time her suggestion was ignored. Which of Morrison's two questions is driving her silence?",
+          "options": ["Is it safe to speak up?", "Will speaking up make a difference?", "Is the channel rich enough?", "Is the network centralised?"],
+          "answer": 1,
+          "how": ["线索是「last time her suggestion was ignored」：她不是怕被罚，而是觉得说了没用。", "Morrison 的两问是安全和效果，这里卡在「Will speaking up make a difference」，选 B。", "如果题干说她怕被责怪，才是「Is it safe to speak up」。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company installs an anonymous suggestion box but never responds to anything submitted. After a few months, submissions stop. What does the lecture say is missing?",
+          "options": ["A richer channel", "Responsiveness: employees need to see that speaking up is safe and makes a difference", "More reminders to use the box", "A formal report template"],
+          "answer": 1,
+          "how": ["线索是「never responds」然后「submissions stop」：有入口，没有回应。", "意见箱只提供入口，不能自动提供安全感和回应；缺的是认真处理并反馈结果，选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "Managers should reward accurate reporting of risks and avoid punishing those who deliver bad news, in order to reduce filtering.",
+          "a": true,
+          "how": ["减少过滤的办法正是直接询问风险、奖励准确报告、不惩罚报信者。", "题目说的就是这些做法，所以是 True。"]
+        }
+      ],
+      "recap": "坏消息越往上越甜是过滤；员工开口前问两件事：说了安全吗，说了有用吗。"
+    },
+    {
+      "id": "w08-p14",
+      "title": "开放氛围、倾听与心理安全",
+      "titleEn": "Open climate, listening and psychological safety",
+      "kp": "开放氛围靠 accessibility、candour、responsiveness。Kluger 等 (2024) 倾听与工作结果 r 为 .39，是相关；Edmondson (1999)：51 个团队，心理安全与学习行为相关。",
+      "howTo": "题干说「门开着但一听坏消息就打断」，缺的是 responsiveness 和让人敢坦诚的安全感。看到 r 为 .39 说成「提高 39%」或「证明因果」，判错。心理安全指敢承担人际风险（提问、认错、反对），不是人人同意。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A manager says 'my door is always open' but interrupts and criticises anyone who brings bad news. Which element of an open communication climate is most clearly missing?",
+          "options": ["Physical accessibility", "Persistence", "Visibility", "Responsiveness and safety for candour"],
+          "answer": 3,
+          "how": ["线索是「door is always open」对比「interrupts and criticises」带坏消息的人。", "门开着说明能接近，但坏消息得不到可信回应，缺的是 responsiveness 和让人敢坦诚的安全感，选 D。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee complains about a budget request. The manager first says: 'So your concern is that the data cannot be verified, not that the target is too high, is that right?' Which practice is this?",
+          "options": ["Active listening with a reflective check", "Filtering", "Downward communication", "Anchoring"],
+          "answer": 0,
+          "how": ["线索是经理先复述对方的担忧并问「is that right」：在确认自己理解得对不对。", "专注理解、复述确认再回应，是 active listening，这一句是反思式问题。", "复述是检查理解，不是机械重复，也不是急着给建议。"]
+        },
+        {
+          "type": "tf",
+          "q": "Kluger et al. (2024) reported that perceived listening correlated with relationship quality at r = .51, which shows the two vary together but does not by itself prove that listening causes better relationships.",
+          "a": true,
+          "how": ["课件数字是关系质量 r 为 .51、工作结果 .39、绩效 .36，都是相关系数。", "相关说明一起变化，不是提升百分比，也不能单独证明因果，所以题目是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Edmondson (1999) studied 51 work teams in a manufacturing company. What did the study report?",
+          "options": ["Psychological safety causes higher profits in all firms", "Psychological safety was associated with team learning behaviour", "Teams with psychological safety never make mistakes", "Psychological safety means everyone always agrees"],
+          "answer": 1,
+          "how": ["题干问 Edmondson 研究「report」了什么。", "研究发现团队心理安全与团队学习行为相关，选 B；原研究报告的是关联，不是普遍因果定律。", "D 是常见误解：心理安全是敢提问、敢认错、敢反对，不是人人同意。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee warns that a new process may fail. The manager thanks her, explains how she will check it, and later tells her which step was changed. Which managerial practice supporting voice does this show?",
+          "options": ["Closing the feedback loop after a concern is raised", "Filtering", "The MUM effect", "Context collapse"],
+          "answer": 0,
+          "how": ["线索是「thanks her」、说明怎么核查、「later tells her which step was changed」：有回应也有结果反馈。", "在提出担忧后跟进并说明处理结果，就是关闭反馈环路；这不等于每个意见都要照做。"]
+        }
+      ],
+      "recap": "门开着还要真的听、真的回应；r 是一起变化的程度，不是提升百分比；心理安全是敢说，不是都同意。"
+    }
+  ]
+}

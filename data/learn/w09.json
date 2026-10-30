@@ -1,0 +1,548 @@
+{
+  "week": 9,
+  "points": [
+    {
+      "id": "w09-p01",
+      "title": "信息准确也可能判断错",
+      "titleEn": "Information, interpretation and decision",
+      "kp": "管理者把收到的信息解释成意义和原因后才决定怎么做，顺序是 information、interpretation、decision。所以信息准确，也可能因解释有偏差而做出错误决定；换更丰富的沟通渠道不能自动消除判断偏差。",
+      "howTo": "题干里信息是清楚、准确的（监控拍到了、报告写明了），问题却出在经理怎么理解，就是判断问题而不是沟通问题。选项说「换个渠道就能解决偏差」的，判错。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "A manager who receives a complete and accurate report is thereby protected from making a biased decision.",
+          "a": false,
+          "how": ["正确说法是：信息准确只保证了第一步，解释环节仍可能有偏差，决定仍可能错。", "题目说准确信息就能「protected from」偏差，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "CCTV clearly shows an employee arriving late, but not that he was asked to work late the previous evening. The manager decides to issue a warning. Where does the lecture locate the risk in this decision?",
+          "options": ["In the transmission of information", "In the interpretation stage, where accurate information is given a cause", "In the choice of communication channel", "In physical noise"],
+          "answer": 1,
+          "how": ["线索是「CCTV clearly shows」：信息准确，但经理给它加上了原因并直接行动。", "从信息到决定中间有解释这一步，偏差就藏在这里，选 B。", "A 和 C 都在说沟通问题，可题干的信息传递没有任何失真。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team leader believes that switching from email to face-to-face meetings will remove bias from her performance judgements. According to the lecture, what is the problem?",
+          "options": ["Face-to-face is less rich than email", "Richer channels address communication distortion, but judgement biases can occur even when information is accurate", "Bias only exists in written communication", "There is no problem; richer channels remove bias"],
+          "answer": 1,
+          "how": ["线索是「switching… will remove bias」：把渠道问题和判断问题混在一起。", "沟通问题扭曲信息本身，判断问题在信息准确时也会发生，所以换渠道不能自动消除偏差，选 B。"]
+        }
+      ],
+      "recap": "沟通把地图交到你手里，判断决定你怎么读图；地图准确不保证读图不错。"
+    },
+    {
+      "id": "w09-p02",
+      "title": "观察与推断要分开",
+      "titleEn": "Perception is not reality",
+      "kp": "知觉是对线索的选择和解释。观察到的行为（员工望着窗外）和自己加上的原因推断（他在偷懒）不是一回事，同一线索可以有多种解释。做法是先写下可观察的事实，再列出可能解释并找证据。",
+      "howTo": "把题干拆成两列：哪些是看得见的事实，哪些是经理脑补的原因。经理把推断当成事实直接行动，就是这个考点的错误。正确选项通常含「先列出多种解释再找证据」。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A manager sees an employee staring out of the window and concludes he is lazy. In fact he was thinking about a conflict the manager asked him to resolve. What is the core error?",
+          "options": ["Anchoring", "Treating an inference as if it were an observation", "Satisficing", "External attribution"],
+          "answer": 1,
+          "how": ["线索是「sees… staring out of the window」是观察，「concludes he is lazy」是推断。", "把自己加上的原因当成看见的事实，就是观察与推断混淆，选 B。", "Anchoring 是过度依赖起点数字或第一印象，题干没有这种起点。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is an observation rather than an inference?",
+          "options": ["'He does not care about the team'", "'She is unmotivated'", "'He submitted the report two days after the deadline'", "'She is not a team player'"],
+          "answer": 2,
+          "how": ["观察是能直接看到或记录的行为，推断是对原因或态度的解释。", "只有「submitted the report two days after the deadline」是可核对的事实，其余三句都是态度判断，选 C。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Before criticising an employee for repeatedly missing meetings, what does the lecture recommend the manager do first?",
+          "options": ["Decide the cause from the most recent incident", "Write down the observable facts, list several possible explanations and look for evidence", "Ask colleagues whether they think he is lazy", "Choose the explanation that matches his personality"],
+          "answer": 1,
+          "how": ["题干问批评之前「do first」的步骤。", "课程做法是先写下可观察事实，再列出多种可能解释并寻找证据，选 B。", "D 一开始就锁定人格解释，正是要避免的做法。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because perception involves selecting and interpreting cues, two managers watching the same behaviour can reach different conclusions about its cause.",
+          "a": true,
+          "how": ["知觉是对线索的选择和解释，所以同一行为在不同人眼里可以对应不同原因。", "题目说的正是这一点，所以是 True。"]
+        }
+      ],
+      "recap": "「望窗外」是观察，「偷懒」是推断；先把事实和解释分开，再找证据。"
+    },
+    {
+      "id": "w09-p03",
+      "title": "内在归因与外在归因",
+      "titleEn": "Internal and external attribution",
+      "kp": "Internal attribution 把行为解释为人格、能力、动机或努力；external attribution 把行为解释为交通、任务、资源、信息等情境限制。两者可以同时起作用，归因只是解释，不是直接看到的真正原因。",
+      "howTo": "看解释把原因放在哪里：放在「这个人怎么样」是 internal；放在「环境和条件怎么样」是 external。核查方法：迟到是否集中在特定日子、别人是否也遇到、他在其他场合是否准时。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Steve has been late several times. His manager says 'Steve is lazy'. This is an example of:",
+          "options": ["External attribution", "Availability heuristic", "Internal attribution", "Period effect"],
+          "answer": 2,
+          "how": ["线索是「Steve is lazy」：原因被放在 Steve 的人格和动机上。", "用人格、能力、动机或努力解释行为，是 internal attribution。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A colleague suggests that Steve's lateness is caused by a new road closure that also delays other staff on the same route. What kind of attribution is this?",
+          "options": ["Internal attribution", "External attribution", "Fundamental attribution error", "Stereotyping"],
+          "answer": 1,
+          "how": ["线索是「road closure」和「also delays other staff」：原因被放在情境上，而且别人也受影响。", "用交通、任务、资源等情境限制解释行为，是 external attribution。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which piece of evidence would most support an external rather than an internal explanation for Steve's lateness?",
+          "options": ["Steve was also late at his previous job", "Other employees using the same transport were late on the same days", "Steve says he dislikes early meetings", "Steve's colleagues describe him as disorganised"],
+          "answer": 1,
+          "how": ["题干问哪条证据支持「external」解释。", "别人在同样条件下也迟到，说明原因在情境，选 B。", "A 和 D 是跨场景和跨评价者的一致性，反而支持个人原因。"]
+        },
+        {
+          "type": "tf",
+          "q": "Internal and external causes cannot both contribute to the same behaviour.",
+          "a": false,
+          "how": ["正确说法是：个人和情境因素可以同时起作用。", "题目说两者不能同时存在，所以是 False。"]
+        }
+      ],
+      "recap": "原因放在人身上是内在归因，放在环境上是外在归因；两者可以同时成立，先查证据。"
+    },
+    {
+      "id": "w09-p04",
+      "title": "基本归因错误",
+      "titleEn": "Fundamental attribution error",
+      "kp": "Fundamental attribution error (Ross, 1977)：解释他人行为时过度强调个人原因、低估情境影响的倾向。它不是说个人永远没有责任，而是提醒不要过早把原因归到个人。",
+      "howTo": "题干里多个人在同一流程、同一条件下出同样的问题，经理却逐个怪个人，就是基本归因错误。选项说「个人因此永远不用负责」的，判错；正确做法是先检查流程、工作量和信息系统。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Several employees make the same error on a new form. The manager criticises each of them for being careless without checking the form. This best illustrates:",
+          "options": ["Fundamental attribution error", "Representativeness heuristic", "Satisficing", "Conformity"],
+          "answer": 0,
+          "how": ["线索是「make the same error」加「without checking the form」：很多人同一处出错，经理只怪个人。", "高估个人原因、低估情境（表格本身），就是 fundamental attribution error。"]
+        },
+        {
+          "type": "tf",
+          "q": "Avoiding the fundamental attribution error means a manager should always accept a situational excuse and never hold an individual accountable.",
+          "a": false,
+          "how": ["正确说法是：这个概念提醒不要过早归因到个人，但有证据支持时个人仍要负责。", "题目把「先查情境」推到「永远不追责」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "When many staff struggle with the same process, what does the lecture say the manager should check first?",
+          "options": ["Each person's personality", "The process, workload and information systems", "Which staff member complained most", "Whether the staff are from the same generation"],
+          "answer": 1,
+          "how": ["线索是「many staff struggle with the same process」：问题的共同点是流程，不是人。", "多个员工在同一流程遇到困难时，先检查流程、工作量和信息系统，选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which statement correctly distinguishes the fundamental attribution error from stereotyping?",
+          "options": ["They are the same thing", "FAE underestimates the situation when explaining a person's behaviour; stereotyping judges a person from assumed group traits", "FAE applies only to groups; stereotyping only to individuals", "Stereotyping underestimates the situation; FAE uses group categories"],
+          "answer": 1,
+          "how": ["两者都是判断错误，但机制不同。", "基本归因错误是低估情境、过度怪个人；刻板印象是拿群体特征套在个人身上，选 B。", "D 把两者的定义调换了。"]
+        }
+      ],
+      "recap": "所有人都绊到同一块石头，却只怪每个人不会走路，就是基本归因错误。"
+    },
+    {
+      "id": "w09-p05",
+      "title": "问答实验：角色优势被当成知识",
+      "titleEn": "Quiz game study and role advantage",
+      "kp": "Ross 等 (1977) 问答实验：questioner 用自己擅长的知识出难题，contestant 作答，observer 评价双方。结果答题者和观察者都把出题角色的优势归为出题者更有知识。",
+      "howTo": "题干出现出题者、答题者、观察者评分，就是这个实验。记住结论：角色优势被误当成个人知识，而且不只答题者，观察者也这样评。选项说「出题者实际更聪明」或「只有答题者被误导」的，判错。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "In Ross, Amabile and Steinmetz's quiz game study, observers who watched the game were not fooled by the questioner's role advantage and rated both roles as equally knowledgeable.",
+          "a": false,
+          "how": ["正确说法是：不只答题者，观察者也把出题者评为更有知识。", "题目说观察者没有被误导，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the quiz game study, why did questioners appear more knowledgeable?",
+          "options": ["They were selected for higher intelligence", "Their role let them choose questions from their own areas of knowledge, an advantage others attributed to personal knowledge", "Contestants were given less time", "Observers were paid to favour questioners"],
+          "answer": 1,
+          "how": ["题干问出题者「appear more knowledgeable」的原因。", "出题者能用自己擅长的知识出题，这是角色带来的优势，但评价者把它归为个人知识，选 B。", "A 把实验结论读成出题者真的更聪明，实验比较的是评价和角色优势。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager always chairs meetings and sets the agenda on topics she knows well, and colleagues conclude she is the most capable person in the team. Which research finding does this resemble?",
+          "options": ["Asch's line experiment", "The quiz game study: role advantage mistaken for personal knowledge", "Masuda and Nisbett's fish study", "Baron et al.'s importance study"],
+          "answer": 1,
+          "how": ["线索是「sets the agenda on topics she knows well」：角色让她总在自己擅长的领域表现。", "同事把角色优势当成个人能力，和问答实验里评价出题者的模式一样，选 B。"]
+        }
+      ],
+      "recap": "能选自己熟悉的赛道，再被夸跑得快；别把角色带来的优势当成个人知识。"
+    },
+    {
+      "id": "w09-p06",
+      "title": "先诊断再贴标签",
+      "titleEn": "Diagnose before you label",
+      "kp": "课件四步：describe without labels（先描述）、check context（查情境）、seek evidence（找证据）、choose a matching response（选相符回应）。",
+      "howTo": "排序题认准顺序：描述、查情境、找证据、选回应。情境题里经理一看到故障就认定人不行，就违反了第一步；正确选项通常是先核查再决定修设备还是培训人。检查情境不等于免除有证据的个人责任。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which sequence matches the lecture's 'diagnose before you label' steps?",
+          "options": ["Seek evidence → label → punish → review", "Check context → choose response → describe → seek evidence", "Label → seek confirming evidence → respond", "Describe without labels → check context → seek evidence → choose a matching response"],
+          "answer": 3,
+          "how": ["题干问四步的「sequence」。", "顺序是不带标签地描述、检查情境、寻找证据、选择匹配的回应，选 D。", "C 先贴标签再找支持它的证据，正好是课程反对的顺序。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee keeps making errors. The supervisor checks the machine, the materials and the operation logs before deciding whether to repair equipment or retrain the operator. Which step is the supervisor emphasising?",
+          "options": ["Describe without labels", "Check context and seek evidence", "Choose a matching response first", "Label the employee as careless"],
+          "answer": 1,
+          "how": ["线索是「checks the machine, the materials and the operation logs」：在查情境和证据。", "先检查情境、寻找证据，再决定修设备还是培训人，选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "If an employee's behaviour is stable across several weeks, that alone proves the cause is personality.",
+          "a": false,
+          "how": ["正确说法是：行为稳定可以提供线索，但不能单独证明是人格原因，还要看情境是否也一直没变。", "题目用「alone proves」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "After checking context, a manager finds strong evidence that an employee ignored clear instructions he had confirmed understanding of. According to the lecture, what should the manager do?",
+          "options": ["Still avoid any individual accountability, because context matters", "Choose a response that matches the most likely cause, which here includes individual responsibility", "Retrain the whole team", "Change the process anyway"],
+          "answer": 1,
+          "how": ["线索是「strong evidence」指向个人忽视了已确认理解的指令。", "最后一步是选与最可能原因相符的行动；检查情境不等于免除有证据支持的个人责任，选 B。"]
+        }
+      ],
+      "recap": "先描述、再查情境、再找证据、最后选回应；标签放到最后，而且要有证据。"
+    },
+    {
+      "id": "w09-p07",
+      "title": "文化与思维方式：样本差异不能预测个人",
+      "titleEn": "Culture, holistic and analytic thinking",
+      "kp": "Holistic thinking 更关注关系和整体情境，analytic thinking 更关注对象及其属性 (Nisbett, 2001)。跨文化归因研究和鱼实验发现的是样本平均差异，不能用来预测个人。",
+      "howTo": "经理先看工作量、协作和职责，是 holistic；先看动机、技能、习惯，是 analytic。两种都不是更好，也不是国籍标签。跨文化研究题里，凡是「所有美国人都怪个人」「日本人记忆更好」这类绝对化选项，判错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "When an employee misses a deadline, one manager first looks at workload, team coordination and clarity of responsibilities. Which thinking style is this?",
+          "options": ["Analytic", "Holistic", "Category-based", "Intuitive"],
+          "answer": 1,
+          "how": ["线索是「workload, team coordination and clarity of responsibilities」：先看关系和整体情境。", "更关注关系与整体情境的是 holistic thinking。", "如果经理先看的是动机、技能和习惯，才是 analytic。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the fish study, participants first saw underwater scenes and were later asked to recognise the fish against the original or a new background. Which conclusion does the lecture draw?",
+          "options": ["Japanese participants in the sample showed stronger context sensitivity; American participants were less affected by the background change", "Japanese employees will always notice context more than American employees", "Memory for objects is unrelated to background", "American participants had worse eyesight"],
+          "answer": 0,
+          "how": ["线索是「original or a new background」：实验比较的是背景改变对识别的影响。", "Masuda 和 Nisbett 的日本样本在原背景下更准确，说明情境敏感性更强；美国样本受背景变化影响较小，选 A。", "B 把样本平均差异变成了对每个人的预测，正是课程反对的。"]
+        },
+        {
+          "type": "tf",
+          "q": "Morris and Peng (1994) found that English-language reports of the same event emphasised the actor's character more, while Chinese-language reports emphasised situation and relationships more; the lecture treats this as a difference in emphasis between samples, not a rule about individuals.",
+          "a": true,
+          "how": ["讲稿介绍的 Miller (1984) 和 Morris & Peng (1994) 都比较归因侧重，后者看的就是中英文报道的差别。", "课程强调这些是样本平均差异，不能据此断定某个人的归因方式，所以题目是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which statement about holistic and analytic thinking is consistent with the lecture?",
+          "options": ["Analytic thinking is a form of stereotyping", "Holistic thinking is always more accurate", "Both can offer complementary cues, and good managerial judgement checks both the person and the situation", "Each person is permanently either holistic or analytic"],
+          "answer": 2,
+          "how": ["题干问哪句「consistent with the lecture」。", "两种方式各自提供互补线索，判断时应同时检查人和情境，选 C。", "A 是常见误读：分析式思考关注对象属性，不等于拿群体印象判断个人。"]
+        }
+      ],
+      "recap": "整体式先看情境，分析式先看对象；两者互补，都不是贴在国籍上的永久标签。"
+    },
+    {
+      "id": "w09-p08",
+      "title": "刻板印象：联想、分类、泛化",
+      "titleEn": "Stereotyping and category-based judgement",
+      "kp": "Stereotyping 是依据某人所属群体的印象来判断这个人，三步：association（群体和特征相连）、categorisation（把人归入群体）、generalisation（把特征套到个人）。",
+      "howTo": "经理不看个人的实际表现，只凭年龄、性别、世代下结论，就是刻板印象。区分：问当天工作量、技术故障等真实条件，是情境敏感判断；用「他是 Gen Z」推断，是类别判断。核查问题：关于这个人我有什么证据。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A manager gives digital training only to younger staff because he assumes older staff cannot handle new technology, without checking anyone's actual performance. This is:",
+          "options": ["Stereotyping", "Fundamental attribution error", "Anchoring", "Context-sensitive judgement"],
+          "answer": 0,
+          "how": ["线索是「assumes older staff cannot」和「without checking」：用群体印象替代了个人证据。", "依据群体印象判断个人，就是 stereotyping。", "基本归因错误是低估情境、怪个人；这里经理根本没评价个人。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager has learned the idea that 'older people are bad with technology'. Then he decides that a particular employee, who looks older, is therefore unsuitable for a digital project. Which step is 'therefore unsuitable'?",
+          "options": ["Association", "Categorisation", "Generalisation", "Observation"],
+          "answer": 2,
+          "how": ["学到「older people are bad with technology」这个联想，是 association。", "把这位看起来年长的员工归入该群体，是 categorisation。", "把假定的群体特征套到这个人身上，得出「unsuitable」，是 generalisation，选 C。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Two managers discuss a late report. One checks whether the employee was reassigned to an urgent client task that week; the other says 'people from that department never meet deadlines'. Which description is correct?",
+          "options": ["The first is context-sensitive judgement; the second is category-based judgement", "Both are context-sensitive", "The first is stereotyping; the second checks context", "Both are examples of anchoring"],
+          "answer": 0,
+          "how": ["第一位经理查的是「reassigned to an urgent client task」，这是真实相关的周边条件。", "第二位用「people from that department never」推断个人，这是用群体类别替代证据，选 A。"]
+        },
+        {
+          "type": "tf",
+          "q": "The lecture's check against stereotyping is to ask: What evidence do I have about this individual?",
+          "a": true,
+          "how": ["课程给的核查问题正是这一句：关于这个人本身，我有什么证据。", "题目原样复述，所以是 True。知道群体身份不是问题，问题是没有个人证据就套用群体特征。"]
+        },
+        {
+          "type": "tf",
+          "q": "Considering an employee's real circumstances before judging a missed deadline is the same as making excuses for any performance.",
+          "a": false,
+          "how": ["正确说法是：只有真正相关的情境才有助于诊断，考虑情境不等于为所有表现找借口。", "题目把两者等同，所以是 False。"]
+        }
+      ],
+      "recap": "先联想、再分类、最后泛化到个人，就是刻板印象；解药是问「关于这个人，我有什么证据」。"
+    },
+    {
+      "id": "w09-p09",
+      "title": "理性决策六步",
+      "titleEn": "Rational decision making",
+      "kp": "理性决策六步：定义问题（define）、确定标准（criteria）、分配权重（weights）、形成备选（alternatives）、评价备选、选择（select）；之后 implement 并 review。",
+      "howTo": "先问经理卡在哪一步：没搞清真正问题是 problem definition；不知道比什么是 criteria；不知道哪个标准更重要是 weights。评分表缺信息、没有权重时，结论只能是「暂定」，不能说决策已完成。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Sales fall and a manager immediately asks 'whom should we hire?' Later it turns out the real cause was delivery delays. Which part of decision making failed?",
+          "options": ["Evaluating alternatives", "Allocating weights", "Problem definition", "Implementation"],
+          "answer": 2,
+          "how": ["线索是「immediately asks whom should we hire」，而真正原因是「delivery delays」：一开始就把问题定错了。", "界定问题决定后面收集什么信息、比较什么选项，这里失败在 problem definition。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A budget-conscious buyer and a family with young children compare the same three cars using the same criteria, yet reach different choices. According to the rational model, what explains this?",
+          "options": ["One of them is irrational", "They assigned different weights to criteria such as price and safety", "The criteria were wrong", "Rational decision making cannot handle more than two options"],
+          "answer": 1,
+          "how": ["线索是「same criteria」却「different choices」：比的东西一样，看重的程度不一样。", "权重反映目标优先级，预算紧的人更看重价格，有孩子的家庭更看重安全，选 B。", "A 错在：标准相同、权重不同是理性模型允许的，不是不理性。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which is the correct order of the six steps in the rational decision-making model presented in the lecture?",
+          "options": ["Identify criteria → define problem → select → evaluate", "Define problem → identify criteria → allocate weights → develop alternatives → evaluate alternatives → select", "Develop alternatives → define problem → select → review", "Select → implement → define problem"],
+          "answer": 1,
+          "how": ["题干问六步的「correct order」。", "先定义问题，再定标准和权重，然后形成备选、评价备选、最后选择，选 B。", "A 把标准放在问题之前，但不知道要解决什么就无法知道比什么。"]
+        },
+        {
+          "type": "tf",
+          "q": "In the rational model, the decision process ends at the moment the best alternative is selected.",
+          "a": false,
+          "how": ["正确说法是：选出方案后还要实施并复核是否达到预期，实施后的新信息可能要求调整。", "题目把过程截止在选择那一刻，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager sees that one option scores highest on two of five criteria and announces that the weighted comparison is finished. What is wrong?",
+          "options": ["Nothing; two criteria are enough", "She has looked at partial scores without setting weights or completing the comparison across all criteria", "Weights are never needed", "She should have used intuition instead"],
+          "answer": 1,
+          "how": ["线索是「two of five criteria」就宣布「weighted comparison is finished」。", "不能默认所有标准同等重要，也不能看到局部评分就声称完成了加权比较，选 B。"]
+        }
+      ],
+      "recap": "先定义问题，再定标准和权重，然后找备选、评价、选择；选完还要实施复核。"
+    },
+    {
+      "id": "w09-p10",
+      "title": "有限理性：满意化而非最优化",
+      "titleEn": "Bounded rationality and satisficing",
+      "kp": "理性受四类限制：信息不完整、认知能力、时间资源、不确定性。Bounded rationality (Simon)：在约束下简化问题，只搜一部分方案。Satisficing 是达到最低标准就停，optimising 追求全部方案中最好的。",
+      "howTo": "「时间紧、资料缺、只看几个选项、够用就买」，选 bounded rationality 和 satisficing；「全面比较直到找到最佳」，是 optimising。有限理性不等于不理性，够用仍要满足明确标准。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Your phone breaks and you need a replacement today. You check three trusted models and buy the first one within budget that meets your needs. Which concept best describes this?",
+          "options": ["Optimising", "Anchoring", "Representativeness", "Bounded rationality and satisficing"],
+          "answer": 3,
+          "how": ["线索是「today」「three trusted models」「meets your needs」：时间有限，只搜一部分，够用就停。", "在约束下简化搜索是 bounded rationality，达到最低标准就停是 satisficing，选 D。", "Optimising 要比完所有型号找最佳，题干明显没有这样做。"]
+        },
+        {
+          "type": "tf",
+          "q": "Satisficing means accepting any available option regardless of whether it meets the decision maker's standards.",
+          "a": false,
+          "how": ["正确说法是：满意化是找到达到最低可接受标准的方案就停，good enough 仍有明确标准。", "题目把「达标就停」改成「什么都行」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which list correctly names the four limits to fully rational decision making given in the lecture?",
+          "options": ["Incomplete information, cognitive limits, time and resource constraints, uncertainty", "Pressure, norms, silence, impact", "Visibility, persistence, editability, association", "Age, period, cohort, tenure"],
+          "answer": 0,
+          "how": ["题干问完全理性的「four limits」。", "四类限制是信息不完整、认知能力、时间资源和不确定性，选 A。", "B 是 Week 7 导致不道德行为的四因素，C 是社交媒体可供性。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager with one afternoon to choose a supplier, incomplete data and a changing market cannot compare every option and every future outcome. Which concept explains why she simplifies the search?",
+          "options": ["Bounded rationality", "Optimising", "Representativeness heuristic", "Conformity"],
+          "answer": 0,
+          "how": ["线索是「one afternoon」「incomplete data」「changing market」：时间、信息和不确定性都受限。", "在这些约束下简化问题、只搜一部分方案，就是 bounded rationality。"]
+        },
+        {
+          "type": "tf",
+          "q": "Even when all relevant information is available, people may still be unable to process all of it because of cognitive limits.",
+          "a": true,
+          "how": ["限制不只来自外部信息，也来自内部的注意、记忆和处理能力。", "题目说的正是认知限制，所以是 True。"]
+        }
+      ],
+      "recap": "拿着不完整的地图限时规划路线，只能走几条可行的；够用就停是满意化，不是随便选。"
+    },
+    {
+      "id": "w09-p11",
+      "title": "直觉决策与三种方式组合",
+      "titleEn": "Intuition and combining approaches",
+      "kp": "Intuitive decision making 很少经过有意识的逐项推敲，而是快速调用经验学到的模式。有相关经验时更有用，陌生情境或被刻板印象驱动时不可靠。理性比较、有限理性下的满意搜索和直觉可以按任务组合。",
+      "howTo": "题干说「有经验的人一听就想到常见故障」，选 intuition；最佳用法是先用直觉提出要检查的方向，再用证据和标准核实。选项说「专家永远对，不用核实」或「直觉就是瞎猜」的，都判错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An experienced maintenance supervisor hears an unusual sound and immediately suspects a common fault. What is the best use of this intuition?",
+          "options": ["Use it to suggest what to inspect, then verify with evidence", "Act on it without checking because experts are always right", "Ignore it because intuition is guessing", "Ask the group to vote"],
+          "answer": 0,
+          "how": ["线索是「experienced」和「immediately suspects」：经验模式被快速调用。", "直觉适合先提出备选和检查方向，再用明确标准与信息检验，选 A。", "B 和 C 是两个极端：强烈感觉本身不是证据，但有经验的直觉也不是瞎猜。"]
+        },
+        {
+          "type": "tf",
+          "q": "A manager's gut feeling about a candidate from a group she has never worked with is just as reliable as an experienced technician's hunch about a familiar machine.",
+          "a": false,
+          "how": ["正确说法是：直觉在有相关经验的熟悉情境更可靠，陌生情境或由刻板印象驱动的直觉不可靠。", "题目把两种情境说成一样可靠，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A hiring manager uses experience to spot promising candidates, then compares them on the same work-related evidence, and selects someone who meets the requirements before the deadline. Which description fits?",
+          "options": ["Pure intuition", "Pure optimising", "A combination of intuitive, rational and bounded approaches", "Stereotyping"],
+          "answer": 2,
+          "how": ["线索有三段：凭经验发现是直觉，统一比较证据是理性，截止前选达标者是有限理性下的满意化。", "三种方式按任务需要组合，不必归为互斥的一种，选 C。"]
+        },
+        {
+          "type": "tf",
+          "q": "A decision made quickly must have been made purely by intuition.",
+          "a": false,
+          "how": ["正确说法是：快不等于完全靠直觉，搜得少也不等于没有标准，要看分析方式和停止规则。", "题目用「must」把速度等同于直觉，所以是 False。"]
+        }
+      ],
+      "recap": "直觉是熟练棋手一眼认出局面，先用它指方向，再用证据核实；三种方式可以混着用。"
+    },
+    {
+      "id": "w09-p12",
+      "title": "代表性与可得性启发式",
+      "titleEn": "Representativeness and availability heuristics",
+      "kp": "Heuristics (Tversky & Kahneman) 是省力的判断捷径，可能用更容易的问题替代真正的问题。Representativeness 看像不像典型原型；Availability 看例子容易不容易想起。",
+      "howTo": "题干说「看起来像理想的某某」「符合我印象中的典型」，选 representativeness；说「最近、鲜明、新闻里常见、一下就想起」，选 availability。启发式不是每次都错，但要回到相关标准和完整数据。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Two tutor candidates have similar qualifications and evidence, but the panel prefers one because he 'looks like an ideal teacher'. Which heuristic is at work?",
+          "options": ["Availability", "Anchoring", "Representativeness", "Satisficing"],
+          "answer": 2,
+          "how": ["线索是「looks like an ideal teacher」：判断依据是像不像心中的原型。", "按相似于典型形象来判断，是 representativeness heuristic。", "Availability 看的是容易想起什么，题干没有涉及回忆。"]
+        },
+        {
+          "type": "mcq",
+          "q": "People often believe police work is more dangerous than logging because police incidents appear frequently in news and films. Which heuristic does the lecture use this example to illustrate?",
+          "options": ["Representativeness", "Availability", "Anchoring", "Conformity"],
+          "answer": 1,
+          "how": ["线索是「appear frequently in news and films」：警察的危险场面更容易被想起。", "用容易回忆的例子判断风险高低，是 availability heuristic；较少听说不等于风险较低。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager rejects a project proposal because it 'resembles the one that failed two years ago', without comparing the actual budgets, teams and markets. Which heuristic is this?",
+          "options": ["Availability", "Representativeness", "Anchoring", "Satisficing"],
+          "answer": 1,
+          "how": ["线索是「resembles the one that failed」且「without comparing the actual」：只凭相似度下结论。", "把相似程度当成证据，是 representativeness，应回到相关标准逐项比较。", "如果题干强调的是那次失败「印象太深、一下就想起」，才更偏向 availability。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to the lecture, a heuristic can lead judgement astray when it substitutes an easier question, such as 'how familiar is this?', for the real question, such as 'which project deserves priority?'",
+          "a": true,
+          "how": ["启发式的问题在于用更容易回答的问题替代真正要回答的问题。", "题目举的正是这种替代，所以是 True。启发式并非每次都错，重要的是识别何时偏离了目标。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which pair correctly matches each heuristic with its check?",
+          "options": ["Representativeness: check relevant criteria and actual evidence; Availability: check complete records and relevant data", "Representativeness: check who spoke first; Availability: check prototypes", "Both: just trust experience", "Both: ask the majority"],
+          "answer": 0,
+          "how": ["代表性靠像不像，所以要回到相关标准和实际证据；可得性靠想起什么，所以要看完整记录和数据，选 A。", "B 里的「谁先说」属于锚定的核查方向，不是这两个。"]
+        }
+      ],
+      "recap": "像不像原型是代表性，想不想得起是可得性；前者回到标准，后者回到数据。"
+    },
+    {
+      "id": "w09-p13",
+      "title": "锚定与去偏纪律",
+      "titleEn": "Anchoring and debiasing",
+      "kp": "Anchoring 是过度依赖最初信息、后续调整不足。转盘实验里先得到 10 或 65，再估计非洲国家在联合国的比例，无关的起点仍影响估计。第一印象和会议上最先说出的意见也会成为锚。",
+      "howTo": "「先听到一个数字或评价，后面都围着它转」，选 anchoring。去偏四步：name the judgement（明确判断）、identify the shortcut（识别捷径）、找直接证据、想替代解释。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "In the wheel-of-fortune study described in the lecture, participants first saw the wheel stop at 10 or 65 and then estimated the percentage of African countries in the United Nations. What happened?",
+          "options": ["Both groups gave the same estimate because the number was obviously random", "The group that saw 65 gave higher estimates than the group that saw 10, even though the number was unrelated", "Participants refused to estimate", "Only experts were influenced"],
+          "answer": 1,
+          "how": ["线索是「10 or 65」是转盘随机停的数字，和问题毫无关系。", "高锚组估得更高，低锚组估得更低，说明无关起点仍会影响后续判断，选 B。", "知道起点随意也不保证完全不受影响，这是锚定难防的原因。"]
+        },
+        {
+          "type": "mcq",
+          "q": "At the start of a hiring meeting, the most senior member says the candidate 'seems unreliable', and everyone then interprets the file around that remark. Which concept best describes the influence of that first remark?",
+          "options": ["Chameleon effect", "Social anchor", "Representativeness", "External attribution"],
+          "answer": 1,
+          "how": ["线索是「first remark」之后大家「interprets the file around that remark」：第一句话成了解读证据的起点。", "锚不只来自数字，会议上最先说出的意见也是锚，这叫社会锚，选 B。", "对策是分享前先各自写下独立评估，再比较证据。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager is about to give an employee a low annual rating because of one complaint. Following the lecture's debiasing discipline, what should she do first?",
+          "options": ["Name the judgement: she is rating the whole year's performance, not one incident", "Ask the team to vote", "Trust her intuition because she is experienced", "Lower the rating further to be safe"],
+          "answer": 0,
+          "how": ["题干问去偏纪律的「first」一步。", "第一步是明确要判断什么：评的是全年表现而不是一次投诉，选 A。", "接下来才是识别捷径（是否只记住鲜明投诉）、核对完整记录、考虑流程问题等替代解释。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because debiasing cannot remove all bias, the lecture recommends slowing down every minor decision equally.",
+          "a": false,
+          "how": ["正确说法是：不是每个小决定都要无限放慢，关键是后果重要时认真核查相关证据。", "题目说对所有小决定一视同仁地放慢，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which option correctly lists the four debiasing steps from the lecture?",
+          "options": ["Name the judgement, identify the shortcut, look for base evidence, generate an alternative", "Recognise, map, test, decide", "Describe, check context, seek evidence, choose a response", "Define problem, identify criteria, allocate weights, select"],
+          "answer": 0,
+          "how": ["题干问「four debiasing steps」。", "前两步是 name the judgement（明确判断）、identify the shortcut（识别捷径）。", "后两步是 look for base evidence（找直接证据）、generate an alternative（想替代解释），选 A。", "B 是伦理决策步骤，C 是先诊断再贴标签的步骤，D 是理性决策的一部分，别混。"]
+        }
+      ],
+      "recap": "先听到的数字或第一句话会定调；重要判断先说清要判断什么，再找捷径、证据和另一种解释。"
+    },
+    {
+      "id": "w09-p14",
+      "title": "从众：他人怎样影响判断",
+      "titleEn": "Conformity and social influence",
+      "kp": "Conformity 由 information、belonging、norms 驱动。Asch：同谋一致报错能拉动明显任务的判断。Baron 等：重要性在容易任务中减少从众，在困难任务中增加从众。",
+      "howTo": "题干说「大家都这样我也跟着」，判断驱动力：觉得别人更懂是 information，怕被排斥是 belonging，照规矩办是 norms。Baron 结论要连难度一起看：容易且重要就更坚持，困难且重要反而更跟随。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "In Asch's line judgement experiment, what was the key factor pulling participants toward wrong answers?",
+          "options": ["The lines were very hard to distinguish", "The unanimity of confederates' wrong answers given before the participant", "Monetary rewards for agreeing", "Participants' poor eyesight"],
+          "answer": 1,
+          "how": ["题干问「pulling participants toward wrong answers」的关键因素。", "线段其实很容易判断，起作用的是前面几位同谋一致报错，选 B。", "A 正好说反了：正确答案明显，群体仍能拉动判断，这才是实验的意义。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In Baron et al.'s (1996) eyewitness study, the photo was shown for a long time (easy task) and participants were told the results would be used by the police (high importance). What did raising importance do to conformity in this condition?",
+          "options": ["Reduced conformity to wrong answers", "Increased conformity", "Had no effect", "Made participants refuse to answer"],
+          "answer": 0,
+          "how": ["线索是「shown for a long time」是容易任务，「used by the police」是高重要性。", "容易任务里提高重要性让人更坚持自己看到的证据，从众减少，选 A。", "照片只闪一下的困难条件下，结果相反：重要性反而增加从众。"]
+        },
+        {
+          "type": "tf",
+          "q": "To reduce the influence of status and confidence, the lecture recommends that team members form and record their own judgements before the group discusses evidence and reasons.",
+          "a": true,
+          "how": ["讨论前先独立判断，再讨论证据与理由，能减少地位、自信和重复意见对结论的过度影响。", "题目说的正是这个做法，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A new employee notices that everyone asks the supervisor before sending any report, and starts doing the same without being told to. Which conformity driver is most visible here?",
+          "options": ["Information and norms: treating others' behaviour as the correct way to act", "Monetary incentive", "Anchoring on a number", "Representativeness"],
+          "answer": 0,
+          "how": ["线索是「notices that everyone」然后「starts doing the same」：把他人的行为当作正确做法的参照。", "不确定时把他人当信息来源并遵循规范，是从众的驱动力，选 A。", "但别人也可能排错队，团队一致不自动等于判断正确。"]
+        },
+        {
+          "type": "mcq",
+          "q": "During a conversation, one colleague leans forward and the other unconsciously does the same. According to the lecture, what does this mimicry show?",
+          "options": ["That the second colleague agrees with the first's conclusions", "Unconscious behavioural matching (the chameleon effect) that can build social connection, not agreement with the argument", "Anchoring on body language", "Filtering"],
+          "answer": 1,
+          "how": ["线索是「unconsciously does the same」：动作上的无意识趋同。", "这是 chameleon effect，可以促进社会联系，但不等于认同对方观点，选 B。", "模仿、遵循规范和改变判断是三回事，不能把身体动作相似读成思想一致。"]
+        }
+      ],
+      "recap": "别人齐声说钟表显示另一个时间，你也会怀疑眼睛；先各自写下判断，再一起看证据。"
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "week": 2,
+  "points": [
+    {
+      "id": "w02-p01",
+      "title": "动机的定义与三个组成部分",
+      "titleEn": "Motivation: direction, intensity, persistence",
+      "kp": "Motivation 是作用于人内部或外部、推动他采取某种行为的力量，本身看不见，只能从行为推断。三个组成部分：Direction（选择做什么）、Intensity（投入多少努力）、Persistence（坚持多久）。",
+      "howTo": "题干说「选择做哪件事」是 Direction，说「花多少时间精力」是 Intensity，说「坚持了多久、有没有放弃」是 Persistence。说某人「很有动力」不够准确，要分别问这三个问题。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which statement best matches the definition of motivation given in Lecture 2?",
+          "options": ["A personality trait that cannot be changed", "A force acting on or within a person that moves that person to behave in a particular way", "The amount of money an employee earns", "An employee's ability to perform a task"],
+          "answer": 1,
+          "how": ["题干要的是定义，关键词是「force」「moves that person to behave」。", "课程定义是一种推动人采取某种行为的力量，所以选 B。", "D 是 Ability，课程专门强调动机和能力是两回事。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee works extremely hard on the first two days of a project but gives up by the end of the week. Which component of motivation is low?",
+          "options": ["Direction", "Intensity", "Persistence", "Ability"],
+          "answer": 2,
+          "how": ["题干的线索是「extremely hard」但「gives up by the end of the week」。", "努力强度不低，问题是坚持不了多久，这就是 Persistence 低，所以选 C。", "Intensity 最容易选错：他的强度其实很高，缺的是持续性。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A salesperson puts in long hours for months, but spends that effort on making the dashboard numbers look good rather than on improving real customer service. Which component of motivation is the problem?",
+          "options": ["Direction", "Intensity", "Persistence", "Opportunity"],
+          "answer": 0,
+          "how": ["题干的线索是「long hours for months」加上「making the numbers look good」。", "强度和持续性都有，努力却放在错误的行为上，这是 Direction 的问题，所以选 A。", "课件原例就是员工有动力刷漂亮数据，却没动力提高真实质量。"]
+        },
+        {
+          "type": "tf",
+          "q": "A manager can observe an employee's motivation directly.",
+          "a": false,
+          "how": ["正确的说法是：动机本身不能被直接观察，只能从员工选择做什么、投入多少、坚持多久来推断。", "题目说「directly」观察，所以是 False。"]
+        },
+        {
+          "type": "tf",
+          "q": "Describing an employee simply as 'highly motivated' is imprecise, because direction, intensity and persistence can vary independently.",
+          "a": true,
+          "how": ["课件说「highly motivated」这种说法不够准确，因为一个人可能方向对但努力低，或者开始很猛很快放弃。", "三个成分可以各自高低不同，所以是 True。"]
+        }
+      ],
+      "recap": "动机是推动行为的力量，看不见只能推断。问三句：他想做什么？投入多少？坚持多久？"
+    },
+    {
+      "id": "w02-p02",
+      "title": "动机不等于表现：能力、动机、机会",
+      "titleEn": "Performance: ability, motivation, opportunity",
+      "kp": "表现和行为由三个因素共同决定：Ability（能不能，Can they?）、Motivation（愿不愿，Will they?）、Opportunity（有没有资源、权限和机会）。表现差不一定是没动力。",
+      "howTo": "题干员工表现差时先找原因：「不会做」是 Ability 问题，「会做但觉得不值得」是 Motivation 问题，「会做也愿做但没数据或权限」是 Opportunity 问题。只有 Motivation 问题才该用激励。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "According to Lecture 2, which three factors jointly determine performance and behaviour at work?",
+          "options": ["Ability, motivation and opportunity", "Ability, pay and supervision", "Direction, intensity and persistence", "Expectancy, instrumentality and valence"],
+          "answer": 0,
+          "how": ["题干问的是决定「performance」的三个因素。", "课件给的是 Ability、Motivation、Opportunity，所以选 A。", "C 是动机自己的三个成分，不是表现的三个因素，别混。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An analyst is keen to finish a report and has the skills to do it, but the company has not given him access to the data he needs. His manager offers a bonus to speed things up. Why is this unlikely to help?",
+          "options": ["Because the bonus is too small", "Because this is an opportunity problem, not a motivation problem", "Because the analyst lacks ability", "Because bonuses never work"],
+          "answer": 1,
+          "how": ["题干说他「keen」又「has the skills」，缺的只是「access to the data」。", "愿意做也会做，只是没有资源，这是 Opportunity 问题，发奖金打不中要害，所以选 B。", "课件的比喻是：给没子弹的队友加攻击力 buff。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A new employee really wants to do the task well but keeps making errors because she has never been shown how to use the system. What kind of problem is this?",
+          "options": ["An ability problem", "A motivation problem", "An opportunity problem", "A valence problem"],
+          "answer": 0,
+          "how": ["题干的线索是「really wants to」但「never been shown how」。", "很想做却不会做，这是 Ability 问题，答案是培训而不是激励，所以选 A。"]
+        },
+        {
+          "type": "tf",
+          "q": "Poor performance always indicates that the employee lacks motivation.",
+          "a": false,
+          "how": ["正确的说法是：表现差不一定代表没动力，也可能是能力不足或缺少机会和资源。", "题目用了「always」，所以是 False。"]
+        },
+        {
+          "type": "tf",
+          "q": "In the ability-motivation-opportunity framework, 'Can they?' refers to motivation and 'Will they?' refers to ability.",
+          "a": false,
+          "how": ["正确对应是：Can they? 问的是能力（Ability），Will they? 问的是意愿（Motivation）。", "题目把两个问句调换了，所以是 False。"]
+        }
+      ],
+      "recap": "表现由能力、动机、机会共同决定。表现差先问：不会做？不想做？还是没条件做？"
+    },
+    {
+      "id": "w02-p03",
+      "title": "惩罚与强制排名",
+      "titleEn": "Punishment and forced ranking",
+      "kp": "惩罚只压制不教导（Punishment suppresses; it does not teach），员工不知道下次该怎么做。Forced ranking（IBM、GE：20%、70%、10%）收益逐年递减，还降低公平感、合作与信息分享。",
+      "howTo": "题干出现「批评后员工不再犯，但也不知道该怎么做」就是惩罚只压制不教导。出现「按固定比例淘汰」就是 forced ranking，后果选收益递减、合作和信息分享下降、员工玩弄制度；不选「长期持续提高生产力」。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Punishment can suppress unwanted behaviour, but it does not teach the correct behaviour.",
+          "a": true,
+          "how": ["这就是课件原话：Punishment suppresses; it does not teach。", "惩罚只告诉员工别这样做，没告诉他下次该怎么做，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager criticises an employee harshly for a poorly written report. The employee stops submitting that kind of report, but still does not know what a good report looks like. Which limitation of punishment does this illustrate?",
+          "options": ["Punishment suppresses behaviour but does not teach the alternative", "Punishment increases intrinsic motivation", "Punishment creates commitment", "Punishment improves information sharing"],
+          "answer": 0,
+          "how": ["题干的线索是「stops submitting」但「does not know what a good report looks like」。", "旧行为被压下去了，正确行为没学到，这正是惩罚只压制不教导，所以选 A。", "这是课件原例，而且课件补充：监督和威胁一消失，旧行为就可能回来。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the forced ranking systems used by IBM and General Electric, employees were typically sorted into which proportions?",
+          "options": ["Top 10%, middle 80%, bottom 10%", "Top 20%, middle 70%, bottom 10%", "Top 30%, middle 50%, bottom 20%", "Top 50%, bottom 50%"],
+          "answer": 1,
+          "how": ["题干问「proportions」，考的是数字。", "课件给的是 Top 20%、Middle 70%、Bottom 10%，所以选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company has used forced ranking for several years. The clearly weak performers have already left, yet the system still requires 10% of each team to be rated at the bottom. What is the most likely consequence?",
+          "options": ["Productivity keeps rising at the same rate as in the first year", "Diminishing returns, less cooperation and information sharing, and employees gaming the system", "Higher trust among colleagues", "More accurate performance ratings"],
+          "answer": 1,
+          "how": ["题干的线索是「several years」「weak performers have already left」「still requires 10%」。", "弱者已走，制度还得人为制造 Bottom 10%，收益递减、合作下降、员工开始玩制度，所以选 B。", "A 最容易选错：课件说强制淘汰只在最初几年可能提高平均生产力。"]
+        },
+        {
+          "type": "tf",
+          "q": "Forced ranking assumes that performance evaluations are perfectly accurate, an assumption that real evaluations rarely meet.",
+          "a": true,
+          "how": ["课件列的问题之一：制度假设绩效评价绝对准确，而真实评价往往达不到。", "题目和课件一致，所以是 True。"]
+        }
+      ],
+      "recap": "惩罚压制不教导。强制排名 20/70/10：收益递减，还毁掉公平感、合作和信息分享。"
+    },
+    {
+      "id": "w02-p04",
+      "title": "奖励推动的是什么：服从而非承诺",
+      "titleEn": "Rewards: compliance, not commitment",
+      "kp": "Rewards motivate people to get rewards：奖励推动的是「拿奖励」的行为，员工只盯被计算的指标。奖惩改变做什么、不改变为什么，得到 compliance 而非 commitment，修不好底层问题。",
+      "howTo": "题干里员工「只做被计算的事」「让指标好看」，用 Rewards motivate people to get rewards 解释。问奖惩的共同限制时答：改变行为不改变原因、只得到服从、不能修复底层问题、人性假设错误。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Rewards and punishments mainly change what people do, but not necessarily why they do it.",
+          "a": true,
+          "how": ["课件原话：奖惩主要改变 What people do，但未必改变 Why they do it。", "题目一致，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A call centre pays agents per call handled. Agents start rushing calls and skipping the follow-up work that is not counted. Which idea from Lecture 2 best explains this?",
+          "options": ["Rewards motivate people to get rewards", "Prepotency", "Hygiene factors", "Job enrichment"],
+          "answer": 0,
+          "how": ["题干的线索是「per call handled」和「skipping the follow-up work that is not counted」。", "员工追逐的是被计算的指标而不是工作本身，正是 Rewards motivate people to get rewards，所以选 A。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee completes a task only because of the bonus attached to it, without believing in the goal behind it. What has the reward produced?",
+          "options": ["Commitment", "Compliance", "Intrinsic motivation", "Self-actualisation"],
+          "answer": 1,
+          "how": ["题干的线索是「only because of the bonus」和「without believing in the goal」。", "暂时照做但不认同目标，这是 compliance 而不是 commitment，所以选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team has unclear job responsibilities and a confusing workflow, and performance is low. The manager introduces a bonus scheme to fix the problem. According to Lecture 2:",
+          "options": ["The bonus will fix the underlying problem", "A bonus cannot fix underlying problems such as poor processes or unclear roles; at best it hides them for a while", "The bonus will turn compliance into commitment", "The bonus will improve the workflow automatically"],
+          "answer": 1,
+          "how": ["题干的真正问题是「unclear job responsibilities」和「confusing workflow」，不是动机。", "课件明确说奖金修不好错误流程、不清晰的岗位责任和糟糕的工作设计，最多短期遮住，所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "Reward systems may rest on the questionable assumption that nobody will work hard without an extra reward.",
+          "a": true,
+          "how": ["课件指出 Reward 可能假设「没有额外奖励就没人愿意认真工作」，并强调这个假设不一定成立。", "题目说的正是这一点，所以是 True。"]
+        }
+      ],
+      "recap": "奖励推动的是「拿奖励」的行为。奖惩改变做什么、不改变为什么，得到服从而非承诺。"
+    },
+    {
+      "id": "w02-p05",
+      "title": "财务奖励要匹配任务",
+      "titleEn": "Match the incentive to the task",
+      "kp": "财务奖励与表现数量的相关约 .34，与质量无显著关系：简单数量任务上有效，复杂创造任务上可能损害质量与合作。pay level 仅解释约 2% 的满意度差异；工资够了后更重要的是 Autonomy、Mastery、Purpose。",
+      "howTo": "先看任务类型：「每小时处理多少订单」「数据录入」这类数量任务，财务奖励可能有效；「创意设计」「研究」「长期客户关系」这类复杂任务，奖励可能损害质量。看到「钱没用」或「加钱能解决一切」的极端说法都判错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "The meta-analysis cited in Lecture 2 found that financial incentives correlate with performance quantity at about .34. What did it find for performance quality?",
+          "options": ["An equally strong positive relationship", "No significant relationship", "A much stronger positive relationship", "A strong negative relationship"],
+          "answer": 1,
+          "how": ["题干给了数量的 .34，问的是「quality」。", "课件说财务奖励与质量没有显著关系，所以选 B。", "注意是「无显著关系」，不是「强负相关」，D 过头了。"]
+        },
+        {
+          "type": "mcq",
+          "q": "For which task is a financial incentive most likely to increase output?",
+          "options": ["Designing a new product concept", "Packing items in a warehouse", "Developing a five-year strategy", "Building long-term client relationships"],
+          "answer": 1,
+          "how": ["逐个看任务类型：打包是简单、可测量、强调数量的任务。", "课件说这类任务上财务奖励通常能提升产出数量，所以选 B。", "其余三个都是复杂、需要判断或创造力的任务，奖励反而可能让人只盯被测量的部分。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A software company starts rewarding programmers for the number of lines of code they write. What does Lecture 2 predict?",
+          "options": ["Better long-term code quality", "A lot of code, but less refactoring, less helping colleagues and less attention to long-term maintenance", "Higher intrinsic motivation", "No change in behaviour"],
+          "answer": 1,
+          "how": ["题干的线索是只奖励「number of lines of code」，一个复杂创造型任务被按数量计酬。", "课件原例：员工会制造大量代码，却不愿重构、帮同事、考虑长期维护，所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because pay level explains only about 2% of the variance in job satisfaction, Lecture 2 concludes that pay does not matter and may be set unfairly.",
+          "a": false,
+          "how": ["正确的说法是：2% 这个数字不等于工资可以不公平或不足；工资不足会引发不满，工资合理后继续加钱的额外作用才有限。", "题目把「加钱作用有限」推成了「钱不重要、可以不公平」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Once pay is adequate, which three factors does Lecture 2 say matter for wanting to do the job well?",
+          "options": ["Autonomy, mastery and purpose", "Pay, status and power", "Direction, intensity and persistence", "Expectancy, instrumentality and valence"],
+          "answer": 0,
+          "how": ["题干的线索是「once pay is adequate」，问的是工资够了之后还有什么重要。", "课件给的三个因素是 Autonomy、Mastery、Purpose，所以选 A。", "课件把它们大致对应到 SDT 的 autonomy、competence、relatedness。"]
+        }
+      ],
+      "recap": "数量任务奖金有效（.34），质量无关。工资够了就别指望加钱包治百病，看自主、精通、目的。"
+    },
+    {
+      "id": "w02-p06",
+      "title": "马斯洛需求层次：清单而非楼梯",
+      "titleEn": "Maslow: checklist, not staircase",
+      "kp": "五层由低到高：Physiological、Safety、Belonging、Esteem、Self-actualisation。Prepotency：被激活的需要主导注意力直到被满足。研究支持这些需要重要，但不支持固定顺序。",
+      "howTo": "需要属于哪一层按五层对号。研究证据：需要本身有支持，固定顺序没有支持，所以 checklist, not staircase。「加自主权也补不上付不起房租」就是 prepotency。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which list gives Maslow's hierarchy of needs in order from the bottom to the top?",
+          "options": ["Safety, physiological, esteem, belonging, self-actualisation", "Physiological, safety, love and belonging, esteem, self-actualisation", "Physiological, belonging, safety, self-actualisation, esteem", "Esteem, belonging, safety, physiological, self-actualisation"],
+          "answer": 1,
+          "how": ["题干要「from the bottom to the top」，最底层一定是生存需要 Physiological。", "依次是生理、安全、归属、尊重、自我实现，所以选 B。", "A 把安全放在生理前面，是最常见的错序。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee cannot afford her rent. Her manager responds by giving her more autonomy and telling her how meaningful her work is. According to Maslow's idea of prepotency, what is the problem?",
+          "options": ["Autonomy is not a real need", "Higher-level needs cannot compensate for a serious deficit in a lower-level need such as safety", "The employee should be more grateful", "Meaningful work always outweighs pay"],
+          "answer": 1,
+          "how": ["题干的线索是「cannot afford her rent」，这是安全层的严重缺失。", "被激活的底层需要会主导注意力，高层需要补偿不了它，所以选 B。", "课件原例就是：自主权、意义感、自我实现都补不上「连房租都付不起」。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A study covering 123 countries and more than 60,000 participants is cited in Lecture 2. What did it support?",
+          "options": ["That people satisfy the needs in a fixed order", "That the needs Maslow listed do predict wellbeing", "That only physiological needs matter", "That self-actualisation is impossible at work"],
+          "answer": 1,
+          "how": ["题干的线索是「123 countries」「60,000 participants」。", "这项研究支持的是这些需要确实能预测 wellbeing，所以选 B。", "A 最容易选错：固定顺序恰恰是研究没有支持的部分。"]
+        },
+        {
+          "type": "tf",
+          "q": "Research supports Maslow's claim that lower-level needs must be fully satisfied before higher-level needs become active.",
+          "a": false,
+          "how": ["正确的说法是：研究没有充分证据支持固定顺序，人们可以同时追求安全、归属、尊重和自我实现。", "题目说研究「supports」固定顺序，所以是 False。"]
+        },
+        {
+          "type": "tf",
+          "q": "Lecture 2 recommends using Maslow's five needs as a checklist rather than as a staircase.",
+          "a": true,
+          "how": ["课件原话：Use the needs as a checklist, not a staircase。", "管理者逐项检查员工哪些需要没被满足，但不假设所有人都在同一层，所以是 True。"]
+        }
+      ],
+      "recap": "五层需要有用，固定顺序没证据。当 checklist 用，别当 staircase 爬。"
+    },
+    {
+      "id": "w02-p07",
+      "title": "内在与外在动机；自我决定理论",
+      "titleEn": "Intrinsic vs extrinsic motivation; SDT",
+      "kp": "Intrinsic：满足感在活动本身（兴趣、好奇、乐趣）；Extrinsic：满足感来自外部结果（工资、分数、表扬、晋升）。SDT 认为维持内在动机要满足三个需要：Autonomy、Competence、Relatedness。",
+      "howTo": "看「为什么做」：享受事情本身是 Intrinsic，为了别的结果是 Extrinsic。「能选怎么做」是 Autonomy，「觉得能做好」是 Competence，「与团队有连接」是 Relatedness。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "One student studies psychology because she genuinely wants to understand human behaviour. Another studies it mainly to get a High Distinction. How would Lecture 2 classify their motivation?",
+          "options": ["Both intrinsic", "The first is intrinsic, the second is extrinsic", "The first is extrinsic, the second is intrinsic", "Both extrinsic"],
+          "answer": 1,
+          "how": ["看两人「为什么学」：第一个是「wants to understand」，满足感在活动本身；第二个是为了「High Distinction」，满足感在外部结果。", "前者 Intrinsic，后者 Extrinsic，所以选 B。", "这是课件原例。"]
+        },
+        {
+          "type": "tf",
+          "q": "The difference between intrinsic and extrinsic motivation is how much effort the person puts in.",
+          "a": false,
+          "how": ["正确的说法是：两者的区别不是努力程度，而是满足感来自活动本身还是来自外部结果。", "题目把区别说成了「努力多少」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to Self-Determination Theory, which three basic psychological needs must be met to sustain intrinsic motivation?",
+          "options": ["Autonomy, competence and relatedness", "Achievement, recognition and responsibility", "Expectancy, instrumentality and valence", "Safety, belonging and esteem"],
+          "answer": 0,
+          "how": ["题干点名「Self-Determination Theory」。", "SDT 的三个需要是 Autonomy、Competence、Relatedness，所以选 A。", "B 是 Herzberg 的 motivators，D 是 Maslow 的层次，都是同一讲里的干扰项。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee has the skills for her job and plenty of choice over how to do it, but she feels isolated and unvalued by her team. Which SDT need is unmet?",
+          "options": ["Autonomy", "Competence", "Relatedness", "Valence"],
+          "answer": 2,
+          "how": ["题干先排除：「has the skills」说明 Competence 满足，「plenty of choice」说明 Autonomy 满足。", "「isolated and unvalued」是与他人没有真实连接，缺的是 Relatedness，所以选 C。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager lets team members decide how and when to complete their tasks. Which SDT need is she supporting most directly?",
+          "options": ["Autonomy", "Competence", "Relatedness", "Prepotency"],
+          "answer": 0,
+          "how": ["题干的线索是「decide how and when」，这是对工作方式的选择权。", "感觉行为来自自己的意愿、对工作方式有选择，就是 Autonomy，所以选 A。"]
+        }
+      ],
+      "recap": "内在：享受事情本身；外在：为了别的结果。维持内在动机靠自主、胜任、联结三样。"
+    },
+    {
+      "id": "w02-p08",
+      "title": "削弱效应：奖励何时伤害内在动机",
+      "titleEn": "The undermining effect",
+      "kp": "Undermining effect：有形奖励事先可预期、以参与任务为条件、让员工觉得被控制时，可能削弱内在动机。Verbal praise 通常不会降低内在兴趣，有时反而提高。关键不是「要不要奖励」，而是奖励被理解为认可能力还是控制。",
+      "howTo": "题干里「事先说好只要参加就给钱」「员工觉得被奖励控制」，判断为可能削弱内在动机。题干里是口头表扬，或与真实绩效清晰关联的奖励，判断为不一定削弱、甚至支持。不要选「所有奖励都有害」。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Under which conditions are tangible rewards most likely to undermine intrinsic motivation?",
+          "options": ["When they are unexpected and given after the task", "When they are expected in advance, contingent on taking part in the task, and experienced as controlling", "When they are verbal rather than financial", "When they are clearly linked to real performance"],
+          "answer": 1,
+          "how": ["题干问的是削弱内在动机的「conditions」。", "课件列的三个条件是事先可预期、以参与任务为条件、被感到控制，所以选 B。", "D 相反：与绩效清晰关联的激励反而可以支持内在动机。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A design team loves its work. Management announces in advance that everyone who simply takes part in the next project will receive a fixed cash payment. According to the undermining effect, what may happen?",
+          "options": ["Intrinsic interest in the work may decline", "Intrinsic motivation will certainly increase", "Nothing, because rewards never affect intrinsic motivation", "The team will become more creative"],
+          "answer": 0,
+          "how": ["题干的线索是「announces in advance」「simply takes part」「fixed cash payment」，三个削弱条件全中。", "原本喜欢工作的团队可能开始觉得是为钱而做，内在兴趣可能下降，所以选 A。"]
+        },
+        {
+          "type": "tf",
+          "q": "Verbal praise usually reduces intrinsic motivation in the same way that expected tangible rewards do.",
+          "a": false,
+          "how": ["正确的说法是：口头表扬通常不会降低内在兴趣，有时反而可以提高。", "题目把口头表扬和有形奖励画了等号，所以是 False。"]
+        },
+        {
+          "type": "tf",
+          "q": "Large-scale research finds that intrinsic motivation is a moderate-to-strong predictor of performance and predicts quality better than quantity.",
+          "a": true,
+          "how": ["课件引用的大型研究：内在动机是工作表现的中等至较强预测因素，对质量的预测优于对数量的预测。", "题目和课件一致，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Two employees receive the same bonus. One reads it as 'my manager recognises my competence'; the other reads it as 'my manager is trying to control me'. What does this show?",
+          "options": ["Bonuses should never be given", "The key question is not whether to reward but how the reward is designed and communicated", "Bonuses always increase intrinsic motivation", "Employees cannot tell the difference between recognition and control"],
+          "answer": 1,
+          "how": ["题干的线索是「same bonus」却有两种解读。", "同一份奖励的心理含义可以完全不同，所以关键是奖励如何设计和表达，选 B。", "A 走极端：课件明确说不能记成「奖励永远有害」。"]
+        }
+      ],
+      "recap": "可预期、按参与给、让人觉得被控制的有形奖励会削弱内在动机；口头表扬一般不会。"
+    },
+    {
+      "id": "w02-p09",
+      "title": "赫茨伯格双因素理论",
+      "titleEn": "Herzberg's two-factor theory",
+      "kp": "Herzberg：满意和不满是两个独立维度。Motivators（成就、认可、责任、工作本身、成长）来自工作内容，带来满意，缺了只是「没有满意」；Hygiene factors（工资、政策、环境、监督）不足带来不满，修好只是「没有不满」。",
+      "howTo": "题干里是停车、工资发放、政策、办公环境、上级管理这类问题，属于 hygiene，修好只能让人停止抱怨，不会创造动机。要提高动机得改工作本身，加入成就、责任、认可、成长。满意的反面是「没有满意」，不是不满意。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which of the following is a motivator in Herzberg's theory?",
+          "options": ["Salary", "Company policy", "Responsibility", "Working conditions"],
+          "answer": 2,
+          "how": ["把 motivators 默写出来：成就、认可、责任、工作本身、成长与发展。", "只有 Responsibility 在名单上，所以选 C。", "工资、政策、工作环境都是 hygiene factors。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company fixes its parking problems, pays salaries on time and clarifies confusing policies. Employees stop complaining, but they are no more motivated than before. How would Herzberg explain this?",
+          "options": ["The changes were not big enough", "These are hygiene factors: fixing them removes dissatisfaction but does not create satisfaction or motivation", "The employees have low growth-need strength", "Motivators were removed by the changes"],
+          "answer": 1,
+          "how": ["题干列的停车、工资发放、政策都是工作环境问题，属于 hygiene factors。", "修好 hygiene 只能从「不满」变成「没有不满」，不会变成「热爱工作」，所以选 B。", "课件的说法是：员工只是「现在没那么烦了」。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to Herzberg, the opposite of job satisfaction is job dissatisfaction.",
+          "a": false,
+          "how": ["正确的说法是：满意的反面是「没有满意」，不满意的反面是「没有不满意」，两者是独立的两条线。", "题目用的是传统的单一连续体观点，正是 Herzberg 反对的，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "What was the sample in Herzberg's original study, and why is it criticised?",
+          "options": ["203 accountants and engineers from one US city; too narrow to generalise", "60,000 participants from 123 countries; too diverse", "26 studies and 45 correlations; too few", "Students in a two-week diary study; too short"],
+          "answer": 0,
+          "how": ["题干问 Herzberg「original study」的样本。", "课件说样本只有 203 名会计师和工程师，来自同一个美国城市，所以选 A。", "B 是 Maslow 那项研究，C 是 Hurtz 和 Donovan 的人格元分析，别串台。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager publicly thanks an employee for solving a difficult problem. Which Herzberg motivator is activated, and roughly what performance effect does the cited field research link social recognition to?",
+          "options": ["Recognition; about 17% improvement in task performance", "Achievement; about 2% improvement", "Responsibility; about 34% improvement", "The work itself; about 43% improvement"],
+          "answer": 0,
+          "how": ["题干的动作是「publicly thanks」，这是认可，对应 Recognition。", "课件引用的研究：social recognition 平均与约 17% 的任务表现提升有关，所以选 A。", "课件同时提醒：如果变成每月只有一个赢家的固定奖项，它可能变成竞争性外在奖励。"]
+        }
+      ],
+      "recap": "保健因素修好 → 不再抱怨；激励因素加上 → 才有动机。满意的反面是「没有满意」。"
+    },
+    {
+      "id": "w02-p10",
+      "title": "目标设定理论：有效目标的四个条件",
+      "titleEn": "Goal-setting theory",
+      "kp": "Goal-setting theory 是本讲实证支持最强的理论。有效目标四条件：Specific、Challenging but not impossible、Accepted、Supported by feedback。",
+      "howTo": "「work harder」「do your best」不具体，换成可衡量的数字；具体困难目标通常更有效。经理单方面宣布、员工只是服从，缺 Accepted（commitment）。不知道完成多少，缺 feedback。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which motivation theory does Lecture 2 describe as having the strongest empirical support?",
+          "options": ["Maslow's hierarchy of needs", "Herzberg's two-factor theory", "Goal-setting theory", "Expectancy theory"],
+          "answer": 2,
+          "how": ["题干问「strongest empirical support」。", "课件明确说目标设定理论是本讲实证支持最强的理论，所以选 C。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which goal best fits the requirements of goal-setting theory?",
+          "options": ["Do your best", "Work harder this month", "Reduce customer handling time by 15% within this month", "Try to improve customer service"],
+          "answer": 2,
+          "how": ["逐个看是否具体：A、B、D 都没有可衡量的标准。", "C 有明确数字和期限，员工知道要完成什么、怎么判断进展，所以选 C。", "课件原例的错误目标就是「Work harder」，正确目标就是「本月内把客户处理时间降低 15%」。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager sets a specific, challenging target, but the employee never receives any information on how far he is from reaching it. Which condition of an effective goal is missing?",
+          "options": ["Specific", "Challenging", "Accepted", "Supported by feedback"],
+          "answer": 3,
+          "how": ["题干先排除：「specific, challenging」已经满足两个条件。", "「never receives any information on how far」是没有进度信息，缺的是 feedback，所以选 D。", "没有进度信息，员工就无法根据目标调节行为。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager announces: 'This is your target, go and do it.' The team does not believe the target is meaningful or achievable and shows only minimal compliance. Which condition is missing?",
+          "options": ["Specific", "Accepted", "Supported by feedback", "Challenging"],
+          "answer": 1,
+          "how": ["题干的线索是单方面宣布，加上团队「does not believe」「minimal compliance」。", "员工不相信目标有意义、值得做、自己能完成，就没有 commitment，缺的是 Accepted，所以选 B。"]
+        },
+        {
+          "type": "tf",
+          "q": "Research shows that telling employees to 'do your best' usually produces better performance than giving them a specific, difficult goal.",
+          "a": false,
+          "how": ["正确的说法是：do your best 通常不如一个具体且困难的目标有效。", "题目把比较方向反过来了，所以是 False。"]
+        }
+      ],
+      "recap": "好目标四条件：具体、有挑战但可能、被接受、有反馈。「尽力而为」不如具体难目标。"
+    },
+    {
+      "id": "w02-p11",
+      "title": "目标的副作用与难度曲线",
+      "titleEn": "Goals gone wrong; goal difficulty curve",
+      "kp": "Goals gone wrong 四种副作用：Attention narrows、Horizons shorten、Risk-taking rises、Ethics erode。难度曲线：目标越难表现越高，被视为不可能后快速下降。",
+      "howTo": "「忽略没考核的」是 attention narrows，「牺牲长期」是 horizons shorten，「快失败就赌」是 risk-taking rises，「差一点就改数字」是 ethics erode。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A sales representative is slightly short of his quarterly target, so he records several sales that have not actually closed yet. Which side effect of goals is this?",
+          "options": ["Attention narrows", "Horizons shorten", "Risk-taking rises", "Ethics erode"],
+          "answer": 3,
+          "how": ["题干的线索是「slightly short of his target」加上「records sales that have not closed」。", "差一点就达标时修改数字、错误报告绩效，这是 Ethics erode，所以选 D。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team hits its quarterly targets by delaying equipment maintenance and pushing hard sells that damage customer relationships for next year. Which side effect is this?",
+          "options": ["Horizons shorten", "Attention narrows", "Ethics erode", "Prepotency"],
+          "answer": 0,
+          "how": ["题干的线索是为了「quarterly targets」牺牲「next year」的客户关系和设备维护。", "季度目标制造季度行为、损害长期利益，这是 Horizons shorten，所以选 A。", "Attention narrows 最容易混：它说的是只看被测量的任务，这里强调的是时间视野变短。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to the goal difficulty curve shown in Lecture 2, what happens to performance when a goal moves beyond what employees believe is possible?",
+          "options": ["Performance keeps rising because harder goals always motivate more", "Performance stays at its peak", "Performance drops quickly because employees no longer treat the goal as their own", "Performance becomes unrelated to the goal"],
+          "answer": 2,
+          "how": ["题干的线索是「beyond what employees believe is possible」，目标已经越过了可能的边界。", "曲线显示：难度上升时表现上升，超出能力或承诺极限后表现快速下降，所以选 C。", "A 是最常见的误区：目标越难不代表永远越好。"]
+        },
+        {
+          "type": "tf",
+          "q": "Lecture 2 advises managers to treat a goal like a prescription: it has a dose and it has side effects.",
+          "a": true,
+          "how": ["课件原话：Treat a goal like a prescription: it has a dose, and it has side effects。", "剂量合适提高表现，剂量过高产生毒性，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of the four side effects of goals described in Lecture 2?",
+          "options": ["Attention narrows", "Horizons shorten", "Ethics erode", "Cooperation rises"],
+          "answer": 3,
+          "how": ["先默写四个副作用：注意力变窄、时间视野缩短、风险行为增加、道德下降。", "Cooperation rises 不在其中，而且方向也不对，副作用不会是合作上升，所以选 D。"]
+        }
+      ],
+      "recap": "目标副作用四件套：视野窄、眼光短、爱冒险、改数字。目标是处方药，剂量过头有毒。"
+    },
+    {
+      "id": "w02-p12",
+      "title": "期望理论：找出断掉的那一环",
+      "titleEn": "Expectancy theory",
+      "kp": "努力取决于三条联系：Expectancy（努力能带来好表现吗）、Instrumentality（好表现能带来结果吗）、Valence（我在乎这个结果吗），三者相乘，任一环断裂动机都下降。它是诊断框架，不是精确录像。",
+      "howTo": "听员工怎么说：「我做不到」是 Expectancy 低，给培训和资源；「做得好也没用」是 Instrumentality 低，建立可信的绩效与结果联系；「奖励我不在乎」是 Valence 低，了解他真正看重什么。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An employee says: 'Even if I work twice as hard, I do not have the training to do this task well.' Which link in expectancy theory is weak?",
+          "options": ["Expectancy", "Instrumentality", "Valence", "Relatedness"],
+          "answer": 0,
+          "how": ["题干的线索是「even if I work twice as hard」仍然做不好，这是努力到表现的联系。", "努力能不能带来表现就是 Expectancy，所以选 A。", "对应措施是培训、资源、降低障碍，而不是加奖金。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee says: 'It does not matter how well I perform; promotions here depend on who the boss likes.' Which link is broken?",
+          "options": ["Expectancy", "Instrumentality", "Valence", "Autonomy"],
+          "answer": 1,
+          "how": ["题干的线索是「how well I perform」和「promotions」之间没有关系，这是表现到结果的联系。", "好表现能不能带来结果就是 Instrumentality，所以选 B。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager offers a capable, hard-working employee a cash bonus for extra output. The employee shrugs: 'I would much rather have more flexible hours.' Which component is low?",
+          "options": ["Expectancy", "Instrumentality", "Valence", "Task identity"],
+          "answer": 2,
+          "how": ["题干先排除：「capable, hard-working」说明 Expectancy 不是问题，奖金也确实会发。", "他只是不在乎这个结果，想要的是弹性时间，这是 Valence 低，所以选 C。", "同一个结果对不同人价值不同，经理要了解员工真正看重什么。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee believes that no amount of effort will improve his performance. His manager responds by doubling the bonus for high performance. Why is this unlikely to work?",
+          "options": ["Because the bonus is still too small", "Because the broken link is expectancy; raising the reward addresses valence, not the employee's belief that effort is useless", "Because bonuses undermine all motivation", "Because the employee has low growth-need strength"],
+          "answer": 1,
+          "how": ["题干的线索是「no amount of effort will improve」，断的是 Expectancy。", "加奖金改变的是结果的吸引力，不改变「努力没用」的判断，所以选 B。", "课件原话：对「努力没有用」的员工继续加奖金可能毫无意义。"]
+        },
+        {
+          "type": "tf",
+          "q": "Research finds that the three components of expectancy theory predict effort moderately, that examining them separately often works better than multiplying them, and that people do not literally calculate the product before every task.",
+          "a": true,
+          "how": ["课件对理论限制的说明：三个成分中等程度预测 effort 和 choice，分开考察往往比相乘效果更好。", "人不会在每个任务前拿计算器算一遍，模型是诊断框架而非精确录像，所以是 True。"]
+        }
+      ],
+      "recap": "我做得到吗（E）？做到有结果吗（I）？我在乎吗（V）？哪一环断了就修哪一环。"
+    },
+    {
+      "id": "w02-p13",
+      "title": "工作设计：轮换、扩大、丰富化",
+      "titleEn": "Job rotation, enlargement, enrichment",
+      "kp": "三种 job design 干预：Job Rotation 在现有岗位间轮换，岗位本身不变；Job Enlargement 横向加任务，决策权不变；Job Enrichment 纵向加责任、自主权和成长机会。",
+      "howTo": "看变化的方向：换岗位做是 Rotation；同级任务变多、重要决定仍由经理做是 Enlargement；员工获得决策权、责任和成长是 Enrichment。陷阱：没加权力就不是 enrichment。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A data-entry clerk is now also asked to collect the data, organise it and produce basic reports, but all important decisions still rest with the manager. Which job design intervention is this?",
+          "options": ["Job rotation", "Job enlargement", "Job enrichment", "Forced ranking"],
+          "answer": 1,
+          "how": ["题干的线索是任务从录入变成收集、录入、整理、出报告，但「decisions still rest with the manager」。", "任务变多、决策权不变，这是横向的 Job Enlargement，所以选 B。", "Enrichment 最容易选错：任务多了不算丰富化，必须加责任和决策权才算。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team member who previously just followed instructions now decides how to schedule her own work, signs off her own quality checks and is held accountable for the final result. Which intervention is this?",
+          "options": ["Job rotation", "Job enlargement", "Job enrichment", "Job simplification"],
+          "answer": 2,
+          "how": ["题干的线索是「decides how to schedule」「signs off」「held accountable」，全是决策权和责任。", "纵向增加责任、自主权和成就机会，这是 Job Enrichment，所以选 C。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Warehouse workers are moved between three existing stations each week to reduce monotony; none of the stations themselves has been redesigned. Which intervention is this?",
+          "options": ["Job rotation", "Job enlargement", "Job enrichment", "Goal setting"],
+          "answer": 0,
+          "how": ["题干的线索是「moved between three existing stations」且岗位「has not been redesigned」。", "在现有岗位间轮换、岗位本身不变，这是 Job Rotation，所以选 A。", "课件的比喻：换了副本，但副本机制没有重新设计。"]
+        },
+        {
+          "type": "tf",
+          "q": "Job enlargement expands a job horizontally, while job enrichment expands it vertically.",
+          "a": true,
+          "how": ["课件原文：Enlargement 是 Horizontal 横向扩展，Enrichment 是 Vertical 纵向扩展。", "题目和课件一致，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Why does Lecture 2 say that job rotation and job enlargement sometimes have limited motivational effect?",
+          "options": ["Because employees dislike variety", "Because employees do more or different tasks but their decision-making authority does not change", "Because they remove hygiene factors", "Because they make goals impossible"],
+          "answer": 1,
+          "how": ["题干问轮换和扩大为什么「limited effect」。", "课件特别指出：员工虽然做了更多不同任务，决策权仍然没有改变，所以选 B。"]
+        }
+      ],
+      "recap": "轮换：换岗位做；扩大：同级加任务；丰富化：加责任、自主、成长。没加权力就不算丰富化。"
+    },
+    {
+      "id": "w02-p14",
+      "title": "工作特征模型 JCM",
+      "titleEn": "Job Characteristics Model",
+      "kp": "JCM：五个核心特征（多样性、完整性、重要性、Autonomy、Feedback）产生三种心理状态（意义感、责任感、了解结果），带来高动机、高质量、高满意、低缺勤和低流失。调节变量是 Growth-need strength。",
+      "howTo": "Skill variety、Task identity、Task significance 带来意义感；Autonomy 带来责任感；Feedback 带来了解结果。研究：工作特征解释约 43% 的态度行为差异。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A chef designs the menu, cooks the dishes and sees the finished meal served to customers, whereas a kitchen hand only chops one ingredient all day. Which core job dimension is higher for the chef?",
+          "options": ["Task identity", "Skill variety", "Feedback", "Autonomy"],
+          "answer": 0,
+          "how": ["题干的线索是厨师「designs the menu」到「finished meal served」，看到了完整成果。", "完成一个完整、可识别的工作成果就是 Task Identity，所以选 A。", "这是课件原例。Skill variety 虽然也可能更高，但题干强调的是「完整」而不是「多样」。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the Job Characteristics Model, which core dimension leads to experienced responsibility for outcomes?",
+          "options": ["Skill variety", "Task significance", "Autonomy", "Feedback"],
+          "answer": 2,
+          "how": ["题干问的是「experienced responsibility」来自哪个特征。", "员工感到结果与自己的选择和决定有关，这来自 Autonomy，所以选 C。", "Feedback 对应的是 knowledge of results，别混。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which three core job dimensions combine to produce experienced meaningfulness of the work?",
+          "options": ["Skill variety, task identity and task significance", "Autonomy, feedback and task identity", "Skill variety, autonomy and feedback", "Task significance, autonomy and feedback"],
+          "answer": 0,
+          "how": ["题干问的是「meaningfulness」的来源。", "课件说意义感来自 Skill Variety、Task Identity、Task Significance 三项，所以选 A。", "Autonomy 和 Feedback 各自对应另外两种心理状态，不参与意义感。"]
+        },
+        {
+          "type": "mcq",
+          "q": "The Job Characteristics Model works best for some employees and less well for others. Which moderator explains this?",
+          "options": ["Growth-need strength", "Prepotency", "Instrumentality", "Locus of control"],
+          "answer": 0,
+          "how": ["题干问的是「moderator」。", "模型对希望从工作中获得成长和发展的员工效果最好，这个调节变量是 Growth-need strength，所以选 A。"]
+        },
+        {
+          "type": "tf",
+          "q": "Research cited in Lecture 2 found that work design characteristics explained about 43% of the variance in employee attitudes and behaviour, about 34% of job satisfaction and about 25% of performance ratings.",
+          "a": true,
+          "how": ["这三个数字就是课件引用的研究结果：43% 态度与行为，34% 满意度，25% 绩效评分。", "题目一个都没改，所以是 True。"]
+        }
+      ],
+      "recap": "五特征 → 三心理状态 → 好结果。多样、完整、重要 → 意义感；自主 → 责任感；反馈 → 知道结果。"
+    }
+  ]
+}

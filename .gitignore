@@ -1,0 +1,8 @@
+# 系统与编辑器
+Thumbs.db
+.DS_Store
+desktop.ini
+*.bak
+*.tmp
+.vscode/
+.idea/

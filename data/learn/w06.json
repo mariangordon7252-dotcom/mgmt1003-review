@@ -1,0 +1,564 @@
+{
+  "week": 6,
+  "points": [
+    {
+      "id": "w06-p01",
+      "title": "跨文化管理与多样性的两面",
+      "titleEn": "Cross-cultural management; benefits and threats",
+      "kp": "跨文化管理是识别文化异同并调整沟通、决策与领导方式，特点是 descriptive、practical、two-directional（自己的习惯也不是中立标准）。Hofhuis 等（2015）：多样性的感知收益与感知威胁独立。",
+      "howTo": "题干里经理把自己的做法当「正常标准」只要求对方适应，违反的是 two-directional。员工既觉得多样性有价值又担心成本，答两类感知相互独立，不是同一量尺两端。技术能力和善意不保证沟通成功。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Cross-cultural management treats the manager's own cultural habits as the neutral standard against which other people are measured.",
+          "a": false,
+          "how": ["正确说法是跨文化管理是 two-directional：自己的习惯同样不是中立标准。", "题目把它说成以经理自己为标准，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A Spanish manager posted to Singapore uses warm small talk to show openness, but the team reads this senior style as unfocused and relationship-building stalls. What does the lecture draw from this case?",
+          "options": ["The manager lacks technical competence", "Goodwill and competence do not guarantee success; the cost comes from rules neither side has spoken aloud", "Small talk is always inappropriate at work", "The team should adapt to the manager"],
+          "answer": 1,
+          "how": ["线索是「to show openness」和「reads this … as unfocused」，同一份善意被读成另一个意思。", "讲义的案例要点：技术能力和善意不能保证沟通成功，真正产生代价的是双方没说出口的规则。", "选「团队应该适应经理」就违反了 two-directional。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In Hofhuis et al. (2015), an employee rates cultural diversity highly for creative potential and a larger talent pool, and also worries that miscommunication slows the work. How does the lecture interpret this?",
+          "options": ["The employee is contradicting himself", "Perceived benefits and perceived threats are largely independent, so both can be high at once", "He is secretly opposed to diversity", "He needs cultural training"],
+          "answer": 1,
+          "how": ["线索是同一个人既给出「creative potential」又担心「miscommunication」。", "Hofhuis 等对 1,295 名荷兰公共部门多数群体员工的研究发现，两类感知大体独立，不是支持或反对的单一立场。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is one of the four perceived threats of cultural diversity listed in the lecture?",
+          "options": ["A larger talent pool", "Creative potential", "Intergroup anxiety", "A better social responsibility image"],
+          "answer": 2,
+          "how": ["四种感知威胁是：职业与地位的现实威胁、既有价值观的象征威胁、跨群体互动焦虑、误沟通的效率损失。", "其他三项都属于五种感知收益，所以选 intergroup anxiety。"]
+        }
+      ],
+      "recap": "跨文化管理是双向的，自己的习惯也不是标准；多样性的收益与担忧可以同时存在。"
+    },
+    {
+      "id": "w06-p02",
+      "title": "文化的定义与冰山",
+      "titleEn": "Defining culture; the iceberg",
+      "kp": "Culture 是群体学习并传递的共享假设、价值和做法，特点是 shared、learned、largely invisible。冰山：语言、穿着、开会方式等行为在水上看得见；谁能质疑权威、先顾个人还是群体、承诺意味着什么等默认假设在水下。",
+      "howTo": "题干说文化「天生」「写在基因里」是错的，文化是学来的。经理只改表面行为（要求多发言）却不碰水下假设（当众反对上级的顾虑），问题会回来；解决要处理水下的默认假设。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "According to the lecture, culture is shared, learned and largely invisible.",
+          "a": true,
+          "how": ["这是课件给文化的三个特点。", "文化像群体共同学会的操作系统，不是写在基因里的出厂设置，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following belongs to the invisible, underwater part of the cultural iceberg?",
+          "options": ["Office layout", "Dress code", "Assumptions about who may question authority", "Working hours"],
+          "answer": 2,
+          "how": ["水上是看得见的行为：布局、穿着、工作时间都能直接观察到。", "谁能质疑权威是看不见的默认假设，属于水下，所以选它。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager tells a quiet team to 'speak up more' but does nothing about members' belief that disagreeing with a superior in public is risky. Meetings stay silent. Which idea best explains why?",
+          "options": ["The team lacks motivational CQ", "Only the visible behaviour was addressed while the underwater assumption was left untouched", "The team scores high on indulgence", "The manager used the wrong words"],
+          "answer": 1,
+          "how": ["线索是「speak up more」对比「does nothing about members' belief」。", "只修水上的船头，不处理水下碰到的冰山，问题还会回来，所以沉默依旧。"]
+        },
+        {
+          "type": "tf",
+          "q": "A new employee who gradually learns to raise concerns privately before confirming them in meetings is acquiring part of the organisation's culture, even though this rule is not in the handbook.",
+          "a": true,
+          "how": ["文化是学习并传递的共享做法，而且大部分没写下来。", "「先私下提问题，再在会上确认」正是这样一条规则，所以是 True。"]
+        }
+      ],
+      "recap": "文化是学来的共享默认设置；行为在水上，假设在水下，要修水下。"
+    },
+    {
+      "id": "w06-p03",
+      "title": "多层文化；文化、人格与情境",
+      "titleEn": "Several cultures; culture, personality, situation",
+      "kp": "一个人有多层文化：国家、地区、组织、专业、世代，再加个人人格，国籍只是最宽泛的一层。解释行为分三种来源：culture 是群体共享规则，personality 是个人倾向，situation 是当下条件。",
+      "howTo": "题干只凭国籍推断一个人，提醒还有组织、专业、世代等层次。看到会上沉默、迟交等行为，先列三种解释：文化（群体习惯）、人格（这个人一向如此）、情境（没拿到资料、决定已定），先排查情境，再问本人。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A nurse trained in Japan now works in Australia and follows clinical protocols almost identical to those of her Australian colleagues. Which cultural layer best explains the similarity?",
+          "options": ["National culture", "Professional culture", "Generational culture", "Regional culture"],
+          "answer": 1,
+          "how": ["线索是「trained」「clinical protocols」，相同点来自职业训练而不是国家。", "工程师、护士、会计等会学到跨国共享的职业规范，这是 professional 层。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee sits silently through a 40-minute meeting and then sends a detailed email that evening. Which of the following is a SITUATIONAL explanation?",
+          "options": ["She prefers written communication by cultural habit", "She is introverted and likes to think before speaking", "She had not received the materials in time to comment", "Her country scores high on power distance"],
+          "answer": 2,
+          "how": ["题干要的是 situational，也就是当下条件造成的解释。", "没及时拿到材料是本次会议的具体条件，不是群体规则也不是个人倾向。", "第一和第四项是文化解释，第二项是人格解释。"]
+        },
+        {
+          "type": "tf",
+          "q": "When a behaviour could be explained by culture, personality or situation, the lecture advises settling on the cultural explanation because it is the most general.",
+          "a": false,
+          "how": ["课件的做法是先观察、提出多种假设、检查条件、询问本人，并先排查情境。", "三种解释都是待检验的，不能默认选文化，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A graduate calls the department head by her first name on his first day. Before concluding that 'his culture is informal', what does the lecture recommend checking first?",
+          "options": ["His country's power distance score", "Whether the organisation itself encourages first names and others do the same", "His personality test results", "His generation"],
+          "answer": 1,
+          "how": ["线索是「Before concluding」，要先测试可验证的具体条件。", "课件对这个情境的情境解释是：组织可能本就鼓励用名字，其他人也这样称呼，先查这个。"]
+        }
+      ],
+      "recap": "国籍只是一层；行为先分文化、人格、情境三种解释，先查情境，再问本人。"
+    },
+    {
+      "id": "w06-p04",
+      "title": "Hofstede 研究与六个维度总览",
+      "titleEn": "Hofstede: the study and six dimensions",
+      "kp": "Hofstede 以 1967–1973 年 IBM 调查为基础，六维：power distance、individualism、masculinity、uncertainty avoidance、long-term、indulgence。",
+      "howTo": "问研究对象答 IBM 员工，一个雇主一个时代；问维度数答六个，1980 年四维，后加长期导向和享乐克制。题干把某国分数当成某位员工的性格分数或「60% 的人如何」，都是误读。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Why did Hofstede survey employees of a single company, IBM, across many countries?",
+          "options": ["Because IBM paid for the research", "To hold the employer constant so that differences in national averages could be read as national culture", "Because IBM employees represent each nation", "Because only IBM allowed surveys"],
+          "answer": 1,
+          "how": ["线索是「a single company … across many countries」。", "研究试图固定雇主，把国家均值差异解释为国家文化差异，像在同一考场比较各国员工。", "规模是超过 116,000 份问卷、72 个国家；但同一雇主不代表国家，这也是后来批评它的理由。"]
+        },
+        {
+          "type": "tf",
+          "q": "A country's power distance score of 60 means that 60% of its citizens accept an unequal distribution of power.",
+          "a": false,
+          "how": ["分数是大致 0–100 的国家层面指数，不是人数百分比，也不是个人性格分数。", "题目把指数读成了 60% 的人，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of Hofstede's six dimensions?",
+          "options": ["Uncertainty avoidance", "Indulgence–restraint", "High vs low context", "Long-term orientation"],
+          "answer": 2,
+          "how": ["六维是权力距离、个人主义、成就关怀、不确定性规避、长期导向、享乐克制。", "High 与 low context 是 Hall 的沟通概念，不属于 Hofstede，所以选它。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Hofstede proposed four dimensions in 1980. Which two were added later?",
+          "options": ["Power distance and individualism–collectivism", "Long-term orientation (1991) and indulgence–restraint (2010)", "Masculinity–femininity and uncertainty avoidance", "Context and time orientation"],
+          "answer": 1,
+          "how": ["线索是「added later」。", "1991 年加入长期导向，2010 年加入享乐克制；这两个后加维度在管理研究中用得较少、证据也较薄。"]
+        }
+      ],
+      "recap": "一家公司、一个年代、六个维度；分数是国家均值，不是个人画像。"
+    },
+    {
+      "id": "w06-p05",
+      "title": "Power distance",
+      "titleEn": "Power distance",
+      "kp": "Power distance 衡量较少权力者对权力不平等的接受程度，不是上级多想掌权。高权力距离下：反对上级代价高、转到私下；决定先宣布再执行；坏消息延迟或不上报；理想上级是 benevolent autocrat。",
+      "howTo": "题干问「能不能当众质疑上级」「坏消息能否传上去」「会上附和会后私下反馈」，先想 power distance。管理要点：建立不必当众反对也能报告风险的通道。误读是双向的：公开质疑可能被读成不尊重，礼貌附和可能被读成被动。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Power distance measures how strongly leaders want to hold on to power.",
+          "a": false,
+          "how": ["正确定义是较少权力者对不平等权力分配的接受程度，看的是下属那一端。", "题目换成了上级多想掌权，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In one team, staff expect the manager to give clear instructions and announce decisions, and would find it odd to be consulted beforehand. Which end of which dimension does this reflect?",
+          "options": ["Low power distance", "High power distance", "Low uncertainty avoidance", "High individualism"],
+          "answer": 1,
+          "how": ["线索是「announce decisions」和「odd to be consulted」。", "高权力距离下集中决策较常被接受，下属期待上级明确指示，决定宣布后再执行。", "低权力距离的做法是决定前征询意见。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An Australian employee openly challenges a Korean manager's plan in a meeting, and the manager feels disrespected. What point does the lecture make with this case?",
+          "options": ["The employee lacks cultural knowledge", "Misreadings run both ways: participation in a low power distance style can read as disrespect in a high power distance one", "Australians are rude in meetings", "Korean managers avoid meetings"],
+          "answer": 1,
+          "how": ["线索是「openly challenges」被读成「disrespected」。", "课件案例 A：澳大利亚员工的参与可能被韩国经理理解为不尊重；案例 B 反过来，韩国员工的礼貌被读成被动。", "两例都是潜在误读，不是说某国人固定如此。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In a higher power distance team, which practice does the lecture say protects the manager from the most expensive consequence?",
+          "options": ["Insist on open debate in every meeting", "Provide a channel for reporting risks and bad news that does not require confronting the boss in public", "Punish silence", "Use formal titles at all times"],
+          "answer": 1,
+          "how": ["线索是「most expensive consequence」，讲义指的是经理收不到及时的坏消息。", "对策是提供不必当众反对上级也能报告风险的路径。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In higher power distance contexts, which kind of superior does the lecture describe as the ideal?",
+          "options": ["A benevolent autocrat", "A servant leader", "A peer facilitator", "A hands-off delegator"],
+          "answer": 0,
+          "how": ["线索是「higher power distance」和「ideal」。", "课件用 benevolent autocrat 描述高权力距离下的理想上级：集中决策但照顾下属。"]
+        }
+      ],
+      "recap": "权力距离看下属多接受台阶；高时反对转私下、坏消息难上传，要另开通道。"
+    },
+    {
+      "id": "w06-p06",
+      "title": "个人主义与集体主义：态度还是规范",
+      "titleEn": "Individualism–collectivism: attitudes vs norms",
+      "kp": "Individualism 重个人目标与自主，collectivism 重内群体和谐与忠诚。考点：个人主义情境下个人态度更能预测行为，集体主义情境下 perceived norms 更能预测（Eom 等 2016）。",
+      "howTo": "问用什么方式说服：个人主义讲个人理由和益处；集体主义展示同事实际做法、参与比例、让受尊重成员先做。Support seeking：集体主义者可能不主动求助，个人主义者可能反感未请求的帮助，先问「你希望我怎样支持你」。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "In Eom et al. (2016), environmental concern predicted green consumer choices in the European American sample. What predicted choices in the Japanese sample?",
+          "options": ["Income", "Perceived social norms", "Personality", "Education level"],
+          "answer": 1,
+          "how": ["线索是「Japanese sample」，课件把它作为更集体主义的样本。", "研究二（251 人）发现日本样本中感知规范更能预测选择，结论限定在这些样本。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager in a strongly individualist context wants staff to adopt a new safety procedure. Which message fits best?",
+          "options": ["Show that most colleagues already follow it", "Explain the personal reasons and benefits and how it fits each person's existing values", "Have a respected senior member go first", "Publish participation rates by team"],
+          "answer": 1,
+          "how": ["线索是「strongly individualist」，这里个人态度与信念更能预测行为。", "管理杠杆是说明个人理由、益处，以及行为如何符合已有价值观。", "其他三项都是展示规范的做法，适合更集体主义的情境。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager steps in to help an employee who has not asked for help, and the employee reads this as doubt about his competence. What does the lecture recommend to avoid this?",
+          "options": ["Never offer help", "Ask each person in advance how they would like to be supported, and act on the answer", "Help only employees from collectivist backgrounds", "Assign every employee a mentor"],
+          "answer": 1,
+          "how": ["线索是「has not asked」和「doubt about his competence」，未经请求的帮助被读成怀疑能力。", "课件建议提前问每个人「你希望我怎样支持你」并按回答行动，不要凭国籍决定支持方式。"]
+        },
+        {
+          "type": "tf",
+          "q": "In collectivist settings, the norms that predict behaviour include both what others actually do and what others approve of, as the employee understands them.",
+          "a": true,
+          "how": ["课件说这里的规范既包括别人实际做什么（descriptive），也包括别人赞同什么（injunctive）。", "重要的是员工怎样理解这些规范，所以是 True。"]
+        }
+      ],
+      "recap": "个人主义靠个人信念说服，集体主义靠感知规范；支持方式先问本人。"
+    },
+    {
+      "id": "w06-p07",
+      "title": "其余四个维度怎么分辨",
+      "titleEn": "The other four dimensions",
+      "kp": "成就关怀（masculinity）比竞争与合作；不确定性规避是对模糊的不安和对规则的需要；长期导向重未来，短期重传统与当下；享乐克制看享乐是否受约束。后两维证据较薄。",
+      "howTo": "看问的是什么：奖励竞争还是关怀，是 masculinity；不知道规则会不会不安，是 uncertainty avoidance；重未来还是当下，是 long-term；享受生活受多少约束，是 indulgence。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "One team celebrates individual wins and settles disagreements by confrontation; another prefers consensus, modesty and quality of life. Which dimension does this contrast reflect?",
+          "options": ["Power distance", "Masculinity–femininity", "Uncertainty avoidance", "Indulgence–restraint"],
+          "answer": 1,
+          "how": ["线索是「individual wins」「confrontation」对比「consensus, modesty and quality of life」。", "竞争成就与合作关怀的相对重要性，正是 masculinity–femininity 的问题。", "不要把它读成性别构成；课件提到 achievement orientation 这一替代说法。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Before accepting a change, a team asks for detailed written procedures, a step-by-step plan and guarantees about job security. Which end of which dimension does this reflect?",
+          "options": ["High uncertainty avoidance", "Low power distance", "Short-term orientation", "High indulgence"],
+          "answer": 0,
+          "how": ["线索是「detailed written procedures」「step-by-step plan」「job security」。", "更需要规则、详细说明和工作保障，对变革不安，这是较高的 uncertainty avoidance。", "管理应用是写清任务与标准，推进变革时解释步骤、顺序和保障。"]
+        },
+        {
+          "type": "mcq",
+          "q": "One team keeps investing in training and process improvement that will pay off in years; another prioritises this quarter's commitments and established tradition. Which dimension is this?",
+          "options": ["Indulgence–restraint", "Masculinity–femininity", "Long-term vs short-term orientation", "Uncertainty avoidance"],
+          "answer": 2,
+          "how": ["线索是「pay off in years」对比「this quarter's commitments and … tradition」。", "长期端重坚持与未来，短期端重传统与近期结果，这是 long-term orientation。", "不确定性规避问的是面对模糊的反应，不是时间重心。"]
+        },
+        {
+          "type": "tf",
+          "q": "The lecture treats long-term orientation and indulgence–restraint as having evidence just as strong as the first four dimensions.",
+          "a": false,
+          "how": ["课件指出这两个后加维度在管理研究中使用较少，证据也比前四维薄。", "应把它们当成启发性线索而不是定论，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In what the lecture calls a 'tight' culture, how is deviating from a fixed procedure likely to be treated?",
+          "options": ["Tolerated as normal", "Tolerated less, because norms are strong and deviation is punished", "Rewarded as initiative", "Ignored"],
+          "answer": 1,
+          "how": ["线索是「tight culture」。", "Tight 文化规范强、对偏离容忍低，loose 文化较宽松；同样偏离流程，被接受程度不同。"]
+        }
+      ],
+      "recap": "竞争或关怀、怕不怕模糊、未来或当下、享乐受不受约束，各对一维；后两维证据薄。"
+    },
+    {
+      "id": "w06-p08",
+      "title": "Hall：语境与时间",
+      "titleEn": "Hall: context and time",
+      "kp": "Low context 把意思放进明确字句，high context 还靠关系、场合与没说出口的部分。Monochronic 把时间当逐项日程，截止像保证；polychronic 允许多事并行、关系优先。高低与单多都不是质量高低。",
+      "howTo": "「话里的意思要不要靠背景猜」（婉拒、简短邮件被读成冷淡）是 context；「准时和日程是不是承诺」是时间观。high context 不是 power distance：前者是意思藏在哪，后者是谁能挑战权威。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A manager sends a two-line email to save time; a colleague from another background reads it as cold and displeased. Which concept explains the misreading?",
+          "options": ["Low vs high context communication", "Monochronic vs polychronic time", "Power distance", "Universalism vs particularism"],
+          "answer": 0,
+          "how": ["线索是「two-line email」被读成「cold and displeased」，意思要不要靠字句之外的东西判断。", "低语境把简短邮件看作高效，高语境可能读成冷淡或不悦，这是 context 的差异。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A colleague leaves a scheduled call to finish helping the person standing in front of her and sees nothing wrong with it. Which time orientation is this?",
+          "options": ["Monochronic", "Polychronic", "Long-term", "Short-term"],
+          "answer": 1,
+          "how": ["线索是「leaves a scheduled call」去处理「the person standing in front of her」，对人可用优先于日程。", "多件事并行、关系可优先于日程，是 polychronic。", "Long-term 和 short-term 是 Hofstede 的时间重心，不是 Hall 的时间观。"]
+        },
+        {
+          "type": "tf",
+          "q": "In a low-context setting a signed contract is treated as the agreement itself, whereas in a high-context setting the document records an agreement that lives in the relationship.",
+          "a": true,
+          "how": ["课件的合同一行正是这样对比：低语境里文件本身就是约定。", "高语境里文件记录了存在于关系中的约定，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In a high-context setting, how is critical feedback most likely to be delivered?",
+          "options": ["By directly stating the problem", "Softened, after some praise, or passed on through a third person", "Through a public ranking", "Only in writing"],
+          "answer": 1,
+          "how": ["线索是「high-context」加「critical feedback」。", "高语境倾向先肯定、委婉说，或经第三人转达；直接说明问题是低语境的做法。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager says a colleague who never says 'no' directly must come from a high power distance culture. Which two ideas is he confusing?",
+          "options": ["High-context communication with power distance", "Monochronic with polychronic time", "Individualism with collectivism", "Practices with values"],
+          "answer": 0,
+          "how": ["线索是「never says no directly」，这是意思藏在字句之外，属于 high context。", "Power distance 问的是谁能挑战权威，不是表达方式；课件把两者列为易混概念。"]
+        }
+      ],
+      "recap": "Context 看意思藏在字句还是背景；time 看日程是承诺还是可流动。"
+    },
+    {
+      "id": "w06-p09",
+      "title": "GLOBE 与 Trompenaars",
+      "titleEn": "GLOBE practices vs values; universalism vs particularism",
+      "kp": "GLOBE 区分 practices（现实中怎样做）与 values（认为应该怎样做），服从现状不等于赞同。Trompenaars：universalism 同一规则平等适用，particularism 允许特定关系影响规则运用。",
+      "howTo": "「实际按高层级办事，但希望层级更低」是 practices 与 values 的差距，选 GLOBE。「要不要给老伙伴例外」是 universalism 与 particularism，选 Trompenaars。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Staff comply with a very top-down decision style every day, yet when asked privately they say they would prefer to be consulted. What does GLOBE call these two things?",
+          "options": ["Practices (how things are) and values (how they should be)", "Norms and rules", "Culture and personality", "Context and time"],
+          "answer": 0,
+          "how": ["线索是「comply … every day」对比「would prefer」，现实做法和理想期待分开了。", "GLOBE（约 17,300 名中层经理、62 个社会）把前者叫 practices，后者叫 values；服从现状不等于赞同。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A long-standing client asks for an exception to the standard refund policy. One manager says the rule must apply to everyone; another says the relationship justifies flexibility. Which framework captures this contrast?",
+          "options": ["Hofstede's power distance", "Trompenaars' universalism vs particularism", "GLOBE practices vs values", "Hall's monochronic vs polychronic time"],
+          "answer": 1,
+          "how": ["线索是「apply to everyone」对比「the relationship justifies flexibility」。", "普遍主义强调同一规则平等适用，特殊主义允许特定关系和义务影响规则运用，这是 Trompenaars。"]
+        },
+        {
+          "type": "tf",
+          "q": "GLOBE's cultural practices and cultural values measure the same thing in different words.",
+          "a": false,
+          "how": ["Practices 是现实中怎样做，values 是人们认为应该怎样做，是两张不同的图。", "课件案例里实践中权力距离很高而理想上希望更低，正说明两者可以分开，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Trompenaars and Hampden-Turner identified seven dimensions. Which one does the lecture develop in detail?",
+          "options": ["Universalism–particularism", "Achievement–ascription", "Neutral–affective", "Sequential–synchronic time"],
+          "answer": 0,
+          "how": ["线索是「develop in detail」。", "课件调查 43 国 8,841 人形成七维，但具体展开的只有 universalism–particularism。"]
+        }
+      ],
+      "recap": "GLOBE：现实怎么做与理想该怎样不同；Trompenaars：规则一视同仁还是看关系例外。"
+    },
+    {
+      "id": "w06-p10",
+      "title": "Hofstede 框架的六项批评",
+      "titleEn": "Six critiques of Hofstede",
+      "kp": "六项批评：一家公司一个年代；国籍代替文化（nation as a proxy）；均值遮住国内差异；只有问卷数据；把文化当静态；事后循环解释（circular explanation）。",
+      "howTo": "看题干挑的毛病：一家公司一个年代是 employer/era；国籍代文化是 proxy；忽视国内差异是 averages；只问不观察是 survey；用老分数是 static；事后解释一切是 circular。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A consultant uses scores from the 1970s to describe a country's workplaces today. Which critique of Hofstede does this illustrate?",
+          "options": ["Culture treated as static", "Survey data only", "Nation as a proxy", "Circular explanation"],
+          "answer": 0,
+          "how": ["线索是「from the 1970s」用来描述「today」。", "社会会变，不能把历史分数当作永恒属性，这是 culture treated as static。"]
+        },
+        {
+          "type": "mcq",
+          "q": "'The study asked people what they value; it never observed what they actually do at work.' Which critique is this?",
+          "options": ["Averages hide the spread", "Survey data only", "One employer, one era", "Culture treated as static"],
+          "answer": 1,
+          "how": ["线索是「asked people what they value」对比「never observed what they actually do」。", "问卷报告的价值不等于观察到的实际工作行为，这是 survey data only。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A researcher treats everyone born within a country's borders as sharing one culture, ignoring regional and ethnic differences. Which critique applies?",
+          "options": ["Nation as a proxy", "Circular explanation", "Survey data only", "One employer, one era"],
+          "answer": 0,
+          "how": ["线索是「within a country's borders」和「ignoring regional and ethnic differences」。", "国家边界不自动等于文化边界，用国籍代表文化就是 nation as a proxy。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager says: 'The national average is 70, so differences between individuals inside that country hardly matter.' Which critique does this ignore?",
+          "options": ["Averages hide the spread", "One employer, one era", "Culture treated as static", "Survey data only"],
+          "answer": 0,
+          "how": ["线索是「national average」被用来否定「differences between individuals」。", "平均值会遮住国内个体差异，这是 averages hide the spread。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to the lecture, the right way to use Hofstede's framework is to generate hypotheses, check other cultural layers, rule out situational causes, ask the person directly and update on new evidence.",
+          "a": true,
+          "how": ["课件的使用方式正是：产生假设、查其他层次、先排查情境、直接询问、按新证据更新。", "不要只在事后贴一个维度名称就结束分析，所以是 True。"]
+        }
+      ],
+      "recap": "六批评：一家公司一年代、国籍代文化、均值藏差异、只问卷、当静态、事后循环。"
+    },
+    {
+      "id": "w06-p11",
+      "title": "生态谬误与效应量",
+      "titleEn": "Ecological fallacy; Taras et al.",
+      "kp": "Ecological fallacy 是把群体平均值用来断定某一个成员。Taras 等（2010）汇总 598 项研究：文化价值对个体结果的平均效应约 0.18，预测工作表现、缺勤和离职时弱于人格；0.18 不是 18% 的正确率。",
+      "howTo": "从「某国分数高」直接跳到「这位同事一定如何」，是 ecological fallacy。问文化价值和人格谁更能预测个体工作结果，答人格。把 0.18 说成 18% 正确率，判错。Oyserman 等提醒样本标签会误导。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An HR officer sees that a country scores high on uncertainty avoidance and therefore assigns every applicant from that country to rule-heavy roles. Which error is this?",
+          "options": ["Circular explanation", "Ecological fallacy", "Pluralistic ignorance", "Behavioural CQ"],
+          "answer": 1,
+          "how": ["线索是「a country scores high」直接推出「every applicant from that country」。", "从群体均值跳到每一个个人，就是 ecological fallacy。", "Circular explanation 是事后用维度解释结果，这里是事前用均值预测个人。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to Taras et al. (2010), when predicting an individual's job performance, absenteeism and turnover, which is the stronger predictor?",
+          "options": ["National cultural values", "Personality", "Country GDP", "Age"],
+          "answer": 1,
+          "how": ["线索是「job performance, absenteeism and turnover」，这是 Taras 等比较的三个个体结果。", "汇总 598 项研究、超过 200,000 人，文化价值的平均效应约 0.18，预测这三项时弱于人格。"]
+        },
+        {
+          "type": "tf",
+          "q": "An average effect of about 0.18 means that cultural values correctly predict individual outcomes 18% of the time.",
+          "a": false,
+          "how": ["0.18 是平均效应量，说明关系不强。", "它不是「18% 的预测正确率」，课件专门提醒这一点，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Why does the lecture cite Oyserman et al. (2002)?",
+          "options": ["To show that sample labels can mislead: European American samples were not more individualist than African American or Latino samples, nor less collectivist than Japanese or Korean samples", "To prove that Americans are the most individualist people", "To show culture never changes", "To show surveys are always reliable"],
+          "answer": 0,
+          "how": ["线索是「Oyserman」，课件引用它提醒样本标签可能误导。", "欧裔美国样本并未比非裔或拉丁裔样本更个人主义，也未比日本或韩国样本更少集体主义；中国样本是效应较大的比较。"]
+        }
+      ],
+      "recap": "均值不能套到个人；文化价值对个体结果的影响约 0.18，弱于人格。"
+    },
+    {
+      "id": "w06-p12",
+      "title": "文化智力 CQ 的四项能力",
+      "titleEn": "Cultural intelligence: four components",
+      "kp": "CQ 是在多元文化环境有效行动的能力，可发展。Metacognitive 是检查并修正自己的文化假设；Cognitive 是了解文化规范；Motivational 是有意愿有信心跨越差异；Behavioural 是真正调整说法与直接程度。",
+      "howTo": "看人在做什么：知道各国规范是 cognitive；意识到「我把沉默当同意了」并核实是 metacognitive；第一次不顺仍愿继续是 motivational；真改成私下反馈、放慢语速是 behavioural。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Sam knows that some workplaces weight titles and private feedback heavily, but does not assume every person from those settings behaves that way. Which CQ component is this?",
+          "options": ["Cognitive CQ", "Metacognitive CQ", "Motivational CQ", "Behavioural CQ"],
+          "answer": 0,
+          "how": ["线索是「knows that some workplaces weight titles」，这是关于文化规范的知识。", "了解文化规范、惯例以及文化通常在哪些方面不同，是 cognitive CQ。", "Metacognitive 是检查自己正在用的假设，题干里他只是知道，还没在互动中自检。"]
+        },
+        {
+          "type": "mcq",
+          "q": "After an awkward first meeting with an overseas partner, Lee keeps reaching out and stays in the conversation despite the discomfort. Which CQ component is strongest here?",
+          "options": ["Cognitive CQ", "Metacognitive CQ", "Motivational CQ", "Behavioural CQ"],
+          "answer": 2,
+          "how": ["线索是「awkward」和「keeps reaching out … despite the discomfort」。", "有意愿、有信心跨越差异并愿意在尴尬中坚持互动，是 motivational CQ。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager switches from public criticism to private, specific feedback and deliberately slows his speaking pace with international colleagues. Which CQ component is this?",
+          "options": ["Cognitive CQ", "Metacognitive CQ", "Motivational CQ", "Behavioural CQ"],
+          "answer": 3,
+          "how": ["线索是「switches」和「slows his speaking pace」，他真的改变了做法。", "实际调整语言、语气、速度与直接程度，是 behavioural CQ。", "知道为什么不同不等于已经做出调整，CQ 的关键是把观察转成适应。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to Ang et al. (2007), metacognitive and cognitive CQ predict cultural judgement, while motivational and behavioural CQ predict adaptation.",
+          "a": true,
+          "how": ["课件引用 Ang 等：元认知与认知 CQ 预测文化判断，动机与行为 CQ 预测适应。", "四项能力不能互相替代，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the lecture's six development actions targets metacognitive CQ most directly?",
+          "options": ["Memorise each country's Hofstede scores", "When a behaviour surprises you, generate three explanations before judging, and afterwards record what you expected and what actually happened", "Speak more slowly", "Travel to more countries"],
+          "answer": 1,
+          "how": ["线索是「metacognitive」，它是互动前计划、过程中检查、事后修正自己的文化假设。", "先放慢判断、提出三种解释，再复盘误解，正是在检查和修正自己的假设。", "放慢语速是 behavioural，背分数只是 cognitive 知识。"]
+        }
+      ],
+      "recap": "知道是 cognitive，自检是 metacognitive，愿意是 motivational，做到是 behavioural。"
+    },
+    {
+      "id": "w06-p13",
+      "title": "谈判：IAMS、NOOS 与 Salacuse",
+      "titleEn": "Negotiation: IAMS, NOOS, Salacuse",
+      "kp": "IAMS 以自身利益为中心：竞争、直接、固定蛋糕；NOOS 重角色义务、不冒犯他人与关系资本。Salacuse 四组差异：目标是合同还是关系；win–lose 还是 win–win；直接还是间接；约定具体还是原则。",
+      "howTo": "谈判者「争最低价、假定对方也会挤压自己」是 IAMS；「避免让对方丢面子、先养关系」是 NOOS。两者随情境变化，不是某群人的固定人格。Salacuse 题看问的是目标、态度、沟通还是约定细致度。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A negotiator avoids making the other side lose face in front of their colleagues and keeps raising how the two firms will keep working together next year. Which orientation is this?",
+          "options": ["IAMS", "NOOS", "Universalism", "Win–lose"],
+          "answer": 1,
+          "how": ["线索是「avoids making the other side lose face」和「keep working together」。", "重角色义务、避免冒犯、把后续合作纳入考虑，是 NOOS（not to offend others）。", "IAMS（maximising self-interest）会集中争取自己的份额，不会优先考虑对方的面子。"]
+        },
+        {
+          "type": "mcq",
+          "q": "One side wants every contingency written into the contract; the other wants to agree on principles and handle the rest through the relationship. Which of Salacuse's four differences is this?",
+          "options": ["Goal: contract or relationship", "Attitude: win–lose or win–win", "Communication: direct or indirect", "Form of agreement: specific or general"],
+          "answer": 3,
+          "how": ["线索是「every contingency written」对比「agree on principles」，问的是约定写到多细。", "写明具体情形还是先定原则靠关系处理，是 specific 与 general 这一组。", "Goal 那一组问的是签合同还是建关系，这里双方都要签合同，只是细致度不同。"]
+        },
+        {
+          "type": "tf",
+          "q": "The lecture presents IAMS and NOOS as fixed personality types of Western and East Asian negotiators respectively.",
+          "a": false,
+          "how": ["课件说 IAMS 较常见于美国等西方样本、NOOS 较常见于东亚样本，但明确它们会随情境变化。", "它们不是某群人的固定人格，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which question is on the lecture's checklist to ask before a cross-cultural negotiation?",
+          "options": ["Who really decides, and will they be in the room?", "What is the other side's Hofstede score?", "How can we win every point?", "How do we avoid spending time on relationship-building?"],
+          "answer": 0,
+          "how": ["谈判前六问包括：谁真正决策、第一次会面希望达成什么、是否留出建立关系的时间、双方怎样表达 yes 和 no。", "查对方国家分数、赢下每一点、省掉关系时间都不在清单上。"]
+        }
+      ],
+      "recap": "IAMS 争份额、NOOS 保关系，随情境变；Salacuse 看目标、态度、沟通、约定细致度。"
+    },
+    {
+      "id": "w06-p14",
+      "title": "多文化团队：三种类型与 Map-Bridge-Integrate",
+      "titleEn": "Multicultural teams",
+      "kp": "Destroyers 压制或忽略差异、负面刻板印象；Equalisers 为避免冲突把差异磨平，没用上多样性；Creators 呈现、讨论并利用差异。步骤：Map 说清差异、Bridge 建沟通桥梁、Integrate 把视角用进成果。",
+      "howTo": "互贴标签不交换信息是 destroyers；为不争论只给最普通共识是 equalisers；差异被说出并融入方案是 creators。每人先写一个风险、经理最后回应；反馈宜 private、specific、early。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Members of a multicultural team call each other 'rude' or 'no ideas' and stop exchanging information. Which team type is this?",
+          "options": ["Destroyers", "Equalisers", "Creators", "Integrators"],
+          "answer": 0,
+          "how": ["线索是「rude」「no ideas」这类标签和「stop exchanging information」。", "压制或忽略差异、精力消耗于负面刻板印象，是 destroyers。", "Equalisers 不是互相攻击，而是为了不吵把差异磨平。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A newly formed team first writes down how each member prefers to raise disagreement and what deadlines mean to them, before agreeing on any working method. Which stage of the lecture's process is this?",
+          "options": ["Map", "Bridge", "Integrate", "Equalise"],
+          "answer": 0,
+          "how": ["线索是「first writes down how each member prefers」，还没约定做法，只是把差异说清。", "先说清差异是 Map；约定先书面后讨论是 Bridge；把不同判断融入最终计划是 Integrate。"]
+        },
+        {
+          "type": "mcq",
+          "q": "To motivate a multicultural team, a manager posts a monthly ranking of the 'worst performers'. What does the lecture warn?",
+          "options": ["Rankings always work across cultures", "Public individual rankings can humiliate; private, specific and early feedback transfers better", "Only pay motivates", "Rankings build cognitive CQ"],
+          "answer": 1,
+          "how": ["线索是「posts a monthly ranking」，公开的个人排名。", "课件提醒个人排名可能带来羞辱感，private、specific、early 的反馈更容易跨情境迁移。", "激励方面也一样：Maslow 排序和个人努力换回报的假设不宜原样搬用。"]
+        },
+        {
+          "type": "tf",
+          "q": "An Equaliser team avoids conflict by smoothing over differences, so it functions but does not fully use its diversity.",
+          "a": true,
+          "how": ["Equalisers 为避免冲突把差异磨平，方案停在最普通的共识。", "能运作却没有充分利用多样性，题目说的正是这个，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the six-person Canberra and Ho Chi Minh City team activity, what does the lecture's answer give as the signal that the meeting change may still be failing?",
+          "options": ["Members argue loudly about every point", "Answers stay highly similar, only small problems are raised, and real concerns surface privately after the meeting", "The manager speaks last", "Members ask for more time"],
+          "answer": 1,
+          "how": ["线索是「signal that the meeting change may still be failing」。", "课件答案：员工仍怕影响关系，只报礼貌、安全答案，表现为意见高度相似、只提小问题、会后才私下说出担忧。", "核心是改变过程让真实异议更安全，而不是比较哪个地点的人更诚实。"]
+        }
+      ],
+      "recap": "压差异是 destroyers，磨差异是 equalisers，用差异是 creators；先 map 再 bridge 后 integrate。"
+    }
+  ]
+}

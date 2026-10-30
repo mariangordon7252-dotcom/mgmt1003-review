@@ -1,0 +1,547 @@
+{
+  "week": 4,
+  "points": [
+    {
+      "id": "w04-p01",
+      "title": "为什么需要团队",
+      "titleEn": "Why teams",
+      "kp": "团队三种优势：larger pool of information（信息池更大）、learning from each other（彼此学习）、balancing and checking errors（相互查错）。优势要靠过程兑现。",
+      "howTo": "看题干里团队带来的是什么：合起来掌握别人没有的知识和视角，是信息池；技能在成员之间传开，是彼此学习；别人发现你自己看不见的错误，是查错。证据只说明团队化趋势，不代表团队永远更好。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A product team includes an engineer, a lawyer and a marketer, so together they know things no single member could know alone. Which advantage of teams does this illustrate?",
+          "options": ["A larger pool of information", "Learning from each other", "Balancing and checking errors", "Positive synergy"],
+          "answer": 0,
+          "how": ["线索是「know things no single member could know alone」，说的是团队合起来掌握的知识更多。", "成员各自带入不同知识、联系人与视角，这就是 larger pool of information。", "Positive synergy 说的是协调后表现超过个人之和，题干只提知识，没提表现。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A junior analyst gradually picks up data-cleaning skills from a senior colleague simply by working on the same project. Which advantage of teams is this?",
+          "options": ["A larger pool of information", "Learning from each other", "Balancing and checking errors", "Social loafing"],
+          "answer": 1,
+          "how": ["线索是「picks up data-cleaning skills from a senior colleague」，技能从一个人传到了另一个人。", "技能通过共同工作在成员之间扩散，组织能力不再绑在一个人身上，这就是 learning from each other。", "信息池说的是知道得更多，这里强调的是学会了做，所以不选第一项。"]
+        },
+        {
+          "type": "tf",
+          "q": "Wuchty, Jones and Uzzi (2007) found that team-authored papers and patents have gradually replaced solo work across almost all fields and receive more citations.",
+          "a": true,
+          "how": ["讲义里 Wuchty 等分析了五十年间约两千万篇论文与专利。", "结论正是团队产出逐渐取代个人产出、几乎横跨所有领域，而且团队成果引用更多，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "After reading the Wuchty et al. (2007) evidence, a manager concludes that every task in her department should from now on be done by a team. What is wrong with this conclusion?",
+          "options": ["The evidence shows a long-term trend, not that teams always beat individuals; teams can still lose to process problems", "The evidence applies only to patents, not to papers", "The evidence only holds for teams of exactly 3–6 members", "Nothing is wrong; the evidence proves teams are always superior"],
+          "answer": 0,
+          "how": ["线索是「every task should from now on be done by a team」，她把趋势证据读成了绝对规律。", "讲义提醒：该证据只说明知识生产的团队化趋势和影响力差异，不代表任何任务都必须组队。", "团队的潜在优势要靠信息真正进入讨论、责任清晰、协调成本受控才兑现，否则信息池大了也没人用。"]
+        }
+      ],
+      "recap": "团队三优势：信息池更大、彼此学习、相互查错；优势要靠有效过程才能兑现。"
+    },
+    {
+      "id": "w04-p02",
+      "title": "Group 的定义与三个属性",
+      "titleEn": "What is a group; norms, size, composition",
+      "kp": "Group 是两个或以上的个体，为实现特定目标聚在一起，彼此互动（interacting）并相互依赖（interdependent）。解释群体表现的三个属性是 Norms（规范）、Size（规模）、Composition（构成）。",
+      "howTo": "判断是不是 group 查三件事：成员有没有互动、一个人的行动是否影响别人、有没有共同目标，缺一个就不是。问「什么解释群体表现」时，答规范、规模、构成三个属性。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Passengers waiting at the same bus stop form a group in the management sense because they are standing close to one another.",
+          "a": false,
+          "how": ["管理学里的 group 要同时满足互动、相互依赖、共同目标三个条件。", "公交站的陌生人只是站得近，既不相互依赖，也没有共同要完成的任务，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following best fits the lecture's definition of a group?",
+          "options": ["Fans watching the same football match in their own homes", "Five nurses on a ward who coordinate care for the same patients", "Commuters sitting in the same train carriage", "Everyone who bought the same laptop model this year"],
+          "answer": 1,
+          "how": ["逐个检查三个条件：只有「coordinate care for the same patients」同时有互动、相互依赖和共同目标。", "其他三组人既不互动，一个人做什么也不影响别人，只是碰巧共享某样东西，所以不是 group。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A new manager asks what determines how well a group performs. According to the lecture, which three group attributes explain performance?",
+          "options": ["Norms, size and composition", "Cohesion, conformity and creativity", "Goals, roles and rules", "Interaction, interdependence and shared objectives"],
+          "answer": 0,
+          "how": ["线索是「what determines how well a group performs」，问的是解释群体表现的属性。", "讲义给出的三个属性是 Norms、Size、Composition。", "Interaction、interdependence、shared objectives 是 group 的定义条件，不是解释表现的属性。"]
+        },
+        {
+          "type": "tf",
+          "q": "Students in a class can constitute a group because they interact around a shared learning goal and depend on one another in discussion.",
+          "a": true,
+          "how": ["课堂学生围绕学习目标互动，并通过讨论共同建构知识。", "互动、相互依赖、共同目标三个条件都满足，所以是 True。"]
+        }
+      ],
+      "recap": "Group 三要件：互动、相互依赖、共同目标；群体表现看规范、规模、构成三个属性。"
+    },
+    {
+      "id": "w04-p03",
+      "title": "社会规范",
+      "titleEn": "Social norms",
+      "kp": "Social norms 是群体成员共享的可接受行为标准，通常不写在制度里，靠观察和他人反应学会，靠社会性后果（不赞同、冷落、排斥）执行。一旦写成正式要求，就更接近 rule 或 policy。",
+      "howTo": "题干说「没人写下来但大家都知道」「违反了会被冷落」，就是 social norm；说「手册规定」「违反扣奖金」，就是 rule 或 policy。员工真正跟随的是被奖励、容忍或嘲笑的行为，不是墙上的价值观。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Social norms are shared standards of acceptable behaviour that are usually written into formal policies and enforced through financial penalties.",
+          "a": false,
+          "how": ["正确说法是：社会规范通常没有写下来，靠不赞同、冷落、排斥这类社会性后果执行。", "题目把 unwritten 换成了 written into formal policies，把社会后果换成了罚款，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In a design studio nobody has ever written it down, but everyone knows you do not leave before the lead designer does. Those who leave early are quietly left out of lunch invitations. Which concept best describes this?",
+          "options": ["A formal rule", "A social norm enforced by social consequences", "Social loafing", "Positive synergy"],
+          "answer": 1,
+          "how": ["线索是「nobody has ever written it down」和「quietly left out of lunch invitations」。", "未明说的共享标准，靠冷落来执行，这正是 social norm 的定义。", "Formal rule 必须是写成文字的正式要求，题干明确说没写下来。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company's wall poster says 'We value honesty', yet employees who raise problems are laughed at while those who stay quiet get promoted. According to the lecture, what will employees actually follow?",
+          "options": ["The values on the poster", "The behaviour that is actually rewarded, tolerated or mocked", "The HR manual", "Whatever the newest employee does"],
+          "answer": 1,
+          "how": ["线索是「laughed at」和「get promoted」，这是日常反应，和海报上的话相反。", "讲义说员工看的是真正被奖励、被容忍、被嘲笑的行为，墙上的价值观只是公告栏。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following would the lecture classify as a rule or policy rather than a social norm?",
+          "options": ["Colleagues frown when someone talks over the manager", "Team members expect each other to answer emails within a day", "The employee handbook states that overtime must be approved in writing", "New hires quickly learn not to question senior staff in meetings"],
+          "answer": 2,
+          "how": ["线索是「employee handbook states」，已经写成了正式要求。", "写进制度的就是 rule 或 policy；其他三项都是靠观察和反应学到的未明说标准，属于 norm。"]
+        }
+      ],
+      "recap": "规范是没写下来、靠社会后果执行的共享标准；写进手册就成了 rule。"
+    },
+    {
+      "id": "w04-p04",
+      "title": "Asch 从众实验与领导者最后发言",
+      "titleEn": "Asch conformity and speaking last",
+      "kp": "Asch（1951）让参与者在一致且自信的错误多数之后公开判断线段长短：37% 的关键作答跟随错误多数，约 75% 的人至少从众一次，25% 从未从众。主要解释是跟随群体能降低被讨厌或排斥的风险。",
+      "howTo": "题干出现「领导先表态，大家都点头」「明知答案却跟着多数」，就是 Asch 式从众；对策是会前独立收集意见、领导者最后发言。数字题记住：37% 是作答比例，75% 是至少从众一次的人数比例。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "In Asch's line experiment, about 37% of the critical responses followed the clearly wrong majority.",
+          "a": true,
+          "how": ["讲义数字：37% 的关键作答跟随了错误多数，题目说的正是作答比例。", "注意它不是人数比例；人数比例是约 75% 至少从众一次、25% 从未从众。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager opens a meeting with 'I think we should go with Supplier B. Any objections?' Nobody speaks. Based on Asch's findings, what should the manager conclude?",
+          "options": ["Everyone genuinely agrees with Supplier B", "Silence may reflect conformity pressure rather than agreement", "The team lacks cohesiveness", "Supplier B must be the best option"],
+          "answer": 1,
+          "how": ["线索是经理先说「I think we should go with Supplier B」，再问有没有反对，等于提前设置了答案。", "Asch 表明一致的公开意见会让人不愿当黑羊，所以沉默不一定是同意。", "选「Everyone genuinely agrees」正是讲义点名的危险结论：成员沉默不等于同意。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Based on the Asch effect, which meeting practice best protects members' independent judgement?",
+          "options": ["The manager states her view first to save time", "Collect members' views independently before the meeting and have the leader speak last", "Ask the most senior member to summarise first", "Decide quickly by a public show of hands"],
+          "answer": 1,
+          "how": ["题干要的是「protects members' independent judgement」，也就是减少多数和领导造成的从众压力。", "讲义的对策是会前独立收集意见、领导者最后发言，让成员先提供独立信息。", "领导先说、资深者先总结、公开举手，都会把一个人的观点变成群体答案。"]
+        },
+        {
+          "type": "tf",
+          "q": "Asch found that 75% of participants conformed on every critical trial, so individual judgement almost never survives group pressure.",
+          "a": false,
+          "how": ["正确数字是：约 75% 的人至少从众一次，并不是每次都从众；25% 的人从未从众。", "题目把 at least once 换成了 every trial，而且多数人并非每次都从众，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to the lecture, why did participants in Asch's study go along with an obviously wrong majority?",
+          "options": ["They came to believe the majority was correct", "Following the group reduces the risk of being disliked or rejected", "The line task was too difficult to judge alone", "They were paid extra for agreeing"],
+          "answer": 1,
+          "how": ["线索是「obviously wrong majority」：独自作答时人们几乎总能答对，所以不是任务难。", "讲义的主要解释是跟随群体能降低被讨厌、拒绝或排斥的社会代价。"]
+        }
+      ],
+      "recap": "一致多数能压过明显正确的判断（37%、75%、25%）；经理先独立收集意见，最后发言。"
+    },
+    {
+      "id": "w04-p05",
+      "title": "描述性规范与指令性规范",
+      "titleEn": "Descriptive vs injunctive norms",
+      "kp": "Descriptive norm 回答「大多数人实际上做什么」，告诉成员什么是正常行为，在新环境和不确定情境中尤其强。Injunctive norm 回答「大多数人认为应该做什么」，提供对错标准，违反会被批评、惩罚或排斥。",
+      "howTo": "看题干的动词：描述大家实际在做什么（多数人迟到、多数人在工位吃饭）是 descriptive；表达大家认为应该或不该做什么（不该当众批评老板）是 injunctive。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "'Most people in this office eat lunch at their desks.' Which type of norm does this statement describe?",
+          "options": ["An injunctive norm", "A descriptive norm", "A formal rule", "Positive synergy"],
+          "answer": 1,
+          "how": ["线索是「Most people … eat lunch at their desks」，说的是多数人实际在做什么。", "描述实际行为的就是 descriptive norm。", "它没有说应不应该在工位吃饭，所以不是 injunctive。"]
+        },
+        {
+          "type": "mcq",
+          "q": "'Around here, you should never criticise your manager in front of clients.' Which type of norm is this?",
+          "options": ["A descriptive norm", "A perceived norm", "An injunctive norm", "A rule of social loafing"],
+          "answer": 2,
+          "how": ["线索是「should never」，表达的是群体认为什么不该做。", "提供对错标准、违反会被反对的，是 injunctive norm。", "它没说多数人实际上有没有批评经理，所以不是 descriptive。"]
+        },
+        {
+          "type": "tf",
+          "q": "A descriptive norm tells group members what is approved or disapproved, while an injunctive norm tells them what most people actually do.",
+          "a": false,
+          "how": ["正确说法正好相反：descriptive 是多数人实际做什么，injunctive 是多数人认为应该做什么。", "题目把两个定义对调了，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A new employee joins a company and is unsure how to behave. According to the lecture, which kind of norm is especially powerful in new and uncertain situations?",
+          "options": ["Injunctive norms", "Descriptive norms", "Formal policies", "Team cohesiveness"],
+          "answer": 1,
+          "how": ["线索是「new employee」和「unsure how to behave」，这是新环境和不确定情境。", "讲义说 descriptive norm 在新环境和不确定情境中尤其强，因为人会照多数人的实际行为判断什么是正常。"]
+        }
+      ],
+      "recap": "口诀：descriptive 看 do，injunctive 看 should。"
+    },
+    {
+      "id": "w04-p06",
+      "title": "多元无知与感知规范",
+      "titleEn": "Pluralistic ignorance and perceived norms",
+      "kp": "Pluralistic ignorance 是成员对群体规范的错误认知：大家都以为「群体是这样」，其实并不是。行为跟随 perceived norm（感知规范）而非 actual norm，所以经理还要知道成员以为团队期待什么。",
+      "howTo": "题干说「成员以为大家都如何，其实多数人并不如此」，就是 pluralistic ignorance。对策是把规范说出来、宣传好的规范、检查成员的认知；千万别公开「半数人迟交」这种坏的描述性规范。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Employees at a firm each believe their colleagues want everyone to work long hours, so everyone stays late. Privately, almost all of them would prefer to leave on time. This situation is best described as:",
+          "options": ["Social loafing", "Pluralistic ignorance", "An injunctive norm working as intended", "Positive synergy"],
+          "answer": 1,
+          "how": ["线索是「each believe their colleagues want」和「privately … prefer to leave on time」。", "大家都在配合一个几乎没人真正持有的规范，这就是 pluralistic ignorance。", "Social loafing 是人均投入下降，这里恰恰是大家都在多干。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to the lecture, behaviour is driven more strongly by the actual (objective) norm than by the perceived (subjective) norm.",
+          "a": false,
+          "how": ["正确说法是：主观或感知到的规范对行为的推动往往强于客观规范。", "题目把两者的强弱对调了，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team leader announces: 'Most of you have been skipping the daily check-in, so let's not worry about it any more.' What problem does this create?",
+          "options": ["It publicises a bad descriptive norm, teaching members that skipping is normal", "It strengthens the injunctive norm by threatening punishment", "It causes social loafing by increasing team size", "It raises psychological safety too far"],
+          "answer": 0,
+          "how": ["线索是「Most of you have been skipping」，领导公开了多数人实际上在做的坏行为。", "这就是宣传坏的描述性规范，等于告诉大家跳过签到很正常。", "讲义建议反过来做：宣传准时的成员，公开期待的规范。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager suspects that what her team actually does and what members believe the team expects have drifted apart. Which action does the lecture recommend?",
+          "options": ["Increase the team size to dilute the problem", "Ask members what they think the team expects and correct mistaken beliefs directly", "Replace the members who hold mistaken beliefs", "Wait for a correct norm to emerge on its own"],
+          "answer": 1,
+          "how": ["线索是「what members believe the team expects」，问题出在感知规范。", "讲义的对策是 check perceptions：询问成员以为团队期待什么，找出理解差距并直接纠正。"]
+        }
+      ],
+      "recap": "行为跟着「以为的规范」走；把规范说出来、宣传好规范、别公开坏的描述性规范。"
+    },
+    {
+      "id": "w04-p07",
+      "title": "Ringelmann 与社会性懈怠",
+      "titleEn": "Ringelmann effect and social loafing",
+      "kp": "Ringelmann 拔河：人数增加时群体总力量上升，但每人平均贡献下降。Social loafing 是个体在集体工作时比独自工作投入更少，主要原因是公平恢复（equity，别人搭便车我也少干）和贡献不可识别，属于结构问题而不是懒惰。",
+      "howTo": "题干说「人多了但人均投入下降」「没人分得清谁做了什么」「大家都以为别人会做」，就是 social loafing。修复看结构：分配署名责任、公开比较个人贡献、让输入可追踪；不要先给员工贴懒惰标签。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "In Ringelmann's tug-of-war study, adding more people to the rope reduced the group's total pulling force.",
+          "a": false,
+          "how": ["正确结果是两个趋势同时出现：总力量随人数上升，每人平均贡献下降。", "题目把下降的对象从人均贡献换成了总力量，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Eight students share one grade for a group report with no named sections, and each contributes less than they would alone. Which cause of social loafing is most directly at work?",
+          "options": ["Low team cohesiveness", "Contributions cannot be identified, so responsibility is diluted", "Too much diversity in the group", "An injunctive norm against effort"],
+          "answer": 1,
+          "how": ["线索是「one grade」和「no named sections」，没人分得清这部分是谁做的。", "贡献不可识别，责任被稀释，多做也不会被看见，这是 social loafing 的结构原因之一。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Mei notices that two teammates are free-riding and reduces her own effort because it feels unfair to keep carrying them. Which cause of social loafing does this illustrate?",
+          "options": ["Equity restoration", "Unmeasurable contribution", "Pluralistic ignorance", "Conformity to a unanimous majority"],
+          "answer": 0,
+          "how": ["线索是「free-riding」和「feels unfair」，她是为了恢复公平才降低投入。", "「别人都在搭便车，我继续全力投入不公平」正是 equity 原因。", "Unmeasurable contribution 说的是没人看得见我做了什么，题干里她的问题是别人不干。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager wants to reduce social loafing in a project team. Which action is most consistent with the lecture?",
+          "options": ["Tell members to try harder", "Assign named, measurable responsibilities so each person's input is visible", "Add more members so the work is spread thinner", "Organise a social event to raise morale"],
+          "answer": 1,
+          "how": ["题干问的是减少 social loafing 的做法，要对准它的两个结构性原因。", "署名、可测量的责任让贡献可识别，也让成员看见彼此是否承担公平份额。", "加人只会让责任更稀释；喊口号和社交活动都没碰结构。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because social loafing has structural causes, a manager should check whether contributions are identifiable before labelling team members as lazy.",
+          "a": true,
+          "how": ["讲义的核心判断：两个主要原因都是结构性的，不要求成员主观上懒。", "所以先检查任务能否识别个人贡献、责任是否清楚，再谈个人，所以是 True。"]
+        }
+      ],
+      "recap": "人多总量升、人均降；懈怠来自公平感和贡献看不见，修结构不贴标签。"
+    },
+    {
+      "id": "w04-p08",
+      "title": "团队规模",
+      "titleEn": "Group size",
+      "kp": "团队的工作范围是 3–6 人：大到能覆盖任务所需技能，小到成员彼此认识、沟通顺畅、贡献对他人可见。超过 6 人后个人努力下降、协调问题和沟通路径增多。Amazon 的 two-pizza rule 是同一原理；规模是开工前就能设定的属性。",
+      "howTo": "问理想规模选 3–6 人。题干说「团队扩到十几人后沟通变慢、责任模糊、投入下降」，答规模过大带来协调成本和社会性懈怠。问「哪个属性管理者在开工前就能直接设定」，答规模。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A manager is forming a team to design a new customer service. According to the lecture, how many members should she aim for?",
+          "options": ["2–3 members", "3–6 members", "7–10 members", "More than 10 members"],
+          "answer": 1,
+          "how": ["题干直接问推荐规模，讲义给的 working range 是 3–6 人。", "理由是要大到覆盖技能，又小到彼此认识、贡献可见；超过 6 人协调问题开始增加。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A project team grows from five to twelve members. Over the following months, members report slower communication, unclear responsibility and less personal effort. What best explains this?",
+          "options": ["The costs of diversity arriving early", "The group has become too large: coordination paths multiply and individual effort falls", "A weak injunctive norm", "A lack of team creativity"],
+          "answer": 1,
+          "how": ["线索是「from five to twelve」和随后的「slower communication」「less personal effort」。", "超过 6 人后沟通路径增多、协调问题增加、个人努力下降，正是规模过大的后果。", "Diversity 的成本是冲突和士气问题，题干没有提到成员差异，只提到人数。"]
+        },
+        {
+          "type": "tf",
+          "q": "Amazon's two-pizza rule expresses the same principle as the lecture's recommended team size: if two pizzas cannot feed the team, it is probably too large.",
+          "a": true,
+          "how": ["讲义把 two-pizza rule 列为同一原理写成政策的例子。", "两张披萨喂不饱就太大，对应的正是 3–6 人的工作范围，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which group attribute can a manager set directly before the work even begins?",
+          "options": ["Team cohesiveness", "Perceived norms", "Size", "Creativity"],
+          "answer": 2,
+          "how": ["线索是「before the work even begins」，问的是开工前就能直接决定的属性。", "讲义明确说规模是管理者在工作开始前就能直接设定的团队属性。", "凝聚力、感知规范和创造力都要在互动中形成，开工前设不了。"]
+        }
+      ],
+      "recap": "3–6 人最合适：技能够用、人人可见；规模是开工前就能定的。"
+    },
+    {
+      "id": "w04-p09",
+      "title": "多样性：成本先到，收益后到",
+      "titleEn": "Diversity costs and benefits",
+      "kp": "Diversity 是群体成员彼此相似或不同的程度，是群体层面而不是个人的属性。成本先出现：冲突增加、士气下降、离职上升、沟通变慢；收益后出现：更多创造性想法、更开放地考虑选项、复杂新问题上决策更好、信息池更广。",
+      "howTo": "题干里多元团队「刚组建就冲突多、讨论慢」是早期成本，别急着解散；要预留沟通时间、建立心理安全和 perspective taking，让差异被表达、理解、挑战、组合。说「某个人很多元」是错的，多样性是群体属性。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "A single employee with a varied background can be described as 'highly diverse' in the lecture's sense of the term.",
+          "a": false,
+          "how": ["Diversity 是群体整体的属性，说的是成员之间相似或不同的程度。", "一个人可以独特，但只有把多个人放在一起比较才谈得上多样性，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A newly formed cross-functional team has argued constantly during its first month and takes longer than other teams to reach decisions. According to the lecture, what should the manager expect?",
+          "options": ["These are the early costs of diversity; gains in creativity and decision quality usually come later", "The team will never perform well and should be disbanded", "Diversity has reduced the team's pool of information", "The team needs more similar members to recover"],
+          "answer": 0,
+          "how": ["线索是「first month」和「argued constantly」「longer to reach decisions」，这是早期的冲突和沟通成本。", "讲义强调时间顺序：成本先出现，收益后出现，一有摩擦就解散只会完整体验成本。", "换成相似成员是追求表面好相处，复杂新问题恰恰需要视角差异。"]
+        },
+        {
+          "type": "mcq",
+          "q": "On which kind of task does the lecture say diverse groups are most likely to make better decisions than homogeneous groups?",
+          "options": ["Routine, repetitive tasks", "Complex, novel problems", "Tasks where speed matters above all", "Tasks with one obvious correct answer"],
+          "answer": 1,
+          "how": ["题干问多样性的决策收益出现在哪类任务。", "讲义列出的后期收益是「复杂、全新问题上的决策更好」，因为不同信息与假设能进入讨论。", "需要速度的任务反而会先碰到多样性的沟通变慢成本。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A diverse team holds plenty of information, but members rarely discuss it and avoid questioning one another. Why might its creativity still be low?",
+          "options": ["More information automatically improves performance, so creativity must be high", "Diversity only pays off when differences are expressed, understood, challenged and combined in discussion", "The team is too small to be creative", "Diversity permanently lowers morale"],
+          "answer": 1,
+          "how": ["线索是「rarely discuss it」和「avoid questioning one another」，信息没有进入讨论。", "讲义说更多信息不自动等于更好表现，中介过程是差异被表达、理解、挑战、组合。", "没有心理安全和有效讨论，多样性只会停在摩擦阶段。"]
+        }
+      ],
+      "recap": "多样性先付成本（冲突、慢）后得收益（创造力、好决策）；信息要进讨论才有用。"
+    },
+    {
+      "id": "w04-p10",
+      "title": "多元文化经验与创造力",
+      "titleEn": "Multicultural experience and creativity",
+      "kp": "在国外生活的时间与创造力正相关，单纯出国旅行没有同样关系，机制是 adaptation（适应）：必须真正按另一套规范运作。多元文化经验还与 openness to experience 相关，它是 Big Five 中最接近创造力的维度。",
+      "howTo": "题干对比 living abroad 和 travelling abroad，选 living；问机制选 adaptation；问人格特质选 openness。启动实验里想象在国外生活的那组解题最多。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "According to the research summarised in the lecture, travelling abroad is linked to creativity just as strongly as living abroad.",
+          "a": false,
+          "how": ["正确结论是：在国外生活的时间与创造力正相关，单纯旅行没有同样的关系。", "题目把旅行说成和生活一样强，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Participants were asked to imagine a day living abroad, a day travelling abroad, a day in their hometown, or to recall their last supermarket trip, then solved Remote Association Task items. Which group solved the most?",
+          "options": ["Travelling abroad", "Hometown", "Living abroad", "Supermarket control"],
+          "answer": 2,
+          "how": ["题干列出四个启动条件，问哪组 RAT 解题最多。", "讲义结果：living-abroad prime 组解出的题目更多，其他三组差异很小。", "效果在真实海外生活经验更丰富的人身上更强。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Why does the lecture say that living abroad, but not travelling abroad, is associated with creativity?",
+          "options": ["Travel is too short to meet many people", "Living abroad requires adapting to and operating within another culture's norms, whereas travellers remain outside observers", "Living abroad raises conscientiousness", "Travellers spend less money"],
+          "answer": 1,
+          "how": ["题干问的是机制，也就是为什么 living 有效而 travelling 没有。", "讲义的解释是 adaptation：生活在另一文化中要求你真正在另一套规范里运作，旅行允许你保持外部观察者身份。"]
+        },
+        {
+          "type": "mcq",
+          "q": "The lecture connects multicultural experience to which Big Five dimension, the one it describes as closest to creativity?",
+          "options": ["Conscientiousness", "Agreeableness", "Openness to experience", "Emotional stability"],
+          "answer": 2,
+          "how": ["线索是「Big Five dimension … closest to creativity」。", "讲义说多元文化接触与更高的 openness to experience 相关，而 openness 是五维中与创造力最接近的。", "Conscientiousness 是 Week 3 里最能预测绩效的维度，不是创造力。"]
+        }
+      ],
+      "recap": "国外生活（不是旅行）提升创造力，机制是 adaptation；并与 openness 相关。"
+    },
+    {
+      "id": "w04-p11",
+      "title": "从群体到团队：正向协同",
+      "titleEn": "Groups to teams; positive synergy",
+      "kp": "团队把四件事明确化：clear goals、defined roles、explicit rules、coordination（任务衔接），群体则未必。Positive synergy 指团队通过协调，表现超过各成员独立投入之和。",
+      "howTo": "题干问群体和团队的区别，答目标、角色、规则、协调被明确写出来，而不是人更多、关系更好或没冲突。题干说「合起来的表现超过各自单干之和」是 positive synergy；低于之和则是 social loafing。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Every team is a group, but not every group is a team.",
+          "a": true,
+          "how": ["团队和群体都是两人以上、有共同目标并互动，所以团队一定是群体。", "但群体未必把目标、角色、规则、协调明确化，所以群体不一定是团队，题目是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Five analysts share a goal, but each assumes someone else owns the data cleaning, and their tasks run in parallel until they are stitched together at the last minute. According to the lecture, what is needed to turn this group into a team?",
+          "options": ["Hire more analysts", "Make goals, roles, rules and task coordination explicit", "Increase personal attraction among members", "Reduce the diversity of the group"],
+          "answer": 1,
+          "how": ["线索是「each assumes someone else owns」和「stitched together」，角色和协调都没说清。", "讲义最实用的转换动作：把 goal、roles、rules 写下来，并说明任务之间如何衔接。", "加人和增进感情都不解决「没有任务说明书」的问题。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A four-person team produces a solution that none of them could have reached alone, because they combined complementary information and checked each other's work. Which concept does this illustrate?",
+          "options": ["Social loafing", "Positive synergy", "Pluralistic ignorance", "Conformity"],
+          "answer": 1,
+          "how": ["线索是「none of them could have reached alone」，团队表现超过了个人投入之和。", "通过互补信息、相互检查和协调产生超出总和的表现，这就是 positive synergy。", "Social loafing 正好相反，是集体输出低于个人潜力之和。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of the features that, according to the lecture, distinguishes a team from a group?",
+          "options": ["Clear goals", "Defined roles", "Members must like one another", "Explicit rules"],
+          "answer": 2,
+          "how": ["团队的四个要素是 clear goals、defined roles、explicit rules、coordination。", "「成员必须彼此喜欢」属于凝聚力的来源，不是团队的定义条件，所以选它。"]
+        }
+      ],
+      "recap": "团队把目标、角色、规则、协调写明；协调出 2 + 2 = 5 就是 positive synergy。"
+    },
+    {
+      "id": "w04-p12",
+      "title": "凝聚力与四种团队规范",
+      "titleEn": "Cohesiveness and four team norms",
+      "kp": "凝聚力是成员愿留在团队的程度，只放大既有规范。四种团队规范：psychological safety、emotional expression、social sensitivity、equal participation。",
+      "howTo": "题干说「关系很好但规范是做最低标准」，答低生产力被凝聚力放大，别选「凝聚力高所以绩效高」。问四种规范时：敢承认错误和提半成品想法是心理安全，读懂他人情绪是社会敏感性，发言均衡是平等参与。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "High team cohesiveness always increases team productivity.",
+          "a": false,
+          "how": ["正确说法是：凝聚力通常提高士气，但对生产力的影响取决于团队规范。", "规范支持高绩效时凝聚力放大努力，规范是低努力时凝聚力让大家更团结地摸鱼，所以 always 是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Members of a sales team are close friends, and their shared norm is 'hit the target early, then help whoever is behind'. What does the lecture predict?",
+          "options": ["Low productivity, because friends distract each other", "High productivity, because cohesion amplifies a high-performance norm", "No effect, because cohesion only affects morale", "Social loafing, because responsibility is shared"],
+          "answer": 1,
+          "how": ["线索是「close friends」（高凝聚力）加上「hit the target early」（高绩效规范）。", "凝聚力是放大器，放大的是既有规范；规范支持高绩效，凝聚力就提高生产力。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In a team meeting, members feel able to say 'I don't understand' or 'I might be wrong' without fear of humiliation. Which team norm is this?",
+          "options": ["Emotional expression", "Social sensitivity", "Psychological safety", "Equal participation"],
+          "answer": 2,
+          "how": ["线索是「I might be wrong」和「without fear of humiliation」。", "能承认错误、提看似明显的问题而不怕羞辱，正是 psychological safety 的定义。", "Emotional expression 说的是直接表达想法与感受，重点不在承认错误。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team leader keeps noticing who gets interrupted and who looks uneasy, and pauses the discussion to clarify when needed. Which team norm is she practising?",
+          "options": ["Social sensitivity", "Psychological safety", "Equal participation", "Positive synergy"],
+          "answer": 0,
+          "how": ["线索是「who gets interrupted」「who looks uneasy」，她在读其他人的情绪与状态。", "读懂他人状态并作出适当回应，就是 social sensitivity。", "Equal participation 关注的是发言机会是否均衡，而不是读情绪。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Why does the lecture place psychological safety first among the four team norms?",
+          "options": ["Because it is the easiest norm to measure", "Because half-formed ideas are the most fragile: members who cannot admit mistakes will not share immature ideas for joint processing", "Because it guarantees high cohesiveness", "Because it replaces the need for equal participation"],
+          "answer": 1,
+          "how": ["题干问心理安全为什么排第一。", "讲义解释：半成品想法最脆弱，成员若连错误都不敢承认，就更不会把尚未成熟的创意拿出来加工。", "它不能替代平等参与，四种规范各管一件事。"]
+        }
+      ],
+      "recap": "凝聚力是放大器，放大既有规范；四规范：心理安全、情绪表达、社会敏感、平等参与。"
+    },
+    {
+      "id": "w04-p13",
+      "title": "创造性成果：Creativity 与 Innovation",
+      "titleEn": "Creative product; creativity vs innovation",
+      "kp": "Creative product 必须同时 new（新颖）和 useful（可行有用）。Team creativity 止于形成新颖有用的想法；team innovation 还要实施并真正投入使用。",
+      "howTo": "点子只新奇不能用，或只实用毫无新意，都不算 creative product。停在想法阶段是 creativity；已实施、投入使用才是 innovation。「收了很多点子但没负责人、预算、流程」，答有创造力没创新。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "An idea that is practical and feasible but has nothing new about it counts as a creative product.",
+          "a": false,
+          "how": ["Creative product 必须同时满足 new 和 useful。", "只实用、毫无新意的方案不是创造性成果，正如只新奇、无法应用的点子只是 unusual，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team proposes a strikingly original packaging design that cannot be manufactured at any realistic cost. How would the lecture classify it?",
+          "options": ["A creative product", "Unusual but not creative, because it is not useful", "An innovation", "Positive synergy"],
+          "answer": 1,
+          "how": ["线索是「strikingly original」但「cannot be manufactured」，有 new 没有 useful。", "缺了 appropriate 和 feasible 这一半，只能算 unusual，不是 creative product。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A hospital team designs a new patient hand-over checklist, and it is now used on every ward. Which term best describes this outcome?",
+          "options": ["Team creativity only", "Team innovation", "Pluralistic ignorance", "Social loafing"],
+          "answer": 1,
+          "how": ["线索是「now used on every ward」，想法已经实施并投入使用。", "Creativity 止于想法，innovation 的结束点是 something in use，所以是 team innovation。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company runs an ideas competition every year, praises the winners, and then nothing happens. Over time employees stop submitting ideas. What does the lecture say is missing?",
+          "options": ["Enough diversity among employees", "An implementation path that turns creativity into innovation", "Larger teams to generate more ideas", "A stronger injunctive norm about creativity"],
+          "answer": 1,
+          "how": ["线索是「praises the winners, and then nothing happens」，想法被夸完就封存。", "缺的是预算、权限、评估流程和负责人这样的实施路径，所以有 creativity 没有 innovation。", "长期后果是 cynicism：成员下次干脆不再说，题干里正是如此。"]
+        }
+      ],
+      "recap": "新而且有用才算创意；想法是 creativity，用起来才是 innovation。"
+    },
+    {
+      "id": "w04-p14",
+      "title": "集体信息加工与平等发言",
+      "titleEn": "Collective information processing",
+      "kp": "团队创造力来自 collective information processing：成员分享、挑战、推进并组合彼此的信息，而不是把点子列成清单。Woolley 等（2010）：人人有机会发言的团队表现更好，少数人垄断发言则表现下降。",
+      "howTo": "题干看「谁在说话」：一人主导、其余附和，或两人辩论、其他人围观，团队只用了少数人的信息；成员轮流发言、在别人观点上继续建构，表现最好。区分 sharing（把信息放上桌）和 elaboration（比较、推进、组合）。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "According to Woolley et al. (2010), teams tend to perform better when every member has a chance to speak, and collective intelligence falls when only one or two people talk.",
+          "a": true,
+          "how": ["讲义引用 Woolley 等：只要每个人都有机会发言，团队往往表现更好。", "若始终只有一个人或少数人说话，collective intelligence 会下降，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In Team A one person talks and the others agree; in Team C members take roughly equal turns. What does the lecture predict?",
+          "options": ["Team A performs better because decisions are faster", "Team C performs better because more members' information enters the discussion", "The two teams perform equally", "Team A is more creative because it avoids conflict"],
+          "answer": 1,
+          "how": ["线索是「one person talks and the others agree」对比「roughly equal turns」。", "Team A 五个人在场，输出仍近似一个人的想法；Team C 每个人都贡献内容，有更多信息可组合，表现最好。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Five team members each read out their own idea in turn, and nobody comments on or builds on anyone else's. Why does the lecture say this is not yet team creativity?",
+          "options": ["There are too few ideas", "Ideas are only listed, not challenged, elaborated or combined, so there is no collective information processing", "The team is too large", "The team lacks an injunctive norm"],
+          "answer": 1,
+          "how": ["线索是「nobody comments on or builds on anyone else's」，点子只是被列出来。", "团队创造力不是点子清单，而是对分享的信息进行组合、推进和深度考虑；没有相互加工，只是个人想法的集合。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which manager action best rewards elaboration, as the lecture recommends?",
+          "options": ["Praise the first person to throw out an idea", "Praise members who build on and combine other people's ideas", "Praise the member who talks most", "Praise only ideas that match the manager's own view"],
+          "answer": 1,
+          "how": ["线索是「rewards elaboration」，elaboration 是在别人观点上继续构建。", "讲义建议表扬在别人观点上继续建构的人，而不只是第一个抛出点子的人。"]
+        },
+        {
+          "type": "tf",
+          "q": "In the lecture's model, sharing information and elaborating on it are the same thing.",
+          "a": false,
+          "how": ["Sharing 只是把信息放上桌；elaboration 是比较、推进、组合和深度加工。", "讲义把两者列为易混概念，题目说它们一样，所以是 False。"]
+        }
+      ],
+      "recap": "创造力靠组合不靠堆叠：人人发言、在别人观点上继续建构。"
+    }
+  ]
+}

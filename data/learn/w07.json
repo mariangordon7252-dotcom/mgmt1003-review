@@ -1,0 +1,554 @@
+{
+  "week": 7,
+  "points": [
+    {
+      "id": "w07-p01",
+      "title": "文化解释行为，伦理评价选择",
+      "titleEn": "Culture explains, ethics evaluates",
+      "kp": "文化解释行为怎么出现：Individualism 情境更多参考个人态度，Collectivism 更多参考群体规范和关系；伦理则评价这样做该不该、伤害了谁。两者都是情境倾向，不是国籍标签。",
+      "howTo": "员工因「自己认同」而做，对应态度线索（attitude lever）；因「同事都这样、重要的人期待」而做，对应规范线索（norm lever）。说按国籍断定个人、或文化能证明行为正当的，都是错的。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Two employees both recycle paper. Ana recycles because she personally values the environment; Ben recycles because his team values it and his colleagues all do it. Which cue is each employee mainly following?",
+          "options": ["Ana: personal attitude; Ben: group norm", "Ana: group norm; Ben: personal attitude", "Both: personal attitude", "Both: codified law"],
+          "answer": 0,
+          "how": ["Ana 的理由是「she personally values the environment」，这是在参考个人态度。", "Ben 的理由是「his team values it」和「colleagues all do it」，这是在参考群体规范。", "个人态度对应 Individualism 倾向，群体规范对应 Collectivism 倾向，所以选 A。", "Codified law 是成文法律，题干没提任何法律要求，是凑数项。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager wants more staff to report risks early. She explains how early reporting prevents losses, and she also publicly thanks employees who raise problems. Which two behaviour-change levers is she using?",
+          "options": ["Attitude lever and norm lever", "Utilitarian approach and moral rights approach", "Internal CSR and external CSR", "Pressure and silence"],
+          "answer": 0,
+          "how": ["「explains how early reporting prevents losses」是在讲为什么值得做，这是态度杠杆。", "「publicly thanks employees who raise problems」是在展示重要的人期待什么，这是规范杠杆。", "两个一起用，就是 attitude lever 加 norm lever。Pressure 和 silence 是导致不道德行为的因素，方向反了。"]
+        },
+        {
+          "type": "tf",
+          "q": "Individualism and collectivism are personality traits fixed by a person's nationality.",
+          "a": false,
+          "how": ["正确说法是：它们是情境中的一般倾向，同一个人在不同情境可以参考不同线索。", "题目把「情境倾向」换成了「personality traits fixed by nationality」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team has a habit of hiding delays, and a new member stays silent about one too. The manager says: 'That is just our culture, so nobody did anything wrong.' What is the flaw in this reasoning?",
+          "options": ["Culture can explain why the silence happened, but ethics still asks who was harmed and who is responsible", "Culture cannot explain behaviour; only personality can", "Hiding delays is acceptable under collectivism", "The new member alone should be blamed because the habit is a personal choice"],
+          "answer": 0,
+          "how": ["「That is just our culture」只回答了行为为什么出现，这是文化的解释功能。", "「nobody did anything wrong」是在作伦理评价，而伦理要另外问：客户和其他部门受了什么损失、谁该负责。", "解释不等于正当化，所以选 A。C 把集体主义当成借口，正好是课程反对的用法。"]
+        }
+      ],
+      "recap": "文化回答「为什么会这样做」，伦理回答「该不该这样做」；态度线索对个人，规范线索对群体，都不是国籍标签。"
+    },
+    {
+      "id": "w07-p02",
+      "title": "导致不道德行为的四个组织因素",
+      "titleEn": "Pressure, Norms, Silence, Impact",
+      "kp": "组织里推动不道德行为的四个因素：Pressure（目标、激励和权威逼出有问题的选择）、Norms（内部习惯把不当行为变成正常）、Silence（发现问题的人不敢说）、Impact（代价落到组织之外的人身上）。",
+      "howTo": "找题干里的动力来源：提到指标、奖金、上级施压，选 Pressure；提到「大家一直这么做」，选 Norms；提到知情者不敢报告，选 Silence；提到社区、客户、环境承担后果，选 Impact。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A sales team is rewarded only for hitting targets, and some members begin to 'adjust' their figures. Which organisational factor behind unethical behaviour does this illustrate?",
+          "options": ["Pressure", "Norms", "Silence", "Impact"],
+          "answer": 0,
+          "how": ["线索是「rewarded only for hitting targets」：行为是被目标和激励逼出来的。", "目标、激励和权威推动有问题的选择，就是 Pressure。", "如果题干说的是「大家一直这样报数」，才是 Norms；这里强调的是奖励制度。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A new employee notices an error in a client report but says nothing because she fears being excluded by the team. Which factor is this?",
+          "options": ["Pressure", "Norms", "Silence", "Impact"],
+          "answer": 2,
+          "how": ["线索是「says nothing because she fears being excluded」：知道问题却不敢报告。", "发现问题的人不敢说出来，就是 Silence。", "别选 Pressure：没有人用指标或权威逼她造假，问题出在报告渠道不安全。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A factory saves costs by cutting waste treatment, and the nearby community ends up living with the pollution. Which factor does the lecture use to describe this?",
+          "options": ["Pressure", "Norms", "Silence", "Impact"],
+          "answer": 3,
+          "how": ["线索是「the nearby community ends up living with the pollution」：代价落在了组织外部的人身上。", "后果由组织之外的人承担，就是 Impact。", "题干没有提指标压力或内部习惯，所以不是 Pressure 或 Norms。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the Volkswagen emissions case, software switched on full emission controls only during testing. According to the lecture, what should managers examine beyond the individual engineers' conduct?",
+          "options": ["Only the engineers' personal values", "Management systems such as goals, leadership and reporting channels", "Whether competitors did the same", "Customers' free choice"],
+          "answer": 1,
+          "how": ["题干问的是「beyond the individual engineers' conduct」，也就是除了个人之外还要查什么。", "课程要求同时检查目标、领导和报告渠道这些管理系统，因为压力、规范和沉默都来自系统。", "A 只看个人，正是课程要避免的做法；C 和 D 与组织因素无关。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to the lecture, the cost of unethical organisational behaviour always stays inside the organisation.",
+          "a": false,
+          "how": ["正确说法是：代价可能落在组织之外的人身上，这正是 Impact 这个因素的意思。", "题目把「可能落在外部」改成「always stays inside」，所以是 False。"]
+        }
+      ],
+      "recap": "指标逼的是 Pressure，习惯养的是 Norms，不敢说的是 Silence，外人买单的是 Impact。"
+    },
+    {
+      "id": "w07-p03",
+      "title": "合法不等于合乎伦理",
+      "titleEn": "Codified law, ethics, free choice",
+      "kp": "行为可以分三个范围：Codified law 是有正式执行机制的法律规则；Ethics 是对「应该怎样做」的社会与道德判断；Free choice 是没有强烈法律或道德义务时的个人偏好。合法不自动等于合乎伦理。",
+      "howTo": "先问有没有法律强制：有就是 codified law。再问会不会影响别人的权益或公平：会就是 ethics 范围。两者都没有，只是个人喜好，才是 free choice。题目说「合法所以没问题」，一律判错。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "If an action is legal, it is automatically ethical.",
+          "a": false,
+          "how": ["正确说法是：法律只是护栏，合法之内仍可能有人受到不公平对待，所以伦理要另外判断。", "题目把「合法」直接等同于「合乎伦理」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A contract allows a company to use customer data in a certain way, but customers do not really understand what they agreed to. Which range does this situation fall into?",
+          "options": ["Codified law only, because the contract is valid", "Ethics, because legality does not settle whether customers are treated fairly", "Free choice, because the company may do as it likes", "None of the three, because no one is harmed"],
+          "answer": 1,
+          "how": ["线索是「contract allows」加上「customers do not really understand」：合法边界满足了，知情和公平没有满足。", "合法不自动等于合乎伦理，这属于 ethics 要判断的范围，所以选 B。", "A 把合同许可当成终点，正是课程说的误区。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee chooses the colour of her own notebook, which affects nobody else. Which range of behaviour is this?",
+          "options": ["Codified law", "Ethics", "Free choice", "Managerial ethics"],
+          "answer": 2,
+          "how": ["线索是「affects nobody else」：没有法律要求，也不涉及他人权益。", "没有强烈法律或道德义务时的个人偏好，就是 free choice。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Managerial ethics is best described as:",
+          "options": ["Following all applicable laws and regulations", "Using moral principles and values to judge whether managerial behaviour is right or wrong, focusing on its impact on people, society and the environment", "Doing whatever maximises shareholder returns", "Letting each manager follow personal preference"],
+          "answer": 1,
+          "how": ["题目问 managerial ethics 的定义，关键是用道德原则和价值判断对错，并关注对人、社会和环境的实质影响。", "A 只是守法，属于 codified law；D 是 free choice；C 只看股东，都不是伦理的定义。"]
+        }
+      ],
+      "recap": "法律是护栏，伦理看护栏之内有没有人被撞到；合同允许，不等于客户被公平对待。"
+    },
+    {
+      "id": "w07-p04",
+      "title": "伦理两难与五步决策过程",
+      "titleEn": "Ethical dilemma and the five-step process",
+      "kp": "Ethical dilemma 是两边都有可辩护的价值、怎么选都要付出代价的处境。处理它的五步是：Recognise（识别问题）、Map（找出受影响者）、Test（多角度检验）、Decide（决定并说明理由）、Review（检查后果）。",
+      "howTo": "是不是两难：看两边是否各有正当价值且都有代价。在哪一步：问「是不是伦理问题」是 Recognise；列谁受影响是 Map；用四种视角比较是 Test；宣布并解释是 Decide；追踪效果是 Review。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Monitoring employees' internet use would strengthen information security but reduce privacy. Why does the lecture call this an ethical dilemma?",
+          "options": ["Because one option is clearly right and the other clearly wrong", "Because both sides protect a defensible value and either choice carries a cost", "Because the law forbids monitoring", "Because it only affects shareholders"],
+          "answer": 1,
+          "how": ["线索是「strengthen information security but reduce privacy」：安全和隐私都是正当价值，选哪边都有人付代价。", "两边都有可辩护的价值、怎么选都有代价，这就是 ethical dilemma 的定义，选 B。", "A 说一边明显对一边明显错，那就不是两难，而是普通的对错题。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the five-step ethical decision process, a manager lists how employees, customers and the company would each be affected by a monitoring policy. Which step is this?",
+          "options": ["Recognise", "Map", "Test", "Decide"],
+          "answer": 1,
+          "how": ["线索是「how employees, customers and the company would each be affected」：在找出受影响者。", "找出谁会受影响，就是 Map。", "Test 是下一步，要用功利、权利、公平、公开辩护四个角度去比较方案，这里还没做比较。"]
+        },
+        {
+          "type": "mcq",
+          "q": "After choosing a policy, a manager explains the choice, the reasons and the safeguards to staff, instead of simply announcing an order. Which step is this?",
+          "options": ["Recognise", "Map", "Decide", "Review"],
+          "answer": 2,
+          "how": ["线索是「explains the choice, the reasons and the safeguards」：决定已经做出，正在说明理由。", "决定并说明理由而不是只下命令，就是 Decide。", "Review 是之后追踪安全效果和员工反应，题干还没到那一步。"]
+        },
+        {
+          "type": "tf",
+          "q": "The five-step ethical decision process ends once the decision has been announced.",
+          "a": false,
+          "how": ["正确说法是：最后一步是 Review，要追踪后果并在必要时调整。", "题目把过程截断在宣布决定，漏掉了 Review，所以是 False。"]
+        }
+      ],
+      "recap": "两难是两边都有理、都有代价；处理顺序：识别、找受影响者、多角度检验、决定并说理由、复盘。"
+    },
+    {
+      "id": "w07-p05",
+      "title": "三副判断眼镜：功利、权利、公开辩护",
+      "titleEn": "Utilitarian, moral rights and practical approaches",
+      "kp": "Utilitarian 比较所有受影响者的总收益和总伤害，选净收益最大的；Moral rights 先问是否尊重隐私、知情同意、言论自由等基本权利；Practical 问这个决定能否向员工、同行和公众公开解释。",
+      "howTo": "题干在算总账、加总利弊，选 Utilitarian；题干在问同意、隐私、自主权，选 Moral rights；题干在问能不能公开说出来、敢不敢上大屏幕，选 Practical。记住：多数人受益不等于少数人没被伤害。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A manager evaluates a monitoring policy by adding up the security benefits and the privacy losses for all affected parties. Which ethical approach is this?",
+          "options": ["Moral rights", "Justice", "Utilitarian", "Practical"],
+          "answer": 2,
+          "how": ["线索是「adding up the security benefits and the privacy losses」：在算总账，所有受影响者一起算。", "比较所有受影响者的总收益和总伤害，就是 Utilitarian approach。", "Moral rights 不做加总，它先问隐私这种基本权利有没有被尊重。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A clinic's customers signed a contract, but they do not genuinely understand how their data will be used. Which approach most directly raises the problem here?",
+          "options": ["Utilitarian", "Moral rights", "Distributive justice", "Free choice"],
+          "answer": 1,
+          "how": ["线索是「do not genuinely understand how their data will be used」：问题出在知情同意。", "知情同意是基本权利，所以最直接的是 Moral rights approach。", "Utilitarian 会去算服务改进的收益能否抵消隐私损失，但题干问的不是总账。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A director says: 'If we could not explain this data practice openly to our customers and the public, we should not do it.' Which approach is she applying?",
+          "options": ["Utilitarian", "Moral rights", "Justice", "Practical"],
+          "answer": 3,
+          "how": ["线索是「could not explain this data practice openly」：在问能否向客户和公众公开辩护。", "能否向员工、同行和公众解释清楚，就是 Practical approach。"]
+        },
+        {
+          "type": "tf",
+          "q": "Under the utilitarian approach, an option that benefits the majority can still seriously harm a minority.",
+          "a": true,
+          "how": ["功利主义只看总体净收益，所以多数人获益时，少数人可能承受严重损失，这是它的局限。", "题目说的正是这个局限，所以是 True。"]
+        },
+        {
+          "type": "tf",
+          "q": "If most people approve of a decision, the practical approach guarantees that the decision is ethical.",
+          "a": false,
+          "how": ["正确说法是：大家赞同不等于一定正确，公开检验只是一种检查，不是唯一的伦理标准。", "题目把「可以公开辩护」拔高成「保证合乎伦理」，所以是 False。"]
+        }
+      ],
+      "recap": "算总账是功利，问同意和隐私是权利，问敢不敢公开说是实践取向。"
+    },
+    {
+      "id": "w07-p06",
+      "title": "公平：分到了什么，怎么决定的",
+      "titleEn": "Distributive vs procedural justice",
+      "kp": "Justice approach 分两问：Distributive justice 看结果（WHAT：工资、工作量、奖金、培训机会分得公不公平）；Procedural justice 看过程（HOW：规则是否一致、透明）。",
+      "howTo": "题干抱怨「分到的东西」多少不公，选 distributive；抱怨「规则没公布、标准不一致、过程不透明」，选 procedural。流程一样和结果均衡都不能单独证明整体公平。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Employees complain that bonus criteria were never published and were applied differently across teams. Which concept is most relevant?",
+          "options": ["Distributive justice", "Utilitarian approach", "Positive distinctiveness", "Procedural justice"],
+          "answer": 3,
+          "how": ["线索是「criteria were never published」和「applied differently across teams」：抱怨的是规则和过程。", "规则是否一致、透明，属于 procedural justice，也就是 HOW。", "如果员工抱怨的是奖金数额本身太少，才是 distributive justice。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Two employees with the same role and performance receive very different pay. Which fairness question does this raise most directly?",
+          "options": ["Distributive justice: what people receive", "Procedural justice: how decisions are made", "Utilitarian: total net benefit", "Practical: public defensibility"],
+          "answer": 0,
+          "how": ["线索是「receive very different pay」：问题在分配结果本身。", "分到了什么公不公平，是 distributive justice，也就是 WHAT。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company uses the same job-related hiring procedure for everyone, yet the people hired lack diversity. According to the lecture, what should managers conclude?",
+          "options": ["The outcome is fair because the procedure was identical", "The procedure must be illegal", "Identical procedures alone do not prove overall fairness; managers should ask where the outcome differences come from", "Diversity targets should replace the procedure entirely"],
+          "answer": 2,
+          "how": ["线索是「same procedure for everyone」却「lack diversity」：过程一样，结果却不均衡。", "课程的结论是「流程一样」和「结果均衡」都不能单独证明公平，要追问差异来自哪里，选 C。", "A 只用程序一致就下结论，忽略了分配结果这一问。"]
+        },
+        {
+          "type": "tf",
+          "q": "Distributive justice focuses on HOW decisions are made, while procedural justice focuses on WHAT people receive.",
+          "a": false,
+          "how": ["正确说法正好相反：distributive 看 WHAT（分到什么），procedural 看 HOW（怎么决定）。", "题目把两个词互换了，所以是 False。"]
+        }
+      ],
+      "recap": "分蛋糕：每人分多少是 distributive（WHAT），谁拿刀、按什么规则切是 procedural（HOW）。"
+    },
+    {
+      "id": "w07-p07",
+      "title": "CSR 是什么、包含哪四个方面",
+      "titleEn": "CSR and its four dimensions",
+      "kp": "CSR 指企业作决定时不只考虑自身财务利益，也考虑社会和环境影响。四个方面：Economic（维持经营）、Legal（守法）、Ethical（法律未覆盖处也公平行事）、Social/environmental（更广泛相关者的福祉）。",
+      "howTo": "判断一家公司是否尽到 CSR，看核心经营有没有伤害员工、顾客、社区和环境，而不是看捐了多少钱。对外捐款却在核心业务里伤人，不算尽到责任。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Corporate social responsibility means considering social and environmental impacts, not only the firm's own financial interests, when making decisions.",
+          "a": true,
+          "how": ["这就是课程对 CSR 的定义：决策时把社会和环境影响一起考虑进去。", "题目完整复述了定义，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company donates generously to charity but cuts safety training for its warehouse workers. Based on the lecture's view of CSR, which statement is most accurate?",
+          "options": ["The firm has met its CSR because CSR is about philanthropy", "CSR includes core operations, so harming employees undermines its responsibility", "CSR only concerns shareholders", "The firm is sustainable because it is profitable"],
+          "answer": 1,
+          "how": ["线索是「donates generously」对比「cuts safety training」：对外做好事，核心经营里却伤害员工。", "CSR 的责任范围包含核心经营，不是赚到钱后捐一点，所以选 B。", "A 把 CSR 等同于慈善，是最常见的误区。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A retailer clearly explains the transaction conditions that customers tend to overlook, even though no law requires it. Which CSR dimension from the lecture does this illustrate?",
+          "options": ["Economic", "Legal", "Ethical", "Social and environmental"],
+          "answer": 2,
+          "how": ["线索是「even though no law requires it」：法律没有要求，企业仍选择公平对待顾客。", "法律未覆盖的地方也公平行事，就是 Ethical 这个方面。", "Legal 指遵守已有法律，题干刚好说这里没有法律要求。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT one of the four CSR dimensions listed in the lecture?",
+          "options": ["Economic", "Legal", "Philanthropic", "Ethical"],
+          "answer": 2,
+          "how": ["课件的四个方面是 Economic、Legal、Ethical、Social/environmental。", "Philanthropic（慈善）不在这四个里；课程反而强调 CSR 不只是捐款。"]
+        }
+      ],
+      "recap": "CSR 不是赚到钱再捐一点，而是经营全过程都对社会和环境负责；四面：经济、法律、伦理、社会环境。"
+    },
+    {
+      "id": "w07-p08",
+      "title": "股东、利益相关者与权衡",
+      "titleEn": "Shareholders, stakeholders and trade-offs",
+      "kp": "Shareholder 是持有公司股份的人；Stakeholder 是能影响公司或受公司行动实质影响的人与群体，包括员工、顾客、供应商、社区、监管者，股东也在其中。权衡时按紧迫性、正当性和弱势程度排序，不只看谁权力大。",
+      "howTo": "问「谁持有股份」答 shareholder；问「谁受公司影响」答 stakeholder，而且股东只是其中一类。遇到权衡题，排除「人多的赢」「权力大的优先」「只压最低价」这些选项。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "The stakeholder view requires a company to give up profit in order to satisfy employees and communities.",
+          "a": false,
+          "how": ["正确说法是：两种视角争论的是利润与其他利益的优先次序和权衡，不是要求放弃利润。", "题目把「权衡」说成「放弃利润」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A student-run stationery vending machine affects investors who want a return, students who care about price, and restockers who care about safety. Who counts as a stakeholder?",
+          "options": ["Only the investors", "Only the students, because they pay", "Investors, students and restockers, because all are materially affected", "Nobody, because the business is small"],
+          "answer": 2,
+          "how": ["线索是三类人都「care about」机器带来的结果，也就是都受到实质影响。", "能影响公司或受其行动实质影响的人与群体都是 stakeholder，所以三类都算，选 C。", "A 把 stakeholder 缩成了投资者，这正是 shareholder 和 stakeholder 的混淆。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A firm chooses a more expensive supplier that offers better labour conditions and more stable supply. Which concept does this best illustrate?",
+          "options": ["Free choice", "Stakeholder trade-off and responsible sourcing", "Value signalling only", "Conservation values"],
+          "answer": 1,
+          "how": ["线索是「more expensive」和「better labour conditions」：公司在价格和供应链劳动者之间做了权衡。", "先识别谁得益谁付代价再排序，是 stakeholder trade-off；关注采购对劳动者的影响，是 responsible sourcing。", "Free choice 指不涉及他人权益的个人偏好，这里明显影响到工人。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager must choose which stakeholder concern to address first with a limited budget. According to the lecture, which factors should guide the ordering?",
+          "options": ["Which group has the most members", "Which group is most powerful", "Urgency, legitimacy and how vulnerable the group is", "Whichever option is cheapest"],
+          "answer": 2,
+          "how": ["题干问的是「which factors should guide the ordering」，也就是权衡时的排序依据。", "课程给的依据是紧迫性、正当性和弱势程度，选 C。", "A 和 B 分别是「人多的赢」和「权力大的优先」，都是课程明确否定的排法。"]
+        }
+      ],
+      "recap": "股东是出资组队的人，利益相关者还包括队友、顾客和共用地图的人；排序看紧迫、正当、弱势，不看权力。"
+    },
+    {
+      "id": "w07-p09",
+      "title": "可持续性与三重底线",
+      "titleEn": "Sustainability and the triple bottom line",
+      "kp": "Sustainability：今天创造价值不破坏明天经营依赖的社会和环境系统。Triple bottom line 看三条腿：People（人的福祉）、Planet（资源与生态）、Profit（财务可行），不是放弃利润。",
+      "howTo": "题干说「今天的做法会不会毁掉明天的基础」，选 sustainability。归类题：讲员工和顾客福祉归 People，讲包装、耗电、排放归 Planet，讲成本能否覆盖归 Profit。说可持续就是不要利润的，判错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A vending-machine team wants to earn money this month but also to keep restocking reliably, pay workers fairly and limit electricity and packaging waste in the long run. Which concept best describes this goal?",
+          "options": ["Corporate sustainability", "Free choice", "Procedural justice", "Shareholder primacy"],
+          "answer": 0,
+          "how": ["线索是「this month」和「in the long run」并列：今天赚钱的同时不破坏明天继续经营的基础。", "今天创造价值而不毁掉明天依赖的社会和环境系统，就是 corporate sustainability。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A firm reduces single-use packaging and reviews the energy use of its machines. Which leg of the triple bottom line is this?",
+          "options": ["People", "Planet", "Profit", "Procedure"],
+          "answer": 1,
+          "how": ["线索是「packaging」和「energy use」：讲的是资源和废弃物。", "资源、排放和生态影响归 Planet。", "Procedure 不是三重底线的一条腿，是凑数项。"]
+        },
+        {
+          "type": "tf",
+          "q": "The triple bottom line requires firms to give up profit in favour of people and planet.",
+          "a": false,
+          "how": ["正确说法是：Profit 本身就是三条腿之一，模型要的是三条腿一起站稳。", "题目说要放弃利润，等于砍掉一条腿，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company proudly displays a B Corp certification. According to the lecture, what does this mean for evaluating its ethics?",
+          "options": ["Its ethics no longer need to be checked", "It is an example of an external standard, but actual employee treatment and sourcing decisions still need checking", "It guarantees the firm is sustainable forever", "It replaces the need for legal compliance"],
+          "answer": 1,
+          "how": ["题干问认证「means for evaluating its ethics」，也就是认证能证明多少。", "课程把 B Corp 当作外部问责标准的例子，不是伦理免检证，所以选 B。", "A 和 C 都把一次认证当成永久保证，正是课程提醒要避免的。"]
+        },
+        {
+          "type": "tf",
+          "q": "Fairtrade standards aim to improve trading conditions for producers, but they do not mean all risks in the supply chain have disappeared.",
+          "a": true,
+          "how": ["Fairtrade 的目标是改善交易条件、生产者组织和社区投资，这是负责任采购的一种机制。", "题目同时说明了它的作用和局限，与课程一致，所以是 True。"]
+        }
+      ],
+      "recap": "可持续是不砍光森林换今天通关；三重底线 People、Planet、Profit 三条腿少一条都不稳。"
+    },
+    {
+      "id": "w07-p10",
+      "title": "CSR 的结果：相关不等于因果",
+      "titleEn": "CSR outcomes and financial performance",
+      "kp": "CSR 可能改善市场信任和员工关系，但不是自动奖励。CSR 与财务表现可能正相关，也可能是成功公司更有钱做 CSR，相关不能证明因果。Deloitte 2024：Gen Z 20%、Millennials 19% 因环境顾虑换过工作。",
+      "howTo": "凡是题干从「CSR 和利润一起出现」推出「CSR 带来利润」，都是把相关当因果。遇到 Deloitte 数字，记住 20% 和 19% 说的是因环境顾虑换工作的比例，不是说工资不重要。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "The lecture suggests asking which CSR practice creates value for whom, through what mechanism and over what time period, rather than assuming CSR always pays.",
+          "a": true,
+          "how": ["课程对 CSR 和财务表现的态度是追问：哪种实践、对谁、通过什么机制、多久后创造价值。", "题目复述的正是这种谨慎态度，所以是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A journalist notes that a profitable firm has increased its environmental budget and concludes: 'The environmental budget made the firm profitable.' What is the main flaw?",
+          "options": ["CSR always reduces profits", "Environmental spending is not part of CSR", "It confuses correlation with causation; profitable firms may simply be able to afford more CSR", "Profit is not part of the triple bottom line"],
+          "answer": 2,
+          "how": ["线索是盈利公司加了环保预算，记者却直接说预算「made the firm profitable」。", "两件事一起出现，不能断定单向因果；更可能是盈利让它有钱投入环保，选 C。", "D 是错的，Profit 本来就是三重底线之一。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the Deloitte 2024 survey cited in the lecture, roughly what share of Gen Z respondents had changed jobs or sectors because of environmental concerns?",
+          "options": ["7%", "20%", "50%", "72%"],
+          "answer": 1,
+          "how": ["题干问的是「changed jobs or sectors because of environmental concerns」的比例。", "课件数字是 Gen Z 20%、Millennials 19%，所以选 20%。", "72% 是另一项：认为雇主环保资质和政策重要的比例，别混。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to the lecture, once a firm adopts CSR practices, better reputation, resilience and employee commitment follow automatically.",
+          "a": false,
+          "how": ["正确说法是：这些是可能的结果，效果取决于实践的质量和情境，还可能有短期成本。", "题目用「automatically」把可能变成必然，所以是 False。"]
+        }
+      ],
+      "recap": "CSR 和利润一起涨，只能说有关联；要问哪种实践、对谁、通过什么机制、多久后见效。"
+    },
+    {
+      "id": "w07-p11",
+      "title": "Schwartz 价值：普遍关怀不等于仁爱",
+      "titleEn": "Schwartz values and self-transcendence",
+      "kp": "Schwartz 十种价值排成圆环，相邻更相容。最易混：Universalism 关心所有人和自然，Benevolence 关心身边亲近的人；两者合成高阶取向 Self-transcendence。",
+      "howTo": "受益者是陌生人、社区或自然，选 Universalism；是同事、家人等身边人，选 Benevolence。两者合成 Self-transcendence；求新求自主的合成 Openness to change。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "An employee supports a pollution-reduction plan whose beneficiaries are strangers in a distant community. Which value in Schwartz's model does this best illustrate?",
+          "options": ["Benevolence", "Conformity", "Security", "Universalism"],
+          "answer": 3,
+          "how": ["线索是「strangers in a distant community」：受益者是陌生人和更大范围的环境。", "关心所有人和自然的福祉，是 Universalism。", "Benevolence 的受益者是身边亲近的人，题干特意说了是陌生人。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team member stays late to help a struggling colleague on her own team finish a task. Which value does this best illustrate?",
+          "options": ["Universalism", "Benevolence", "Achievement", "Power"],
+          "answer": 1,
+          "how": ["线索是「a struggling colleague on her own team」：帮助的是关系密切的身边人。", "照顾与自己关系密切的人，是 Benevolence。", "Achievement 是追求自己的成功和表现，题干说的是帮别人。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which two values together form the higher-order orientation 'Self-transcendence'?",
+          "options": ["Power and Achievement", "Security and Tradition", "Universalism and Benevolence", "Stimulation and Self-direction"],
+          "answer": 2,
+          "how": ["Self-transcendence 的意思是把他人与自然纳入关心范围，不只顾自己。", "对应的两个价值是 Universalism 和 Benevolence。", "D 是 Openness to change，A 属于 Self-enhancement，B 属于 Conservation。"]
+        },
+        {
+          "type": "tf",
+          "q": "Universalism and benevolence are ranked in Schwartz's model as 'better' and 'worse' values respectively.",
+          "a": false,
+          "how": ["正确说法是：两者只是关怀范围不同，一个更广、一个更近，不是好坏排名。", "题目把范围差别说成优劣排名，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee prefers a predictable work environment and follows the team's agreed ways of working. Which higher-order orientation do these values (Security and Conformity) belong to?",
+          "options": ["Self-enhancement", "Conservation", "Openness to change", "Self-transcendence"],
+          "answer": 1,
+          "how": ["「predictable work environment」是 Security，「agreed ways of working」是 Conformity。", "Security、Conformity 和 Tradition 合成 Conservation，重视稳定、规范和传统。"]
+        }
+      ],
+      "recap": "受益者是陌生人和自然就是 Universalism，是身边人就是 Benevolence；两者合起来叫 Self-transcendence。"
+    },
+    {
+      "id": "w07-p12",
+      "title": "价值信号与课堂实验",
+      "titleEn": "Value signalling and the classroom experiment",
+      "kp": "Value signalling：人们看企业做了什么，推断它重视什么，再决定是否信任或加入。课堂实验给同一家公司多加一句环保 CSR 描述后，self-transcendence 的标准化系数为 0.34，其他取向接近 0，变化最明显。",
+      "howTo": "题干说「看行动推断公司重视什么」，选 value signalling。关于实验：加 CSR 描述后变化最大的是 self-transcendence；0.34 是标准化系数，凡是说成「提高了 34%」的都判错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Job seekers notice that a company consistently protects the environment and supports its staff, and conclude that 'this firm cares about people and nature'. Which concept describes this process?",
+          "options": ["Value signalling", "Procedural justice", "Filtering", "Bounded rationality"],
+          "answer": 0,
+          "how": ["线索是先「notice」公司持续做了什么，再「conclude that this firm cares about」：看行动推断价值。", "人们从企业行动推断它重视什么，再决定是否信任或加入，就是 value signalling。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In the classroom experiment, adding a sentence about environmental support to a retailer's description mainly changed perceptions of which value orientation?",
+          "options": ["Self-enhancement", "Conservation", "Self-transcendence", "Openness to change"],
+          "answer": 2,
+          "how": ["线索是「adding a sentence about environmental support」：环保行动传递的是关心他人与自然的信号。", "实验结果里 self-transcendence 系数 0.34，其余三个取向都接近 0，所以变化最明显的是 Self-transcendence。"]
+        },
+        {
+          "type": "tf",
+          "q": "In the classroom experiment, the CSR description raised perceptions of self-enhancement more than any other orientation.",
+          "a": false,
+          "how": ["实验里 self-enhancement 的系数是 −0.08，接近零甚至略负；变化最大的是 self-transcendence 的 0.34。", "题目把变化最大的取向换成了 self-enhancement，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A classmate reads the experiment result and says: 'Adding the CSR sentence increased job interest by 34%.' What is wrong with this reading?",
+          "options": ["Nothing; that is what 0.34 means", "0.34 is a standardised coefficient showing a pattern, not a 34% increase", "The experiment measured profit, not job interest", "The coefficient referred to conservation values"],
+          "answer": 1,
+          "how": ["线索是「increased job interest by 34%」：把系数读成了百分比。", "0.34 是课件复现的标准化系数，老师要求看模式，不能说成提高 34%，选 B。", "C 和 D 都把实验的测量对象或取向说错了。"]
+        }
+      ],
+      "recap": "看行动推断价值就是 value signalling；实验里加一句环保描述，自我超越的系数 0.34，是模式不是百分比。"
+    },
+    {
+      "id": "w07-p13",
+      "title": "社会认同：公司是谁影响我是谁",
+      "titleEn": "Social identity theory and employee outcomes",
+      "kp": "Social identity：自我概念一部分来自所属群体，组织形象会进入自我评价。三环节：group membership（属于哪里）、positive distinctiveness（群体有优点）、self-esteem（自我感觉好）。",
+      "howTo": "题干出现「为自己所在的公司感到自豪」「用公司介绍自己」，选 social identity theory。CSR 影响员工的链条：CSR 行动、推断自我超越价值、积极自我看法、求职兴趣；这些是可能的结果，不是自动发生。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A graduate says she feels proud telling people she works for a company known for serious environmental action. Which theory best explains this?",
+          "options": ["Social identity theory", "Utilitarian theory", "Triple bottom line", "Procedural justice"],
+          "answer": 0,
+          "how": ["线索是「feels proud telling people she works for」：公司的形象成了她介绍自己的一部分。", "自我概念的一部分来自所属群体，这就是 social identity theory。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An employee says: 'Our company takes the environment more seriously than most firms in the industry, and that makes me feel good about myself.' Which element of social identity theory does 'more seriously than most firms' refer to?",
+          "options": ["Group membership", "Positive distinctiveness", "Self-esteem", "Value signalling"],
+          "answer": 1,
+          "how": ["线索是「more seriously than most firms」：在拿自己的群体和其他群体比，并找到值得肯定的差别。", "希望所属群体相对其他群体有可肯定的特点，是 positive distinctiveness。", "「makes me feel good about myself」对应的是下一环 self-esteem，题目问的是比较那句。"]
+        },
+        {
+          "type": "mcq",
+          "q": "According to the lecture, which sequence best describes how CSR leads to job-seeking interest?",
+          "options": ["CSR action → inferred self-transcendence values → positive self-view → job interest", "Job interest → CSR action → shareholder returns", "CSR action → higher pay → job interest", "Legal compliance → free choice → job interest"],
+          "answer": 0,
+          "how": ["题干问的是从 CSR 到求职兴趣的「sequence」。", "课程链条是：看到 CSR 行动，推断公司重视自我超越价值，觉得它和我一致、加入会让我感觉良好，于是愿意申请。", "C 把中间环节换成了工资，课程说的是价值和身份，不是报酬。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to the lecture, CSR may increase employees' meaningfulness, pride, identification, commitment and citizenship behaviour, and may lower turnover intentions, but these are possible rather than guaranteed outcomes.",
+          "a": true,
+          "how": ["课件列出的六类可能影响正是意义感、自豪、认同、承诺、组织公民行为和离职倾向降低。", "题目同时说明了「可能而非保证」，与课程一致，所以是 True。"]
+        }
+      ],
+      "recap": "戴上公会徽章就是在说「我是这种团队的一员」；群体好，我就觉得自己好。"
+    },
+    {
+      "id": "w07-p14",
+      "title": "真实性：对外做好事要经得起对内检验",
+      "titleEn": "Authenticity, consistency and HIHRS",
+      "kp": "Authenticity 指利益相关者判断企业的责任行动是否真诚、是否与长期实践一致。对外 CSR 必须和对内员工待遇相符；HIHRS（高投入人力资源系统：职业发展、晋升、健康安全、员工投入）是对内投入的证据。",
+      "howTo": "题干说「对外高调公益，对内克扣员工」，答案是对外 CSR 显得不真诚、吸引力减弱。路径：External CSR、Authenticity、Attractiveness，HIHRS 加强这条路径。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A firm runs high-profile community campaigns, but job seekers learn its staff have poor safety and no development opportunities. According to Ong, Kim and Koopman (2024), what is most likely?",
+          "options": ["Attractiveness rises because external CSR compensates for internal problems", "The external CSR is perceived as less authentic, weakening attractiveness", "Attractiveness is unaffected because job seekers only care about pay", "Shareholders automatically become more supportive"],
+          "answer": 1,
+          "how": ["线索是「high-profile community campaigns」对比「poor safety and no development」：对外对内不一致。", "内部投入薄弱时，对外 CSR 的可信度下降，吸引力随之减弱，选 B。", "A 把对外公益当成对内问题的补偿，研究结论正好相反。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In Ong, Kim and Koopman's (2024) model, what role do high-investment human resource systems (HIHRS) play?",
+          "options": ["They replace external CSR", "They strengthen the path from external CSR to perceived authenticity and attractiveness", "They reduce shareholder returns", "They are a type of value signalling aimed at customers"],
+          "answer": 1,
+          "how": ["题干问 HIHRS「play」什么角色，也就是它在模型里的位置。", "路径是对外 CSR、被认为真诚、对求职者有吸引力；HIHRS 加强这条路径，因为对自己员工的投入是对外 CSR 的可信度检验。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is an example of internal treatment that supports the authenticity of a firm's external CSR?",
+          "options": ["Sponsoring a community festival", "Publishing a sustainability pledge", "Providing career development, fair promotion and workplace health and safety", "Switching to a Fairtrade supplier"],
+          "answer": 2,
+          "how": ["题干问的是「internal treatment」，也就是对自己员工的实际投入。", "职业发展、公平晋升、健康安全属于 HIHRS，是对内投入，选 C。", "A、B、D 都是对外的责任行动，属于 external CSR。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to the lecture, helping external communities can compensate for neglecting a firm's own employees.",
+          "a": false,
+          "how": ["正确说法是：不能把「帮助外部」当成「忽视内部」的补偿，内部薄弱会让对外 CSR 失去可信度。", "题目说可以补偿，所以是 False。研究标题也在提醒：先帮好自己人，再帮别人。"]
+        },
+        {
+          "type": "tf",
+          "q": "Authenticity is judged by whether a firm's responsible actions are genuine and consistent with its long-term practice, not only by its public statements.",
+          "a": true,
+          "how": ["利益相关者判断真实性时看的是行动是否真诚、是否与长期实践一致，像验证实机画面而不只信预告片。", "题目准确说出了这一点，所以是 True。"]
+        }
+      ],
+      "recap": "对外善举是招募海报，对内培养和保护是队员每天领到的真实装备；海报再好，装备不发就没人信。"
+    }
+  ]
+}

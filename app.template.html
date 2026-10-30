@@ -1,0 +1,875 @@
+<title>MGMT1003 冲刺</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: exam-desk tool — sticky header with countdown + tab rail, one working column (max 860px) below. Highlighter yellow marks what matters. */
+:root{
+  --paper:#f6f7f4; --card:#ffffff; --ink:#18323f; --ink-soft:#4a5f6a; --line:#d7ddd9;
+  --mark:#f7dd3a; --mark-ink:#2a2400; --accent:#1f6f8b; --accent-soft:#e2eef2;
+  --good:#2f7d4f; --good-soft:#e1f1e6; --bad:#b4442f; --bad-soft:#f8e4df; --warn:#9a6a00;
+  --f-display:"Archivo","Noto Sans SC",system-ui,sans-serif;
+  --f-body:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#121a1e; --card:#1a2429; --ink:#e4ecee; --ink-soft:#9fb1b8; --line:#2c3a40;
+  --mark:#e8cf2c; --mark-ink:#1d1900; --accent:#6cb8d3; --accent-soft:#1d3640;
+  --good:#6cc391; --good-soft:#18342a; --bad:#ec8a74; --bad-soft:#3c211b; --warn:#e3b54a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#121a1e; --card:#1a2429; --ink:#e4ecee; --ink-soft:#9fb1b8; --line:#2c3a40;
+  --mark:#e8cf2c; --mark-ink:#1d1900; --accent:#6cb8d3; --accent-soft:#1d3640;
+  --good:#6cc391; --good-soft:#18342a; --bad:#ec8a74; --bad-soft:#3c211b; --warn:#e3b54a; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.65;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--card)}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+mark,.hl{background:linear-gradient(transparent 45%,var(--mark) 45%);color:inherit;padding:0 .1em}
+
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--line)}
+.top-inner{max-width:900px;margin:0 auto;padding-block:10px 0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.brand-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{font-family:var(--f-display);font-weight:800;font-stretch:118%;font-size:1.25rem;letter-spacing:-.01em}
+.brand span{background:var(--mark);color:var(--mark-ink);padding:0 .3em;margin-left:.2em;border-radius:3px;font-stretch:100%}
+.countdown{font-family:var(--f-mono);font-size:.82rem;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.countdown b{color:var(--ink);font-size:1rem}
+nav.tabs{display:flex;gap:2px;overflow-x:auto;margin-top:8px;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{background:none;border:0;border-bottom:3px solid transparent;padding:8px 12px;white-space:nowrap;color:var(--ink-soft);font-weight:500}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--mark);font-weight:700}
+
+main{max-width:900px;margin:0 auto;padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section.view{display:grid;gap:18px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.25}
+h1{font-size:1.6rem;font-weight:800;font-stretch:110%}
+h2{font-size:1.2rem;font-weight:750}
+h3{font-size:1rem;font-weight:700}
+.eyebrow{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;font-family:var(--f-display)}
+.muted{color:var(--ink-soft)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;min-width:0}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+
+.btn{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:8px 14px;font-weight:600}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn.primary:hover{opacity:.9}
+.btn.ghost{background:none}
+.btn.small{padding:4px 10px;font-size:.85rem}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:4px 12px;font-size:.85rem;font-weight:600;color:var(--ink-soft)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.tag{display:inline-block;font-family:var(--f-mono);font-size:.72rem;padding:1px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent);font-weight:700;vertical-align:middle}
+
+/* overview */
+.hero-count{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-end}
+.big{font-family:var(--f-mono);font-size:2.6rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:.92rem}
+.facts dt{color:var(--ink-soft)} .facts dd{margin:0}
+.weekbars{display:grid;gap:8px}
+.wb{display:grid;grid-template-columns:3.2rem 1fr 4.5rem;gap:10px;align-items:center;font-size:.88rem}
+.wb .name{font-family:var(--f-mono);font-weight:700}
+.wb .bar{height:10px;background:var(--line);border-radius:5px;overflow:hidden;position:relative}
+.wb .bar i{position:absolute;inset:0 auto 0 0;background:var(--accent);border-radius:5px}
+.wb .bar i.acc{background:var(--good)}
+.wb .num{font-family:var(--f-mono);text-align:right;font-variant-numeric:tabular-nums;color:var(--ink-soft)}
+.wb button{all:unset;cursor:pointer;display:contents}
+.legend{display:flex;gap:14px;font-size:.8rem;color:var(--ink-soft)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+
+/* notes */
+.week-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.week-head .wk{font-family:var(--f-mono);font-weight:700;background:var(--mark);color:var(--mark-ink);padding:0 .4em;border-radius:3px}
+ol.summary{margin:0;padding-left:1.4em;display:grid;gap:6px}
+ol.summary li::marker{font-family:var(--f-mono);color:var(--ink-soft);font-size:.8em}
+.concepts{display:grid;gap:0}
+.concept{display:grid;grid-template-columns:minmax(0,13rem) minmax(0,1fr);gap:4px 16px;padding:10px 0;border-top:1px solid var(--line)}
+.concept:first-child{border-top:0}
+.concept .t{font-weight:700;font-family:var(--f-display)}
+.concept .t small{display:block;font-family:var(--f-body);font-weight:500;color:var(--ink-soft)}
+.concept .d{min-width:0}
+.concept .d .en{font-size:.9rem;color:var(--ink-soft)}
+.xp{display:grid;gap:6px}
+.xp .one{font-weight:600}
+.xp .ln{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;align-items:baseline;font-size:.94rem}
+.xp .ln b{font-size:.75rem;font-weight:700;padding:1px 6px;border-radius:4px;background:var(--line);color:var(--ink-soft);white-space:nowrap}
+.xp .ln.like b{background:var(--mark);color:var(--mark-ink)}
+.xp details{font-size:.86rem;color:var(--ink-soft)}
+.xp summary{cursor:pointer;width:max-content}
+@media (max-width:560px){.concept{grid-template-columns:1fr}}
+.search{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+
+/* flashcard */
+.flash{perspective:1200px;min-height:300px;cursor:pointer}
+.flash-inner{position:relative;min-height:300px;transition:transform .45s;transform-style:preserve-3d}
+.flash.flipped .flash-inner{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;display:flex;flex-direction:column;justify-content:center;gap:10px;overflow:auto;
+  background-image:repeating-linear-gradient(transparent 0 31px,var(--line) 31px 32px);background-position:0 12px}
+.face.back{transform:rotateY(180deg)}
+.face .term{font-family:var(--f-display);font-size:1.7rem;font-weight:800;font-stretch:108%;text-align:center}
+.face .zh{text-align:center;color:var(--ink-soft)}
+.face .hint{position:absolute;bottom:10px;right:14px;font-size:.75rem;color:var(--ink-soft)}
+.face .wk{position:absolute;top:10px;left:14px}
+.face{justify-content:safe center;padding-top:36px}
+@media (max-width:560px){.flash,.flash-inner{min-height:420px}.face .term{font-size:1.35rem}}
+@media (prefers-reduced-motion:reduce){.flash-inner{transition:none}}
+.rate{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.rate .btn{padding:10px}
+.boxes{display:flex;gap:6px;font-family:var(--f-mono);font-size:.8rem;color:var(--ink-soft);flex-wrap:wrap}
+
+/* questions */
+.q-meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.82rem;color:var(--ink-soft)}
+.q-text{font-size:1.05rem;font-weight:500;margin:6px 0 14px}
+.opts{display:grid;gap:8px}
+.opt{display:flex;gap:10px;align-items:flex-start;text-align:left;border:1px solid var(--line);background:var(--card);border-radius:8px;padding:10px 12px;width:100%}
+.opt .k{font-family:var(--f-mono);font-weight:700;color:var(--ink-soft);min-width:1.2em}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt.sel{border-color:var(--accent);background:var(--accent-soft)}
+.opt.right{border-color:var(--good);background:var(--good-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt:disabled{cursor:default;color:inherit}
+.tfrow{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.feedback{border-left:4px solid var(--accent);background:var(--accent-soft);padding:10px 14px;border-radius:0 8px 8px 0}
+.feedback.ok{border-color:var(--good);background:var(--good-soft)}
+.feedback.no{border-color:var(--bad);background:var(--bad-soft)}
+.feedback b{font-family:var(--f-display)}
+
+/* learn mode */
+.kp{border-left:4px solid var(--mark);padding:12px 16px;background:var(--card);border:1px solid var(--line);border-left-width:4px;border-radius:0 12px 12px 0;display:grid;gap:8px}
+.kp .kp-t{font-family:var(--f-display);font-weight:800;font-size:1.1rem}
+.kp .kp-t small{font-family:var(--f-body);font-weight:500;color:var(--ink-soft);margin-left:8px}
+.kp .lbl{display:inline-block;font-size:.72rem;font-weight:700;padding:1px 7px;border-radius:4px;background:var(--mark);color:var(--mark-ink);margin-right:6px;vertical-align:middle}
+.how{margin:10px 0 0;padding-left:1.4em;display:grid;gap:4px}
+.how li::marker{font-family:var(--f-mono);font-weight:700;color:var(--ink-soft)}
+.plist{display:grid;gap:8px}
+.pitem{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+.pitem .n{font-family:var(--f-mono);font-weight:700;color:var(--ink-soft)}
+.pitem .st{font-size:.82rem;color:var(--ink-soft);white-space:nowrap}
+.pitem.done .st{color:var(--good)}
+.lchips{display:flex;flex-wrap:wrap;gap:6px}
+.lchips .chip[disabled]{opacity:.45;cursor:not-allowed}
+.match-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:10px;align-items:center;padding:8px 0;border-top:1px dashed var(--line)}
+.match-row:first-child{border-top:0}
+.match-row select{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--card);min-width:0}
+.match-row.right select{border-color:var(--good);background:var(--good-soft)}
+.match-row.wrong select{border-color:var(--bad);background:var(--bad-soft)}
+.match-row .fix{grid-column:2;font-size:.85rem;color:var(--good)}
+@media (max-width:560px){.match-row{grid-template-columns:1fr}.match-row .fix{grid-column:1}}
+textarea{width:100%;min-height:170px;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--card);resize:vertical;line-height:1.6}
+.points{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.points label{display:flex;gap:8px;align-items:flex-start}
+.model{white-space:pre-wrap;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px 14px;font-size:.95rem}
+.progress{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--mark)}
+.score{font-family:var(--f-mono);font-size:2.2rem;font-weight:700}
+.timer{font-family:var(--f-mono);font-weight:700;font-size:1.1rem;font-variant-numeric:tabular-nums}
+.timer.low{color:var(--bad)}
+.navdots{display:flex;flex-wrap:wrap;gap:4px}
+.navdots button{width:30px;height:28px;border:1px solid var(--line);background:var(--card);border-radius:5px;font-family:var(--f-mono);font-size:.72rem;padding:0}
+.navdots button.done{background:var(--accent-soft);border-color:var(--accent)}
+.navdots button.cur{outline:2px solid var(--ink)}
+.navdots button.r{background:var(--good-soft);border-color:var(--good)}
+.navdots button.w{background:var(--bad-soft);border-color:var(--bad)}
+.wrong-item{display:grid;gap:4px;padding:12px 0;border-top:1px solid var(--line)}
+.wrong-item:first-child{border-top:0}
+.empty{text-align:center;padding:30px 10px;color:var(--ink-soft)}
+.theme-toggle{background:none;border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:.78rem;color:var(--ink-soft)}
+table.res{width:100%;border-collapse:collapse;font-size:.9rem}
+table.res th,table.res td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left}
+table.res td.n{font-family:var(--f-mono);text-align:right}
+.scroll-x{overflow-x:auto}
+</style>
+
+<header class="top">
+  <div class="top-inner">
+    <div class="brand-row">
+      <div class="brand">MGMT1003<span>冲刺</span></div>
+      <div class="row" style="gap:10px">
+        <div class="countdown" id="countdown"></div>
+        <button class="theme-toggle" id="themeBtn" type="button">主题</button>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist" id="tabs">
+      <button role="tab" data-view="home">总览</button>
+      <button role="tab" data-view="learn">边练边学</button>
+      <button role="tab" data-view="notes">笔记要点</button>
+      <button role="tab" data-view="cards">闪卡</button>
+      <button role="tab" data-view="practice">分题练习</button>
+      <button role="tab" data-view="exam">模拟考试</button>
+      <button role="tab" data-view="wrong">错题本</button>
+    </nav>
+  </div>
+</header>
+<main id="main"></main>
+
+<script>
+/*__DATA__*/
+/*__LEARN__*/
+</script>
+<script>
+(function(){
+"use strict";
+const WEEKS = (window.MGMT_DATA||[]).slice().sort((a,b)=>a.week-b.week);
+const EXAM_AT = new Date("2026-11-09T14:00:00+11:00");
+const $ = (s,el=document)=>el.querySelector(s);
+const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
+const TYPE_ZH = {tf:"判断",mcq:"单选",match:"匹配",essay:"简答"};
+
+/* ---------- storage ---------- */
+const KEY="mgmt1003-review-v1";
+let S = {stats:{},wrong:{},box:{},essay:{},theme:""};
+try{ const raw=localStorage.getItem(KEY); if(raw) S=Object.assign(S,JSON.parse(raw)); }catch(e){}
+S.learn = S.learn || {};   // 边练边学进度：{ [itemId]: {ok, t} }
+function save(){ try{ localStorage.setItem(KEY,JSON.stringify(S)); }catch(e){} }
+
+/* ---------- question index ---------- */
+const Q = [];       // all gradable + essay questions
+const CARDS = [];
+WEEKS.forEach(w=>{
+  (w.tf||[]).forEach((q,i)=>Q.push({id:`w${w.week}-tf-${i}`,type:"tf",week:w.week,...q}));
+  (w.mcq||[]).forEach((q,i)=>Q.push({id:`w${w.week}-mcq-${i}`,type:"mcq",week:w.week,...q}));
+  (w.match||[]).forEach((q,i)=>Q.push({id:`w${w.week}-match-${i}`,type:"match",week:w.week,...q}));
+  (w.essay||[]).forEach((q,i)=>Q.push({id:`w${w.week}-essay-${i}`,type:"essay",week:w.week,...q}));
+  (w.concepts||[]).forEach((c,i)=>CARDS.push({id:`w${w.week}-c-${i}`,week:w.week,...c}));
+});
+const QBYID = Object.fromEntries(Q.map(q=>[q.id,q]));
+
+function record(q,ok){
+  const s=S.stats[q.id]||{c:0,w:0};
+  ok?s.c++:s.w++; S.stats[q.id]=s;
+  if(!ok) S.wrong[q.id]=Date.now();
+  save();
+}
+
+/* ---------- header ---------- */
+function tickCountdown(){
+  const ms=EXAM_AT-Date.now();
+  const el=$("#countdown");
+  if(ms<=0){ el.innerHTML="考试时间已到"; return; }
+  const d=Math.floor(ms/864e5), h=Math.floor(ms%864e5/36e5);
+  el.innerHTML=`距期末 <b>${d}</b> 天 <b>${h}</b> 小时`;
+}
+tickCountdown(); setInterval(tickCountdown,60000);
+
+function applyTheme(){ if(S.theme) document.documentElement.setAttribute("data-theme",S.theme); else document.documentElement.removeAttribute("data-theme"); $("#themeBtn").textContent={"":"主题：跟随系统",light:"主题：浅色",dark:"主题：深色"}[S.theme||""]; }
+$("#themeBtn").onclick=()=>{ S.theme={"":"light",light:"dark",dark:""}[S.theme||""]; save(); applyTheme(); };
+applyTheme();
+
+/* ---------- router ---------- */
+let current="home";
+const views={home:viewHome,learn:viewLearn,notes:viewNotes,cards:viewCards,practice:viewPractice,exam:viewExam,wrong:viewWrong};
+function go(v,opts){
+  if(current==="exam" && EX && EX.running && v!=="exam"){ /* keep exam running; just switch view */ }
+  current=v;
+  document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.view===v));
+  document.documentElement.style.setProperty("--hdr",($("header.top").offsetHeight+8)+"px");
+  const m=$("#main"); m.innerHTML=""; views[v](m,opts||{}); window.scrollTo(0,0);
+  try{ if(/^[a-z]+$/.test(v)) history.replaceState(null,"","#"+v); }catch(e){}
+}
+document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>go(b.dataset.view));
+
+/* ---------- week chips helper ---------- */
+function weekChips(selected,onChange,{multi=true}={}){
+  const wrap=document.createElement("div"); wrap.className="chips";
+  const render=()=>{
+    wrap.innerHTML="";
+    if(multi){
+      const all=document.createElement("button"); all.className="chip"; all.type="button";
+      all.textContent="全部"; all.setAttribute("aria-pressed",selected.size===WEEKS.length);
+      all.onclick=()=>{ if(selected.size===WEEKS.length) selected.clear(); else WEEKS.forEach(w=>selected.add(w.week)); render(); onChange(); };
+      wrap.appendChild(all);
+    }
+    WEEKS.forEach(w=>{
+      const b=document.createElement("button"); b.className="chip"; b.type="button";
+      b.textContent="W"+w.week; b.title=w.titleZh||w.title;
+      b.setAttribute("aria-pressed",selected.has(w.week));
+      b.onclick=()=>{ if(multi){ selected.has(w.week)?selected.delete(w.week):selected.add(w.week);} else {selected.clear();selected.add(w.week);} render(); onChange(); };
+      wrap.appendChild(b);
+    });
+  };
+  render(); return wrap;
+}
+
+/* ---------- HOME ---------- */
+function viewHome(m){
+  const ms=Math.max(0,EXAM_AT-Date.now()); const days=Math.ceil(ms/864e5);
+  const gradable=Q.filter(q=>q.type!=="essay");
+  const done=gradable.filter(q=>S.stats[q.id]).length;
+  const corr=gradable.reduce((a,q)=>a+(S.stats[q.id]?.c||0),0), tot=gradable.reduce((a,q)=>a+((S.stats[q.id]?.c||0)+(S.stats[q.id]?.w||0)),0);
+  const mastered=CARDS.filter(c=>(S.box[c.id]||0)>=3).length;
+  m.innerHTML=`<section class="view">
+    <div class="panel">
+      <div class="eyebrow">Final examination</div>
+      <div class="hero-count" style="margin-top:8px">
+        <div><div class="big">${days}</div><div class="muted">天后开考</div></div>
+        <dl class="facts" style="flex:1;min-width:240px;margin:0">
+          <dt>时间</dt><dd>2026 年 11 月 9 日 14:00–16:00（课件所列，以 Canvas 通知为准）</dd>
+          <dt>地点</dt><dd>Copland G29 / G30 / G31</dd>
+          <dt>形式</dt><dd>闭卷 · 纸笔 · 2 小时 · 覆盖全部周次</dd>
+          <dt>题型</dt><dd>True/False · Multiple choice · Matching · Short essay / case analysis</dd>
+        </dl>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="panel"><div class="eyebrow">题库</div><div class="big" style="font-size:2rem;margin-top:6px">${done}<span class="muted" style="font-size:1rem"> / ${gradable.length}</span></div><div class="muted">已做过的客观题 · 正确率 ${tot?Math.round(corr/tot*100):0}%</div></div>
+      <div class="panel"><div class="eyebrow">闪卡</div><div class="big" style="font-size:2rem;margin-top:6px">${mastered}<span class="muted" style="font-size:1rem"> / ${CARDS.length}</span></div><div class="muted">已掌握的概念（连续答对 3 次）</div></div>
+      <div class="panel"><div class="eyebrow">错题本</div><div class="big" style="font-size:2rem;margin-top:6px">${Object.keys(S.wrong).length}</div><div class="muted">待复习的错题</div></div>
+    </div>
+    <div class="panel">
+      <div class="row" style="justify-content:space-between"><h2>各周进度</h2>
+        <div class="legend"><span><i style="background:var(--accent)"></i>已做比例</span><span><i style="background:var(--good)"></i>正确率</span></div></div>
+      <div class="weekbars" id="wbars" style="margin-top:12px"></div>
+    </div>
+    <div class="panel">
+      <h2>建议复习路线</h2>
+      <ol class="summary" style="margin-top:10px">
+        <li>每周先读 <b>笔记要点</b>，把 summary 和概念表过一遍。</li>
+        <li>用 <b>闪卡</b> 背术语中英对照，考试英文作答，术语要能直接写出。</li>
+        <li><b>分题练习</b> 按周刷判断、单选、匹配，看解析里的易混点。</li>
+        <li>考前一周每两天做一次 <b>模拟考试</b>（完整版 120 分钟），简答题动手写。</li>
+        <li>考前一天只刷 <b>错题本</b>。</li>
+      </ol>
+      <div class="row" style="margin-top:14px">
+        <button class="btn primary" data-go="exam">开始模拟考试</button>
+        <button class="btn" data-go="cards">背闪卡</button>
+        <button class="btn" data-go="wrong">复习错题</button>
+      </div>
+    </div>
+  </section>`;
+  m.querySelectorAll("[data-go]").forEach(b=>b.onclick=()=>go(b.dataset.go));
+  const wb=$("#wbars",m);
+  WEEKS.forEach(w=>{
+    const qs=gradable.filter(q=>q.week===w.week);
+    const d=qs.filter(q=>S.stats[q.id]).length;
+    let c=0,t=0; qs.forEach(q=>{const s=S.stats[q.id]; if(s){c+=s.c;t+=s.c+s.w;}});
+    const row=document.createElement("div"); row.className="wb"; row.style.cursor="pointer"; row.title="打开 Week "+w.week+" 笔记";
+    row.innerHTML=`<span class="name">W${w.week}</span>
+      <div style="display:grid;gap:3px;min-width:0"><div class="muted" style="font-size:.8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${esc(w.titleZh)} · ${esc(w.title)}</div>
+      <div class="bar"><i style="width:${qs.length?d/qs.length*100:0}%"></i></div>
+      <div class="bar"><i class="acc" style="width:${t?c/t*100:0}%"></i></div></div>
+      <span class="num">${d}/${qs.length}</span>`;
+    row.onclick=()=>go("notes",{week:w.week});
+    wb.appendChild(row);
+  });
+}
+
+/* ---------- NOTES ---------- */
+let notesWeek=null;
+// 一句话 + 例子 + 比喻；英文原定义折叠在最后（考试用英文作答时可参考）
+function explainHTML(c,fold){
+  const en = fold ? `<details><summary>英文定义</summary>${esc(c.def)}</details>` : `<div class="muted" style="font-size:.88rem">${esc(c.def)}</div>`;
+  return `<div class="xp"><div class="one">${esc(c.one||c.defZh)}</div>
+    ${c.eg?`<div class="ln"><b>例子</b><span>${esc(c.eg)}</span></div>`:""}
+    ${c.like?`<div class="ln like"><b>比喻</b><span>${esc(c.like)}</span></div>`:""}
+    ${en}</div>`;
+}
+function viewNotes(m,opts){
+  if(opts.week) notesWeek=opts.week;
+  if(!notesWeek) notesWeek=WEEKS[0]?.week;
+  m.innerHTML=`<section class="view">
+    <input class="search" id="nsearch" type="search" placeholder="搜索所有周的概念，例如 Herzberg、心理安全、LPC">
+    <div id="nchips"></div>
+    <div id="nbody" style="display:grid;gap:18px"></div></section>`;
+  const sel=new Set([notesWeek]);
+  $("#nchips",m).appendChild(weekChips(sel,()=>{notesWeek=[...sel][0];renderWeek();},{multi:false}));
+  const body=$("#nbody",m);
+  function renderWeek(){
+    const w=WEEKS.find(x=>x.week===notesWeek); if(!w){body.innerHTML="";return;}
+    body.innerHTML=`<div class="panel">
+      <div class="week-head"><span class="wk">Week ${w.week}</span><h1>${esc(w.title)}</h1><span class="muted">${esc(w.titleZh)}</span></div>
+      <h2 style="margin-top:16px">核心要点</h2>
+      <ol class="summary" style="margin-top:8px">${(w.summary||[]).map(s=>`<li>${esc(s)}</li>`).join("")}</ol>
+      <div class="row" style="margin-top:16px">
+        <button class="btn primary" id="pw">练习本周题目</button>
+        <button class="btn" id="cw">本周闪卡</button></div>
+    </div>
+    <div class="panel"><h2>概念表 <span class="muted" style="font-size:.85rem;font-weight:500">${(w.concepts||[]).length} 个</span></h2>
+      <div class="concepts" style="margin-top:8px">${(w.concepts||[]).map(c=>conceptHTML(c)).join("")}</div></div>`;
+    $("#pw",body).onclick=()=>go("practice",{weeks:[w.week]});
+    $("#cw",body).onclick=()=>go("cards",{weeks:[w.week]});
+  }
+  function conceptHTML(c,tag){ return `<div class="concept"><div class="t">${tag?`<span class="tag">W${c.week}</span> `:""}${esc(c.term)}<small>${esc(c.zh)}</small></div><div class="d">${explainHTML(c,true)}</div></div>`; }
+  $("#nsearch",m).oninput=e=>{
+    const k=e.target.value.trim().toLowerCase();
+    if(!k){ $("#nchips",m).hidden=false; renderWeek(); return; }
+    $("#nchips",m).hidden=true;
+    const hits=CARDS.filter(c=>[c.term,c.zh,c.def,c.defZh,c.one,c.eg,c.like].join(" ").toLowerCase().includes(k));
+    const sumHits=[]; WEEKS.forEach(w=>(w.summary||[]).forEach(s=>{ if(s.toLowerCase().includes(k)) sumHits.push({w:w.week,s}); }));
+    body.innerHTML=`<div class="panel"><h2>概念 · ${hits.length} 条</h2><div class="concepts" style="margin-top:8px">${hits.map(c=>conceptHTML(c,true)).join("")||'<div class="empty">没有匹配的概念</div>'}</div></div>
+      ${sumHits.length?`<div class="panel"><h2>要点 · ${sumHits.length} 条</h2><ul style="margin:8px 0 0;padding-left:1.2em">${sumHits.map(h=>`<li><span class="tag">W${h.w}</span> ${esc(h.s)}</li>`).join("")}</ul></div>`:""}`;
+  };
+  renderWeek();
+}
+
+/* ---------- LEARN (边练边学) ---------- */
+// 题目按考点顺序排列；每题先给考点和解题方法，答完给“怎么用这个知识点解出这题”
+const LEARN = (window.MGMT_LEARN||[]).slice().sort((a,b)=>a.week-b.week);
+LEARN.forEach(L=>L.points.forEach((p,pi)=>p.items.forEach((it,i)=>{ it.id=`${p.id}-${i}`; it.week=L.week; })));
+let learnWeek=null, LR=null;   // LR = {week, pi, qi, resp, checked}
+function learnStatus(p){ const done=p.items.filter(it=>S.learn[it.id]).length, ok=p.items.filter(it=>S.learn[it.id]&&S.learn[it.id].ok).length; return {done,ok,total:p.items.length}; }
+function viewLearn(m,opts){
+  if(opts.week) learnWeek=opts.week;
+  const L = LEARN.find(x=>x.week===learnWeek) || LEARN[0];
+  learnWeek = L ? L.week : null;
+  if(!L){ m.innerHTML=`<section class="view"><div class="panel empty">还没有“边练边学”内容。</div></section>`; return; }
+  if(opts.start){ LR={week:L.week,pi:opts.start.pi,qi:opts.start.qi||0,resp:undefined,checked:false}; }
+  if(LR && LR.week===L.week){ renderRun(m,L); return; }
+  m.innerHTML=`<section class="view">
+    <div class="panel" style="display:grid;gap:12px">
+      <div class="lchips" id="lchips"></div>
+      <div class="muted" style="font-size:.9rem">不用先看笔记：按考点顺序直接做题，每题都告诉你考的是哪个知识点、怎么用它选出答案。</div>
+    </div>
+    <div class="panel"><div class="week-head"><span class="wk">Lecture ${L.week}</span><h1>${esc(WEEKS.find(w=>w.week===L.week)?.title||"")}</h1></div>
+      <div class="row" style="margin:12px 0 14px">
+        <button class="btn primary" id="lstart">${L.points.some(p=>learnStatus(p).done)?"继续本讲":"开始本讲"}</button>
+        <span class="muted" style="font-size:.85rem">${L.points.length} 个考点 · ${L.points.reduce((n,p)=>n+p.items.length,0)} 道题</span></div>
+      <div class="plist" id="plist"></div></div></section>`;
+  const chips=$("#lchips",m);
+  WEEKS.forEach(w=>{
+    const has=LEARN.some(x=>x.week===w.week);
+    const b=document.createElement("button"); b.type="button"; b.className="chip"; b.setAttribute("aria-pressed",w.week===L.week); b.textContent="L"+w.week; if(!has){ b.disabled=true; b.title="待制作"; }
+    b.onclick=()=>{ LR=null; go("learn",{week:w.week}); }; chips.appendChild(b);
+  });
+  const list=$("#plist",m);
+  L.points.forEach((p,pi)=>{
+    const s=learnStatus(p);
+    const row=document.createElement("div"); row.className="pitem"+(s.done===s.total?" done":"");
+    row.innerHTML=`<span class="n">${pi+1}</span><div><div style="font-weight:700">${esc(p.title)}</div><div class="muted" style="font-size:.82rem">${esc(p.titleEn||"")}</div></div>
+      <div class="row" style="gap:8px"><span class="st">${s.done===0?"未开始":s.done===s.total?`完成 · 对 ${s.ok}/${s.total}`:`${s.done}/${s.total}`}</span><button class="btn small" type="button">${s.done===0?"开始":"重做"}</button></div>`;
+    row.querySelector("button").onclick=()=>{ p.items.forEach(it=>delete S.learn[it.id]); save(); go("learn",{week:L.week,start:{pi,qi:0}}); };
+    list.appendChild(row);
+  });
+  $("#lstart",m).onclick=()=>{
+    let pi=L.points.findIndex(p=>learnStatus(p).done<p.items.length); if(pi<0){ pi=0; L.points.forEach(p=>p.items.forEach(it=>delete S.learn[it.id])); save(); }
+    const p=L.points[pi]; const qi=p.items.findIndex(it=>!S.learn[it.id]);
+    go("learn",{week:L.week,start:{pi,qi:Math.max(0,qi)}});
+  };
+}
+function renderRun(m,L){
+  const p=L.points[LR.pi];
+  if(!p){ LR=null; go("learn",{week:L.week}); return; }
+  // 本考点做完 → 小结
+  if(LR.qi>=p.items.length){
+    const s=learnStatus(p), last=LR.pi>=L.points.length-1;
+    m.innerHTML=`<section class="view"><div class="panel" style="display:grid;gap:14px">
+      <div class="q-meta"><span><span class="tag">L${L.week}</span> 考点 ${LR.pi+1} / ${L.points.length} 完成</span><span>答对 ${s.ok} / ${s.total}</span></div>
+      <div class="kp"><div class="kp-t">${esc(p.title)}<small>${esc(p.titleEn||"")}</small></div>${p.recap?`<div><span class="lbl">小结</span>${esc(p.recap)}</div>`:""}</div>
+      <div class="row"><button class="btn primary" id="nextp">${last?"回到考点列表":"下一个考点 →"}</button><button class="btn" id="redo">重做这个考点</button><button class="btn" id="back">考点列表</button></div></div></section>`;
+    $("#nextp",m).onclick=()=>{ if(last){ LR=null; go("learn",{week:L.week}); } else { LR={week:L.week,pi:LR.pi+1,qi:0}; go("learn",{week:L.week}); } };
+    $("#redo",m).onclick=()=>{ p.items.forEach(it=>delete S.learn[it.id]); save(); LR={week:L.week,pi:LR.pi,qi:0}; go("learn",{week:L.week}); };
+    $("#back",m).onclick=()=>{ LR=null; go("learn",{week:L.week}); };
+    return;
+  }
+  const it=p.items[LR.qi];
+  m.innerHTML=`<section class="view" style="display:grid;gap:14px">
+    <div class="q-meta"><span><span class="tag">L${L.week}</span> 考点 ${LR.pi+1} / ${L.points.length} · 第 ${LR.qi+1} / ${p.items.length} 题</span><button class="btn small" id="quit" type="button">退出</button></div>
+    <div class="kp">
+      <div class="kp-t">${esc(p.title)}<small>${esc(p.titleEn||"")}</small></div>
+      <div><span class="lbl">知识点</span>${esc(p.kp)}</div>
+      <div><span class="lbl">怎么用</span>${esc(p.howTo)}</div>
+    </div>
+    <div class="panel" id="qbox"></div></section>`;
+  $("#quit",m).onclick=()=>{ LR=null; go("learn",{week:L.week}); };
+  const box=$("#qbox",m);
+  const draw=()=>{
+    box.innerHTML=`<div class="q-meta"><span>${TYPE_ZH[it.type]}</span></div><div class="q-text">${esc(it.q)}</div>`;
+    const opts = it.type==="tf" ? [{t:"True",v:true},{t:"False",v:false}] : it.options.map((t,i)=>({t,v:i}));
+    const wrap=document.createElement("div"); wrap.className=it.type==="tf"?"tfrow":"opts";
+    opts.forEach((o,i)=>{
+      const b=document.createElement("button"); b.type="button"; b.className="opt";
+      b.innerHTML=`<span class="k">${it.type==="tf"?(o.v?"T":"F"):"ABCD"[i]}</span><span>${esc(o.t)}</span>`;
+      const correct = it.type==="tf" ? o.v===it.a : o.v===it.answer;
+      if(LR.checked){ b.disabled=true; if(correct) b.classList.add("right"); else if(LR.resp===o.v) b.classList.add("wrong"); }
+      else b.onclick=()=>{ LR.resp=o.v; LR.checked=true; S.learn[it.id]={ok:correct,t:Date.now()}; save(); draw(); };
+      wrap.appendChild(b);
+    });
+    box.appendChild(wrap);
+    if(LR.checked){
+      const ok=S.learn[it.id].ok;
+      const ans = it.type==="tf" ? (it.a?"True":"False") : "ABCD"[it.answer]+". "+it.options[it.answer];
+      const f=document.createElement("div"); f.className="feedback "+(ok?"ok":"no"); f.style.marginTop="14px";
+      f.innerHTML=`<b>${ok?"答对了":"答错了"}</b> · 答案：${esc(ans)}<div style="margin-top:8px"><span class="lbl" style="display:inline-block;font-size:.72rem;font-weight:700;padding:1px 7px;border-radius:4px;background:var(--mark);color:var(--mark-ink)">解题</span></div><ol class="how">${it.how.map(h=>`<li>${esc(h)}</li>`).join("")}</ol>`;
+      box.appendChild(f);
+      const nb=document.createElement("button"); nb.className="btn primary"; nb.type="button"; nb.style.marginTop="14px"; nb.id="lnext";
+      nb.textContent = LR.qi+1<p.items.length ? "下一题 →" : "本考点完成，看小结 →";
+      nb.onclick=()=>{ LR={week:L.week,pi:LR.pi,qi:LR.qi+1}; go("learn",{week:L.week}); };
+      box.appendChild(nb); nb.focus();
+    }
+  };
+  draw();
+}
+
+/* ---------- FLASHCARDS ---------- */
+let cardWeeks=null;
+function viewCards(m,opts){
+  if(opts.weeks) cardWeeks=new Set(opts.weeks);
+  if(!cardWeeks) cardWeeks=new Set(WEEKS.map(w=>w.week));
+  let onlyWeak=true, front="en", deck=[], idx=0;
+  m.innerHTML=`<section class="view">
+    <div class="panel" style="display:grid;gap:12px">
+      <div id="cchips"></div>
+      <div class="row">
+        <label class="row" style="gap:6px"><input type="checkbox" id="weak" checked> 只看未掌握</label>
+        <label class="row" style="gap:6px">正面显示 <select id="front" class="btn small"><option value="en">英文术语</option><option value="zh">中文名称</option></select></label>
+        <button class="btn small" id="reshuffle" type="button">重新洗牌</button>
+      </div>
+      <div class="boxes" id="boxes"></div>
+    </div>
+    <div id="cardarea" style="display:grid;gap:12px"></div></section>`;
+  $("#cchips",m).appendChild(weekChips(cardWeeks,build));
+  $("#weak",m).onchange=e=>{onlyWeak=e.target.checked;build();};
+  $("#front",m).onchange=e=>{front=e.target.value;show();};
+  $("#reshuffle",m).onclick=build;
+  function build(){
+    deck=shuffle(CARDS.filter(c=>cardWeeks.has(c.week) && (!onlyWeak || (S.box[c.id]||0)<3)));
+    // weaker boxes first
+    deck.sort((a,b)=>(S.box[a.id]||0)-(S.box[b.id]||0));
+    idx=0; boxes(); show();
+  }
+  function boxes(){
+    const pool=CARDS.filter(c=>cardWeeks.has(c.week)); const cnt=[0,0,0,0];
+    pool.forEach(c=>cnt[Math.min(3,S.box[c.id]||0)]++);
+    $("#boxes",m).innerHTML=`<span>新/不会 ${cnt[0]}</span>·<span>模糊 ${cnt[1]}</span>·<span>较熟 ${cnt[2]}</span>·<span>已掌握 ${cnt[3]}</span>`;
+  }
+  function show(){
+    const area=$("#cardarea",m);
+    if(!deck.length){ area.innerHTML=`<div class="panel empty">这些周的概念都已掌握。取消“只看未掌握”可以继续复习全部。</div>`; return; }
+    if(idx>=deck.length){ area.innerHTML=`<div class="panel empty">这一轮 ${deck.length} 张已过完。<div style="margin-top:12px"><button class="btn primary" id="again">再来一轮</button></div></div>`; $("#again",area).onclick=build; return; }
+    const c=deck[idx];
+    const f = front==="en" ? `<div class="term">${esc(c.term)}</div>` : `<div class="term">${esc(c.zh)}</div>`;
+    const b = `<div style="font-family:var(--f-display);font-weight:800;font-size:1.15rem">${esc(c.term)} <span class="muted" style="font-weight:500">${esc(c.zh)}</span></div>${explainHTML(c,false)}`;
+    area.innerHTML=`<div class="q-meta"><span>${idx+1} / ${deck.length}</span><span>当前熟练度 ${["新","模糊","较熟","已掌握"][Math.min(3,S.box[c.id]||0)]}</span></div>
+      <div class="flash" id="flash" tabindex="0" role="button" aria-label="翻转卡片">
+        <div class="flash-inner">
+          <div class="face front"><span class="tag wk">W${c.week}</span>${f}<span class="hint">点击或按空格翻面</span></div>
+          <div class="face back"><span class="tag wk">W${c.week}</span>${b}</div>
+        </div></div>
+      <div class="rate">
+        <button class="btn" data-r="0" type="button">不会 <span class="muted">1</span></button>
+        <button class="btn" data-r="1" type="button">模糊 <span class="muted">2</span></button>
+        <button class="btn primary" data-r="2" type="button">会了 <span class="muted">3</span></button>
+      </div>`;
+    const fl=$("#flash",area); fl.onclick=()=>fl.classList.toggle("flipped");
+    area.querySelectorAll("[data-r]").forEach(b=>b.onclick=()=>rate(+b.dataset.r));
+  }
+  function rate(r){
+    const c=deck[idx]; if(!c) return;
+    const cur=S.box[c.id]||0;
+    S.box[c.id]= r===0?0 : r===1?Math.max(1,Math.min(cur,1)) : Math.min(3,cur+1);
+    save();
+    if(r===0 && deck.length-idx>3) deck.splice(idx+3,0,c); // see again soon
+    idx++; boxes(); show();
+  }
+  cardKeys=e=>{
+    if(current!=="cards"||e.target.closest("input,select,textarea")) return;
+    if(e.key===" "){ e.preventDefault(); $("#flash")?.classList.toggle("flipped"); }
+    if(["1","2","3"].includes(e.key)) rate(+e.key-1);
+  };
+  build();
+}
+let cardKeys=null;
+document.addEventListener("keydown",e=>cardKeys&&cardKeys(e));
+
+/* ---------- question renderers ---------- */
+// render(q, container, {mode:'practice'|'exam', state, onAnswer})
+function renderQuestion(q,box,opt){
+  const st=opt.state; // {resp, checked}
+  const locked = opt.mode==="practice" ? st.checked : !!opt.review;
+  box.innerHTML="";
+  const head=document.createElement("div"); head.className="q-meta";
+  head.innerHTML=`<span><span class="tag">W${q.week}</span> ${TYPE_ZH[q.type]}</span>${opt.counter||""}`;
+  box.appendChild(head);
+  if(q.type==="tf"||q.type==="mcq"){
+    const p=document.createElement("div"); p.className="q-text"; p.textContent=q.q; box.appendChild(p);
+    const opts = q.type==="tf" ? [{t:"True",v:true},{t:"False",v:false}] : q.options.map((t,i)=>({t,v:i}));
+    const wrap=document.createElement("div"); wrap.className=q.type==="tf"?"tfrow":"opts";
+    opts.forEach((o,i)=>{
+      const b=document.createElement("button"); b.type="button"; b.className="opt";
+      b.innerHTML=`<span class="k">${q.type==="tf"?(o.v?"T":"F"):"ABCD"[i]}</span><span>${esc(o.t)}</span>`;
+      const correct = q.type==="tf" ? o.v===q.a : o.v===q.answer;
+      if(st.resp===o.v) b.classList.add("sel");
+      if(locked){ b.disabled=true; if(correct) b.classList.add("right"); else if(st.resp===o.v) b.classList.add("wrong"); }
+      else b.onclick=()=>{ st.resp=o.v; if(opt.mode==="practice"){ st.checked=true; record(q,isCorrect(q,st)); } opt.onAnswer&&opt.onAnswer(); renderQuestion(q,box,opt); };
+      wrap.appendChild(b);
+    });
+    box.appendChild(wrap);
+    if(locked) box.appendChild(feedback(q,st));
+  } else if(q.type==="match"){
+    const p=document.createElement("div"); p.className="q-text"; p.textContent=q.title; box.appendChild(p);
+    if(!st.order) st.order=shuffle(q.pairs.map((_,i)=>i));
+    if(!st.resp) st.resp={};
+    const rights=shuffle(q.pairs.map(p=>p[1]));
+    if(!st.rights) st.rights=rights;
+    const list=document.createElement("div");
+    st.order.forEach(i=>{
+      const [L,R]=q.pairs[i];
+      const row=document.createElement("div"); row.className="match-row";
+      const sel=document.createElement("select"); sel.id=`m-${q.id}-${i}`;
+      sel.innerHTML=`<option value="">— 选择 —</option>`+st.rights.map(r=>`<option ${st.resp[i]===r?"selected":""}>${esc(r)}</option>`).join("");
+      sel.onchange=()=>{ st.resp[i]=sel.value; opt.onAnswer&&opt.onAnswer(); };
+      if(locked){ sel.disabled=true; row.classList.add(st.resp[i]===R?"right":"wrong"); }
+      const l=document.createElement("div"); l.style.fontWeight="600"; l.textContent=L;
+      row.append(l,sel);
+      if(locked && st.resp[i]!==R){ const f=document.createElement("div"); f.className="fix"; f.textContent="正确："+R; row.appendChild(f); }
+      list.appendChild(row);
+    });
+    box.appendChild(list);
+    if(opt.mode==="practice" && !locked){
+      const b=document.createElement("button"); b.className="btn primary"; b.type="button"; b.textContent="提交匹配"; b.style.marginTop="12px";
+      b.onclick=()=>{ st.checked=true; record(q,isCorrect(q,st)); opt.onAnswer&&opt.onAnswer(); renderQuestion(q,box,opt); };
+      box.appendChild(b);
+    }
+    if(locked){ const n=matchScore(q,st); const f=document.createElement("div"); f.className="feedback "+(n===q.pairs.length?"ok":"no"); f.style.marginTop="12px"; f.innerHTML=`<b>${n} / ${q.pairs.length} 对正确</b>`; box.appendChild(f); }
+  } else if(q.type==="essay"){
+    const p=document.createElement("div"); p.className="q-text"; p.style.whiteSpace="pre-wrap"; p.textContent=q.q; box.appendChild(p);
+    const ta=document.createElement("textarea"); ta.id="ta-"+q.id; ta.placeholder="用英文写下你的答案（考试是纸笔，建议按 diagnosis → explanation → recommendation 结构）";
+    ta.value = st.text ?? S.essay[q.id] ?? "";
+    ta.oninput=()=>{ st.text=ta.value; S.essay[q.id]=ta.value; save(); opt.onAnswer&&opt.onAnswer(); };
+    if(locked && opt.mode==="exam") ta.readOnly=true;
+    box.appendChild(ta);
+    const wc=document.createElement("div"); wc.className="muted"; wc.style.fontSize=".8rem";
+    const upd=()=>wc.textContent=(ta.value.trim()?ta.value.trim().split(/\s+/).length:0)+" words"; upd(); ta.addEventListener("input",upd);
+    box.appendChild(wc);
+    const showKey = opt.mode==="practice" ? st.checked : opt.review;
+    if(!showKey && opt.mode==="practice"){
+      const b=document.createElement("button"); b.className="btn primary"; b.type="button"; b.textContent="对照评分要点"; b.style.marginTop="10px";
+      b.onclick=()=>{ st.checked=true; opt.onAnswer&&opt.onAnswer(); renderQuestion(q,box,opt); };
+      box.appendChild(b);
+    }
+    if(showKey){
+      if(!st.ticks) st.ticks={};
+      const k=document.createElement("div"); k.style.cssText="display:grid;gap:10px;margin-top:12px";
+      k.innerHTML=`<h3>评分要点 · 写到了就勾选</h3>`;
+      const ul=document.createElement("ul"); ul.className="points";
+      q.points.forEach((pt,i)=>{ const li=document.createElement("li"); li.innerHTML=`<label><input type="checkbox" id="pt-${q.id}-${i}" ${st.ticks[i]?"checked":""}><span>${esc(pt)}</span></label>`;
+        li.querySelector("input").onchange=e=>{ st.ticks[i]=e.target.checked; opt.onAnswer&&opt.onAnswer(); }; ul.appendChild(li); });
+      k.appendChild(ul);
+      const md=document.createElement("details"); md.innerHTML=`<summary style="cursor:pointer;font-weight:700">查看参考答案</summary><div class="model" style="margin-top:8px"></div>`;
+      md.querySelector(".model").textContent=q.model; k.appendChild(md);
+      box.appendChild(k);
+    }
+  }
+}
+function feedback(q,st){
+  const ok=isCorrect(q,st); const f=document.createElement("div");
+  f.className="feedback "+(st.resp===undefined?"":ok?"ok":"no"); f.style.marginTop="12px";
+  const ans = q.type==="tf" ? (q.a?"True":"False") : "ABCD"[q.answer];
+  f.innerHTML=`<b>${st.resp===undefined?"未作答":ok?"正确":"错误"} · 答案 ${ans}</b><div style="margin-top:4px">${esc(q.exp)}</div>`;
+  return f;
+}
+function matchScore(q,st){ let n=0; q.pairs.forEach((p,i)=>{ if(st.resp&&st.resp[i]===p[1]) n++; }); return n; }
+function isCorrect(q,st){
+  if(q.type==="tf") return st.resp===q.a;
+  if(q.type==="mcq") return st.resp===q.answer;
+  if(q.type==="match") return matchScore(q,st)===q.pairs.length;
+  return null;
+}
+function answered(q,st){
+  if(q.type==="match") return st.resp && Object.values(st.resp).filter(Boolean).length>0;
+  if(q.type==="essay") return !!(st.text&&st.text.trim());
+  return st.resp!==undefined;
+}
+
+/* ---------- PRACTICE ---------- */
+let prWeeks=null, prTypes=new Set(["tf","mcq","match","essay"]);
+function viewPractice(m,opts){
+  if(opts.weeks) prWeeks=new Set(opts.weeks);
+  if(!prWeeks) prWeeks=new Set(WEEKS.map(w=>w.week));
+  let list=[], i=0, states={}, unseenFirst=true, onlyIds=opts.ids||null;
+  m.innerHTML=`<section class="view">
+    <div class="panel" style="display:grid;gap:12px" id="prcfg">
+      <div id="pchips"></div>
+      <div class="chips" id="ptypes"></div>
+      <label class="row" style="gap:6px"><input type="checkbox" id="unseen" checked> 没做过的题优先</label>
+    </div>
+    <div class="progress"><i id="pbar" style="width:0"></i></div>
+    <div class="panel" id="qbox"></div>
+    <div class="row" style="justify-content:space-between">
+      <button class="btn" id="prev" type="button">上一题</button>
+      <span class="muted" id="pstat" style="font-family:var(--f-mono);font-size:.85rem"></span>
+      <button class="btn primary" id="next" type="button">下一题</button>
+    </div></section>`;
+  if(onlyIds){ $("#prcfg",m).innerHTML=`<div class="row" style="justify-content:space-between"><b>错题重做 · ${onlyIds.length} 题</b><button class="btn small" id="exitw" type="button">返回错题本</button></div>`; $("#exitw",m).onclick=()=>go("wrong"); }
+  else {
+    $("#pchips",m).appendChild(weekChips(prWeeks,build));
+    const tw=$("#ptypes",m);
+    ["tf","mcq","match","essay"].forEach(t=>{ const b=document.createElement("button"); b.className="chip"; b.type="button"; b.textContent=TYPE_ZH[t]; b.dataset.t=t; b.setAttribute("aria-pressed",prTypes.has(t));
+      b.onclick=()=>{ prTypes.has(t)?prTypes.delete(t):prTypes.add(t); if(!prTypes.size) prTypes.add(t); tw.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",prTypes.has(x.dataset.t))); build(); };
+      tw.appendChild(b); });
+    $("#unseen",m).onchange=e=>{unseenFirst=e.target.checked;build();};
+  }
+  function build(){
+    let pool = onlyIds ? onlyIds.map(id=>QBYID[id]).filter(Boolean) : Q.filter(q=>prWeeks.has(q.week)&&prTypes.has(q.type));
+    pool=shuffle(pool);
+    if(unseenFirst && !onlyIds) pool.sort((a,b)=>(S.stats[a.id]?1:0)-(S.stats[b.id]?1:0));
+    list=pool; i=0; states={}; show();
+  }
+  function show(){
+    const box=$("#qbox",m);
+    if(!list.length){ box.innerHTML=`<div class="empty">这个筛选下没有题目。</div>`; $("#pstat",m).textContent=""; return; }
+    const q=list[i]; states[q.id]=states[q.id]||{};
+    renderQuestion(q,box,{mode:"practice",state:states[q.id],counter:`<span>${i+1} / ${list.length}</span>`,onAnswer:stat});
+    $("#prev",m).disabled=i===0; $("#next",m).textContent=i===list.length-1?"完成":"下一题";
+    stat();
+  }
+  function stat(){
+    const ch=Object.entries(states).filter(([id,s])=>s.checked && QBYID[id].type!=="essay");
+    const ok=ch.filter(([id,s])=>isCorrect(QBYID[id],s)).length;
+    $("#pstat",m).textContent=`本轮 ${ok}/${ch.length} 正确`;
+    $("#pbar",m).style.width=(list.length?(i+1)/list.length*100:0)+"%";
+  }
+  $("#prev",m).onclick=()=>{ if(i>0){i--;show();} };
+  $("#next",m).onclick=()=>{ if(i<list.length-1){i++;show();} else { if(onlyIds) go("wrong"); else build(); } };
+  build();
+}
+
+/* ---------- EXAM ---------- */
+let EX=null, exTimer=null;
+const EXAM_PRESETS={
+  quick:{name:"快速版",min:30,tf:10,mcq:15,match:1,essay:1},
+  full:{name:"完整版",min:120,tf:20,mcq:30,match:3,essay:3}
+};
+function pickBalanced(type,n){
+  // spread across weeks evenly, prefer unseen / wrong
+  const byW={}; Q.filter(q=>q.type===type).forEach(q=>(byW[q.week]=byW[q.week]||[]).push(q));
+  Object.keys(byW).forEach(k=>byW[k]=shuffle(byW[k]).sort((a,b)=>score(a)-score(b)));
+  function score(q){ const s=S.stats[q.id]; if(S.wrong[q.id]) return 0; if(!s) return 1; return 2; }
+  const weeks=shuffle(Object.keys(byW)); const out=[]; let k=0;
+  while(out.length<n && weeks.some(w=>byW[w].length)){ const w=weeks[k%weeks.length]; if(byW[w].length) out.push(byW[w].shift()); k++; }
+  return shuffle(out);
+}
+function viewExam(m){
+  if(EX && EX.running){ examRun(m); return; }
+  if(EX && EX.finished){ examResult(m); return; }
+  m.innerHTML=`<section class="view">
+    <div class="panel"><div class="eyebrow">Mock final</div><h1 style="margin-top:4px">模拟考试</h1>
+      <p class="muted" style="margin:8px 0 0">题目按周均匀抽取，覆盖全部周次；错题和没做过的题优先出现。交卷前不显示对错。简答题交卷后对照评分要点自评。</p></div>
+    <div class="grid2">${Object.entries(EXAM_PRESETS).map(([k,p])=>`<div class="panel" style="display:grid;gap:8px">
+      <h2>${p.name} · ${p.min} 分钟</h2>
+      <div class="muted">${p.tf} 判断 · ${p.mcq} 单选 · ${p.match} 匹配 · ${p.essay} 简答</div>
+      <button class="btn ${k==="full"?"primary":""}" data-p="${k}" type="button">开始${p.name}</button></div>`).join("")}</div>
+  </section>`;
+  m.querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{
+    const p=EXAM_PRESETS[b.dataset.p];
+    const items=[...pickBalanced("tf",p.tf),...pickBalanced("mcq",p.mcq),...pickBalanced("match",p.match),...pickBalanced("essay",p.essay)];
+    EX={preset:p,items:items.map(q=>q.id),states:{},i:0,end:Date.now()+p.min*60000,running:true};
+    items.forEach(q=>EX.states[q.id]={});
+    go("exam");
+  });
+}
+function examRun(m){
+  m.innerHTML=`<section class="view">
+    <div class="panel" id="exbar" style="position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--hdr,92px));z-index:3;display:grid;gap:10px;padding:12px 16px">
+      <div class="row" style="justify-content:space-between"><b>${EX.preset.name}模拟考</b><span class="timer" id="timer"></span>
+      <button class="btn primary small" id="submit" type="button">交卷</button></div>
+      <div class="navdots" id="dots"></div>
+    </div>
+    <div class="panel" id="qbox"></div>
+    <div class="row" style="justify-content:space-between">
+      <button class="btn" id="prev" type="button">上一题</button>
+      <button class="btn" id="next" type="button">下一题</button>
+    </div>
+    <div id="confirm"></div></section>`;
+  function dots(){
+    const d=$("#dots",m); d.innerHTML="";
+    EX.items.forEach((id,k)=>{ const q=QBYID[id]; const b=document.createElement("button"); b.type="button"; b.textContent=k+1; b.title=TYPE_ZH[q.type];
+      if(answered(q,EX.states[id])) b.classList.add("done"); if(k===EX.i) b.classList.add("cur");
+      b.onclick=()=>{EX.i=k;show();}; d.appendChild(b); });
+  }
+  function show(){
+    const id=EX.items[EX.i], q=QBYID[id];
+    renderQuestion(q,$("#qbox",m),{mode:"exam",state:EX.states[id],counter:`<span>${EX.i+1} / ${EX.items.length}</span>`,onAnswer:dots});
+    $("#prev",m).disabled=EX.i===0; $("#next",m).disabled=EX.i===EX.items.length-1; dots();
+  }
+  $("#prev",m).onclick=()=>{EX.i--;show();};
+  $("#next",m).onclick=()=>{EX.i++;show();};
+  $("#submit",m).onclick=()=>{
+    const left=EX.items.filter(id=>!answered(QBYID[id],EX.states[id])).length;
+    const c=$("#confirm",m);
+    c.innerHTML=`<div class="panel" style="display:grid;gap:10px;border-color:var(--warn)"><b>确定交卷？</b><span class="muted">${left?`还有 ${left} 题未作答。`:"全部已作答。"}</span>
+      <div class="row"><button class="btn primary" id="yes" type="button">交卷并查看成绩</button><button class="btn" id="no" type="button">继续作答</button></div></div>`;
+    $("#yes",c).onclick=finishExam; $("#no",c).onclick=()=>c.innerHTML="";
+    c.scrollIntoView({behavior:"smooth",block:"center"});
+  };
+  clearInterval(exTimer);
+  const tick=()=>{ const t=$("#timer"); const ms=EX.end-Date.now(); if(ms<=0){ finishExam(); return; }
+    if(t){ const mm=Math.floor(ms/60000), ss=Math.floor(ms%60000/1000); t.textContent=`${String(mm).padStart(2,"0")}:${String(ss).padStart(2,"0")}`; t.classList.toggle("low",ms<5*60000);} };
+  tick(); exTimer=setInterval(tick,1000);
+  show();
+}
+function finishExam(){
+  clearInterval(exTimer);
+  EX.running=false; EX.finished=true; EX.i=0;
+  EX.items.forEach(id=>{ const q=QBYID[id]; if(q.type!=="essay" && answered(q,EX.states[id])) record(q,!!isCorrect(q,EX.states[id])); });
+  if(current==="exam") go("exam");
+}
+function examResult(m){
+  const obj=EX.items.map(id=>QBYID[id]).filter(q=>q.type!=="essay");
+  const ok=obj.filter(q=>isCorrect(q,EX.states[q.id])).length;
+  const byW={}; obj.forEach(q=>{ const r=byW[q.week]||(byW[q.week]={c:0,t:0}); r.t++; if(isCorrect(q,EX.states[q.id])) r.c++; });
+  const byT={}; obj.forEach(q=>{ const r=byT[q.type]||(byT[q.type]={c:0,t:0}); r.t++; if(isCorrect(q,EX.states[q.id])) r.c++; });
+  m.innerHTML=`<section class="view">
+    <div class="panel"><div class="eyebrow">Result</div>
+      <div class="row" style="align-items:flex-end;gap:18px;margin-top:6px"><div class="score">${ok} / ${obj.length}</div><div class="muted">客观题正确率 ${obj.length?Math.round(ok/obj.length*100):0}% · 简答题请在下方逐题对照要点自评</div></div>
+      <div class="row" style="margin-top:12px"><button class="btn primary" id="newex" type="button">再考一次</button><button class="btn" id="towrong" type="button">去错题本</button></div></div>
+    <div class="grid2">
+      <div class="panel"><h3>按周</h3><div class="scroll-x"><table class="res" style="margin-top:6px"><tr><th>周</th><th>正确</th><th>正确率</th></tr>
+        ${Object.keys(byW).sort((a,b)=>a-b).map(w=>`<tr><td>Week ${w}</td><td class="n">${byW[w].c}/${byW[w].t}</td><td class="n">${Math.round(byW[w].c/byW[w].t*100)}%</td></tr>`).join("")}</table></div></div>
+      <div class="panel"><h3>按题型</h3><div class="scroll-x"><table class="res" style="margin-top:6px"><tr><th>题型</th><th>正确</th><th>正确率</th></tr>
+        ${Object.keys(byT).map(t=>`<tr><td>${TYPE_ZH[t]}</td><td class="n">${byT[t].c}/${byT[t].t}</td><td class="n">${Math.round(byT[t].c/byT[t].t*100)}%</td></tr>`).join("")}</table></div></div>
+    </div>
+    <div class="panel" style="display:grid;gap:10px;padding:12px 16px"><b>逐题回看</b><div class="navdots" id="dots"></div></div>
+    <div class="panel" id="qbox"></div>
+    <div class="row" style="justify-content:space-between"><button class="btn" id="prev" type="button">上一题</button><button class="btn" id="next" type="button">下一题</button></div>
+  </section>`;
+  $("#newex",m).onclick=()=>{EX=null;go("exam");};
+  $("#towrong",m).onclick=()=>go("wrong");
+  function show(){
+    const id=EX.items[EX.i], q=QBYID[id];
+    renderQuestion(q,$("#qbox",m),{mode:"exam",review:true,state:EX.states[id],counter:`<span>${EX.i+1} / ${EX.items.length}</span>`});
+    const d=$("#dots",m); d.innerHTML="";
+    EX.items.forEach((id2,k)=>{ const q2=QBYID[id2]; const b=document.createElement("button"); b.type="button"; b.textContent=k+1;
+      if(q2.type!=="essay") b.classList.add(isCorrect(q2,EX.states[id2])?"r":"w"); else b.classList.add("done");
+      if(k===EX.i) b.classList.add("cur"); b.onclick=()=>{EX.i=k;show();}; d.appendChild(b); });
+    $("#prev",m).disabled=EX.i===0; $("#next",m).disabled=EX.i===EX.items.length-1;
+  }
+  $("#prev",m).onclick=()=>{EX.i--;show();};
+  $("#next",m).onclick=()=>{EX.i++;show();};
+  show();
+}
+
+/* ---------- WRONG BOOK ---------- */
+function viewWrong(m){
+  const ids=Object.keys(S.wrong).filter(id=>QBYID[id]).sort((a,b)=>S.wrong[b]-S.wrong[a]);
+  m.innerHTML=`<section class="view">
+    <div class="panel"><div class="row" style="justify-content:space-between"><h1>错题本</h1>
+      <div class="row"><button class="btn primary" id="redo" type="button" ${ids.length?"":"disabled"}>重做全部 ${ids.length} 题</button></div></div>
+      <p class="muted" style="margin:6px 0 0">做错的题会自动进来。重做时答对后可以点“移出”。</p></div>
+    <div class="panel" id="wl">${ids.length?"":'<div class="empty">还没有错题。去做几道练习或一次模拟考吧。</div>'}</div></section>`;
+  $("#redo",m).onclick=()=>go("practice",{ids:shuffle(ids)});
+  const wl=$("#wl",m);
+  ids.forEach(id=>{
+    const q=QBYID[id]; const s=S.stats[id]||{c:0,w:0};
+    const d=document.createElement("div"); d.className="wrong-item";
+    const ans = q.type==="tf"?(q.a?"True":"False"):q.type==="mcq"?"ABCD"[q.answer]+". "+q.options[q.answer]:q.pairs.map(p=>p[0]+" → "+p[1]).join("；");
+    d.innerHTML=`<div class="row" style="justify-content:space-between"><span><span class="tag">W${q.week}</span> <span class="muted">${TYPE_ZH[q.type]} · 对 ${s.c} 次 / 错 ${s.w} 次</span></span>
+      <button class="btn small ghost" type="button">移出</button></div>
+      <div style="font-weight:500">${esc(q.q||q.title)}</div>
+      <details><summary style="cursor:pointer;color:var(--accent);font-weight:600">答案与解析</summary><div style="margin-top:6px"><b>${esc(ans)}</b>${q.exp?`<div class="muted">${esc(q.exp)}</div>`:""}</div></details>`;
+    d.querySelector("button").onclick=()=>{ delete S.wrong[id]; save(); d.remove(); };
+    wl.appendChild(d);
+  });
+}
+
+/* ---------- boot ---------- */
+const start=(location.hash||"").slice(1);
+if(!WEEKS.length){ $("#main").innerHTML='<div class="panel empty">题库数据没有加载。</div>'; }
+else go(views[start]?start:"home");
+})();
+</script>

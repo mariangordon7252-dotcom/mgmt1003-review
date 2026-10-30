@@ -1,0 +1,555 @@
+{
+  "week": 11,
+  "points": [
+    {
+      "id": "w11-p01",
+      "title": "组织文化是成员共同学会的做事方式",
+      "titleEn": "Organisational culture as shared learned assumptions",
+      "kp": "组织文化是成员在共同经历中学到的共享知识、价值、信念与假设，影响他们认为什么是适当的工作方式（Schein & Schein 2017）。看似成功的做法逐渐被接受，甚至被视为理所当然。",
+      "howTo": "题干问文化是什么，选「共同经历中学到的共享假设」，不选「官网价值清单」或「管理层规定」。题干只给价值清单或开会制度就要你判断文化，答案是还要看日常行为、决策、优先级和成员实际经历。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Organisational culture consists of the shared knowledge, values, beliefs and assumptions that members learn through common experience, shaping what they see as appropriate ways of working.",
+          "a": true,
+          "how": ["这正是课程对组织文化的定义：共同经历中学到的共享知识、价值、信念与假设。", "题目说法完整正确，是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A team consistently praises people who proactively help colleagues. New hires gradually learn that when they hit a problem they should seek collaboration. This illustrates that culture is:",
+          "options": ["Written down in the employee handbook", "Learned through shared experience and reinforced by what gets recognised", "Determined by the national culture of the country", "Fixed at the founding of the organisation"],
+          "answer": 1,
+          "how": ["「consistently praises」「gradually learn」说明新人是从反复的共同经历里学到做法的。", "文化是在共同经历中学到的共享期待，选 B。", "A 把文化等同于手册文字，手册只是线索。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A consultant reads a company's website list of values and concludes she now understands its culture. What is missing?",
+          "options": ["Nothing, stated values define culture", "Evidence of everyday behaviour, decisions, priorities and members' actual experiences", "The company's financial results", "A Hofstede score for the country"],
+          "answer": 1,
+          "how": ["题干里顾问只看了「website list of values」。", "价值清单只是线索，理解文化还要看日常行为、决策、优先级和成员经历，选 B。", "D 把国家文化拉进来，而国家文化不等于组织文化。"]
+        },
+        {
+          "type": "tf",
+          "q": "According to Schein and Schein (2017), practices that appear to work tend to be accepted over time and may eventually be taken for granted.",
+          "a": true,
+          "how": ["群体在回应外部要求和内部关系时学习，看似成功的做法逐渐被接受甚至理所当然。", "题目说法正确，是 True。"]
+        }
+      ],
+      "recap": "文化是共同经历中学到的共享假设；价值清单只是线索，要看行为、决策和成员经历。"
+    },
+    {
+      "id": "w11-p02",
+      "title": "Schein 的三个文化层次",
+      "titleEn": "Schein's three levels of culture",
+      "kp": "Schein 三层：artifacts 是可见表征（布局、衣着、语言、会议）；espoused values 是正式宣称的信念与价值（使命、政策）；basic assumptions 是习以为常、未经讨论的深层信念。",
+      "howTo": "看题干描述的东西：看得见、摸得着的是 artifacts；写在使命和政策里、公开说的是 espoused values；没人说出口却默认支配行动的是 basic assumptions。记住容易观察不等于容易解释。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A firm's mission statement stresses openness and it holds monthly town-hall meetings, yet employees privately believe that questioning a manager will damage their careers. The private belief is:",
+          "options": ["An artifact", "An espoused value", "A basic underlying assumption", "A ritual"],
+          "answer": 2,
+          "how": ["「privately believe」说明它没有被公开讨论，却在支配大家的行为。", "习以为常、未经讨论的深层信念是 basic underlying assumption，选 C。", "town-hall 会议是 artifact，使命里的 openness 是 espoused value。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following would Schein classify as an artifact?",
+          "options": ["The belief, never discussed, that mistakes must be hidden", "An open-plan office layout and the dress code", "The value of integrity listed in the code of conduct", "The purpose statement in the annual report"],
+          "answer": 1,
+          "how": ["题干问哪个是「artifact」，也就是可见表征。", "办公布局和着装规范都是看得见的，选 B。", "C 和 D 是正式宣称的价值，A 是深层假设。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because artifacts are the easiest level of culture to observe, they are also the easiest level to interpret correctly.",
+          "a": false,
+          "how": ["容易观察不代表容易解释：开会或开放式办公室本身证明不了成员敢提异议。", "题目把「容易看到」等同于「容易解释」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company holds weekly open meetings. A student concludes this proves staff feel safe to disagree with managers. What is wrong with this inference?",
+          "options": ["Nothing, meetings are a basic assumption", "Meetings are an artifact; whether people feel safe to disagree requires checking decisions and members' actual experience", "Meetings are an espoused value and therefore always practised", "Open meetings are a Hofstede dimension"],
+          "answer": 1,
+          "how": ["题干从「weekly open meetings」直接推出「feel safe to disagree」。", "会议只是可见表征，敢不敢说要看决策和成员经历，选 B。", "C 错在认为宣称了就一定被践行。"]
+        }
+      ],
+      "recap": "看得见的是 artifacts，说出来的是 espoused values，默认不说的是 basic assumptions。"
+    },
+    {
+      "id": "w11-p03",
+      "title": "宣称价值、践行价值与亚文化",
+      "titleEn": "Stated values, practised values and subcultures",
+      "kp": "Stated values 是组织正式说什么重要；practised values 体现在实际决策、谁被认可、什么行为被纠正。两者有差距不能直接断定全员虚伪。组织内还有 subcultures：不同团队、职业、地点有不同期待。",
+      "howTo": "要找「践行的价值」，选看决策、认可和纠正的证据，不选官网、使命或讲话。看到说做不一致，答先查差距发生在哪些单位、哪些条件下，不能一概而论。只凭一个部门就推全组织文化的说法也错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A new HR analyst wants to know what the company really values. Which source is most informative?",
+          "options": ["The code of conduct posted in the lobby", "Who got promoted last year and what happened when deadlines clashed with safety", "The slogan on the staff lanyards", "The founder's conference speech"],
+          "answer": 1,
+          "how": ["题干问公司「really values」什么，也就是践行价值。", "践行价值藏在实际决策和认可里：谁被晋升、冲突时怎么选，选 B。", "A、C、D 都是宣称层面的东西，只能说明组织想表达什么。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company states that it values employee wellbeing but repeatedly refuses to address excessive workloads. What should an analyst conclude first?",
+          "options": ["Everyone in the company is hypocritical", "There is a gap between stated and practised values; investigate where it occurs and why", "The stated value is therefore false everywhere", "Wellbeing is a basic underlying assumption"],
+          "answer": 1,
+          "how": ["题干给出说（「values wellbeing」）和做（「refuses to address」）不一致。", "这是宣称与践行的差距，要先查发生在哪些单位、什么条件下，选 B。", "A 和 C 一见差距就判全员虚伪，讲义明确反对。"]
+        },
+        {
+          "type": "tf",
+          "q": "In one company the R&D team habitually experiments first while the operations team checks procedures first; this shows that an organisation can contain subcultures.",
+          "a": true,
+          "how": ["同一组织里不同团队、职业或地点可以形成不同的期待模式，这就是亚文化。", "题目描述正确，是 True。"]
+        },
+        {
+          "type": "tf",
+          "q": "Interviewing employees in a single department is sufficient to describe the culture of the whole organisation.",
+          "a": false,
+          "how": ["文化分析要问描述的是谁的经历、哪个模式被广泛共享。", "题目只靠「a single department」推全组织，所以是 False。"]
+        }
+      ],
+      "recap": "想知道真正的价值，看谁被认可、冲突时怎么选；有差距先查在哪发生，别判全员虚伪。"
+    },
+    {
+      "id": "w11-p04",
+      "title": "Built to Last 与误区一",
+      "titleEn": "Built to Last and the great-idea myth",
+      "kp": "Built to Last（Collins & Porras 1994）比较 18 家远见型公司和 18 家对照公司的历史，不是永久成功公式。误区一：成功不必始于绝妙产品，Sony 前身试制的电饭煲失败，后来靠持续学习和能力发展。",
+      "howTo": "问研究方法，答历史比较，不是实验，也不保证书中公司永远领先。题干出现「失败的第一个产品」「必须有绝妙创意」，对应误区一：看持续学习、能力和后续机会，好产品仍重要但单一产品不够。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Collins and Porras's Built to Last was an experimental study that proved culture causes long-term success.",
+          "a": false,
+          "how": ["Built to Last 是对 18 家远见型公司和 18 家对照公司的历史比较，不是实验。", "历史比较不能断言文化是成功的唯一原因，题目说「experimental」「proved」，是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Before Tokyo Tsushin Kogyo was founded, Masaru Ibuka's lab built a rice cooker that cooked unevenly and failed. Which Built to Last myth does this case challenge?",
+          "options": ["Great companies must start with a great initial idea or product", "Great companies need a charismatic leader", "Profit must be the sole purpose", "Adapting means changing core values"],
+          "answer": 0,
+          "how": ["题干的线索是「rice cooker… failed」，第一个产品失败了。", "这个案例反驳的是「必须始于绝妙产品」，看的是持续学习和后续机会，选 A。", "魅力领导是误区二，利润是误区三，核心价值是误区四。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A start-up founder is discouraged because the first prototype flopped. Based on Built to Last, which advice fits?",
+          "options": ["A failed first product means long-term success is impossible", "A great first product is necessary, so abandon everything and start over with a new idea", "One failed prototype does not exhaust later possibilities; keep building capability and look for further opportunities", "Failure has no cost, so ignore it"],
+          "answer": 2,
+          "how": ["题干是「first prototype flopped」之后的沮丧。", "误区一的要点是一次原型失败不穷尽后续发展，选 C。", "D 走过头：讲义也说不能反推失败没有代价。"]
+        },
+        {
+          "type": "tf",
+          "q": "Because the Built to Last companies were successful when the book was written, the book guarantees they will stay ahead forever.",
+          "a": false,
+          "how": ["历史比较材料不能保证书中公司此后永远领先。", "题目用「guarantees… forever」，所以是 False。"]
+        }
+      ],
+      "recap": "Built to Last 是 18 对 18 的历史比较；误区一：不必始于绝妙产品（Sony 电饭煲）。"
+    },
+    {
+      "id": "w11-p05",
+      "title": "误区二：造钟而非报时",
+      "titleEn": "Clock building rather than time telling",
+      "kp": "误区二：造钟（clock building）胜过报时（time telling）。报时依赖个人知识与魅力；造钟建立超越个人任期的组织能力：明确职责、程序惯例、接班安排和共享价值。魅力有帮助，但不等于建设耐久组织。",
+      "howTo": "题干里一切靠创始人或某位魅力领导拍板、他一走组织就乱，是 time telling；建立不依赖某个人的制度、接班和共享价值，是 clock building。别推成「领导不重要」。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A founder personally makes every key decision and develops no routines or successors; after he retires the company struggles. In Built to Last terms he was:",
+          "options": ["Clock building", "Time telling", "Preserving the core", "Stimulating progress"],
+          "answer": 1,
+          "how": ["「personally makes every key decision」「no routines or successors」说明组织全靠他一个人。", "靠个人知识与魅力报出此刻的答案，是 time telling，选 B。", "造钟是留下他不在场也能运作的机制，题干正好相反。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which action is the clearest example of clock building?",
+          "options": ["The CEO gives an inspiring speech at every town hall", "The firm documents key procedures, trains deputies and plans succession for critical roles", "The founder's photo is placed in every office", "Staff rely on the CEO to resolve every dispute"],
+          "answer": 1,
+          "how": ["题干问「clock building」的例子。", "建立程序、培养接班人、安排继任，这些能力超越个人任期，选 B。", "A 和 D 都依赖领导个人，属于报时。"]
+        },
+        {
+          "type": "tf",
+          "q": "The clock-building idea implies that leaders are unimportant for building an enduring organisation.",
+          "a": false,
+          "how": ["讲义说魅力可以帮助沟通和动员，造钟并不意味着领导者不重要。", "题目推成「unimportant」，所以是 False。"]
+        }
+      ],
+      "recap": "靠一个人拍板是报时；留下制度、接班和共享价值是造钟。"
+    },
+    {
+      "id": "w11-p06",
+      "title": "误区三与误区四：核心理念与保留核心",
+      "titleEn": "Core ideology; preserve the core, stimulate progress",
+      "kp": "误区三：利润不必是唯一宗旨，core ideology 是核心价值加更广宗旨。误区四：preserve the core, stimulate progress，保留核心承诺、更新具体做法，不是保护所有旧惯例。",
+      "howTo": "说「利润最大化必须压倒一切」或问 core ideology 的组成，是误区三；组织守住宗旨却换了方法，是误区四「保留核心、推动进步」；说保护所有旧做法或适应就得丢掉核心价值，都错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "In Built to Last, core ideology consists of:",
+          "options": ["Profit targets and market share", "Core values plus a broader purpose beyond making money", "Artifacts and espoused values", "Consensus and intensity"],
+          "answer": 1,
+          "how": ["题干问「core ideology」由什么组成。", "核心理念是持久的核心价值加上超越赚钱的更广宗旨，选 B。", "D 是文化强度的两个成分，别混。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A children's charity keeps its purpose of protecting vulnerable children, but replaces its paper case files with a digital system and retrains all staff. This best illustrates:",
+          "options": ["Abandoning core ideology", "Preserve the core, stimulate progress", "Time telling", "Cultural mismatch"],
+          "answer": 1,
+          "how": ["「keeps its purpose」是保留核心，「replaces… retrains」是更新做法。", "保留核心承诺、改变运作方式，就是 preserve the core, stimulate progress，选 B。", "A 错在把换方法当成放弃理念。"]
+        },
+        {
+          "type": "tf",
+          "q": "The Built to Last framework holds that financial results do not matter as long as the company has a broader purpose.",
+          "a": false,
+          "how": ["误区三说的是利润不必是唯一宗旨，不是说财务结果不重要。", "题目推成「do not matter」，所以是 False。"]
+        },
+        {
+          "type": "tf",
+          "q": "Preserving the core means an organisation should protect all of its familiar routines and practices from change.",
+          "a": false,
+          "how": ["要保留的是核心理念，具体做法可以更新；管理者还要分清什么是核心、什么只是熟悉惯例。", "题目说保护「all… routines」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A store clerk can either save a small after-sales cost or solve a customer's problem. According to the lecture, how do we know whether the firm's stated service purpose is really at work?",
+          "options": ["By reading the slogan on the wall", "By looking at what decisions are actually made and what gets rewarded", "By checking whether a profit was made that quarter", "By counting the company's core values"],
+          "answer": 1,
+          "how": ["题干问服务宗旨是否「really at work」。", "表达了宗旨不证明每个决定都兑现，要看实际决策和奖励安排，选 B。", "A 的标语只是宣称。"]
+        }
+      ],
+      "recap": "core ideology 是核心价值加更广宗旨；守住核心承诺、更新具体做法。"
+    },
+    {
+      "id": "w11-p07",
+      "title": "文化强度：共识、强度与内容",
+      "titleEn": "Culture strength: consensus, intensity and content",
+      "kp": "文化强度（Chatman & O'Reilly 2016）有两部分：consensus 是期待被共享的广度，intensity 是成员认同并通过行为和社会压力强化的程度。强度不等于内容：内容是大家支持什么行为，强文化不是自动的赞美。",
+      "howTo": "题干说「大多数人都认同」是高 consensus，「认真执行、互相提醒」是高 intensity。两家都高度一致但支持的做法不同，是强度相同、内容不同。说强文化一定好、一定高绩效的都错。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Culture strength includes both consensus (how widely expectations are shared) and intensity (how strongly they are held and reinforced).",
+          "a": true,
+          "how": ["Chatman 与 O'Reilly 的文化强度正是这两个成分：共享的广度和坚持、强化的程度。", "题目说法正确，是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In a restaurant kitchen every cook agrees that stations should be cleaned before service, but nobody says anything when someone skips it. This describes:",
+          "options": ["High consensus and high intensity", "High consensus but low intensity", "Low consensus and high intensity", "Low culture content"],
+          "answer": 1,
+          "how": ["「every cook agrees」是共识广，「nobody says anything when someone skips」是缺少社会强化。", "共享广但坚持和强化弱，是高 consensus、低 intensity，选 B。", "强度看的是认同和强化的程度，不是认同的人数。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Two organisations are both highly unified. One firmly supports experimenting with new methods; the other firmly requires following procedures to avoid errors. Which conclusion is correct?",
+          "options": ["Only the experimenting organisation has a strong culture", "Both may have strong cultures but differ in culture content", "Both have weak cultures because they differ", "Both will necessarily perform equally well"],
+          "answer": 1,
+          "how": ["两家都「highly unified」，强度都高。", "强度看共享和坚持的程度，内容看支持什么行为，两家强度相同、内容不同，选 B。", "D 错在从强度推绩效；内容合不合适还要结合任务和环境。"]
+        },
+        {
+          "type": "tf",
+          "q": "A strong culture is by definition a good culture that will deliver higher performance.",
+          "a": false,
+          "how": ["强度只说明大家一致，内容是否合适、合乎伦理、绩效更高要另外评价。", "题目把「强」等同于「好」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which of the following is NOT an indicator of culture strength as defined in the lecture?",
+          "options": ["How widely an expectation is shared", "How strongly members hold and socially reinforce it", "How loud the slogans are and how forceful the manager is", "Whether members correct each other when the expectation is breached"],
+          "answer": 2,
+          "how": ["题干要找「NOT」强度指标。", "强度不是标语音量或经理意志强弱，选 C。", "A 是 consensus，B 和 D 是 intensity 的表现。"]
+        }
+      ],
+      "recap": "强度看共识广度和坚持力度，内容看支持什么；强文化不等于好文化。"
+    },
+    {
+      "id": "w11-p08",
+      "title": "Sørensen：强文化与绩效可靠性",
+      "titleEn": "Sørensen (2002): culture strength and performance reliability",
+      "kp": "Sørensen（2002）：强文化在较稳定环境中与更可靠（一致、稳定）的绩效相关，这个优势在波动环境中消失。可靠不等于利润最高，优势消失也不等于必然下降；这是关联，不是因果定律。",
+      "howTo": "题干说环境稳定，答强文化与绩效更可靠相关；说环境剧变，答可靠性优势消失、要检查共享期待是否还匹配。选项里出现「保证最高利润」「必然导致下降」「任何环境都无关」都错。",
+      "items": [
+        {
+          "type": "tf",
+          "q": "Sørensen (2002) found that strong cultures were associated with more reliable performance in relatively stable environments.",
+          "a": true,
+          "how": ["稳定环境里，强文化与更一致、稳定的绩效相关。", "题目说法正确，是 True。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Harbour Freight's staff all strictly follow established processes, which gave very consistent delivery for decades in a stable market. Now customer demands and technology shift every few months. Based on Sørensen (2002), the most accurate expectation is:",
+          "options": ["Its strong culture guarantees the highest profits", "Its performance will necessarily decline", "The performance-reliability advantage may disappear, so managers should check whether shared expectations still fit", "Culture strength is unrelated to performance in any environment"],
+          "answer": 2,
+          "how": ["「for decades in a stable market」时绩效一致，「shift every few months」说明环境变成波动。", "Sørensen 的结论是可靠性优势在波动环境中消失，所以要检查期待是否还匹配，选 C。", "B 说「necessarily decline」过头了，优势消失不等于必然下降。"]
+        },
+        {
+          "type": "tf",
+          "q": "In Sørensen's study, 'reliable performance' means earning the highest profits in every situation.",
+          "a": false,
+          "how": ["可靠指绩效一致、稳定，不是每种情境下利润最高。", "题目偷换了「可靠」的含义，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager reads Sørensen's finding and says: 'So in volatile markets a strong culture will cause performance to drop.' Which correction is right?",
+          "options": ["The finding shows the advantage disappears; it does not show that strong culture causes decline, and it is an association, not a causal law", "The manager is correct", "The finding applies only to profits", "Strong cultures always help in volatile markets"],
+          "answer": 0,
+          "how": ["经理把「优势消失」说成了「cause performance to drop」。", "研究呈现的是关联，结论边界是优势消失，不是必然下降，选 A。", "D 把结论反过来了，也不对。"]
+        }
+      ],
+      "recap": "Sørensen：稳定环境里强文化更可靠，波动环境里优势消失；可靠不是高利润。"
+    },
+    {
+      "id": "w11-p09",
+      "title": "五种可见的文化形式",
+      "titleEn": "Five visible forms of culture",
+      "kp": "Trice 与 Beyer 的五种可见形式：ritual 反复参与的活动（Walmart cheer）、slogan 短语、ceremony 公开标记成就、hero 榜样人物、symbol 承载意义的物件或图像。",
+      "howTo": "反复一起做的活动是 ritual；一句短语是 slogan；公开表彰是 ceremony；被反复讲述的人物是 hero；物件、图像是 symbol。同一活动可含几种形式；形式本身不证明实践，还要核查成员经历。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Walmart employees repeatedly perform a cheer that spells out the company name and stresses customers first. This is best classified as a:",
+          "options": ["Symbol", "Hero", "Slogan", "Ritual"],
+          "answer": 3,
+          "how": ["「repeatedly perform」是成员反复参与的活动。", "反复参与并表达共享意义的活动是 ritual，选 D。", "cheer 里的话语像口号，但题干强调的是反复一起做这件事。"]
+        },
+        {
+          "type": "mcq",
+          "q": "An organisation keeps retelling the story of an employee who went out of her way to solve a customer's problem, so that new staff know what gets remembered. The employee functions as a:",
+          "options": ["Hero", "Symbol", "Ceremony", "Slogan"],
+          "answer": 0,
+          "how": ["「retelling the story of an employee」是把一个人当作有价值行为的范例。", "榜样人物就是 hero，选 A。", "分析时还要问故事赞扬了什么、遗漏了谁。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Nike's 'Just Do It' campaign launched in 1988 with an 80-year-old runner. What can an analyst conclude about Nike's internal culture from the slogan alone?",
+          "options": ["That employees enjoy persistence and autonomy at work", "Very little: a slogan compresses an intended message, and internal practice must be checked separately", "That Nike has a strong culture", "That the slogan is a basic underlying assumption"],
+          "answer": 1,
+          "how": ["题干问「from the slogan alone」能推出什么。", "口号只说明组织想表达什么，内部文化要另查员工访谈和内部做法，选 B。", "A 和 C 都从一句广告语跳到了内部文化的结论。"]
+        },
+        {
+          "type": "mcq",
+          "q": "What is the key difference between a ritual and a ceremony?",
+          "options": ["A ritual is a repeated activity expressing shared meaning; a ceremony is a planned public marking of an event or achievement", "A ritual is written; a ceremony is spoken", "A ceremony is informal; a ritual is formal", "There is no difference"],
+          "answer": 0,
+          "how": ["题干问 ritual 和 ceremony 的区别。", "ritual 重在反复参与，ceremony 重在有计划地公开标记事件或成就，选 A。", "两者可以重叠，比如年度颁奖礼里既有固定流程又有公开表彰。"]
+        },
+        {
+          "type": "tf",
+          "q": "Nordstrom's inverted pyramid, with customers at the top, proves that frontline staff always have the authority and resources to solve customer problems.",
+          "a": false,
+          "how": ["倒金字塔是表达优先事项的 symbol，图像不能证明每次都贯彻服务理念。", "要核查一线是否真有权限和资源，题目说「proves… always」，是 False。"]
+        }
+      ],
+      "recap": "反复做的是 ritual，短语是 slogan，公开表彰是 ceremony，人物是 hero，物件是 symbol。"
+    },
+    {
+      "id": "w11-p10",
+      "title": "Hofstede 六维度及其限制",
+      "titleEn": "Hofstede's six dimensions and their limits",
+      "kp": "Hofstede 六维度：权力距离、个人主义与集体主义、不确定性规避、男性化与女性化、长期与短期取向、放纵与约束。它们描述国家层面的广泛倾向，不等于个人行为，也不等于组织文化。",
+      "howTo": "「接受权力不平等」是 power distance，「偏好清楚规则」是 uncertainty avoidance。用国家标签直接断定某个人或某家公司的选项都错；正确做法是用维度提问、再观察。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A culture in which people feel uncomfortable with ambiguity and prefer clear rules and predictability scores high on:",
+          "options": ["Power distance", "Uncertainty avoidance", "Indulgence", "Individualism"],
+          "answer": 1,
+          "how": ["「uncomfortable with ambiguity」「prefer clear rules」是对不确定感的不适。", "这是 uncertainty avoidance，选 B。", "Power distance 说的是对权力不平等的接受，不是对模糊的态度。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Which Hofstede dimension concerns the extent to which people accept unequal distribution of power and hierarchy?",
+          "options": ["Long-term orientation", "Masculinity/femininity", "Power distance", "Restraint"],
+          "answer": 2,
+          "how": ["「accept unequal distribution of power」就是对权力不平等的接受。", "这是 power distance，选 C。", "Masculinity/femininity 说的是竞争成就与合作生活质量等社会期待。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A manager learns that her new team members come from a country with high uncertainty avoidance. The most appropriate use of this information is to:",
+          "options": ["Assume every member wants strict rules", "Assume the company culture mirrors the national culture", "Use it to ask members what rules and information they need, then observe", "Ignore it completely"],
+          "answer": 2,
+          "how": ["题干给的只是「country with high uncertainty avoidance」这个国家层面的信息。", "正确做法是用维度提出问题、再观察实际需要，选 C。", "A 把国家倾向当成每个人的定律，B 把国家文化当成组织文化，都是讲义点名的限制。"]
+        },
+        {
+          "type": "tf",
+          "q": "Hofstede's dimensions describe national-level tendencies and cannot be used to reliably predict an individual employee's behaviour or an organisation's culture.",
+          "a": true,
+          "how": ["三项限制：国家文化不是个人行为，不是组织文化，维度是大体倾向不是固定规则。", "题目把这三点都说对了，是 True。"]
+        },
+        {
+          "type": "tf",
+          "q": "The masculinity/femininity dimension is a judgement about the gender of individual employees.",
+          "a": false,
+          "how": ["这是历史框架的标签，指竞争成就与合作生活质量等社会期待。", "题目把它当成个人性别判断，所以是 False。"]
+        }
+      ],
+      "recap": "Hofstede 六维度是国家层面的倾向，用来提问，不能直接套到个人或组织。"
+    },
+    {
+      "id": "w11-p11",
+      "title": "独立与互依自我、文化错配",
+      "titleEn": "Independent and interdependent self; cultural mismatch",
+      "kp": "独立自我强调个人属性与偏好，互依自我强调关系、角色和相互依存（Markus & Kitayama 1991），人可随情境表现两种。Cultural mismatch 是制度期待与成员价值不符，差异不等于能力不足。",
+      "howTo": "先讲自己的专长和偏好是独立自我，先讲角色和关系是互依自我。题干里组织默认的期待和成员价值对不上、让人不适，是 cultural mismatch；选项里出现「能力不足」「所有第一代学生都互依」「适用于所有国家」都错。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Asked 'who are you?', one student answers 'curious, ambitious and good at maths'; another answers 'the eldest daughter and the organiser of my study group'. These reflect, respectively:",
+          "options": ["Interdependent and independent self", "Independent and interdependent self", "Individualism and power distance", "Artifacts and espoused values"],
+          "answer": 1,
+          "how": ["第一位答的是个人属性（「curious, ambitious」），第二位答的是角色和关系。", "个人属性是 independent self，关系和角色是 interdependent self，选 B。", "这只是当下的表现，不能据此给人贴永久标签。"]
+        },
+        {
+          "type": "tf",
+          "q": "A person with an interdependent self-view lacks individual ability and cannot work independently.",
+          "a": false,
+          "how": ["互依取向强调关系和角色，不等于没有个人能力；独立取向也不等于不合作。", "题目把取向推成能力，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "Stephens et al. (2012) studied US universities. What did they find?",
+          "options": ["All first-generation students are interdependent and less capable", "Norms emphasising independence mismatched the interdependent orientation of some first-generation students, who experienced discomfort, found tasks harder and performed worse", "National culture determines university performance", "First-generation students are first-generation immigrants"],
+          "answer": 1,
+          "how": ["题干问 Stephens 等人的发现。", "强调独立的大学规范与部分第一代学生的互依取向错配，带来不适、任务更难和表现较差，选 B。", "A 用了「All」，D 把第一代学生（父母未上大学）误读成第一代移民。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A company gives awards only to individual top performers. A new employee who values shared team contribution feels her team's support goes unrecognised and becomes less engaged. This is best explained as:",
+          "options": ["Low culture strength", "Lack of individual ability", "Cultural mismatch between the firm's independent-style practices and her interdependent orientation", "Time telling"],
+          "answer": 2,
+          "how": ["公司只奖个人（独立取向的做法），她看重「shared team contribution」（互依取向）。", "制度期待与成员价值不符就是 cultural mismatch，选 C。", "B 把不适当成能力不足，正是讲义警告的错误推论。"]
+        },
+        {
+          "type": "tf",
+          "q": "Any cultural difference between a member and the organisation automatically constitutes a mismatch that disadvantages the member.",
+          "a": false,
+          "how": ["文化差异不必然等于错配，更不自动造成劣势，要核查实际期待、个人经验和结果。", "题目说「automatically」，所以是 False。"]
+        }
+      ],
+      "recap": "独立自我讲属性，互依自我讲关系；期待与价值不合是错配，差异不是能力不足。"
+    },
+    {
+      "id": "w11-p12",
+      "title": "建设包容的组织文化",
+      "titleEn": "Building an inclusive culture",
+      "kp": "包容文化的三项做法：识别差异（recognise differences，如沟通风格、合作偏好）、创造参与机会（允许不同贡献方式）、让招聘、认可、晋升等做法与包容价值一致（align practices）。",
+      "howTo": "题干问怎样建设包容文化，找同时识别差异、创造多样参与机会、让做法与价值一致的选项。「把每个人变成一样」「只邀请出席」「只发声明」都不算包容；还要检查异议是否安全、贡献是否被考虑、机会是否公平。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "Which set correctly lists the three practices for building an inclusive culture discussed in the lecture?",
+          "options": ["Diagnose, clarify, align", "Recognise differences, create opportunities for participation, align practices with inclusive values", "Consensus, intensity, content", "Rituals, slogans, symbols"],
+          "answer": 1,
+          "how": ["题干问包容文化的三项做法。", "识别差异、创造参与机会、让做法与包容价值一致，选 B。", "A 是管理文化四步的前三步，别混。"]
+        },
+        {
+          "type": "mcq",
+          "q": "In meetings a manager invites people to speak, also accepts written comments beforehand, and explains how those comments shaped the decision. Accepting written comments mainly shows which inclusive practice?",
+          "options": ["Creating opportunities for participation in different forms", "Increasing culture intensity", "Time telling", "Preserving the core"],
+          "answer": 0,
+          "how": ["「also accepts written comments」给不习惯公开发言的人另一种贡献方式。", "允许不同贡献方式就是 create opportunities for participation，选 A。", "之后「explains how… shaped the decision」说明贡献被认真考虑，而不只是被邀请出席。"]
+        },
+        {
+          "type": "tf",
+          "q": "An inclusive culture means making everyone behave the same way so that differences disappear.",
+          "a": false,
+          "how": ["包容是尊重差异并支持共享目标，不是把每个人变成一样。", "题目说「behave the same way」，所以是 False。"]
+        },
+        {
+          "type": "tf",
+          "q": "Inviting everyone to attend a meeting is, by itself, enough to show that participation opportunities are inclusive.",
+          "a": false,
+          "how": ["还要检查不同意见是否安全、贡献是否被考虑、机会是否公平。", "题目说「by itself, enough」，所以是 False。"]
+        }
+      ],
+      "recap": "包容三步：识别差异、创造多样参与机会、让做法与价值一致。"
+    },
+    {
+      "id": "w11-p13",
+      "title": "竞争价值框架的四种取向",
+      "titleEn": "Competing Values Framework: four orientations",
+      "kp": "CVF 两轴：内部或外部关注，灵活或稳定控制。内部加灵活是 Clan（参与），外部加灵活是 Adhocracy（适应），内部加稳定是 Hierarchy（一致性），外部加稳定是 Market（成就）。",
+      "howTo": "先定横轴：盯客户、市场是外部，盯成员、流程是内部；再定纵轴：鼓励实验、参与是灵活，强调目标控制、程序合规是稳定。外部加灵活是适应，外部加稳定是成就，内部加灵活是参与，内部加稳定是一致性。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "BrightWave Digital tracks customer trends and new technology, encourages experimentation and rapid prototyping, and changes its practices when the market shifts. Its dominant orientation is:",
+          "options": ["Adaptability (Adhocracy)", "Achievement (Market)", "Involvement (Clan)", "Consistency (Hierarchy)"],
+          "answer": 0,
+          "how": ["「customer trends」「market shifts」是外部关注，「experimentation」「rapid prototyping」是灵活。", "外部加灵活是 Adaptability（Adhocracy），选 A。", "Achievement 也是外部关注，但重点是可衡量结果和控制，不是实验。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A real-estate agency gives each agent a quarterly sales target, publishes a league table every month and links bonuses to it, but agents decide for themselves how to find clients. Its dominant orientation is:",
+          "options": ["Adaptability (Adhocracy)", "Achievement (Market)", "Involvement (Clan)", "Consistency (Hierarchy)"],
+          "answer": 1,
+          "how": ["「sales target」「league table」「bonuses」是外部可衡量结果和竞争力，属于外部加稳定控制。", "外部加稳定控制是 Achievement（Market），选 B。", "「decide for themselves how」是方法自主，不等于适应型；成就取向不必靠僵硬的过程控制。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A college's staff regularly join teaching and student-support meetings, solve problems together, and managers emphasise feedback, development and commitment. Which CVF position applies?",
+          "options": ["External focus plus flexibility", "Internal focus plus flexibility", "Internal focus plus stability and control", "External focus plus stability and control"],
+          "answer": 1,
+          "how": ["「solve problems together」「development」「commitment」关注的是内部成员，方式是参与和合作。", "内部加灵活是 Involvement（Clan），选 B。", "别因为气氛好就停在这里：课堂要求用主导优先事项和具体实践来支持判断。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A hospital has clear procedures for medication, records and handovers, defined roles, and supervisors who check that standards are followed. Its dominant orientation is:",
+          "options": ["Adaptability (Adhocracy)", "Achievement (Market)", "Involvement (Clan)", "Consistency (Hierarchy)"],
+          "answer": 3,
+          "how": ["「clear procedures」「defined roles」「check that standards are followed」是内部协调加程序控制。", "内部加稳定控制是 Consistency（Hierarchy），选 D。", "一致性不只是僵化官僚，关键是流程如何支持可靠运作。"]
+        },
+        {
+          "type": "tf",
+          "q": "In the Competing Values Framework (Quinn & Rohrbaugh 1983), the four orientations are developmental stages, and the Adaptability orientation is the best one for every organisation.",
+          "a": false,
+          "how": ["四种取向不是发展阶段，也没有普遍最优，要结合任务和环境判断。", "题目既说成阶段又说有最优，所以是 False。"]
+        }
+      ],
+      "recap": "先看内外，再看灵活或稳定：实验是适应型，指标是成就型，参与是参与型，程序是一致性型。"
+    },
+    {
+      "id": "w11-p14",
+      "title": "价值—绩效矩阵与管理文化四步",
+      "titleEn": "Values–performance matrix and the four-step sequence",
+      "kp": "价值—绩效矩阵把目标是否达成和价值是否践行分开检查，形成四个象限用来组织调查，不是人格标签。管理文化四步：diagnose 诊断实际行为、clarify 澄清期待、align 对齐领导与资源、evaluate 评估调整。",
+      "howTo": "先判两个维度：目标达没达成、价值践不践行。目标达成但价值被忽视，问结果怎么取得、要复核什么风险；价值践行但目标未达，问缺什么能力和资源，不要只加宣讲。看到「先听经历、再澄清、再调资源、最后复查」就是四步。",
+      "items": [
+        {
+          "type": "mcq",
+          "q": "A salesperson exceeds every target but does so by withholding information from customers and undermining colleagues. On the values–performance matrix the manager should first ask:",
+          "options": ["What capabilities are missing and what resources need improving?", "How were the results obtained and what risks need review?", "Which practices support both and can they be sustained?", "Nothing, since the targets were met"],
+          "answer": 1,
+          "how": ["「exceeds every target」是目标达成，「withholding… undermining」是价值被忽视。", "这个象限的问题是结果怎样取得、要复核哪些风险，选 B。", "A 是价值践行但目标未达的象限要问的。"]
+        },
+        {
+          "type": "mcq",
+          "q": "A service team treats customers respectfully and helps each other, yet waiting times have exceeded the target for three months. The director plans more value-awareness sessions. Using the matrix, what should she do instead?",
+          "options": ["Conclude that the staff do not really believe in service", "Treat it as 'values practised, goals not achieved': check skills, workload, systems and resources, then review behaviour and results separately", "Treat it as 'values neglected' and investigate misconduct", "Reward the team because values are practised"],
+          "answer": 1,
+          "how": ["「respectfully」「help each other」说明价值被践行，「exceeded the target」说明目标未达。", "这个象限要问缺什么能力和资源，不能只加宣讲，选 B。", "A 跳过诊断直接认定员工不认同服务，正是矩阵要避免的。"]
+        },
+        {
+          "type": "tf",
+          "q": "The four quadrants of the values–performance matrix are fixed personality labels that automatically prescribe HR decisions.",
+          "a": false,
+          "how": ["四象限是组织调查的工具，不是人格标签或自动人事处方。", "题目说「fixed personality labels」「automatically prescribe」，所以是 False。"]
+        },
+        {
+          "type": "mcq",
+          "q": "To shift a plant's safety culture, the manager first observes shift routines and interviews workers, then spells out which safety behaviours are expected and why, next changes supervisors' bonuses and equipment budgets to support them, and finally tracks incidents and worker feedback. This sequence is:",
+          "options": ["Artifacts, values, assumptions", "Recognise, participate, align", "Diagnose, clarify, align, evaluate", "Consensus, intensity, content"],
+          "answer": 2,
+          "how": ["「observes… interviews」是诊断，「spells out… expected」是澄清。", "「changes bonuses and budgets」是对齐，「tracks… feedback」是评估。", "四步依次是 diagnose、clarify、align、evaluate，选 C。", "B 是包容文化的三项做法，别混。"]
+        },
+        {
+          "type": "tf",
+          "q": "Following the diagnose, clarify, align and evaluate sequence once guarantees that the desired culture is established.",
+          "a": false,
+          "how": ["四步帮助组织行动，并不保证一次调整就建立理想文化，要保留持续反馈和复查。", "题目说「once guarantees」，所以是 False。"]
+        }
+      ],
+      "recap": "矩阵分开看目标与价值：高绩效低价值问结果怎么来；管理文化四步诊断、澄清、对齐、评估。"
+    }
+  ]
+}
