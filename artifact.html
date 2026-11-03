@@ -7870,11 +7870,11 @@ window.MGMT_LEARN=[{
 (function(){
 "use strict";
 const WEEKS = (window.MGMT_DATA||[]).slice().sort((a,b)=>a.week-b.week);
-const EXAM_AT = new Date("2026-11-09T14:00:00+11:00");
+const EXAM_AT = new Date("2026-11-09T00:00:00+11:00");   // 考试日（钟点见考试处邮件）
 const $ = (s,el=document)=>el.querySelector(s);
 const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
-const TYPE_ZH = {tf:"判断",mcq:"单选",match:"匹配",essay:"简答"};
+const TYPE_ZH = {tf:"判断",mcq:"单选",match:"匹配",essay:"案例分析"};
 
 /* ---------- storage ---------- */
 const KEY="mgmt1003-review-v1";
@@ -7906,9 +7906,10 @@ function record(q,ok){
 function tickCountdown(){
   const ms=EXAM_AT-Date.now();
   const el=$("#countdown");
-  if(ms<=0){ el.innerHTML="考试时间已到"; return; }
-  const d=Math.floor(ms/864e5), h=Math.floor(ms%864e5/36e5);
-  el.innerHTML=`距期末 <b>${d}</b> 天 <b>${h}</b> 小时`;
+  if(ms<=0){ el.innerHTML= ms>-864e5 ? "今天考试，加油" : "考试已结束"; return; }
+  // 只知道日期、不知道开考钟点，所以只显示天数
+  const d=Math.ceil(ms/864e5);
+  el.innerHTML=`距期末 <b>${d}</b> 天`;
 }
 tickCountdown(); setInterval(tickCountdown,60000);
 
@@ -7964,10 +7965,10 @@ function viewHome(m){
       <div class="hero-count" style="margin-top:8px">
         <div><div class="big">${days}</div><div class="muted">天后开考</div></div>
         <dl class="facts" style="flex:1;min-width:240px;margin:0">
-          <dt>时间</dt><dd>2026 年 11 月 9 日 14:00–16:00（课件所列，以 Canvas 通知为准）</dd>
-          <dt>地点</dt><dd>Copland G29 / G30 / G31</dd>
+          <dt>日期</dt><dd>2026 年 11 月 9 日（周一）· 具体时间和考场以考试处（Examinations Office）邮件为准</dd>
           <dt>形式</dt><dd>闭卷 · 纸笔 · 2 小时 · 覆盖全部周次</dd>
-          <dt>题型</dt><dd>True/False · Multiple choice · Matching · Short essay / case analysis</dd>
+          <dt>题型</dt><dd>40 道单选题（Multiple choice）+ 2 道案例分析（Case analysis）</dd>
+          <dt>携带</dt><dd>只带笔；任何课程资料和电子设备都不能带入</dd>
         </dl>
       </div>
     </div>
@@ -7984,11 +7985,11 @@ function viewHome(m){
     <div class="panel">
       <h2>建议复习路线</h2>
       <ol class="summary" style="margin-top:10px">
-        <li>每周先读 <b>笔记要点</b>，把 summary 和概念表过一遍。</li>
-        <li>用 <b>闪卡</b> 背术语中英对照，考试英文作答，术语要能直接写出。</li>
-        <li><b>分题练习</b> 按周刷判断、单选、匹配，看解析里的易混点。</li>
-        <li>考前一周每两天做一次 <b>模拟考试</b>（完整版 120 分钟），简答题动手写。</li>
-        <li>考前一天只刷 <b>错题本</b>。</li>
+        <li>用 <b>边练边学</b> 按讲顺序过一遍 11 讲，边做题边学知识点。</li>
+        <li><b>分题练习</b> 只选「单选」，按周刷 40 道单选题的手感，看解析里的易混点。</li>
+        <li><b>分题练习</b> 只选「案例分析」，每周至少动手写一道案例分析：先诊断问题，再用本周概念解释，最后给建议。题型和 Tutorial 里的案例一样。</li>
+        <li>用 <b>闪卡</b> 背术语中英对照，案例分析要能直接写出英文术语。</li>
+        <li>考前做 2–3 次 <b>模拟考试</b>（完整版 120 分钟：40 单选 + 2 案例），练时间分配；考前一天只刷 <b>错题本</b>。</li>
       </ol>
       <div class="row" style="margin-top:14px">
         <button class="btn primary" data-go="exam">开始模拟考试</button>
@@ -8387,8 +8388,9 @@ function viewPractice(m,opts){
 /* ---------- EXAM ---------- */
 let EX=null, exTimer=null;
 const EXAM_PRESETS={
-  quick:{name:"快速版",min:30,tf:10,mcq:15,match:1,essay:1},
-  full:{name:"完整版",min:120,tf:20,mcq:30,match:3,essay:3}
+  // 与正式考试一致：40 道单选 + 2 道案例分析，2 小时；半场版按比例减半
+  quick:{name:"半场版",min:60,tf:0,mcq:20,match:0,essay:1},
+  full:{name:"完整版",min:120,tf:0,mcq:40,match:0,essay:2}
 };
 function pickBalanced(type,n){
   // spread across weeks evenly, prefer unseen / wrong
@@ -8404,10 +8406,10 @@ function viewExam(m){
   if(EX && EX.finished){ examResult(m); return; }
   m.innerHTML=`<section class="view">
     <div class="panel"><div class="eyebrow">Mock final</div><h1 style="margin-top:4px">模拟考试</h1>
-      <p class="muted" style="margin:8px 0 0">题目按周均匀抽取，覆盖全部周次；错题和没做过的题优先出现。交卷前不显示对错。简答题交卷后对照评分要点自评。</p></div>
+      <p class="muted" style="margin:8px 0 0">题型和正式考试一致：先单选，后案例分析。题目按周均匀抽取，错题和没做过的题优先出现。交卷前不显示对错，案例分析交卷后对照评分要点自评。</p></div>
     <div class="grid2">${Object.entries(EXAM_PRESETS).map(([k,p])=>`<div class="panel" style="display:grid;gap:8px">
       <h2>${p.name} · ${p.min} 分钟</h2>
-      <div class="muted">${p.tf} 判断 · ${p.mcq} 单选 · ${p.match} 匹配 · ${p.essay} 简答</div>
+      <div class="muted">${[["tf","判断"],["mcq","单选"],["match","匹配"],["essay","案例分析"]].filter(([t])=>p[t]).map(([t,z])=>`${p[t]} ${z}`).join(" · ")}</div>
       <button class="btn ${k==="full"?"primary":""}" data-p="${k}" type="button">开始${p.name}</button></div>`).join("")}</div>
   </section>`;
   m.querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{
