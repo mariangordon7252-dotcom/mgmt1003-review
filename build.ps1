@@ -49,6 +49,18 @@ if (Test-Path "$root\data\learn") {
   }
 }
 $learnJs = ('window.MGMT_LEARN=[' + ($learn -join ",`n") + '];').Replace('</', '<\/')
+# 题目中文对照：data\zh\w*.json（按题目 ID 对应；缺的题只显示英文）
+$zh = @()
+if (Test-Path "$root\data\zh") {
+  foreach ($f in Get-ChildItem "$root\data\zh" -Filter 'w*.json' | Sort-Object Name) {
+    $raw = [System.IO.File]::ReadAllText($f.FullName, [System.Text.Encoding]::UTF8)
+    try { $obj = $raw | ConvertFrom-Json } catch { throw "JSON 无效: zh\$($f.Name) — $($_.Exception.Message)" }
+    $all = @($obj.items.PSObject.Properties); $done = @($all | Where-Object { $_.Value.q }).Count
+    $report += "zh\{0}: {1} / {2} 题已翻译" -f $f.Name, $done, $all.Count
+    $zh += $raw.Trim()
+  }
+}
+$learnJs += ("`nwindow.MGMT_ZH=[" + ($zh -join ",`n") + '];').Replace('</', '<\/')
 $tpl = [System.IO.File]::ReadAllText("$root\app.template.html", [System.Text.Encoding]::UTF8)
 $page = $tpl.Replace('/*__DATA__*/', $data).Replace('/*__LEARN__*/', $learnJs)
 [System.IO.File]::WriteAllText("$root\artifact.html", $page, $utf8)

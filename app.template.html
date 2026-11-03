@@ -134,6 +134,10 @@ ol.summary li::marker{font-family:var(--f-mono);color:var(--ink-soft);font-size:
 .opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
 .opt:disabled{cursor:default;color:inherit}
 .tfrow{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.zh{display:block;margin-top:4px;font-size:.88em;font-weight:400;color:var(--ink-soft)}
+.q-meta{align-items:center}
+.zh-toggle{margin-left:auto}
+.zh-toggle[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
 .feedback{border-left:4px solid var(--accent);background:var(--accent-soft);padding:10px 14px;border-radius:0 8px 8px 0}
 .feedback.ok{border-color:var(--good);background:var(--good-soft)}
 .feedback.no{border-color:var(--bad);background:var(--bad-soft)}
@@ -239,6 +243,16 @@ WEEKS.forEach(w=>{
   (w.concepts||[]).forEach((c,i)=>CARDS.push({id:`w${w.week}-c-${i}`,week:w.week,...c}));
 });
 const QBYID = Object.fromEntries(Q.map(q=>[q.id,q]));
+// 题目中文对照（练习、错题本、边练边学可切换；模拟考试不显示）
+const ZH = {};
+(window.MGMT_ZH||[]).forEach(f=>Object.entries(f.items||{}).forEach(([id,e])=>{ if(e.q) ZH[id]=e; }));
+function zhFor(id){ return S.zh ? ZH[id] : null; }
+function zhToggle(onChange){
+  const b=document.createElement("button"); b.type="button"; b.className="btn small zh-toggle";
+  b.textContent=S.zh?"中文对照：开":"中文对照：关"; b.setAttribute("aria-pressed",!!S.zh);
+  b.onclick=()=>{ S.zh=!S.zh; save(); onChange(); };
+  return b;
+}
 
 function record(q,ok){
   const s=S.stats[q.id]||{c:0,w:0};
@@ -479,12 +493,14 @@ function renderRun(m,L){
   $("#quit",m).onclick=()=>{ LR=null; go("learn",{week:L.week}); };
   const box=$("#qbox",m);
   const draw=()=>{
-    box.innerHTML=`<div class="q-meta"><span>${TYPE_ZH[it.type]}</span></div><div class="q-text">${esc(it.q)}</div>`;
-    const opts = it.type==="tf" ? [{t:"True",v:true},{t:"False",v:false}] : it.options.map((t,i)=>({t,v:i}));
+    const zh=zhFor(it.id);
+    box.innerHTML=`<div class="q-meta"><span>${TYPE_ZH[it.type]}</span></div><div class="q-text">${esc(it.q)}${zh?`<div class="zh">${esc(zh.q)}</div>`:""}</div>`;
+    if(ZH[it.id]) box.firstChild.appendChild(zhToggle(draw));
+    const opts = it.type==="tf" ? [{t:"True",v:true,z:"对"},{t:"False",v:false,z:"错"}] : it.options.map((t,i)=>({t,v:i,z:zh&&zh.options?zh.options[i]:""}));
     const wrap=document.createElement("div"); wrap.className=it.type==="tf"?"tfrow":"opts";
     opts.forEach((o,i)=>{
       const b=document.createElement("button"); b.type="button"; b.className="opt";
-      b.innerHTML=`<span class="k">${it.type==="tf"?(o.v?"T":"F"):"ABCD"[i]}</span><span>${esc(o.t)}</span>`;
+      b.innerHTML=`<span class="k">${it.type==="tf"?(o.v?"T":"F"):"ABCD"[i]}</span><span>${esc(o.t)}${zh&&o.z?`<span class="zh">${esc(o.z)}</span>`:""}</span>`;
       const correct = it.type==="tf" ? o.v===it.a : o.v===it.answer;
       if(LR.checked){ b.disabled=true; if(correct) b.classList.add("right"); else if(LR.resp===o.v) b.classList.add("wrong"); }
       else b.onclick=()=>{ LR.resp=o.v; LR.checked=true; S.learn[it.id]={ok:correct,t:Date.now()}; save(); draw(); };
@@ -585,14 +601,16 @@ function renderQuestion(q,box,opt){
   box.innerHTML="";
   const head=document.createElement("div"); head.className="q-meta";
   head.innerHTML=`<span><span class="tag">W${q.week}</span> ${TYPE_ZH[q.type]}</span>${opt.counter||""}`;
+  const zh = opt.mode==="exam" ? null : zhFor(q.id);
+  if(opt.mode!=="exam" && ZH[q.id]) head.appendChild(zhToggle(()=>renderQuestion(q,box,opt)));
   box.appendChild(head);
   if(q.type==="tf"||q.type==="mcq"){
-    const p=document.createElement("div"); p.className="q-text"; p.textContent=q.q; box.appendChild(p);
-    const opts = q.type==="tf" ? [{t:"True",v:true},{t:"False",v:false}] : q.options.map((t,i)=>({t,v:i}));
+    const p=document.createElement("div"); p.className="q-text"; p.innerHTML=esc(q.q)+(zh?`<div class="zh">${esc(zh.q)}</div>`:""); box.appendChild(p);
+    const opts = q.type==="tf" ? [{t:"True",v:true,z:"对"},{t:"False",v:false,z:"错"}] : q.options.map((t,i)=>({t,v:i,z:zh&&zh.options?zh.options[i]:""}));
     const wrap=document.createElement("div"); wrap.className=q.type==="tf"?"tfrow":"opts";
     opts.forEach((o,i)=>{
       const b=document.createElement("button"); b.type="button"; b.className="opt";
-      b.innerHTML=`<span class="k">${q.type==="tf"?(o.v?"T":"F"):"ABCD"[i]}</span><span>${esc(o.t)}</span>`;
+      b.innerHTML=`<span class="k">${q.type==="tf"?(o.v?"T":"F"):"ABCD"[i]}</span><span>${esc(o.t)}${zh&&o.z?`<span class="zh">${esc(o.z)}</span>`:""}</span>`;
       const correct = q.type==="tf" ? o.v===q.a : o.v===q.answer;
       if(st.resp===o.v) b.classList.add("sel");
       if(locked){ b.disabled=true; if(correct) b.classList.add("right"); else if(st.resp===o.v) b.classList.add("wrong"); }
@@ -628,7 +646,7 @@ function renderQuestion(q,box,opt){
     }
     if(locked){ const n=matchScore(q,st); const f=document.createElement("div"); f.className="feedback "+(n===q.pairs.length?"ok":"no"); f.style.marginTop="12px"; f.innerHTML=`<b>${n} / ${q.pairs.length} 对正确</b>`; box.appendChild(f); }
   } else if(q.type==="essay"){
-    const p=document.createElement("div"); p.className="q-text"; p.style.whiteSpace="pre-wrap"; p.textContent=q.q; box.appendChild(p);
+    const p=document.createElement("div"); p.className="q-text"; p.style.whiteSpace="pre-wrap"; p.innerHTML=esc(q.q)+(zh?`<div class="zh">${esc(zh.q)}</div>`:""); box.appendChild(p);
     const ta=document.createElement("textarea"); ta.id="ta-"+q.id; ta.placeholder="用英文写下你的答案（考试是纸笔，建议按 diagnosis → explanation → recommendation 结构）";
     ta.value = st.text ?? S.essay[q.id] ?? "";
     ta.oninput=()=>{ st.text=ta.value; S.essay[q.id]=ta.value; save(); opt.onAnswer&&opt.onAnswer(); };
